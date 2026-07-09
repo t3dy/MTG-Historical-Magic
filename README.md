@@ -79,6 +79,7 @@ python scripts/build_terms.py          # -> site/data/terms/*.json, terms_index.
 python scripts/fetch_card_images.py    # -> site/img/<term>/*.jpg
 python scripts/research.py <slug>...   # -> data/research/<slug>.json   (citable dossiers)
 python scripts/build_history_timeline.py  # -> site/data/history_timeline.json
+python scripts/build_bibliography.py   # -> site/data/bibliography.json  (aggregates all cited works)
 python scripts/export_site.py          # -> site/data/summary.json
 python -m http.server 5177 --directory site   # open http://localhost:5177
 ```

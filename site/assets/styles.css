@@ -187,6 +187,18 @@ td.n{text-align:right;font-variant-numeric:tabular-nums;color:var(--gold)}
 footer{text-align:center;color:var(--faint);font-size:.78rem;padding:2.4rem 1rem;border-top:1px solid var(--line);margin-top:2rem}
 footer a{color:var(--muted)}
 
+/* bibliography */
+.bibwork{padding:.6rem 0;border-bottom:1px solid var(--line)}
+.bibwork:last-child{border-bottom:none}
+.bibwork .top{display:flex;justify-content:space-between;gap:1rem;align-items:baseline}
+.bibwork .w{color:var(--ink);font-size:.96rem}
+.bibwork .w em{color:#e9dcc0}
+.bibwork .n{color:var(--gold);font-size:.76rem;white-space:nowrap;font-variant-numeric:tabular-nums}
+.bibterms{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.4rem}
+.bibterms a{font-size:.72rem;text-transform:capitalize;padding:.12rem .5rem;border:1px solid var(--line);border-radius:99px;color:var(--muted);background:var(--panel2)}
+.bibterms a:hover{color:var(--ink);border-color:var(--gold-dim)}
+.bibterms .more{color:var(--faint);font-size:.72rem;padding:.12rem .3rem}
+
 /* ===== mobile ===== */
 @media (max-width:640px){
   html,body{max-width:100%;overflow-x:hidden}

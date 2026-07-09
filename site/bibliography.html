@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="The bibliography of The Vocabulary of Magic — every work cited across the term pages and Word Histories, grouped by corpus and ranked by how often it is cited.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3Crect%20width='32'%20height='32'%20rx='6'%20fill='%23100e18'/%3E%3Ctext%20x='16'%20y='23'%20font-size='22'%20text-anchor='middle'%20fill='%23d4b06a'%3E%E2%9C%B6%3C/text%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Sources — The Vocabulary of Magic">
+<meta property="og:description" content="Every work cited across the site, grouped by corpus and ranked by citation count — the scholarship behind the vocabulary of magic.">
+<meta property="og:image" content="https://t3dy.github.io/MTG-Historical-Magic/assets/og-image.svg">
+<meta property="og:url" content="https://t3dy.github.io/MTG-Historical-Magic/bibliography.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sources — The Vocabulary of Magic">
+<meta name="twitter:description" content="Every work cited across the site, grouped by corpus and ranked by citation count.">
+<meta name="twitter:image" content="https://t3dy.github.io/MTG-Historical-Magic/assets/og-image.svg">
+<title>Sources — The Vocabulary of Magic</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<div class="hero" style="padding-bottom:.4rem">
+  <h1>Sources</h1>
+  <div class="tag">Every work cited across the term pages and Word Histories — the scholarship this project is built on, grouped by corpus and ranked by how often it is cited.</div>
+  <div class="statband" id="statband"></div>
+</div>
+<div class="wrap">
+  <p class="tl-intro">Nothing here is generic web knowledge. Each definition, history, and essay is grounded in Ted's own research databases and PDF library of medieval- and renaissance-magic and alchemy scholarship, surfaced by <code>scripts/research.py</code> (see <a href="about.html">the method</a>). This page aggregates those citations: the count beside each work is the number of term pages that draw on it. The databases collapse their many individual <em>s.v.</em> entries into a single line.</p>
+  <div id="groups"></div>
+</div>
+<script src="assets/common.js"></script>
+<script>
+function mdi(t){ return esc(t).replace(/\*([^*]+)\*/g,"<em>$1</em>"); }
+(async function(){
+  mountChrome("bibliography.html");
+  const b=await getJSON("data/bibliography.json");
+  const idx=(await getJSON("data/terms_index.json").catch(()=>({terms:[]}))).terms;
+  const has=new Set(idx.map(t=>t.slug));
+  document.getElementById("statband").innerHTML=`
+    <div class="s"><b>${b.total_works}</b><span>works cited</span></div>
+    <div class="s"><b>${b.total_citations}</b><span>citations</span></div>
+    <div class="s"><b>${b.groups.length}</b><span>corpora</span></div>`;
+  const host=document.getElementById("groups");
+  host.innerHTML=b.groups.map(g=>{
+    const rows=g.items.map(it=>{
+      const shown=it.terms.filter(t=>has.has(t)).slice(0,14);
+      const extra=it.terms.length-shown.length;
+      const chips=shown.map(t=>`<a href="term.html?t=${t}">${esc(t)}</a>`).join("")
+        + (extra>0?`<span class="more">+${extra} more</span>`:"");
+      return `<div class="bibwork">
+        <div class="top"><span class="w">${mdi(it.work)}</span><span class="n">cited on ${it.count} page${it.count===1?'':'s'}</span></div>
+        <div class="bibterms">${chips}</div></div>`;
+    }).join("");
+    return `<div class="panel"><h2 class="sec">${esc(g.title)} <small>${g.sub} · ${g.count} works</small></h2>${rows}</div>`;
+  }).join("");
+})();
+</script>
+</body>
+</html>

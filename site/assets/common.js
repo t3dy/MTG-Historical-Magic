@@ -37,7 +37,7 @@ function catTag(cat){
 }
 const CHART_PAGES = new Set(["charts.html","insights.html","timeline.html","colors.html","origins.html","mosaic.html"]);
 function nav(active){
-  const links=[["index.html","Terms"],["histories.html","Histories"],["timeline-history.html","Timeline"],["atlas.html","Atlas"],["charts.html","Charts"],["about.html","About"]];
+  const links=[["index.html","Terms"],["histories.html","Histories"],["timeline-history.html","Timeline"],["atlas.html","Atlas"],["charts.html","Charts"],["bibliography.html","Sources"],["about.html","About"]];
   const isChart=CHART_PAGES.has(active);
   return `<nav class="topnav">
     <a class="brand" href="index.html">✶ The Vocabulary of Magic</a>
