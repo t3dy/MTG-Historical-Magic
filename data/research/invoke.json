@@ -1,0 +1,325 @@
+{
+  "slug": "invoke",
+  "category": "act",
+  "db_hits": [
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "spiritus mundi",
+      "text": "Spiritus mundi ('spirit of the world') is the subtle, quasi-material medium that Ficino posited as the channel through which the *anima mundi* transmits celestial influences to terrestrial bodies. In Ficino's natural magic (De Vita), the spiritus mundi is the key to legitimate magical practice: by manipulating materials, sounds, and images that resonate with specific planetary spirits, the magus works within nature rather than invoking demons. The concept provided the theoretical foundation for the *magia naturalis* defense."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "steganographia",
+      "text": "Steganographia ('hidden writing') is a treatise by Johannes Trithemius (c. 1499, published 1606) that presents itself as a system of angel magic — invoking planetary spirits to transmit messages across distances — but was later shown to contain genuine cryptographic ciphers. The work occupies a unique position at the intersection of magic and information science. Trithemius' student Agrippa drew on the Steganographia for the ceremonial magic sections of De Occulta Philosophia, while modern scholars debate how much of the text is genuinely magical versus purely cryptographic."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "incantatio",
+      "text": "Incantatio ('incantation') refers to the ritual use of spoken or chanted words, formulas, and prayers to produce magical effects, whether through invoking spiritual beings, activating sympathetic correspondences, or channeling celestial influences. Renaissance magi debated whether incantations worked through natural acoustic properties (sound as a vehicle of *spiritus*), through the objective power of divine names, or through demonic agency. The distinction shaped the boundary between *magia naturalis* and illicit magic."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "experientia",
+      "text": "Experientia ('experience') designates the appeal to empirical observation and practical trial as evidence for magical claims, a rhetorical strategy employed by Renaissance magi to legitimize their art as a branch of natural philosophy. Agrippa's De Occulta Philosophia and Della Porta's Magia Naturalis both invoke experientia as the ground of their assertions — these things have been tested, observed, and confirmed. The concept operates in tension with the more speculative, emanationist dimension of magical theory: while the cosmological framework derives from Neoplatonic philosophy, the claim to practical efficacy rests on appeals to experience. This tension mirrors the broader Renaissance negotiation between bookish authority and empirical investigation (Copenhaver)."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "providentia",
+      "text": "Providentia ('providence') designates the doctrine that God governs creation through a rational, purposeful order mediated by celestial and natural causes. Renaissance magi invoked providentia to legitimize their practice: if God governs through natural causes including celestial influences, then understanding and using those influences constitutes cooperation with divine providence rather than transgression against it. Ficino's De Vita frames astrological medicine as an instrument of providence, and Agrippa argues that the magus who works through natural and celestial channels participates in God's providential design. The concept distinguishes legitimate magic from the fatalism of judicial astrology, which Pico attacked as incompatible with divine and human freedom (Copenhaver)."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Ars Notoria",
+      "text": "\n    <p><i>Ars Notoria</i> is an <b>Actor Term</b> for a medieval ritual art of learning, memory, and intellectual preparation that emerged in Latin manuscript culture and became one of the most influential and controversial ritual texts of the later Middle Ages. Its earliest secure form belongs to the thirteenth-century Latin tradition, where prayers, notae, angelic names, and structured sequences of recitation are presented as aids to rapid mastery of the liberal arts and theology. Modern scholars such as Richard Kieckhefer, Claire Fanger, Frank Klaassen, and Robert Mathiesen have treated the work as a crucial witness to the intersection of devotion, education, and ritual technique rather than as a simple \"spell book.\"</p>\n\n    <h2>Historical Usage</h2>\n    <p>In medieval usage the <i>Ars Notoria</i> belonged to the broad world of learned ritual, but it did not circulate as a single, fixed book. Manuscripts preserve multiple recensions, rewritten openings, and different arrangements of prayers and figures, suggesting that the text lived as a flexible ritual dossier rather than as a canonical treatise. Its core claim is that learning may be accelerated through disciplined prayer and exact attention to divine or angelic mediation. That claim sits near a number of other medieval textual forms, including confessionally framed devotional aids, angelic invocation, and occultized mnemonic practices. The work is also closely related to the wider Solomonic textual environment, not because Solomon is its only authority, but because the cultural authority of ancient wisdom and revealed knowledge gives the text its force. In later medieval and early modern manuscript culture, the <i>Ars Notoria</i> was often copied beside other ritual, astronomical, and devotional materials, a setting that reinforces its status as a manuscript practice rather than a single bounded genre.</p>\n\n    <p>Its historical importance lies partly in the way it destabilizes modern expectations. The text is neither a scholastic textbook nor an overtly demonic grimoire. It promises learning through ritual exactness, and in doing so it occupies the same broad zone that scholars such as Sophie Page and Frank Klaassen identify as the manuscript-based borderland between devotion, experiment, and illicit arts. The <i>Ars Notoria</i> therefore helps explain why medieval debates over magic cannot be reduced to a simple opposition between religion and superstition. It is better understood as a ritualized claim about the permeability of intellectual authority, where knowledge is something that may be petitioned, received, and disciplined rather than merely studied.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>Modern scholarship has made the <i>Ars Notoria</i> central to the study of medieval ritual learning. Kieckhefer placed the text within the larger history of illicit learned magic and manuscript ritual, showing that it belongs to a clerical culture in which learning, prayer, and suspect technique often coexisted. Claire Fanger has emphasized the role of ritual discipline, spiritual aspiration, and textual rewriting, while Klaassen has highlighted the manuscript transformations that carry the work across the later Middle Ages and Renaissance. Mathiesen's work is important because it points toward the ritual and Solomonic manuscript traditions in which the <i>Ars Notoria</i> circulates. Together these scholars make it possible to see the text not as an oddity on the edge of medieval learning, but as a revealing case study in the social life of ritual knowledge.</p>\n\n    <p>The term also matters because it helps define the portal's actor/analyst distinction. The <i>Ars Notoria</i> is not a medieval self-description for all learned magic, nor is it identical to modern categories such as \"grimoire\" or \"occultism.\" It is one historical form within a much larger and unstable field. In that sense it is useful for tracing the historian's own categories: what counts as learning, what counts as ritual, and where the boundary lies between legitimate study and forbidden practice. The text sits beside <a href=\"../concepts/notae.html\">notae</a>, <a href=\"../concepts/angelic_invocation.html\">angelic invocation</a>, <a href=\"../concepts/ritual_diagrams.html\">ritual diagrams</a>, and <a href=\"../concepts/solomonic_magic.html\">Solomonic magic</a> in a way that exposes the manuscript ecology of medieval learned magic.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>The <i>Ars Notoria</i> survives in Latin manuscript recensions with shifting titles, prefatory material, and explanatory additions. Some copies preserve a strong prayer-centered form, while others expand the ritual apparatus or emphasize visual and mnemonic features. The work's title itself is unstable, appearing in different manuscript families with minor variation, and its ritual authority is often strengthened by adjacent attributions to ancient or biblical wisdom. Because of that manuscript variability, any modern edition must be treated as one scholarly reconstruction among others rather than as the text's final medieval form. The work's transmission also overlaps with other ritual-learning traditions, especially texts associated with Solomon, angelic invocations, and the broader culture of memory arts.</p>\n\n    <h2>Related Concepts</h2>\n    <p>The <i>Ars Notoria</i> is inseparable from <a href=\"../concepts/notae.html\">notae</a>, since the visual figures are not ornamental but part of the ritual's logic. It also belongs to <a href=\"../concepts/learned_magic.html\">learned magic</a>, although the modern category should not be collapsed into the text's own medieval world. Its proximity to <a href=\"../concepts/pseudepigraphy.html\">pseudepigraphy</a> and <a href=\"../concepts/secret_names.html\">secret names</a> shows how authority is staged through attributed antiquity and exact verbal transmission. Finally, the text's circulation beside <a href=\"../concepts/ritual_purity.html\">ritual purity</a> and <a href=\"../concepts/angelic_invocation.html\">angelic invocation</a> reveals how deeply it depends on moral and devotional framing.</p>\n\n    <h2>Literature</h2>\n    <p>Kieckhefer, Richard. <i>Forbidden Rites: A Necromancer's Manual of the Fifteenth Century</i>. University Park: Pennsylvania State University Press, 1998.<br/>\n    Fanger, Claire. <i>Invoking Angels: Theurgic Ideas and Practices, Thirteenth to Sixteenth Centuries</i>. University Park: Pennsylvania State University Press, 2012.<br/>\n    Klaassen, Frank. <i>The Transformations of Magic: Illicit Learned Magic in the Later Middle Ages and Renaissance</i>. University Park: Pennsylvania State University Press, 2013.<br/>\n    Mathiesen, Robert. Studies on the <i>Ars Notoria</i> and related ritual traditions in medieval manuscript culture.<br/>\n    Page, Sophie. <i>Magic in the Cloister: Pious Motives, Illicit Interests, and Occult Approaches to the Medieval Universe</i>. University Park: Pennsylvania State University Press, 2013.<br/>\n    Skinner, Stephen and Daniel Clark. <i>Ars Notoria: The Grimoire of Rapid Learning by Magic with the Golden Flowers of Apollonius of Tyana</i>. Manuscript edition and modern study.</p>\n    ",
+      "extra": "Ars Notoria is an Actor Term for a medieval ritual art of learning that joined prayers, notae, angelic invocation, and claims of accelerated intellectual acquisition."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Suffumigation",
+      "text": "\n    <p><b>Suffumigation</b> is an <b>Actor Term</b> for ritual fumigation with incense, herbs, resins, or other substances, often coordinated with purification, planetary timing, spirit address, or image consecration. It is one of the most technically recurrent practices in medieval ritual and astral texts. For MedievalMagicDB it matters because it sits at the intersection of material procedure, sensory environment, and theories of efficacy.</p>\n\n    <h2>Historical Usage</h2>\n    <p>In medieval texts suffumigation may appear as preparation, offering, environmental conditioning, or an active part of a ritual operation. It is especially common in astral and image-oriented traditions, where materials and times are coordinated, but it also appears in spirit-oriented and protective contexts. The term matters historically because it shows how much learned ritual depended on the management of substances and atmosphere, not just on words or diagrams.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>Suffumigation is important because it highlights the materiality of medieval ritual books. A manuscript can preserve names and figures, but it can also preserve expectations about smell, smoke, ingredients, and embodied preparation. This makes the practice useful for historians interested in ritual ecology and not only textual form. It also helps connect astral image theory with more overtly conjurational traditions.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>The practice appears across multiple textual families, including the <i>Picatrix</i>, image-magic treatises, and other ritual books. Its recurrence does not imply uniform meaning. In some texts it is framed cosmologically, in others purificatory or coercive. The term therefore names a family of ritual uses rather than a single stable operation. That variability is part of its scholarly interest.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Suffumigation is closely linked to <a href=\"../concepts/talismans.html\">talismans</a> and <a href=\"../concepts/astral_image_magic.html\">astral image magic</a>, where substances often mediate celestial or imagistic efficacy. It also intersects with <a href=\"../concepts/ritual_purity.html\">ritual purity</a> and <a href=\"../concepts/angelic_invocation.html\">angelic invocation</a> where preparation and spiritual relation matter.</p>\n\n    <h2>Literature</h2>\n    <p>Attrell, Dan, and David Porreca. <i>Picatrix: A Medieval Treatise on Astral Magic</i>. University Park: Pennsylvania State University Press, 2019.<br/>\n    Fanger, Claire. <i>Invoking Angels: Theurgic Ideas and Practices, Thirteenth to Sixteenth Centuries</i>. University Park: Pennsylvania State University Press, 2012.<br/>\n    Weill-Parot, Nicolas. Studies on astral images and ritual materials.<br/>\n    Boudet, Jean-Patrice. Studies on learned occult practices.<br/>\n    Page, Sophie, and Catherine Rider, eds. <i>The Routledge History of Medieval Magic</i>. London: Routledge, 2019.</p>\n    ",
+      "extra": "Suffumigation is an Actor Term for ritual fumigation with incense, herbs, or other substances, often coordinated with planetary timing, spirit address, purification, or image consecration."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Ritual Purity",
+      "text": "\n    <p><b>Ritual Purity</b> is a <b>Hybrid</b> category for requirements of confession, fasting, abstinence, cleanliness, prayer, moral preparation, and bodily or spiritual discipline that structure many medieval ritual texts. It is crucial for MedievalMagicDB because it shows that the learned magical archive often framed itself through ethical and devotional preparation rather than through sheer technique. Purity is one of the clearest points where ritual magic and religious practice approach each other without becoming identical.</p>\n\n    <h2>Historical Usage</h2>\n    <p>In medieval ritual books, requirements of purity can include sacramental confession, sexual abstinence, fasting, prayer, bodily cleanliness, or other forms of moral and liturgical preparation. These requirements appear especially strongly in traditions of angelic invocation, notory prayer, and elevated knowledge, though they are not limited to those fields. Their historical significance lies in what they reveal about ritual self-understanding. Many texts did not imagine efficacy as merely technical; they imagined it as dependent on disciplined relation to the sacred.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>Ritual purity matters because it complicates any simple opposition between devotion and magic. Claire Fanger's work on John of Morigny and learned ritual has made this point especially vivid, while Page, Klaassen, and others have shown how such requirements appear across manuscript traditions. The category is therefore central to the historiography of learned magic, particularly where modern readers are tempted to isolate procedures from their moral and liturgical framing.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>Purity requirements survive in prayers, rubrics, narrative frames, and lists of preparation. They can be modest or extensive, and their exact meaning changes across texts. In some books they emphasize spiritual elevation; in others they regulate dangerous interaction with spirits or names. The concept thus names a family of ritual expectations rather than one fixed medieval doctrine.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Ritual purity belongs closely with <a href=\"../concepts/confession.html\">confession</a> and <a href=\"../concepts/angelic_invocation.html\">angelic invocation</a>, both of which frequently structure ritual preparation. It also intersects with <a href=\"../concepts/notae.html\">notae</a> and <a href=\"../concepts/learned_magic.html\">learned magic</a>, since the most textually elaborate rituals are often also the most morally demanding in self-presentation.</p>\n\n    <h2>Literature</h2>\n    <p>Fanger, Claire. <i>Invoking Angels: Theurgic Ideas and Practices, Thirteenth to Sixteenth Centuries</i>. University Park: Pennsylvania State University Press, 2012.<br/>\n    Fanger, Claire. <i>Rewriting Magic: Ritual, Vision, and History in John of Morigny</i>. University Park: Pennsylvania State University Press, 2015.<br/>\n    Klaassen, Frank. <i>The Transformations of Magic: Illicit Learned Magic in the Later Middle Ages and Renaissance</i>. University Park: Pennsylvania State University Press, 2013.<br/>\n    Page, Sophie. <i>Magic in the Cloister: Pious Motives, Illicit Interests, and Occult Approaches to the Medieval Universe</i>. University Park: Pennsylvania State University Press, 2013.<br/>\n    Page, Sophie, and Catherine Rider, eds. <i>The Routledge History of Medieval Magic</i>. London: Routledge, 2019.</p>\n    ",
+      "extra": "Ritual purity names requirements of confession, fasting, abstinence, cleanliness, prayer, or moral preparation that structure many medieval ritual magic texts and blur devotional and magical categories."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Solomonic Magic",
+      "text": "Solomonic magic names traditions that invoke Solomon's authority for spirit command, seals, ritual purity, and secret knowledge; it is both an actor strategy of attribution and a modern scholarly category.",
+      "extra": "Solomonic magic names traditions that invoke Solomon's authority for spirit command, seals, ritual purity, and secret knowledge; it is both an actor strategy of attribution and a modern scholarly category."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Occult Properties",
+      "text": "\n    <p><b>Occult Properties</b> is a <b>Hybrid</b> category naming hidden natural powers invoked to explain effects not reducible to manifest sensible qualities. The phrase has both medieval and modern analytical force, though not always in exactly the same wording. It is one of the most important concepts in the portal because it marks the zone where natural philosophy, medicine, astrology, and magic approach one another without becoming identical. To speak of occult properties is to speak of explanation under strain.</p>\n\n    <h2>Historical Usage</h2>\n    <p>Medieval discussions of hidden virtues emerge in natural-philosophical, medical, and encyclopedic contexts concerned with stones, herbs, bodies, celestial influence, and unexplained effects. Such discussions do not automatically endorse magic. On the contrary, they often function to provide non-demonic explanations for phenomena that might otherwise seem suspicious. Thinkers such as Albertus Magnus and Roger Bacon are crucial here, because they show how one could take strange efficacy seriously within an account of created nature.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>The category matters because it helps historians avoid a false choice between credulity and condemnation. Hidden powers were not simply medieval mistakes; they were structured attempts to describe effects whose causes seemed real but obscure. Modern scholarship uses occult properties to explain why natural magic, astral image theory, and practical remedies could appear plausible within educated culture. It is therefore one of the central hinge concepts between science and magic in the historiography of the field.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>Occult properties are discussed across multiple textual genres: treatises on minerals, scholastic commentaries, works on celestial action, and broader histories of natural powers. The concept is thus not tied to one book but to a recurring explanatory habit. Its transmission is partly conceptual and partly textual, passing through authoritative names, translated works, and educational structures. That diffuse archive is exactly why the portal treats it as a major dictionary entry rather than as a side note.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Occult properties belong with <a href=\"../concepts/natural_powers.html\">natural powers</a> and <a href=\"../concepts/celestial_influence.html\">celestial influence</a>, since hidden effects were often traced to material and astral causes. They also intersect with <a href=\"../concepts/experimental_science.html\">experimental science</a>, which names later historiographical attempts to study such inquiry, and with <a href=\"../concepts/talismans.html\">talismans</a> where naturalized theories of efficacy became most controversial.</p>\n\n    <h2>Literature</h2>\n    <p>Kieckhefer, Richard. <i>Magic in the Middle Ages</i>. Cambridge: Cambridge University Press, 2014.<br/>\n    Newman, William R., and other historians of medieval natural philosophy on hidden qualities and causation.<br/>\n    Thorndike, Lynn. <i>A History of Magic and Experimental Science</i>. New York: Columbia University Press, 1923-1958.<br/>\n    Weill-Parot, Nicolas. Studies on occult science, natural explanation, and image magic.<br/>\n    Page, Sophie, and Catherine Rider, eds. <i>The Routledge History of Medieval Magic</i>. London: Routledge, 2019.</p>\n    ",
+      "extra": "Occult properties are hidden natural powers invoked in scholastic natural philosophy to explain effects not reducible to manifest qualities, creating a crucial boundary zone with natural magic."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Celestial Influence",
+      "text": "\n    <p><b>Celestial Influence</b> is a <b>Hybrid</b> category for medieval theories of astral causation through which stars, planets, and larger heavenly configurations were believed to affect bodies, materials, moods, times, and the conditions of action below the moon. It is one of the most important concepts in MedievalMagicDB because it anchors astrology, medicine, image magic, and many attempts to naturalize occult efficacy without automatically invoking demons.</p>\n\n    <h2>Historical Usage</h2>\n    <p>Medieval discussions of celestial influence appear in astrology, medicine, natural philosophy, image theory, and practical timing instructions. These discussions do not all carry the same force. In some settings astral influence is descriptive and cosmological; in others it becomes a basis for judgment, election, or crafted operation. This range is exactly why the concept matters. The heavens are not merely background in the medieval archive. They are active explanatory agents.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>The concept matters because it helps explain why astrology and occult practices remained intellectually plausible to many learned medieval readers. If the heavens shape bodily and material conditions, then timing, images, words, and substances may become newly meaningful. Modern scholarship uses celestial influence to connect astrology with medicine, natural powers, and image magic without reducing them to one another. It is therefore one of the field's key hinge concepts.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>Theories of celestial influence move through Arabic and Latin texts, astronomical and astrological compendia, scholastic classifications, and practical ritual books. This broad transmission history is historically decisive. It shows that the concept belongs simultaneously to mainstream learned culture and to suspect or contested operations. That dual belonging is one reason the portal treats the category as hybrid rather than purely actor or purely analyst language.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Celestial influence belongs closely with <a href=\"../concepts/astral_image_magic.html\">astral image magic</a> and <a href=\"../concepts/talismans.html\">talismans</a>, since both often depend on heavenly causation. It also intersects with <a href=\"../concepts/occult_properties.html\">occult properties</a> and <a href=\"../concepts/natural_powers.html\">natural powers</a>, where celestial causes may be invoked as part of a broader natural account of efficacy.</p>\n\n    <h2>Literature</h2>\n    <p>Boudet, Jean-Patrice. Studies on astrology and medieval occult sciences.<br/>\n    Burnett, Charles. Studies on Arabic-Latin technical transmission.<br/>\n    Weill-Parot, Nicolas. Studies on image magic and astral causality.<br/>\n    Thorndike, Lynn. <i>A History of Magic and Experimental Science</i>. New York: Columbia University Press, 1923-1958.<br/>\n    Page, Sophie, and Catherine Rider, eds. <i>The Routledge History of Medieval Magic</i>. London: Routledge, 2019.</p>\n    ",
+      "extra": "Celestial influence names medieval theories of astral causation that support astrology, image magic, medicine, and debates over determinism."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Exorcism",
+      "text": "\n    <p><b>Exorcism</b> is a <b>Hybrid</b> category because it names both authorized Christian rites for expelling or restraining spirits and adjacent ritual forms that could blur into illicit command, adjuration, or coercive spirit management. For MedievalMagicDB it is one of the most revealing boundary concepts in the corpus. Exorcism forces the reader to confront how close liturgical, pastoral, and magical forms could appear in language and gesture even when ecclesiastical legitimacy sharply distinguished them.</p>\n\n    <h2>Historical Usage</h2>\n    <p>In medieval usage exorcism belongs first to the sphere of authorized Christian ritual. It appears in liturgical books, pastoral practice, and sacramental or quasi-sacramental settings concerned with demonic disturbance, purification, and protection. Yet the same verbal technologies of adjuration and command could also appear in suspect rites and magical manuscripts. This does not mean the two spheres are identical. It means that historians must pay careful attention to institutional authorization, intention, textual frame, and manuscript setting.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>Exorcism matters because it shows why the history of medieval magic cannot be reduced to a simple binary between orthodoxy and deviance. Authorized ritual and illicit spirit work may share forms of address while differing radically in status and interpretation. Scholars such as Florence Chave-Mahir, Claire Fanger, and Richard Kieckhefer have helped make this borderland visible. The category is especially valuable when analyzing angelic and demonic ritual texts that borrow from or imitate authoritative liturgical styles.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>Exorcistic materials circulate through service books, pastoral manuals, narrative accounts, and magical compilations. This variety means that the category has no single archive. Some exorcistic language is stable and official; some is mobile and excerpted; some is recontextualized into ritual handbooks that test the boundary of legitimacy. The study of exorcism therefore requires both liturgical history and manuscript comparison.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Exorcism belongs naturally with <a href=\"../concepts/demonology.html\">demonology</a>, since theories of spirit action shape ritual response. It also intersects with <a href=\"../concepts/angelic_invocation.html\">angelic invocation</a> and <a href=\"../concepts/ritual_purity.html\">ritual purity</a>, because authorized and suspect rites alike often stress preparation and right relation to spiritual power. In pastoral settings it is also close to <a href=\"../concepts/confession.html\">confession</a>.</p>\n\n    <h2>Literature</h2>\n    <p>Chave-Mahir, Florence. Studies on exorcism, liturgy, and ritual authority.<br/>\n    Fanger, Claire. <i>Invoking Angels: Theurgic Ideas and Practices, Thirteenth to Sixteenth Centuries</i>. University Park: Pennsylvania State University Press, 2012.<br/>\n    Kieckhefer, Richard. <i>Magic in the Middle Ages</i>. Cambridge: Cambridge University Press, 2014.<br/>\n    Rider, Catherine. Studies on pastoral and ritual boundaries in medieval religion.<br/>\n    Page, Sophie, and Catherine Rider, eds. <i>The Routledge History of Medieval Magic</i>. London: Routledge, 2019.</p>\n    ",
+      "extra": "Exorcism names authorized Christian rites and adjacent ritual practices for expelling or commanding spirits, making it a boundary category between liturgy, pastoral care, and ritual magic."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Notae",
+      "text": "\n    <p><b>Notae</b> is an <b>Actor Term</b> for the visual signs or figures most closely associated with the <i>Ars Notoria</i> tradition and with related modes of ritual learning. The term belongs to the medieval textual world itself rather than being a purely modern analytical label. It names diagrammatic forms that are integral to the ritual logic of certain manuscripts, not mere illustration. For that reason notae are central to any historically serious account of ritualized learning, memory, and angelic mediation in the later Middle Ages.</p>\n\n    <h2>Historical Usage</h2>\n    <p>In manuscript witnesses of the <i>Ars Notoria</i> and related texts, notae appear as structured visual signs linked to prayers, recitations, and ordered sequences of preparation. Medieval users did not treat them as decorative embellishment. They were part of the mechanism by which learning, understanding, and divine assistance were supposed to be pursued. The exact form and arrangement of the notae vary across manuscripts, which makes codicology and visual transmission crucial.</p>\n\n    <p>This historical embeddedness matters because it prevents the term from being reduced to general talk of magical diagrams. Notae belong to a specific ritual-learning environment and carry that environment with them even when reproduced or excerpted.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>Modern scholars such as Claire Fanger, Richard Kieckhefer, Frank Klaassen, and Robert Mathiesen have emphasized that the visual dimension of ritual learning cannot be reduced to words alone. Notae concentrate several key problems at once: the relation between prayer and image, the role of discipline in acquiring knowledge, and the instability of ritual books across transmission. They also resist smooth translation into purely verbal summary, which is one reason they are such an important test of good scholarly method.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>The notae differ from manuscript to manuscript in form, arrangement, and accompanying explanation. Some are transmitted with more elaborate paratexts, while others are embedded in more compact ritual sequences. This variation means that the term names a family of visual instruments rather than one invariant set of figures. The study of notae is accordingly bound up with the history of editions, reproductions, and modern attempts to make these diagrams legible in print.</p>\n\n    <p>Because of that variability, notae are best studied as manuscript events rather than abstract symbols detached from copying practice. The portal treats them as one of the clearest cases where codicology and ritual interpretation must remain tightly linked.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Notae are inseparable from <a href=\"../concepts/ars_notoria.html\">Ars Notoria</a>, which gives them their primary manuscript environment. They also belong with <a href=\"../concepts/ritual_diagrams.html\">ritual diagrams</a> and <a href=\"../concepts/learned_magic.html\">learned magic</a>, though those broader categories should never erase the specifically medieval status of the term. Their devotional framing often ties them to <a href=\"../concepts/angelic_invocation.html\">angelic invocation</a> and <a href=\"../concepts/ritual_purity.html\">ritual purity</a>.</p>\n\n    <h2>Literature</h2>\n    <p>Fanger, Claire. <i>Invoking Angels: Theurgic Ideas and Practices, Thirteenth to Sixteenth Centuries</i>. University Park: Pennsylvania State University Press, 2012.<br/>\n    Klaassen, Frank. <i>The Transformations of Magic: Illicit Learned Magic in the Later Middle Ages and Renaissance</i>. University Park: Pennsylvania State University Press, 2013.<br/>\n    Kieckhefer, Richard. <i>Forbidden Rites: A Necromancer's Manual of the Fifteenth Century</i>. University Park: Pennsylvania State University Press, 1998.<br/>\n    Mathiesen, Robert. Studies on the <i>Ars Notoria</i> and related ritual-learning traditions.<br/>\n    Skinner, Stephen, and Daniel Clark. <i>Ars Notoria: The Grimoire of Rapid Learning by Magic with the Golden Flowers of Apollonius of Tyana</i>. Modern edition and study.</p>\n    ",
+      "extra": "Notae are the visual signs or figures central to Ars Notoria traditions of ritual learning, requiring attention to diagrammatic transmission as well as verbal prayer."
+    }
+  ],
+  "corpus_hits": [
+    {
+      "corpus": "Medieval magic",
+      "file": "Aleister Crowley Christopher S Hyatt Lon Milo Duquette Peter Conte Daniel Pineda David P Wilson Aleister Crowley s Illustrated Goetia New Falcon Publi.txt",
+      "cite": "Aleister Crowley Christopher S Hyatt Lon Milo Duquette Peter Conte Daniel Pineda David P Wilson Aleister Crowley s Illustrated Goetia New Fa",
+      "snippet": "…ASHEKASESTI BEBILOI (Makeinvoking Pentagram ofAir,see Appendix.) IHVH \\!tHE<!&ATH (Givesign of Shu;see Appendix.) Hear Me: Thee I invoke, theBornless One. AR ThIAO RHEIBET A-ThELE-BER-SET A BELAThA Thee, that didstcreate the Earth and Heavens. ABEU EBEU PhI-ThETA-SO…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Bailey, Michael David_Bain, Kristi Woodward_Callan, Maeve Brigid - The Sacred and the Sinister_ Studies in Medieval Religion and Magic (2019, The Penn.txt",
+      "cite": "Bailey, Michael David Bain, Kristi Woodward Callan, Maeve Brigid The Sacred and the Sinister Studies in Medieval Religion and Magic (2019, T",
+      "snippet": "…m their intimate association. He referred to 1 Corinthians 9:5 to defend their integrity and to denigrate her detractors; he also invoked Jerome and Paula as positive prece- dent for their relationship. He ascribed this slander to the devil, who \"wanted the cause of…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Claire Fanger Invoking Angels_ Theurgic Ideas and Practices Thirteenth to Sixteenth Centuries Penn State Press.txt",
+      "cite": "Claire Fanger Invoking Angels Theurgic Ideas and Practices Thirteenth to Sixteenth Centuries Penn State Press",
+      "snippet": "…ian lines of thought in the same area) was the idea that theurgy could access any effective kind of divine mediation. The spirits invoked and addressed could not be efficacious either for the process of the soul's cleansing or for its eventual salvation, both because…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Dan Attrell_ David Porreca Picatrix_ A Medieval Treatise on Astral Magic 10 1515_9780271084152 libgen li.txt",
+      "cite": "Dan Attrell David Porreca Picatrix A Medieval Treatise on Astral Magic 10 1515",
+      "snippet": "…rawing the spirits and powers down from heaven to Earth. Furthermore, he said that there are names of spirits that if one were to invoke and draw them down, their powers in their respective hour would kill the invoker unless he was wise and well- instructed in the n…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Fanger Claire Rewriting Magic_ An Exegesis of the Visionary Autobiography of a Fourteenth Century French Monk Pennsylvania State University Press.txt",
+      "cite": "Fanger Claire Rewriting Magic An Exegesis of the Visionary Autobiography of a Fourteenth Century French Monk Pennsylvania State University P",
+      "snippet": "…prayers of the notory art forms a distinctive contrast to the abuse of necro- mancy. If the use of necromancy is wrong because it invokes demons know- ingly, the use of the ars notoria is wrong because it does not respect—or creates a misapprehension of—the boundarie…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Frank Klaassen Making Magic in Elizabethan England_ Two Early Modern Vernacular Books of Magic Penn State University Press.txt",
+      "cite": "Frank Klaassen Making Magic in Elizabethan England Two Early Modern Vernacular Books of Magic Penn State University Press",
+      "snippet": "…Sources There are two interrelated levels of magic discussed in the text. The lamens or amulets described in the first ten folios invoke the power of various planetary spirits, good and bad, for a variety of purposes, including provoking or confirm- ing love, curryi…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Frank Klaassen The Transformations of Magic_ Illicit Learned Magic in the Later Middle Ages and Renaissance.txt",
+      "cite": "Frank Klaassen The Transformations of Magic Illicit Learned Magic in the Later Middle Ages and Renaissance",
+      "snippet": "…other kinds of magical practices that I will refer to as ritual magic. As we shall see, these texts involve the explicit binding, invoking, and employing of demons, the ritual engagement of angels or the Holy Spirit, the use of extensive Christian ritu- als, a heavy e…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "John Michael Greer De Imaginibus_ Astral High Magic Thabit Ibn Qurra s De Imaginibus Renaissance Astrology.txt",
+      "cite": "John Michael Greer De Imaginibus Astral High Magic Thabit Ibn Qurra s De Imaginibus Renaissance Astrology",
+      "snippet": "…details that give us some idea of the planetary worship that took place in the temples of the Harranian Sabians. For example, to invoke Saturn, one was advised to elect a time when Saturn was in a sign where he was well dignified and direct and not afflicted by Mar…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Joseph H Peterson Grimorium Verum Createspace.txt",
+      "cite": "Joseph H Peterson Grimorium Verum Createspace",
+      "snippet": "…tribution to King Solomon in the title.] In the first part. Herein is contained various arrangements of characters with which are invoked the powers, the spirits, or more appropriately called the devils, to send for them when you please, each according to their pow-…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Joseph H Peterson The Lesser Key of Solomon.txt",
+      "cite": "Joseph H Peterson The Lesser Key of Solomon",
+      "snippet": "…ed:Samael,Azazel,Azael, andMahazael.\"] East, West, North, &south, andare nottobe called forthexcept itbe upon great occasions But Invoked&commanded tosendsuch&suchspiritas are[is] undertheirruleandpower,asisshewedinyefollowingInvocations,or [rather]conjurations&c. P…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Deborah E Harkness John Dee s Conversations with Angels_ Cabala Alchemy and the End of Nature Cambridge University Press.txt",
+      "cite": "Deborah E Harkness John Dee s Conversations with Angels Cabala Alchemy and the End of Nature Cambridge University Press",
+      "snippet": "…), one of early modern England's greatest bibliophiles and collectors, owned a sixteenth-century manuscript that described how to invoke and bind simple spirits. Another early modern manuscript collection included instructions for conjuring angels with the aid of a…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Ecstasies_Deciphering_Witches_Sabbath.txt",
+      "cite": "Ecstasies Deciphering Witches Sabbath",
+      "snippet": "…child and ate it, surpassing in gluttony the swine who devour their own offspring; placed the bodies of the dead on the roofs and invoked the sun, the demons of the air. It was their custom to pass a newly born infant from hand to hand, assigning the supreme honour o…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Frank Klaassen The Transformations of Magic.txt",
+      "cite": "Frank Klaassen The Transformations of Magic",
+      "snippet": "…other kinds of magical practices that I will refer to as ritual magic. As we shall see, these texts involve the explicit binding, invoking, and employing of demons, the ritual engagement of angels or the Holy Spirit, the use of extensive Christian rituals, a heavy emp…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Glyn Parry The Arch Conjuror of England_ John Dee Yale University Press.txt",
+      "cite": "Glyn Parry The Arch Conjuror of England John Dee Yale University Press",
+      "snippet": "…could have recalled William Wycherley, who was examined for conjuring in 1549. Wycherley had told Lord Protector Somerset that he invoked celestial spirits into crystals, aided by a 'scryer' and several Catholic priests to bind them. The Privy Council's accusation th…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Håkansson, Håkan - Seeing the Word_ John Dee and Renaissance Occultism (2001) - libgen.li.txt",
+      "cite": "Håkansson, Håkan Seeing the Word John Dee and Renaissance Occultism (2001)",
+      "snippet": "…nces\" — indeed, to equate words with things — demonstrates an inability to \"recognize the distinction between tenor and vehicle\". Invoking the terminology of Ferdinand de Saussure, he claimed that \"in this type of thinking the signifiant is confused with the signifié…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Ioan P Couliano Eros and Magic.txt",
+      "cite": "Ioan P Couliano Eros and Magic",
+      "snippet": "…umatic mechanism of the beloved. As for the magician, he can either directly influence objects, individuals, and human society or invoke the presence of powerful invisible beings, demons, and heroes from whom he hopes to profit. In order to do so he must gather know…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Keith Thomas - Religion and the Decline of Magic.txt",
+      "cite": "Keith Thomas Religion and the Decline of Magic",
+      "snippet": "…eligious houses, and they were urged by midwives to call upon St Margaret or the Virgin Mary to reduce the pangs of labour, or to invoke St Felicitas if they wished to ensure that the new child would be a boy. Henry VII's queen paid 6s. 8d. to a monk for a girdle of…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Paola Zambelli Astrology and Magic.txt",
+      "cite": "Paola Zambelli Astrology and Magic",
+      "snippet": "…. Moreover, Wilcox refer to ri totle and ugu tine without an adequate kn wledge of the lu tory of philo oph), while the models he invoke of Prou t, Foucault, and Italo al ino only muoduce confu ton. El.ta , Tirne, p. 117. He rates el ewhere (Tmu, pp. 93-4): \" 11 th…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Paola Zambelli White Magic.txt",
+      "cite": "Paola Zambelli White Magic",
+      "snippet": "…or endowments and properties. This Virgilian metaphor—“marry the elms to the vines”—had already pleased Ficino. Della Porta would invoke it yet again, in both editions of his work in 1558 and 1589: These things a magician being well acquainted withal, doth match hea…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Stuart Clark Thinking with Demons.txt",
+      "cite": "Stuart Clark Thinking with Demons",
+      "snippet": "…with the paraphernalia of serious kingship but dedicated to satire and clowning. Often these various modes of topsy-turvydom were invoked simultaneously, as in the ecclesiastical ‘feast of fools’, and the revels and burlesques of the French urban confraternities, the…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Attilio Mastrocinque_ Joseph E Sanzo_ Marianna Scapini Ancient Magic_ Then and Now.txt",
+      "cite": "Attilio Mastrocinque Joseph E Sanzo Marianna Scapini Ancient Magic Then and Now",
+      "snippet": "…cive and unholy; it pursued selfish, individua- listic goals; it was antisocial, feminine, and practiced in the dark of night. It invoked the infernal chthonic deities rather than the august, uranic gods. It was fraudulent and irrational.3 The model that was imposed…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Eleni Pachoumi The Concepts of the Divine in the Greek Magical Papyri Mohr Siebeck.txt",
+      "cite": "Eleni Pachoumi The Concepts of the Divine in the Greek Magical Papyri Mohr Siebeck",
+      "snippet": "…roduction This chapter examines the concept of god, focusing on the religious and phi- losophical assimilations of the major gods invoked in the Greek magical papyri. These gods include Helios, Eros, the creator-god, Aion, Chrestos, Hermes-Thoth-Hermes Trismegistos,…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Francesca Rochberg In the Path of the Moon_ Babylonian Celestial Divination and Its Legacy Brill Academic Publishers.txt",
+      "cite": "Francesca Rochberg In the Path of the Moon Babylonian Celestial Divination and Its Legacy Brill Academic Publishers",
+      "snippet": "…Assyriologist knows that it is too early to attempt to write a history of Babylonian literature. In fact, he has so often said it—invoking the force of tradition responsible for preserving and perpetuating texts over hundreds, and possibly thousands, of years and thus…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Fritz Graf Sarah Iles Johnston Ritual Texts for the Afterlife_ Orpheus and the Bacchic Gold Tablets Routledge.txt",
+      "cite": "Fritz Graf Sarah Iles Johnston Ritual Texts for the Afterlife Orpheus and the Bacchic Gold Tablets Routledge",
+      "snippet": "…ibbey, and the Egypt Exploration Society, by exchange. another one from the same place, found in 1907 and just published in 2007, invoked Demeter and the Mountain Mother together with, perhaps, Dionysus.47 Similar local variations are present in the Orphic Hymns and…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Hans Dieter Betz The Greek Magical Papyri in Translation Including the Demotic Spells Vol 1_ Texts University of Chicago Press.txt",
+      "cite": "Hans Dieter Betz The Greek Magical Papyri in Translation Including the Demotic Spells Vol 1 Texts University of Chicago Press",
+      "snippet": "…4-611 *[Spell to establish a relationship with] Helios. A procedure for e\\.ery [rite], for [all things]. I For whatever you want, invoke in this way: \"[Come,] come to me from the four winds ofthe world, air-transversing, great god. Hear me in every ritual which [I p…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Jessica L Lamont In Blood and Ashes_ Curse Tablets and Binding Spells in Ancient Greece Oxford University Press.txt",
+      "cite": "Jessica L Lamont In Blood and Ashes Curse Tablets and Binding Spells in Ancient Greece Oxford University Press",
+      "snippet": "…from homi cide trials in the late Archaic law courts: did early curse-​writers attempt to take justice \"into their own hands\" by invoking the powerful dead and chthonic dei ties to punish wrongdoers at trial? If so, curse practice may have helped mediate the transiti…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "John G Gager Curse Tablets and Binding Spells from the Ancient World.txt",
+      "cite": "John G Gager Curse Tablets and Binding Spells from the Ancient World",
+      "snippet": "…rolled up and pierced by a nail. The editor gives no date, but it can hardly be later than the second century B.C.E. No deity is invoked and the simple formula, \"I bind!\" is used. The occasion is not clear; the only hint is that the primary target, Euandros, is twic…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Korshi Dosoo_ Markéta Preininger Papyri Copticae Magicae_ Coptic Magical Texts Volume 1_ Formularies De Gruyter.txt",
+      "cite": "Korshi Dosoo Markéta Preininger Papyri Copticae Magicae Coptic Magical Texts Volume 1 Formularies De Gruyter",
+      "snippet": "…ⲧϥ ⲉⲙⲡⲕ̅- ⲧⲟ̣ⲩ̣ⲛⲟⲩⲥ ⲛ̅ⲟⲩⲙⲓϣⲉ ⲙⲛ̅ ⲟⲩϯ- ⲧⲱⲛ ⲙⲛ̅ ⲟⲩϭⲉⲣⲁⲩⲛⲟⲥ ⲙⲛ̅ ⲇͅ ἣ̣ν̣ ⲇͅ ⲛ̅ⲧⲁⲥ ⲇͅ ὃν ⲇͅ ⲉⲕⲁ̣ⲧⲉⲟⲩ- ⲟ ⲛⲓϣⲉϫⲉ ⲁϫⲱ̣ⲟⲩ ⲁϥϫⲱⲕ |Greek \"I invoke you who have existed from the beginning, who sit over *cherubim and *seraphim, |Coptic who stand over the conflicts and the strif…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Marvin W Meyer Paul Allan Mirecki Magic and Ritual in the Ancient World Brill Academic Publishers.txt",
+      "cite": "Marvin W Meyer Paul Allan Mirecki Magic and Ritual in the Ancient World Brill Academic Publishers",
+      "snippet": "…ists have their origin in the name lists of various Goddesses and Gods, angelic or demonic beings, and even human heroes who were invoked for their protection, or identified by their names so as to hinder or employ their negative influence. The later lists of apostl…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Panayotov Strahil V _Vacín Luděk Mesopotamian Medicine and Magic_ Studies in Honor of Markham J Geller Brill.txt",
+      "cite": "Panayotov Strahil V Vacín Luděk Mesopotamian Medicine and Magic Studies in Honor of Markham J Geller Brill",
+      "snippet": "…the pair of water and fire figures prominently in Mesopotamian anti-witchcraft texts and rituals, where they are the main deities invoked to purify the patient and to destroy witches. The eschatological oracle of Num 24: 17 about the destruction of the \"sons of Seth\"…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Brian P Copenhaver Hermetica_ The Greek Corpus Hermeticum and the Latin Asclepius in a New English Translation with Notes and Introduction Cambridge U.txt",
+      "cite": "Brian P Copenhaver Hermetica The Greek Corpus Hermeticum and the Latin Asclepius in a New English Translation with Notes and Introduction Ca",
+      "snippet": "…eeches. We, by contrast, use not speeches but sounds that are full of action. [3] This established, I shall open the discourse by invoking god, the master, maker, father and container of the whole universe, the all who is one and the one who is all. For the plenitude…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Christian H Bull The Tradition of Hermes Trismegistus_ The Egyptian Priestly Figure as a Teacher of Hellenized Wisdom Brill.txt",
+      "cite": "Christian H Bull The Tradition of Hermes Trismegistus The Egyptian Priestly Figure as a Teacher of Hellenized Wisdom Brill",
+      "snippet": "…ivinity before they discovered the art of making gods.59 This art, to which we will return later, is then de- scribed as that of invoking souls of angels and demons to make them inhabit the statues, before some of the earthly gods thus created are listed: Take your a…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Claudio Moreschini Hermes Christianus_ The Intermingling of Hermetic Piety and Christian Thought Brepols Publishers.txt",
+      "cite": "Claudio Moreschini Hermes Christianus The Intermingling of Hermetic Piety and Christian Thought Brepols Publishers",
+      "snippet": "…gnosis; we know you, oh nous, so that we might think of you, logos, so corr. Reitzenstein] paternal benevolence and that we might invoke you, gnosis, so that we [hosioteti add. Preisendanz] of god, for you His, we have requested no favour from you love and friendshi…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "E tudes pre liminaires aux religions orientales dans l empire romain 91 R van den Broek M J Vermaseren Studies in Gnosticism and Hellenistic Religions.txt",
+      "cite": "E tudes pre liminaires aux religions orientales dans l empire romain 91 R van den Broek M J Vermaseren Studies in Gnosticism and Hellenistic",
+      "snippet": "…sorcery. Finding a dead chamelion in his classroom, he becomes convinced that he has been made a victim of some malevolent force invoked by an enemy. On this basis he is able to blame recent losses in debate on the sorcery of his opponents instead of their superior…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Jeffrey B Pettis The Sleeper s Dream_ Asclepius Ritual and Early Christian Discourse libgen li.txt",
+      "cite": "Jeffrey B Pettis The Sleeper s Dream Asclepius Ritual and Early Christian Discourse",
+      "snippet": "…Athenian statesman, Aelius Aristides (117–171 CE), praises the god's immediate place in antiquity: O Lord Asclepius, whom we have invoked for many things and on many occasions both at night and during the day, in private and in public, it was you who to our satisfact…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "M David Litwa Hermetica II_ The Excerpts of Stobaeus Papyrus Fragments and Ancient Testimonies in an English Translation with Notes and Introduction C.txt",
+      "cite": "M David Litwa Hermetica II The Excerpts of Stobaeus Papyrus Fragments and Ancient Testimonies in an English Translation with Notes and Intro",
+      "snippet": "…umanhands.Yetheassertsthatvisibleandtangibleimagesare,asit were,onlybodiesofthegods,andthattheredwellinthemcertainspirits who are invoked. These spirits have power either to inflict harm or to fulfill the desires of those who render them divine honors and cultic serv…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Robin Mitchell Boyask Plague and the Athenian Imagination_ Drama History and the Cult of Asclepius libgen li.txt",
+      "cite": "Robin Mitchell Boyask Plague and the Athenian Imagination Drama History and the Cult of Asclepius",
+      "snippet": "…erful, popularly elected generals. Ostracism was abandoned afterthefiascoofHyperbolusin415andtheoriginallawagainsttyrants was not invoked during the oligarchic revolution of 411, so clearly Athens, having quickly studied the lessons of that experience, decided it nee…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Scripta Antiquitatis Posterioris Ad Ethicam Religionemque Pertinentia 29 Aelius Aristides_ Donald Andrew Russell_ Christian Brockmann_ Mi In Praise of.txt",
+      "cite": "Scripta Antiquitatis Posterioris Ad Ethicam Religionemque Pertinentia 29 Aelius Aristides Donald Andrew Russell Christian Brockmann Mi In Pr",
+      "snippet": "…y invocation is nobler, when I ask the god who set my theme to join his father in leading my song.8 O thou who hast been so often invoked and for so many causes, thou who, I may claim, hast shown me the way especially in my speeches, guide this speech now in accordan…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Wouter J Hanegraaff Peter J Forshaw and Marco Pasi Hermes Explains_ Thirty Questions about Western Esotericism Amsterdam University Press.txt",
+      "cite": "Wouter J Hanegraaff Peter J Forshaw and Marco Pasi Hermes Explains Thirty Questions about Western Esotericism Amsterdam University Press",
+      "snippet": "…ur own feelings of joy and stability.7 These were long taken as useful guidelines. If you were pretty sure demons were in action, invoking the saints, God or Mary, might work both to expose demons and banish them. Other procedures routinely used by monks included sing…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Wouter J. Hanegraaff - Hermetic Spirituality and the Historical Imagination_ Altered States of Knowledge in Late Antiquity (2022, Cambridge University.txt",
+      "cite": "Wouter J. Hanegraaff Hermetic Spirituality and the Historical Imagination Altered States of Knowledge in Late Antiquity (2022, Cambridge Uni",
+      "snippet": "…era, Aphrodite, Hestia, Rheia, or Demeter. However, \"the Egyptians call you Thiouis, since you alone are all the other goddesses invoked by the nations.\" [Footnote: Transl. Moyer, \"Isidorus,\" 219.] This name is a Greek trans- literation of the Egyptian tꜢ wꜥ.t: \"the…"
+    }
+  ],
+  "counts": {
+    "db": 13,
+    "corpus": 40
+  }
+}

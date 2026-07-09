@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Word Histories — The Vocabulary of Magic</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<div class="hero" style="padding-bottom:.5rem">
+  <h1>Word Histories</h1>
+  <div class="tag">Long-form pages on where each magical word came from — its origin, etymology, and historical usage — grounded in the medieval- and renaissance-magic databases and the PDF library, and cited.</div>
+</div>
+<div class="wrap">
+  <div class="hlist" id="list"></div>
+  <div class="panel" style="margin-top:1.4rem"><h2 class="sec" style="font-size:1rem">How these are researched</h2>
+    <p class="note" style="font-style:normal;color:var(--ink);opacity:.9">Each history is built with <code>scripts/research.py</code>, which searches Ted's magic/alchemy databases (Renaissance definitions + concordance, MedievalMagicDB, TheosophicalAlchemyDB) and the full-text PDF corpora in <code>E:\pdf</code> (medieval magic, renaissance magic, alchemy) for the term, returning a citable dossier. Every term's <em>Etymology</em> tab also auto-surfaces what the scholarship says. Method: <code>docs/RESEARCH_METHOD.md</code>.</p></div>
+</div>
+<script src="assets/common.js"></script>
+<script>
+(async function(){
+  mountChrome("histories.html");
+  const [idx, essays]=await Promise.all([getJSON("data/terms_index.json"), getJSON("data/essays.json").catch(()=>({essays:{}}))]);
+  const E=essays.essays||{};
+  const byThumb={}; idx.terms.forEach(t=>byThumb[t.slug]=t.thumb);
+  const slugs=Object.keys(E);
+  document.getElementById("list").innerHTML=slugs.map(slug=>{
+    const e=E[slug], art=byThumb[slug];
+    return `<a class="hcard" href="term.html?t=${slug}#essay">
+      ${art?`<div class="art" style="background-image:url('${art}')"></div>`:''}
+      <div class="b"><h3>${esc(e.title||slug)}</h3>
+        <div class="dek">${esc(e.dek||'')}</div>
+        <div class="rm">${e.read_min?e.read_min+' min read':'Read'} · on ${esc(slug)} →</div></div></a>`;
+  }).join("");
+})();
+</script>
+</body>
+</html>

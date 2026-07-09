@@ -1,0 +1,168 @@
+{
+  "slug": "geomancy",
+  "category": "divination",
+  "db_hits": [
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Divination",
+      "text": "\n    <p><b>Divination</b> is a <b>Hybrid</b> category in MedievalMagicDB: medieval actors used specific terms for particular techniques and condemnatory classes of knowledge, while modern scholars also employ \"divination\" as a broad analyst term for attempts to obtain hidden information through signs, lots, celestial judgment, bodily marks, dreams, spirits, or other mediated procedures. Because it gathers heterogeneous practices, the category must always be handled with care. Its usefulness lies in comparison and navigation, not in forcing all such practices into a single intellectual mold.</p>\n\n    <h2>Historical Usage</h2>\n    <p>Medieval sources discuss divination through a whole family of named arts: geomancy, chiromancy, hydromancy, sortilege, astrology, dream interpretation, lot casting, physiognomic reading, and spirit-mediated revelation, among others. Some are presented as observational or natural, others as unlawful or demonic, and many shift status depending on who is speaking. A university master, a confessor, a physician, and a compiler of practical recipes may all use different criteria to judge whether a technique is prudent, curious, natural, deceptive, or sinful.</p>\n\n    <p>This diversity makes divination one of the portal's major hub concepts. It is where one sees most clearly that the history of medieval magic is not only about conjurations and grimoires, but also about the desire to know what should remain uncertain: the future, hidden motives, unseen causes, divine favor, bodily prognosis, lost objects, or secret conditions of the world. Divination is therefore tied to epistemic desire as much as to any one ritual form.</p>\n\n    <h2>Named Arts and Local Contexts</h2>\n    <p>Different divinatory arts had different social and intellectual lives. Geomancy could be copied as a technical art with rules and figures; chiromancy might circulate as bodily reading; hydromancy and sortilege often appeared in lists of forbidden practices; astrological judgment could be defended as mathematically grounded while remaining suspect in some applications. This variety is why the portal links divination outward to narrower entries rather than letting the category absorb them. Each art has its own evidentiary profile, textual environment, and history of condemnation or defense.</p>\n\n    <p>The category is also shaped by genre. Manuals may teach techniques; scholastic discussions debate causation and licitness; confessional and pastoral literature focus on suspect consultation; chronicles or miracle collections preserve reports of outcomes; and legal texts flatten several practices into one accusatory field. Divination thus becomes legible only when it is tracked across genres rather than extracted from them.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>As a modern category, divination is useful precisely because it allows comparison without pretending that comparison erases difference. Catherine Rider and Jean-Patrice Boudet are especially important here because they show how medieval divinatory techniques were distributed across medicine, theology, prediction, natural inquiry, and occult speculation. The category is strongest when it functions as a hub that clarifies relation, not as a blanket term that removes texture.</p>\n\n    <p>Divination also matters because it is one of the best places to study the boundary between natural and illicit knowledge. A prognostic procedure may be treated as medicine, astronomy, prudence, curiosity, or superstition depending on its claims and context. That instability makes divination central to the history of classification. The issue is not only what people did, but how authorities sorted kinds of knowing and kinds of risk.</p>\n\n    <h2>Knowledge, Uncertainty, and Control</h2>\n    <p>At a deeper level, divination reveals a persistent medieval concern with the management of uncertainty. Prognostic arts promise orientation in situations where ordinary judgment seems inadequate: illness, travel, politics, weather, fertility, litigation, or danger. This promise can make divination look intellectually adjacent to accepted disciplines even when moralists condemn it. The category therefore helps explain why suspicion and reliance could coexist. Practices criticized in one register might still answer real needs in another.</p>\n\n    <p>The same point helps explain why divination often shades into neighboring domains. Ritual consultation may overlap with prayer, medicine, computation, memory, or spirit work. A hard separation between divination and the rest of medieval learned or practical culture is therefore historically misleading. The boundaries were negotiated, and the negotiation is part of the archive.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>Divinatory material often survives in small and mobile units: a brief section in a larger compilation, a chapter in a mirror-for-princes, a pastoral list, a notebook appendix, or a compact art in a technical miscellany. This archival pattern means divination is not simply a genre but a recurrent function within many genres. The portal uses it as a relational category tied to manuscripts, codicological settings, and local contexts of use.</p>\n\n    <p>The category's variant forms are also why it cannot be reduced to one master narrative. Dream books, lots, bodily arts, astral judgments, and spirit consultations do not share one logic, even when later authorities condemn them together. Good historical use of the term keeps these internal differences visible.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Divination belongs naturally with <a href=\"../concepts/geomancy.html\">geomancy</a>, <a href=\"../concepts/chiromancy.html\">chiromancy</a>, <a href=\"../concepts/hydromancy.html\">hydromancy</a>, and <a href=\"../concepts/sortilege.html\">sortilege</a> as narrower arts. It also intersects with <a href=\"../concepts/superstitio.html\">superstitio</a> where pastoral and theological writers classify unlawful consultation, and with <a href=\"../concepts/necromancy.html\">necromancy</a> where hidden knowledge is sought through spirits rather than through natural or symbolic signs. Its relationship to <a href=\"../concepts/celestial_influence.html\">celestial influence</a> is especially important wherever astrology or astral theory underwrites prediction.</p>\n\n    <h2>Literature</h2>\n    <p>Boudet, Jean-Patrice. Studies on learned divination and medieval occult sciences.<br/>\n    Kieckhefer, Richard. <i>Magic in the Middle Ages</i>. Cambridge: Cambridge University Press, 2014.<br/>\n    Rider, Catherine. Studies on divination, medicine, and pastoral classification in the medieval West.<br/>\n    Thorndike, Lynn. <i>A History of Magic and Experimental Science</i>. New York: Columbia University Press, 1923-1958.<br/>\n    Weill-Parot, Nicolas. Studies on astrology and the classification of occult knowledge.</p>\n    ",
+      "extra": "Divination covers practices for obtaining hidden knowledge, from geomancy and sortilege to astrological judgment; medieval sources classify it variously as natural, superstitious, demonic, or licit depending on method and authority."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Geomancy",
+      "text": "\n    <p><b>Geomancy</b> is an <b>Actor Term</b> for a divinatory art in which patterned combinations of points or marks are generated, arranged, and interpreted to produce judgments about hidden matters. It became one of the most widely discussed and transmitted specific arts of divination in the medieval West. For MedievalMagicDB it matters because it is both a sharply defined technical practice and a recurring touchstone in pastoral, theological, and learned classifications of suspect knowledge.</p>\n\n    <h2>Historical Usage</h2>\n    <p>Medieval sources typically treat geomancy as one art among others rather than as a synonym for divination in general. Manuals explain figures and judgments, while theological and pastoral texts classify the practice through broader concerns about hidden knowledge, stars, chance, and illicit inquiry. The art's relative technical clarity makes it especially valuable to historians. Unlike very broad labels such as superstition, geomancy names a specific procedure with its own textual traditions and interpretive vocabulary.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>Geomancy matters because it shows how divinatory practices could be at once technical, textual, and suspect. It appears in learned settings, in compilations alongside astrology and chiromancy, and in condemnatory literature that treats it as part of a wider field of forbidden arts. As a result it is one of the best narrower entries through which to understand the larger category of divination. It is also useful for reminding the reader that medieval magical and divinatory history is not only about spirit conjuration or grimoires.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>The art circulated in Latin and vernacular forms and could appear as a self-contained manual or as one part of a larger compendium of practical knowledge. Its diagrams, named figures, and interpretive structures made it portable across manuscripts. That portability also exposed it to repeated moral scrutiny. Geomancy is therefore a case where textual transmission and condemnation move in tandem.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Geomancy belongs first of all with <a href=\"../concepts/divination.html\">divination</a>, of which it is a narrower and more concrete example. It also sits beside <a href=\"../concepts/chiromancy.html\">chiromancy</a> and <a href=\"../concepts/sortilege.html\">sortilege</a> as related arts of hidden judgment, and it may enter discussions of <a href=\"../concepts/superstitio.html\">superstitio</a> when pastoral writers classify it as illicit dependence.</p>\n\n    <h2>Literature</h2>\n    <p>Boudet, Jean-Patrice. Studies on learned divination and medieval occult sciences.<br/>\n    Rider, Catherine. Studies on divination and pastoral classification.<br/>\n    Thorndike, Lynn. <i>A History of Magic and Experimental Science</i>. New York: Columbia University Press, 1923-1958.<br/>\n    Page, Sophie, and Catherine Rider, eds. <i>The Routledge History of Medieval Magic</i>. London: Routledge, 2019.<br/>\n    Studies on medieval geomantic manuals and manuscript transmission.</p>\n    ",
+      "extra": "Geomancy is an Actor Term for a learned divinatory art based on figures generated by points or marks and interpreted through structured houses, often circulating with astrology and other clerical arts."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Chiromancy",
+      "text": "\n    <p><b>Chiromancy</b> is an <b>Actor Term</b> for palmistry or hand-reading, a divinatory practice treated in medieval manuals and frequently named in broader condemnations of forbidden arts. The term is historically specific enough to resist flattening into \"divination\" in general, yet common enough in learned and pastoral classifications that it serves as an important test case for how particular arts are gathered into larger moral and epistemic debates.</p>\n\n    <h2>Historical Usage</h2>\n    <p>Medieval texts typically list chiromancy among the arts that claim to infer hidden character, fate, or future outcomes from bodily signs. Its interest lies precisely in that relation between observation and prediction. Unlike spirit conjuration, chiromancy can appear close to natural sign-reading, yet authorities often classify it as suspect because it overreaches the legitimate interpretation of nature. This makes it a revealing middle case between natural knowledge and illicit divination.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>Chiromancy matters because it shows that medieval divinatory history is not reducible to either astrology or necromancy. It represents a bodily and semiotic art whose status depends heavily on context and classification. Historiographically, it helps explain why medieval authorities often worried about unauthorized prediction even where demonic pact or explicit ritual did not seem central.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>The art circulated in manuals, compendia, and lists of forbidden knowledge. It could appear alongside geomancy, physiognomy, and sortilege in larger surveys of divinatory practice. This manuscript and classificatory mobility is one reason chiromancy deserves its own portal entry. Its importance lies not only in technique but in how often it is made to stand for the problem of reading signs too confidently.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Chiromancy belongs naturally with <a href=\"../concepts/divination.html\">divination</a> and <a href=\"../concepts/geomancy.html\">geomancy</a> as one narrower predictive art among others. It also intersects with <a href=\"../concepts/secret_of_secrets.html\">Secret of Secrets</a> and physiognomic traditions where bodily interpretation and elite knowledge can overlap with suspect prediction.</p>\n\n    <h2>Literature</h2>\n    <p>Boudet, Jean-Patrice. Studies on learned divination and occult sciences.<br/>\n    Rider, Catherine. Studies on divination and pastoral classification.<br/>\n    Thorndike, Lynn. <i>A History of Magic and Experimental Science</i>. New York: Columbia University Press, 1923-1958.<br/>\n    Page, Sophie, and Catherine Rider, eds. <i>The Routledge History of Medieval Magic</i>. London: Routledge, 2019.<br/>\n    Studies on medieval manuals of chiromancy and related bodily arts.</p>\n    ",
+      "extra": "Chiromancy is an Actor Term for palmistry or hand-reading, a divinatory practice treated in medieval manuals and often debated within broader classifications of natural signs and illicit prediction."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Hydromancy",
+      "text": "\n    <p><b>Hydromancy</b> is an <b>Actor Term</b> for divination by water, frequently named in medieval taxonomies of forbidden or suspect arts. It is historically important not because it dominates the surviving manuscript archive, but because it repeatedly appears in lists and classifications that map the diversity of divinatory practices. In the portal it helps demonstrate how broad and differentiated the medieval vocabulary of prediction could be.</p>\n\n    <h2>Historical Usage</h2>\n    <p>Medieval writers often mention hydromancy alongside geomancy, chiromancy, pyromancy, and sortilege. These grouped arts were frequently treated as examples of illicit efforts to uncover hidden truths through unstable media. Water's reflective, moving, and receptive qualities made it a potent medium for such interpretive practice. The category therefore belongs strongly to the history of divinatory classification.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>Hydromancy matters because it shows that medieval anti-divinatory discourse regularly worked by enumeration. Even where a particular art is thinly documented in surviving manuals, its repeated appearance in taxonomic lists tells historians something about how the field of forbidden knowledge was imagined. Hydromancy is thus valuable as an entry in its own right and as part of a larger classificatory pattern.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>The practice survives more strongly as a named category in condemnatory and encyclopedic listings than as a single famous text family. That makes it a good example of an art whose historical weight comes partly from classification rather than from abundant dedicated manuals. Its place in the portal is therefore relational and comparative.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Hydromancy belongs with <a href=\"../concepts/divination.html\">divination</a>, <a href=\"../concepts/geomancy.html\">geomancy</a>, and <a href=\"../concepts/pyromancy.html\">pyromancy</a> as part of a recurring medieval family of named arts. It also intersects with <a href=\"../concepts/superstitio.html\">superstitio</a> where authorities classify these practices as improper dependence on uncertain signs.</p>\n\n    <h2>Literature</h2>\n    <p>Boudet, Jean-Patrice. Studies on learned divination and occult sciences.<br/>\n    Rider, Catherine. Studies on pastoral and theological classification of divinatory arts.<br/>\n    Thorndike, Lynn. <i>A History of Magic and Experimental Science</i>. New York: Columbia University Press, 1923-1958.<br/>\n    Page, Sophie, and Catherine Rider, eds. <i>The Routledge History of Medieval Magic</i>. London: Routledge, 2019.<br/>\n    Studies on medieval taxonomies of divination and forbidden arts.</p>\n    ",
+      "extra": "Hydromancy is an Actor Term for divination by water, frequently named in medieval taxonomies of forbidden divination and often treated as suspect because of its association with spirit mediation."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Sortilege",
+      "text": "\n    <p><b>Sortilege</b> is an <b>Actor Term</b> for divination by lots, books, chance procedures, or other randomized means taken to disclose hidden truth. It is a recurrent category in medieval pastoral and theological classifications of suspect practice. For MedievalMagicDB it matters because it shows how even seemingly simple acts of selection or opening could become charged as illicit inquiry.</p>\n\n    <h2>Historical Usage</h2>\n    <p>Medieval writers used sortilege to name practices in which decisions, answers, or revelations were sought through random or quasi-random operations. These could involve lots, books, written slips, or other procedures that transformed uncertainty into meaning. The category appears repeatedly in penitential and pastoral settings because it offered a vivid example of seeking knowledge where proper trust or patience should have remained.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>Sortilege matters because it draws the field away from spectacular ritual and toward smaller practical acts that still worried ecclesiastical authorities. It is one of the clearest examples of how medieval magical or superstitious concern could attach to everyday decision-making, textual consultation, and improvised divination rather than to formal grimoires alone.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>The category survives especially in classificatory and condemnatory writing, though related practices also intersect with books, random selection, and local ritual custom. This makes sortilege a useful bridge between divination, confession, and the history of practical religious discipline.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Sortilege belongs with <a href=\"../concepts/divination.html\">divination</a> and with narrower arts such as <a href=\"../concepts/geomancy.html\">geomancy</a> and <a href=\"../concepts/hydromancy.html\">hydromancy</a>, though its mechanism is distinct. It also bears on <a href=\"../concepts/confession.html\">confession</a> and <a href=\"../concepts/superstitio.html\">superstitio</a> because pastoral sources often classify it there.</p>\n\n    <h2>Literature</h2>\n    <p>Rider, Catherine. Studies on divination and pastoral classification.<br/>\n    Bailey, Michael D. Studies on religion, superstition, and magical categories.<br/>\n    Kieckhefer, Richard. <i>Magic in the Middle Ages</i>. Cambridge: Cambridge University Press, 2014.<br/>\n    Page, Sophie, and Catherine Rider, eds. <i>The Routledge History of Medieval Magic</i>. London: Routledge, 2019.<br/>\n    Studies on penitential and theological discussions of sortilege in the medieval West.</p>\n    ",
+      "extra": "Sortilege is an Actor Term for divination by lots, books, or chance procedures, treated variously as superstition, clerical misuse, or illicit inquiry into hidden things."
+    }
+  ],
+  "corpus_hits": [
+    {
+      "corpus": "Medieval magic",
+      "file": "Claire Fanger Invoking Angels_ Theurgic Ideas and Practices Thirteenth to Sixteenth Centuries Penn State Press.txt",
+      "cite": "Claire Fanger Invoking Angels Theurgic Ideas and Practices Thirteenth to Sixteenth Centuries Penn State Press",
+      "snippet": "…dangers lie in wait and to have news of someone dear to him. Of course, it is not a question here of resorting quire elsewhere (geomancy, chiromancy, etc.) but of obtaining a prophetic vi sion delivered with the consent of God. For this, the operator should first cl…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Dan Attrell_ David Porreca Picatrix_ A Medieval Treatise on Astral Magic 10 1515_9780271084152 libgen li.txt",
+      "cite": "Dan Attrell David Porreca Picatrix A Medieval Treatise on Astral Magic 10 1515",
+      "snippet": "…e governs an aspect toward learning knowledge and wisdom, dialectic, grammar, philosophy, geometry, astronomy with its processes, geomancy, notarial science, the augury of birds according to tradition, and the interpretation of Turkish and other languages. From the ou…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "DR STEPHEN CLARK SKINNER _ Daniel Clark Ars Notoria the Grimoire of Rapid Learning by Magic with the Golden Flowers of Apollonius of Tyana_ A Mediaeva.txt",
+      "cite": "DR STEPHEN CLARK SKINNER Daniel Clark Ars Notoria the Grimoire of Rapid Learning by Magic with the Golden Flowers of Apollonius of Tyana A M",
+      "snippet": "…rmitsthemasteryoftheliberalartsinjustthirtydays.] theartsofarithmetic,astrology,astronomy,cyromancy (chiromancy),dialectic(logic),geomancy,geometry,geonogia, [Footnote: ProbablyGeneralArts,fromtheGreekyeovoyia.Theseincludedmemoryarts.] grammar, Greek,Hebrew,hydromancy…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Fanger Claire Rewriting Magic_ An Exegesis of the Visionary Autobiography of a Fourteenth Century French Monk Pennsylvania State University Press.txt",
+      "cite": "Fanger Claire Rewriting Magic An Exegesis of the Visionary Autobiography of a Fourteenth Century French Monk Pennsylvania State University P",
+      "snippet": "…is Musica ydromancia Nauigatio Fig. 4 Arts and gift s. mechanical arts). Aft er necromancy come aeromancy, pyromancy, chiromancy, geomancy, geonegia, and hydromancy. Outside the ars notoria itself, the closest parallel I have seen to this catego- rization of magic art…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Frank Klaassen The Transformations of Magic_ Illicit Learned Magic in the Later Middle Ages and Renaissance.txt",
+      "cite": "Frank Klaassen The Transformations of Magic Illicit Learned Magic in the Later Middle Ages and Renaissance",
+      "snippet": "…in collections of naturalia reflecting Scholastic interests in physical and somatic processes.24 In addition to these, one of the geomantic texts (item i) appears to have a theoretical portion. A very similar set of texts that include geomancy, judicial astrology, and…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Joseph H Peterson The Lesser Key of Solomon.txt",
+      "cite": "Joseph H Peterson The Lesser Key of Solomon",
+      "snippet": "…are, ofwhichweshallfirsttreat.The Mechanicksare these, which are adulteratedly called Hydromancy,Pyromancy, Nigromancy,Chiromancy,Geomancy,Geonegia,whichiscomprehendedun- der Astronomy, andNeogia. Hydromancy,is a science of divining by the Water; whereby the Masters t…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Sophie Page Magic in the Cloister Pious Motives Illicit Interests and Occult Approaches to the Medieval Universe.txt",
+      "cite": "Sophie Page Magic in the Cloister Pious Motives Illicit Interests and Occult Approaches to the Medieval Universe",
+      "snippet": "…other works, although forbidden, were employed many times.\"38 The thieves were never discovered. Thorne himself donated a work of geomancy to the library, so he may well have had a sympathetic attitude toward some occult techniques.39 Although it is unlikely that any…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "[The Routledge Histories] Sophie Page (Editor), Catherine Rider (Editor) - The Routledge History of Medieval Magic (2019, Routledge) - libgen.li.txt",
+      "cite": "[The Routledge Histories] Sophie Page (Editor), Catherine Rider (Editor) The Routledge History of Medieval Magic (2019, Routledge)",
+      "snippet": "…t least not in the works officially ascribed to him. Amongst the 70 odd translations of Gerard are three works on alchemy, two on geomancy and two on lots, but nothing specifically on magic. Gerard apparently does not subscribe to the idea that magic is the culminatio…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Frank Klaassen The Transformations of Magic.txt",
+      "cite": "Frank Klaassen The Transformations of Magic",
+      "snippet": "…d in collections of naturalia reflecting Scholastic interests in physical and somatic processes. In addition to these, one of the geomantic texts (item i) appears to have a theoretical portion. A very similar set of texts that include geomancy, judicial astrology, and…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Keith Thomas - Religion and the Decline of Magic.txt",
+      "cite": "Keith Thomas Religion and the Decline of Magic",
+      "snippet": "…es. Some purported to operate by astrology and would produce a description of the thief after setting a figure. Others engaged in geomancy – interpreting the meaning of the pattern of dots produced by the random doodlings of the wizard in a state of semi-trance. Yet o…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Paola Zambelli Astrology and Magic.txt",
+      "cite": "Paola Zambelli Astrology and Magic",
+      "snippet": "…Geomantical \"Tabula significationum omnium figurarum\", with at fol. 50-53 two horoscopes; 360, 1-2, Chiromantia. ~other .Note on Geomancy written by Pirckheimer during his italian stay (1488-1495) m ms. Vmdobon. lat. 12466 is mentioned by H. Rupprich, ''Willi bald Pi…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Paola Zambelli White Magic.txt",
+      "cite": "Paola Zambelli White Magic",
+      "snippet": "…XVI (‘Again of Arithmetick’) which refers in turn to Chapter XXXV (‘Of Palmestrie’ i.e. Chiromancy), and Chapter XXXVI (‘Again of Geomancy’). Chapter XVI is thus entitled because the subject had already been dealt with in Chapter XII (‘Of Arithmetick’), a chapter whic…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Stuart Clark Thinking with Demons.txt",
+      "cite": "Stuart Clark Thinking with Demons",
+      "snippet": "…d disentangling these from the superstitious forms involved the casuists in discussions of all the technical forms of divination (geomancy, hydromancy, pyromancy, aeromancy, etc.), together with astrology, the interpretation of dreams, the study of auguries and omens,…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Frances A Yates Giordano Bruno and the Hermetic Tradition.txt",
+      "cite": "Frances A Yates Giordano Bruno and the Hermetic Tradition",
+      "snippet": "…; ed- cit., pp. 109-17.] Agrippa does not follow Ficino in taking care to avoid the gestures related to the planets, divinations, geomancy, hydro- demonic side of this magic by aiming only at attracting stellar mancy, aeromancy, pyromancy, furor and the power of the i…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Frank Klaassen The Transformations of Magic.txt",
+      "cite": "Frank Klaassen The Transformations of Magic",
+      "snippet": "…in collections of naturalia reflecting Scholastic interests in physical and somatic processes.24 In addition to these, one of the geomantic texts (item i) appears to have a theoretical portion. A very similar set of texts that include geomancy, judicial astrology, and…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "John S Mebane Renaissance Magic and the Return of the Golden Age.txt",
+      "cite": "John S Mebane Renaissance Magic and the Return of the Golden Age",
+      "snippet": "…r and occult philosopher, he makes several very striking personal con- fessions. In chapter 1 3, while retracting his treatise on geomancy, for example, he describes his own work as \"superstitious, false, or, if you wish that I say it, even deceptive\" (2:42). In chap…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Keith Thomas - Religion and the Decline of Magic Studies in Popular Beliefs in Sixteenth- and Seventeenth-Century England (1973, Penguin Books) - libg.txt",
+      "cite": "Keith Thomas Religion and the Decline of Magic Studies in Popular Beliefs in Sixteenth and Seventeenth Century England (1973, Penguin Books)",
+      "snippet": "…es. Some purported to operate by astrology and would produce a description of the thief after setting a figure. Others engaged in geomancy – interpreting the meaning of the pattern of dots produced by the random doodlings of the wizard in a state of semi-trance. Yet o…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Paola Zambelli Astrology and Magic from the Medieval Latin and Islamic World to Renaissance Europe.txt",
+      "cite": "Paola Zambelli Astrology and Magic from the Medieval Latin and Islamic World to Renaissance Europe",
+      "snippet": "…two horoscopes; 360, 1-2, Chiromantia. ~other.Note on written by the Brandenburg court astrologer, officially a Catholic, but, as Geomancy written by Pirckheimer during his italian stay (1488-1495) m ms. Vmdobon. noted by Warburg from Carion's correspondence with Mela…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Panayotov Strahil V _Vacín Luděk Mesopotamian Medicine and Magic_ Studies in Honor of Markham J Geller Brill.txt",
+      "cite": "Panayotov Strahil V Vacín Luděk Mesopotamian Medicine and Magic Studies in Honor of Markham J Geller Brill",
+      "snippet": "…ofastronomical tables\"). In addition to cal- endrical texts and celestial divination, this manuscript contains a large section on geomancy as well.13 هذا المجموع اللطيف يشتمل على This is the precious collection that deals with the science of celestial signs (lit., ski…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "PhD Thesis Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts and Europ.txt",
+      "cite": "PhD Thesis Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts",
+      "snippet": "…ota Atheniensia in 1927. Delatte brought the magic of the Hygromanteia to public notice, as he also did for the Greek versions of geomancy. [Footnote: Skinner, Geomancy, pp. 42-44.] Of the Byzantine Greek Solomonic magical texts the Hygromanteia is the most numerous,…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts and European Grimoir.txt",
+      "cite": "Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts and Europe",
+      "snippet": "…ota Atheniensia in 1927. Delatte brought the magic of the Hygromanteia to public notice, as he also did for the Greek versions of geomancy. [Footnote: Skinner, Geomancy, pp. 42-44.] Of the Byzantine Greek Solomonic magical texts the Hygromanteia is the most numerous,…"
+    }
+  ],
+  "counts": {
+    "db": 5,
+    "corpus": 21
+  }
+}

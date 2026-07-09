@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About — The Vocabulary of Magic</title>
+<link rel="stylesheet" href="assets/styles.css">
+<style>
+  .prose{max-width:760px;margin:0 auto}
+  .prose h2{font-family:var(--serif);color:var(--gold);font-size:1.4rem;margin:1.6rem 0 .5rem}
+  .prose p{color:var(--ink);opacity:.92}
+  .prose li{margin:.3rem 0}
+  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.8rem;margin:1rem 0}
+  .step{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:.9rem}
+  .step b{color:var(--gold);font-family:var(--serif)}
+  .step span{display:block;color:var(--muted);font-size:.85rem;margin-top:.2rem}
+</style>
+</head>
+<body>
+<div class="hero" style="padding-bottom:.3rem"><h1>About the study</h1>
+  <div class="tag">A digital-humanities word study of the vocabulary of magic — its origins, etymology, and history.</div></div>
+<div class="wrap prose">
+  <p>Magic: The Gathering has, over thirty years, become one of the largest published fantasy corpora in
+  existence — tens of thousands of cards, each with a name, rules text, and a line or two of flavor. That
+  makes it an unusually rich place to ask a linguistic question: <em>what are all the words English uses for
+  magic, and how does a modern fantasy world deploy them?</em></p>
+
+  <h2>What we measure</h2>
+  <p>Every term is counted <b>morphologically</b> — <code>conjure, conjures, conjured, conjuring, conjurer,
+  conjuration</code> all collapse to one root, and the site shows you the spread of forms. Crucially, we split
+  two very different surfaces:</p>
+  <ul>
+    <li><b>Flavor text</b> — the word in the <em>story</em> of a card: natural, literary language.</li>
+    <li><b>Rules text</b> — the word as <em>game mechanic</em>: sometimes a formal keyword like <em>Scry</em> or <em>Ward</em>.</li>
+  </ul>
+  <p>The distance between those two numbers is the whole point. <em>Spell</em> and <em>transmute</em> are
+  almost purely mechanical; <em>mage</em>, <em>curse</em>, and <em>necromancer</em> are literary words the game
+  tells stories with. The <a href="insights.html">Insights</a> chart plots every term along exactly this axis.</p>
+
+  <h2>How it's built</h2>
+  <div class="steps">
+    <div class="step"><b>Fetch</b><span>One Scryfall bulk download of the whole corpus — never per-card scraping.</span></div>
+    <div class="step"><b>Normalize</b><span>Flatten to a tidy table: type line, oracle text, flavor text, images.</span></div>
+    <div class="step"><b>Analyze</b><span>A curated regex lexicon of ~120 magical roots, matched morphologically.</span></div>
+    <div class="step"><b>Illustrate</b><span>Gallery images pulled from Scryfall for every card with the term in its title.</span></div>
+  </div>
+  <p>The whole pipeline is reproducible from a single command; the lexicon is hand-curated and human-reviewable,
+  because deciding what counts as “a word for magic” is a scholarly judgement, not a statistical one.</p>
+
+  <h2>The seven families</h2>
+  <p><b>Practitioners</b> (wizard, shaman, necromancer) · <b>Acts</b> (conjure, hex, enchant) ·
+  <b>Divination</b> (scry, augur, the whole <em>-mancy</em> clan) · <b>Alchemy</b> (transmute, elixir, azoth) ·
+  <b>Qualities</b> (arcane, occult, numinous) · <b>Classical items</b> — deliberately <em>historical</em> magic,
+  not modern-fantasy coinage (talisman, sigil, phylactery, besom) · and <b>History of the book</b>
+  (grimoire, codex, incunabulum) — because the book is itself a magical object.</p>
+
+  <h2>Word Histories, grounded in the sources</h2>
+  <p>The corpus tells us <em>which</em> words matter and gives us illustrations; to say where each word came
+  from, the project draws on Ted's own <a href="histories.html">databases and PDF library</a> of medieval and
+  renaissance magic and alchemy. A research tool (<code>scripts/research.py</code>) searches those databases
+  (Renaissance definitions, MedievalMagicDB, the alchemy corpus) and the full-text scholarship — Klaassen,
+  Fanger, Yates, the <em>Picatrix</em>, Lyndy Abraham's <em>Dictionary of Alchemical Imagery</em> — and returns
+  a citable dossier for each term. Those become the <a href="histories.html">Word Histories</a>, and every term's
+  Etymology tab auto-surfaces what the scholarship says.</p>
+  <p><em>Phylactery</em> began as a Greek amulet and became a lich's soul-jar; <em>glamour</em> and <em>grimoire</em>
+  are both mutations of the word “grammar”; the <em>talisman</em> of a mana-rock is the astral device of the
+  <em>Picatrix</em>. Each is a page.</p>
+</div>
+<script src="assets/common.js"></script>
+<script>mountChrome("about.html");</script>
+</body>
+</html>

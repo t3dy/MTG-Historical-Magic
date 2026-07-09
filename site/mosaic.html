@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Whole Lexicon — The Vocabulary of Magic</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<div class="hero" style="padding-bottom:.4rem">
+  <h1>The Whole Lexicon</h1>
+  <div class="tag">Every magical term at once, grouped into its seven families and sized by how much Magic uses it. Hover for detail; click to open a term.</div>
+</div>
+<div class="wrap">
+  <div class="panel"><div id="mosaic" class="mosaic"></div></div>
+  <p class="note" style="text-align:center">Area ∝ total uses (flavor + rules + titled cards). Column width ∝ the family's total.</p>
+</div>
+<script src="assets/common.js"></script>
+<script>
+function shade(hex,i,n){ // lighten alternate cells for legibility
+  return `linear-gradient(0deg, ${hex} 0%, ${hex} 100%)`;
+}
+(async function(){
+  mountChrome("mosaic.html");
+  const idx=(await getJSON("data/terms_index.json")).terms;
+  const wt=t=>t.flavor_total+t.oracle_total+t.name_match_count+1;
+  const cats={}; idx.forEach(t=>{(cats[t.category]=cats[t.category]||[]).push(t);});
+  const host=document.getElementById("mosaic");
+  host.innerHTML=CAT_ORDER.filter(c=>cats[c]).map(cat=>{
+    const terms=cats[cat].sort((a,b)=>wt(b)-wt(a));
+    const csum=terms.reduce((a,t)=>a+wt(t),0);
+    const color=getComputedStyle(document.documentElement).getPropertyValue('--c-'+cat).trim();
+    const cells=terms.map((t,i)=>{
+      const op=(0.55+0.4*(1-i/Math.max(terms.length-1,1))).toFixed(2);
+      return `<a class="mcell" href="term.html?t=${t.slug}" style="flex:${wt(t)} 1 0;background:${color};opacity:${op}"
+        title="${esc(t.root)} — ${t.flavor_total} flavor, ${t.oracle_total} rules, ${t.name_match_count} cards"><span>${esc(t.root)}</span></a>`;
+    }).join("");
+    return `<div class="mcol" style="flex:${csum} 1 0">
+      <div class="head" style="background:${color}">${CATS[cat].label}</div>${cells}</div>`;
+  }).join("");
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atlas — The Vocabulary of Magic</title>
+<link rel="stylesheet" href="assets/styles.css">
+<style>
+  .catnav{display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;margin:1rem 0 0}
+  .catnav a{font-size:.85rem;padding:.3rem .7rem;border:1px solid var(--line);border-radius:99px}
+  td.root a{text-transform:capitalize;font-weight:600}
+  .kwtag{font-size:.66rem;color:var(--gold);border:1px solid var(--gold-dim);border-radius:99px;padding:0 .4rem;margin-left:.35rem}
+</style>
+</head>
+<body>
+<div class="hero" style="padding-bottom:.5rem">
+  <h1>The Atlas</h1>
+  <div class="tag">The full quantitative census — every magical root, by theme, with its flavor-text and rules-text frequency side by side.</div>
+  <div class="catnav" id="catnav"></div>
+</div>
+<div class="wrap" id="sections"></div>
+<script src="assets/common.js"></script>
+<script>
+(async function(){
+  mountChrome("atlas.html");
+  const counts=await getJSON("data/counts.json");
+  const byCat={}; counts.terms.forEach(t=>{(byCat[t.category]=byCat[t.category]||[]).push(t);});
+  const host=document.getElementById("sections"), nav=[];
+  CAT_ORDER.forEach(cat=>{
+    const terms=(byCat[cat]||[]).sort((a,b)=>b.flavor_total-a.flavor_total);
+    if(!terms.length) return;
+    const m=CATS[cat];
+    const flavorSum=terms.reduce((a,t)=>a+t.flavor_total,0);
+    nav.push(`<a href="#${cat}" style="color:${m.color}">${m.label}</a>`);
+    const rows=terms.map(t=>`<tr>
+      <td class="root"><a href="term.html?t=${t.root}">${esc(t.root)}</a>${t.is_keyword?'<span class="kwtag">kw</span>':''}
+        <div class="variants">${Object.entries(t.by_variant).slice(0,5).map(([v,c])=>`${esc(v)}·${c}`).join(", ")}</div></td>
+      <td class="gloss" style="color:var(--muted);font-style:italic;font-size:.85rem">${esc(t.gloss)}</td>
+      <td class="n">${t.flavor_total}</td>
+      <td class="n" style="color:var(--muted)">${t.oracle_total}</td></tr>`).join("");
+    host.insertAdjacentHTML("beforeend",`
+      <div class="panel" id="${cat}"><h2 class="sec">${m.glyph} ${m.label}
+        <small>${m.sub} · ${terms.length} roots · ${flavorSum} prose hits</small></h2>
+        <table><tr><th>Root</th><th>Sense</th><th style="text-align:right">Flavor</th><th style="text-align:right">Rules</th></tr>${rows}</table></div>`);
+  });
+  document.getElementById("catnav").innerHTML=nav.join("");
+})();
+</script>
+</body>
+</html>

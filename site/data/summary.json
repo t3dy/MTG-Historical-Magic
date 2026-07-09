@@ -1,0 +1,756 @@
+{
+  "cards_analyzed": 34629,
+  "top_subtypes": [
+    {
+      "subtype": "Human",
+      "count": 4801
+    },
+    {
+      "subtype": "Warrior",
+      "count": 1301
+    },
+    {
+      "subtype": "Aura",
+      "count": 1290
+    },
+    {
+      "subtype": "Wizard",
+      "count": 1288
+    },
+    {
+      "subtype": "Soldier",
+      "count": 1099
+    },
+    {
+      "subtype": "Spirit",
+      "count": 727
+    },
+    {
+      "subtype": "Elf",
+      "count": 713
+    },
+    {
+      "subtype": "Cleric",
+      "count": 709
+    },
+    {
+      "subtype": "Elemental",
+      "count": 681
+    },
+    {
+      "subtype": "Equipment",
+      "count": 651
+    },
+    {
+      "subtype": "Rogue",
+      "count": 636
+    },
+    {
+      "subtype": "Zombie",
+      "count": 632
+    },
+    {
+      "subtype": "Goblin",
+      "count": 561
+    },
+    {
+      "subtype": "Beast",
+      "count": 548
+    },
+    {
+      "subtype": "Knight",
+      "count": 544
+    },
+    {
+      "subtype": "Phyrexian",
+      "count": 508
+    },
+    {
+      "subtype": "Shaman",
+      "count": 504
+    },
+    {
+      "subtype": "Bird",
+      "count": 477
+    },
+    {
+      "subtype": "Dragon",
+      "count": 461
+    },
+    {
+      "subtype": "Vampire",
+      "count": 453
+    },
+    {
+      "subtype": "Druid",
+      "count": 414
+    },
+    {
+      "subtype": "Cat",
+      "count": 366
+    },
+    {
+      "subtype": "Horror",
+      "count": 353
+    },
+    {
+      "subtype": "Merfolk",
+      "count": 352
+    },
+    {
+      "subtype": "Artificer",
+      "count": 309
+    }
+  ],
+  "top_terms": [
+    {
+      "root": "mage",
+      "gloss": "a magic-worker; the magical",
+      "category": "profession",
+      "total": 499,
+      "oracle_total": 82,
+      "flavor_total": 417,
+      "by_variant": {
+        "magic": 258,
+        "mage": 135,
+        "mages": 61,
+        "magical": 38,
+        "magi": 4,
+        "magician": 2,
+        "magically": 1
+      },
+      "in_oracle_cards": 70,
+      "in_flavor_cards": 398,
+      "flavor_example_cards": [
+        "Reclamation Sage",
+        "Showstopper",
+        "Spell Blast",
+        "Bursting Beebles",
+        "Wings of Aesthir",
+        "Heated Debate",
+        "Rain of Rust",
+        "Zuran Orb"
+      ]
+    },
+    {
+      "root": "bless",
+      "gloss": "to sanctify / bring favour",
+      "category": "act",
+      "total": 200,
+      "oracle_total": 74,
+      "flavor_total": 126,
+      "by_variant": {
+        "blessing": 109,
+        "blessed": 60,
+        "blessings": 21,
+        "bless": 8,
+        "blesses": 2
+      },
+      "in_oracle_cards": 41,
+      "in_flavor_cards": 123,
+      "flavor_example_cards": [
+        "Soul's Attendant",
+        "Natural End",
+        "Avacyn's Pilgrim",
+        "Pharika's Cure",
+        "Seraph of New Capenna // Seraph of New Phyrexia",
+        "Bark-Knuckle Boxer",
+        "Gravecrawler",
+        "Identity Crisis"
+      ]
+    },
+    {
+      "root": "wizard",
+      "gloss": "a worker of learned magic",
+      "category": "profession",
+      "total": 276,
+      "oracle_total": 170,
+      "flavor_total": 106,
+      "by_variant": {
+        "wizard": 212,
+        "wizards": 62,
+        "wizardry": 2
+      },
+      "in_oracle_cards": 149,
+      "in_flavor_cards": 100,
+      "flavor_example_cards": [
+        "Patchwork Gnomes",
+        "Angelic Shield",
+        "Sideswipe",
+        "Brightstone Ritual",
+        "Dark Banishing",
+        "Zzzyxas's Abyss",
+        "Owlbear",
+        "Vertigo"
+      ]
+    },
+    {
+      "root": "spell",
+      "gloss": "a formula of magical words",
+      "category": "act",
+      "total": 8299,
+      "oracle_total": 8202,
+      "flavor_total": 97,
+      "by_variant": {
+        "spell": 6851,
+        "spells": 1444,
+        "spellcasters": 2,
+        "spellcasting": 2
+      },
+      "in_oracle_cards": 6349,
+      "in_flavor_cards": 93,
+      "flavor_example_cards": [
+        "Sensory Deprivation",
+        "Pongify",
+        "Nucklavee",
+        "Auriok Transfixer",
+        "Firefist Adept",
+        "Yukora, the Prisoner",
+        "Dredge the Mire",
+        "Polluted Bonds"
+      ]
+    },
+    {
+      "root": "druid",
+      "gloss": "a nature-priest",
+      "category": "profession",
+      "total": 108,
+      "oracle_total": 20,
+      "flavor_total": 88,
+      "by_variant": {
+        "druid": 79,
+        "druids": 29
+      },
+      "in_oracle_cards": 18,
+      "in_flavor_cards": 86,
+      "flavor_example_cards": [
+        "Terrus Wurm",
+        "Kaysa",
+        "Spellwild Ouphe",
+        "Ground Seal",
+        "Krosan Wayfarer",
+        "Circle of Dreams Druid",
+        "Fang Guardian",
+        "Krosan Druid"
+      ]
+    },
+    {
+      "root": "curse",
+      "gloss": "a malediction",
+      "category": "act",
+      "total": 102,
+      "oracle_total": 27,
+      "flavor_total": 75,
+      "by_variant": {
+        "curse": 61,
+        "cursed": 28,
+        "curses": 10,
+        "cursing": 3
+      },
+      "in_oracle_cards": 22,
+      "in_flavor_cards": 72,
+      "flavor_example_cards": [
+        "South Wind Avatar",
+        "Hero's Downfall",
+        "Tattered Mummy",
+        "Mystic Decree",
+        "Crovax, Ascendant Hero",
+        "Tree of Perdition",
+        "Damping Matrix",
+        "Sigardian Savior"
+      ]
+    },
+    {
+      "root": "shaman",
+      "gloss": "a spirit-mediating healer",
+      "category": "profession",
+      "total": 90,
+      "oracle_total": 19,
+      "flavor_total": 71,
+      "by_variant": {
+        "shaman": 64,
+        "shamans": 23,
+        "shamanic": 3
+      },
+      "in_oracle_cards": 18,
+      "in_flavor_cards": 70,
+      "flavor_example_cards": [
+        "Ogre Shaman",
+        "Sideswipe",
+        "Orochi Leafcaller",
+        "Sachi, Daughter of Seshiro",
+        "Primal Forcemage",
+        "Oxidize",
+        "Skylasher",
+        "Akki Blizzard-Herder"
+      ]
+    },
+    {
+      "root": "necromancer",
+      "gloss": "a raiser of the dead",
+      "category": "profession",
+      "total": 55,
+      "oracle_total": 2,
+      "flavor_total": 53,
+      "by_variant": {
+        "necromancer": 32,
+        "necromancers": 11,
+        "necromancy": 9,
+        "necromantic": 3
+      },
+      "in_oracle_cards": 2,
+      "in_flavor_cards": 51,
+      "flavor_example_cards": [
+        "Refurbished Familiar",
+        "Minotaur Abomination",
+        "Cemetery Recruitment",
+        "Doomed Necromancer",
+        "Undead Minotaur",
+        "Chilling Shade",
+        "Dungeon Crawler",
+        "Stir the Grave"
+      ]
+    },
+    {
+      "root": "summon",
+      "gloss": "to call a being into presence",
+      "category": "act",
+      "total": 77,
+      "oracle_total": 27,
+      "flavor_total": 50,
+      "by_variant": {
+        "summoning": 28,
+        "summon": 16,
+        "summoner": 15,
+        "summoned": 10,
+        "summons": 7,
+        "summoners": 1
+      },
+      "in_oracle_cards": 26,
+      "in_flavor_cards": 50,
+      "flavor_example_cards": [
+        "Phantasmal Forces",
+        "Vastwood Animist",
+        "Peregrine Drake",
+        "Rydia's Return",
+        "Demonic Rising",
+        "Xorn",
+        "Skulltap",
+        "Gnarled Mass"
+      ]
+    },
+    {
+      "root": "witch",
+      "gloss": "a practitioner of witchcraft",
+      "category": "profession",
+      "total": 59,
+      "oracle_total": 13,
+      "flavor_total": 46,
+      "by_variant": {
+        "witch": 47,
+        "witches": 11,
+        "witchcraft": 1
+      },
+      "in_oracle_cards": 10,
+      "in_flavor_cards": 45,
+      "flavor_example_cards": [
+        "Wanda's Vision",
+        "Cursed Courtier",
+        "Ardent Elementalist",
+        "Hex Magic",
+        "Bog Initiate",
+        "Might of the Old Ways",
+        "Eerie Interference",
+        "Addle"
+      ]
+    },
+    {
+      "root": "haunt",
+      "gloss": "to be troubled by a spirit",
+      "category": "act",
+      "total": 83,
+      "oracle_total": 42,
+      "flavor_total": 41,
+      "by_variant": {
+        "haunt": 27,
+        "haunting": 22,
+        "haunted": 21,
+        "haunts": 13
+      },
+      "in_oracle_cards": 18,
+      "in_flavor_cards": 41,
+      "flavor_example_cards": [
+        "Shizo, Death's Storehouse",
+        "Natural End",
+        "Tree of Perdition",
+        "Cloak of Mists",
+        "Ruin Ghost",
+        "Karn",
+        "Glass Asp",
+        "Maeve, Insidious Singer"
+      ]
+    },
+    {
+      "root": "possess",
+      "gloss": "to inhabit/seize a body",
+      "category": "act",
+      "total": 40,
+      "oracle_total": 2,
+      "flavor_total": 38,
+      "by_variant": {
+        "possess": 15,
+        "possessed": 8,
+        "possession": 5,
+        "possessions": 5,
+        "possesses": 4,
+        "possessing": 3
+      },
+      "in_oracle_cards": 2,
+      "in_flavor_cards": 38,
+      "flavor_example_cards": [
+        "Maritime Guard",
+        "Due Respect",
+        "Hapless Researcher",
+        "Crafty Cutpurse",
+        "Infernal Captor",
+        "The Vision and Scarlet Witch",
+        "Carnivorous Plant",
+        "Virtuous Charge"
+      ]
+    },
+    {
+      "root": "oracle",
+      "gloss": "a mouthpiece of prophecy",
+      "category": "divination",
+      "total": 38,
+      "oracle_total": 4,
+      "flavor_total": 34,
+      "by_variant": {
+        "oracle": 32,
+        "oracles": 6
+      },
+      "in_oracle_cards": 3,
+      "in_flavor_cards": 34,
+      "flavor_example_cards": [
+        "Ranger en-Vec",
+        "Wasteland",
+        "Boulderfall",
+        "Rageblood Shaman",
+        "Archetype of Aggression",
+        "Magma Jet",
+        "Fanatical Devotion",
+        "Krakilin"
+      ]
+    },
+    {
+      "root": "mystic",
+      "gloss": "of hidden spiritual truth",
+      "category": "quality",
+      "total": 39,
+      "oracle_total": 6,
+      "flavor_total": 33,
+      "by_variant": {
+        "mystic": 24,
+        "mystical": 10,
+        "mystics": 5
+      },
+      "in_oracle_cards": 6,
+      "in_flavor_cards": 32,
+      "flavor_example_cards": [
+        "Funeral Pyre",
+        "Hedron Crawler",
+        "Polluted Bonds",
+        "Archon of the Wild Rose",
+        "Chilling Shade",
+        "Graceblade Artisan",
+        "Manaforge Cinder",
+        "Patchwork Banner"
+      ]
+    },
+    {
+      "root": "divine",
+      "gloss": "to foretell the hidden",
+      "category": "divination",
+      "total": 41,
+      "oracle_total": 10,
+      "flavor_total": 31,
+      "by_variant": {
+        "divine": 33,
+        "divining": 4,
+        "divination": 3,
+        "divined": 1
+      },
+      "in_oracle_cards": 7,
+      "in_flavor_cards": 31,
+      "flavor_example_cards": [
+        "Contagious Nim",
+        "Courier of Comestibles",
+        "Dawnglare Invoker",
+        "Serra Disciple",
+        "Sky Diamond",
+        "Divine Transformation",
+        "Soothsayer Adept",
+        "Sacred Boon"
+      ]
+    },
+    {
+      "root": "sorcerer",
+      "gloss": "a wielder of sorcery",
+      "category": "profession",
+      "total": 2322,
+      "oracle_total": 2292,
+      "flavor_total": 30,
+      "by_variant": {
+        "sorcery": 2284,
+        "sorcerer": 22,
+        "sorcerous": 6,
+        "sorcerers": 4,
+        "sorceries": 4,
+        "sorceress": 2
+      },
+      "in_oracle_cards": 2052,
+      "in_flavor_cards": 30,
+      "flavor_example_cards": [
+        "Krovikan Sorcerer",
+        "Mystic Decree",
+        "Wandering Stream",
+        "Bind",
+        "Glint",
+        "Sunastian Falconer",
+        "Flaring Flame-Kin",
+        "Arcane Flight"
+      ]
+    },
+    {
+      "root": "cleric",
+      "gloss": "a divine spellcaster",
+      "category": "profession",
+      "total": 138,
+      "oracle_total": 112,
+      "flavor_total": 26,
+      "by_variant": {
+        "cleric": 115,
+        "clerics": 23
+      },
+      "in_oracle_cards": 102,
+      "in_flavor_cards": 25,
+      "flavor_example_cards": [
+        "Master Apothecary",
+        "Leonin Abunas",
+        "Gangrenous Goliath",
+        "Cosi's Ravager",
+        "Fatal Mutation",
+        "Breath of Life",
+        "Meeting of Minds",
+        "Wax-Wane Witness"
+      ]
+    },
+    {
+      "root": "alchemy",
+      "gloss": "the art of transformation",
+      "category": "alchemy",
+      "total": 29,
+      "oracle_total": 3,
+      "flavor_total": 26,
+      "by_variant": {
+        "alchemist": 22,
+        "alchemists": 6,
+        "alchemy": 1
+      },
+      "in_oracle_cards": 3,
+      "in_flavor_cards": 26,
+      "flavor_example_cards": [
+        "Makeshift Mauler",
+        "Leeches",
+        "Geistwave",
+        "Narstad Scrapper",
+        "Laboratory Drudge",
+        "Thirst for Discovery",
+        "Whimwader",
+        "Bone to Ash"
+      ]
+    },
+    {
+      "root": "seer",
+      "gloss": "one who sees the hidden",
+      "category": "divination",
+      "total": 23,
+      "oracle_total": 0,
+      "flavor_total": 23,
+      "by_variant": {
+        "seer": 21,
+        "seers": 2
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 23,
+      "flavor_example_cards": [
+        "Wildest Dreams",
+        "Artisan's Sorrow",
+        "Godhead of Awe",
+        "Divinity of Pride",
+        "Reckless Assault",
+        "Ornithopter of Paradise",
+        "Nobilis of War",
+        "Overbeing of Myth"
+      ]
+    },
+    {
+      "root": "ward",
+      "gloss": "a protective magical guard",
+      "category": "act",
+      "total": 361,
+      "oracle_total": 339,
+      "flavor_total": 22,
+      "by_variant": {
+        "ward": 349,
+        "wards": 12
+      },
+      "in_oracle_cards": 322,
+      "in_flavor_cards": 22,
+      "flavor_example_cards": [
+        "Burrenton Bombardier",
+        "Saiba Cryptomancer",
+        "Bar the Door",
+        "Builder's Blessing",
+        "Scorchwalker",
+        "Barrier Breach",
+        "Treefolk Mystic",
+        "Relic Runner"
+      ]
+    },
+    {
+      "root": "chant",
+      "gloss": "rhythmic ritual utterance",
+      "category": "act",
+      "total": 25,
+      "oracle_total": 3,
+      "flavor_total": 22,
+      "by_variant": {
+        "chant": 19,
+        "chanting": 4,
+        "chants": 1,
+        "chanted": 1
+      },
+      "in_oracle_cards": 3,
+      "in_flavor_cards": 22,
+      "flavor_example_cards": [
+        "Cryptolith Rite",
+        "Gravecrawler",
+        "Needlebug",
+        "Soltari Crusader",
+        "Painwracker Oni",
+        "Frazzle",
+        "Dosan's Oldest Chant",
+        "Ripclaw Wrangler"
+      ]
+    },
+    {
+      "root": "arcane",
+      "gloss": "hidden/secret magical knowledge",
+      "category": "quality",
+      "total": 145,
+      "oracle_total": 124,
+      "flavor_total": 21,
+      "by_variant": {
+        "arcane": 140,
+        "arcanum": 4,
+        "arcana": 1
+      },
+      "in_oracle_cards": 96,
+      "in_flavor_cards": 21,
+      "flavor_example_cards": [
+        "Cinderheart Giant",
+        "Prodigal Pyromancer",
+        "Seat of the Synod",
+        "Dark Ritual",
+        "Spellgorger Weird",
+        "Scroll Thief",
+        "Jodah, Archmage Eternal",
+        "Vodalian Mage"
+      ]
+    },
+    {
+      "root": "omen",
+      "gloss": "a portent",
+      "category": "divination",
+      "total": 41,
+      "oracle_total": 20,
+      "flavor_total": 21,
+      "by_variant": {
+        "omen": 20,
+        "ominous": 12,
+        "omens": 9
+      },
+      "in_oracle_cards": 10,
+      "in_flavor_cards": 21,
+      "flavor_example_cards": [
+        "Strategic Planning",
+        "Meteor Storm",
+        "Illuminated Folio",
+        "Magma Jet",
+        "Wavebreak Hippocamp",
+        "Winged Portent",
+        "Nimbus of the Isles",
+        "Flameborn Hellion"
+      ]
+    },
+    {
+      "root": "scroll",
+      "gloss": "a rolled manuscript",
+      "category": "book",
+      "total": 29,
+      "oracle_total": 8,
+      "flavor_total": 21,
+      "by_variant": {
+        "scroll": 21,
+        "scrolls": 8
+      },
+      "in_oracle_cards": 4,
+      "in_flavor_cards": 20,
+      "flavor_example_cards": [
+        "Brawn",
+        "Auriok Transfixer",
+        "Wonder",
+        "Ardent Dustspeaker",
+        "Glory",
+        "Krosan Grip",
+        "Quiet Purity",
+        "Filth"
+      ]
+    },
+    {
+      "root": "rune",
+      "gloss": "a letter of magical power",
+      "category": "item",
+      "total": 27,
+      "oracle_total": 8,
+      "flavor_total": 19,
+      "by_variant": {
+        "rune": 13,
+        "runes": 11,
+        "runic": 3
+      },
+      "in_oracle_cards": 6,
+      "in_flavor_cards": 18,
+      "flavor_example_cards": [
+        "Graven Lore",
+        "Runed Stalactite",
+        "Ayula's Influence",
+        "Raven Wings",
+        "Skinbrand Goblin",
+        "Ascended Lawmage",
+        "Hengegate Pathway // Mistgate Pathway",
+        "Sigiled Skink"
+      ]
+    }
+  ],
+  "by_category": {
+    "profession": 3605,
+    "act": 15129,
+    "divination": 748,
+    "quality": 206,
+    "alchemy": 100,
+    "book": 68,
+    "item": 90
+  }
+}

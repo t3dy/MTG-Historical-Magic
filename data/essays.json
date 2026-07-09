@@ -1,0 +1,154 @@
+{
+  "_about": "Word Histories — flagship long-form pages on a term's origin, etymology, and historical usage. Grounded in Ted's databases + PDF library via scripts/research.py (see docs/RESEARCH_METHOD.md). Each 'sources' entry cites a real work surfaced in data/research/<slug>.json — verify against the source before quoting. Rendered in the 'Word History' tab + histories.html. (File name kept as essays.json for pipeline stability.)",
+  "essays": {
+    "theurgy": {
+      "title": "Theurgy: the high magic that worked on the gods",
+      "dek": "Greek 'god-working' — the sacramental magic of Iamblichus and Proclus, and the alibi that made a thousand years of learned magic respectable.",
+      "read_min": 3,
+      "html": "<p><strong>Theurgy</strong> — Greek <em>theourgia</em>, 'god-working' (<em>theos</em> + <em>-ergon</em>) — was the highest magic the ancient world knew: not the commanding of spirits but the sacramental ritual by which the later Neoplatonists, Iamblichus and Proclus, sought to purify the soul and ascend toward union with the divine. The RenaissanceMagicDB glosses it as 'the system of ritual practices… through which the soul achieves communion with the divine,' and sets it at the opposite pole from <a href=\"term.html?t=goetia\">goetia</a>, the low magic of coercing demons.</p><p>What keeps theurgy a live word rather than a museum piece is that this high/low split became the central defense of learned magic for a thousand years. Claire Fanger's <em>Invoking Angels</em> and Sophie Page's <em>Magic in the Cloister</em> show medieval monks adopting the <em>theurgic</em> frame — <em>we are not conjuring demons, we are working piously toward God</em> — to make angel-magic defensible. Michael Bailey's <em>The Sacred and the Sinister</em> maps exactly where the authorities drew, and redrew, that line.</p><p>Magic: The Gathering has no theurgy keyword, and the corpus shows it as a rare, literary word — which is the point. The distinction between holy and unholy magic, so central to real history, mostly dissolves in a game where all five colors cast freely. Theurgy is the word for the boundary the game erased.</p>",
+      "sources": [
+        {"label": "RenaissanceMagicDB, s.vv. theurgia, theurgic, nous, goetia", "where": "RenaissanceMagicDB"},
+        {"label": "Claire Fanger, Invoking Angels: Theurgic Ideas and Practices, 13th–16th Centuries", "where": "Medieval magic (PDF)"},
+        {"label": "Sophie Page, Magic in the Cloister", "where": "Medieval magic (PDF)"},
+        {"label": "Michael D. Bailey et al., The Sacred and the Sinister", "where": "Medieval magic (PDF)"},
+        {"label": "Etymonline, s.v. theurgy (‹ Greek theourgia)", "where": "Etymology reference"}
+      ]
+    },
+    "goetia": {
+      "title": "Goetia: the sorcerer who howls",
+      "dek": "The shadow twin of theurgy — low magic, demon-commanding, named for the howl of the charm.",
+      "read_min": 3,
+      "html": "<p><strong>Goetia</strong> — Greek <em>goēteia</em>, from <em>goēs</em>, 'a sorcerer who howls charms' — is the shadow twin of <a href=\"term.html?t=theurgy\">theurgy</a>. Where theurgy purifies the soul, goetia coerces spirits; the RenaissanceMagicDB places it 'at the lowest and most disreputable' rung of the magical ladder, 'the practice of summoning and commanding demons.' The howling root marks it, from the start, as ritual noise-magic — the opposite of philosophy.</p><p>Its monument survives in the corpus in Joseph Peterson's edition of the <em>Lesser Key of Solomon</em>, whose first book, the <em>Ars Goetia</em>, catalogues seventy-two demons with their seals and offices — the direct ancestor of every fantasy 'bestiary of the damned.' Richard Kieckhefer's <em>Magic in the Middle Ages</em> and Frank Klaassen's <em>Transformations of Magic</em> trace how such conjuring-books circulated as the definitionally illicit craft — the very thing 'necromancy' had come to mean.</p><p>Magic: The Gathering built the demons of the <em>Ars Goetia</em> into its infernal pacts long before the word became a subculture. But the etymology keeps the older, stranger sense alive: goetia is not sophistication. It is a person howling the right words at the dark.</p>",
+      "sources": [
+        {"label": "RenaissanceMagicDB, s.vv. goetia, evocatio", "where": "RenaissanceMagicDB"},
+        {"label": "Joseph H. Peterson (ed.), The Lesser Key of Solomon (Ars Goetia)", "where": "Medieval magic (PDF)"},
+        {"label": "Richard Kieckhefer, Magic in the Middle Ages (Canto Classics)", "where": "Medieval magic (PDF)"},
+        {"label": "Frank Klaassen, The Transformations of Magic", "where": "Medieval magic (PDF)"},
+        {"label": "Etymonline, s.v. goety (‹ Greek goēteia)", "where": "Etymology reference"}
+      ]
+    },
+    "exorcism": {
+      "title": "Exorcism: casting out by a stronger oath",
+      "dek": "You don't expel a demon by force — you bind it out with a superior oath. The method is in the name.",
+      "read_min": 3,
+      "html": "<p><strong>Exorcism</strong> — Greek <em>exorkismos</em>, 'a binding-out by oath' (<em>ex-</em> + <em>horkos</em>, 'oath') — reveals its method in its name. You do not expel a demon by force; you bind it out with a stronger oath, invoking a higher authority. The RenaissanceMagicDB defines the Latin <em>exorcismus</em> as 'the ritual expulsion of demonic entities… through the invocation of divine authority.'</p><p>In practice, as Frank Klaassen's <em>The Transformations of Magic</em> and Michael Bailey's <em>The Sacred and the Sinister</em> show, exorcism sat uneasily on the border between sanctioned Church rite and illicit conjuring: the same words that cast a demon out could, in the wrong hands, call one up. The grimoires Joseph Peterson edits — the <em>Grimorium Verum</em>, the <em>Book of Magic</em> — freely mix the two. The exorcist and the conjurer were often reading from the same page.</p><p>The word's oath-logic binds it to <a href=\"term.html?t=conjure\">conjure</a> and <a href=\"term.html?t=abjure\">abjure</a> — magic as a courtroom of promises made and unmade. In Magic: The Gathering the drama survives as flavor; the deep structure — that authority is a kind of stronger swearing — is pure medieval law.</p>",
+      "sources": [
+        {"label": "RenaissanceMagicDB, s.v. exorcismus", "where": "RenaissanceMagicDB"},
+        {"label": "Frank Klaassen, The Transformations of Magic", "where": "Medieval magic (PDF)"},
+        {"label": "Michael D. Bailey et al., The Sacred and the Sinister", "where": "Medieval magic (PDF)"},
+        {"label": "Joseph H. Peterson (ed.), Grimorium Verum; Book of Magic", "where": "Medieval magic (PDF)"},
+        {"label": "Etymonline, s.v. exorcism (‹ Greek exorkizein)", "where": "Etymology reference"}
+      ]
+    },
+    "conjure": {
+      "title": "Conjure: every conjuration is a contract",
+      "dek": "From Latin 'to swear together' — the same root as conspire and jury. To conjure a spirit was to bind it by oath.",
+      "read_min": 3,
+      "html": "<p><strong>Conjure</strong> comes from Latin <em>coniurare</em>, 'to swear together' (<em>con-</em> + <em>iurare</em>) — the same root as <em>conspire</em> and <em>jury</em>. To conjure a spirit was to bind it by a shared oath: a legal contract with the supernatural. The medieval conjuring-texts the corpus preserves are, quite literally, books of such oaths.</p><p>Richard Kieckhefer's <em>Magic in the Middle Ages</em> and Frank Klaassen's studies of 'illicit learned magic' (<em>The Transformations of Magic</em>; <em>Making Magic in Elizabethan England</em>) show conjuration as the core craft of the clerical underworld — the necromantic manuals and the <em>ars notoria</em> catalogued by Klaassen and Claire Fanger, in which a trained cleric compels angels or demons with the correct formula. The <em>Picatrix</em> (Attrell &amp; Porreca) supplies the astrological machinery; the ritual side is all binding and adjuration.</p><p>Magic: The Gathering's Alchemy format revived 'conjure' as a keyword action — to create a named card out of nothing — which is, charmingly, the etymology reversed: not binding a spirit by oath, but simply speaking a thing into being. The word has come full circle, from contract to pure creation.</p>",
+      "sources": [
+        {"label": "Richard Kieckhefer, Magic in the Middle Ages", "where": "Medieval magic (PDF)"},
+        {"label": "Frank Klaassen, The Transformations of Magic; Making Magic in Elizabethan England", "where": "Medieval magic (PDF)"},
+        {"label": "Claire Fanger, Invoking Angels; Rewriting Magic", "where": "Medieval magic (PDF)"},
+        {"label": "Dan Attrell & David Porreca (trans.), Picatrix", "where": "Medieval magic (PDF)"},
+        {"label": "Etymonline, s.v. conjure (‹ Latin coniurare)", "where": "Etymology reference"}
+      ]
+    },
+    "pentacle": {
+      "title": "Pentacle: a printed circuit of holy names",
+      "dek": "Not the five-pointed star (that's the pentagram) but the whole charged object — the magician's interface with the powers.",
+      "read_min": 3,
+      "html": "<p><strong>Pentacle</strong> — Medieval Latin <em>pentaculum</em>, on Greek <em>pente</em>, 'five' — is not, strictly, the five-pointed star (that is the <em>pentagram</em>); it is the whole charged object. The RenaissanceMagicDB defines <em>pentaculum</em> precisely: 'a disc or plate — of metal, parchment, or wax — inscribed with protective and operative symbols, divine names,' worn or wielded during ritual.</p><p>The pentacle is a working tool of the Solomonic tradition the corpus documents in detail: the pentacles of the <em>Key of Solomon</em> and Joseph Peterson's <em>Grimorium Verum</em>; the sigils and figures Frank Klaassen edits in <em>Making Magic in Elizabethan England</em> and analyses in <em>The Transformations of Magic</em>; the elaborate diagrams of Skinner's <em>Ars Notoria</em>. Each pentacle is a compressed spell — divine names and <a href=\"term.html?t=sigil\">characteres</a> arranged to protect the magician or compel a spirit.</p><p>Modern usage flattened the pentacle into a spooky decoration, but its history is engineering: it is the interface between the magician and the powers, a printed circuit of holy names. Magic: The Gathering's talismans and seals are its distant, humming descendants.</p>",
+      "sources": [
+        {"label": "RenaissanceMagicDB, s.v. pentaculum", "where": "RenaissanceMagicDB"},
+        {"label": "Joseph H. Peterson (ed.), Grimorium Verum; Key of Solomon", "where": "Medieval magic (PDF)"},
+        {"label": "Frank Klaassen, Making Magic in Elizabethan England; The Transformations of Magic", "where": "Medieval magic (PDF)"},
+        {"label": "Stephen Skinner & Daniel Clark (eds.), Ars Notoria", "where": "Medieval magic (PDF)"},
+        {"label": "Etymonline, s.v. pentacle (‹ med.L. pentaculum)", "where": "Etymology reference"}
+      ]
+    },
+    "grimoire": {
+      "title": "Grimoire: the spell-book that was only ever a grammar",
+      "dek": "How a word for a Latin textbook became the name of Europe's forbidden books of magic.",
+      "read_min": 4,
+      "html": "<p>The etymology is almost too neat to be true, and yet it is: <strong>grimoire</strong> is a French deformation of <em>grammaire</em>, 'grammar' — Greek <em>grammatikē</em>, 'the art of letters,' by way of Latin. In an age when literacy was rare and Latin was the shared tongue of the Church and of learned magic alike, a book of arcane learning and a book of grammar looked like the same dangerous thing. 'Grammar' grew a shadow-sense of <em>occult knowledge</em>, and the mispronounced grammar-book became the spell-book. (Its Scots cousin, along the very same path, became <a href=\"term.html?t=glamour\">glamour</a>.)</p><p>But a grimoire was never merely a metaphor; it was a real and specific kind of object, and Ted's medieval-magic library is full of them. Frank Klaassen, in <em>The Transformations of Magic</em>, distinguishes the two great streams of late-medieval learned magic — the image-and-astrology magic descending from the Arabic <em>Picatrix</em>, and the ritual 'necromancy' of conjuring texts — and shows how both were copied, hidden, and recopied in exactly these books. The RenaissanceMagicDB catalogues their contents as technical terms: the <em>pentaculum</em>, the <em>exorcismus</em>, the <em>ligatura</em> or binding, the <em>characteres</em> inscribed to compel a spirit.</p><p>The surviving grimoires named in the corpus read like the game's own flavor text made real: Joseph Peterson's editions of the <em>Grimorium Verum</em> and the <em>Lesser Key of Solomon</em>; the <em>Ars Notoria</em>, a grimoire that promised, like an MTG card, the instant infusion of knowledge; the conjuring manuals catalogued by Klaassen and by Sophie Page and Catherine Rider in <em>The Routledge History of Medieval Magic</em>. Even John Dee's angelic project, as Deborah Harkness shows in <em>John Dee's Conversations with Angels</em>, was in the end the making of a very learned grammar of the language of angels.</p><p>So the word remembers its own history exactly. A grimoire is a grammar — a book that teaches you to <em>read</em> a hidden language and, in reading it aloud, to act. The suspicion fossilised in the word is the whole medieval anxiety about who gets to hold a book.</p>",
+      "sources": [
+        {"label": "Frank Klaassen, The Transformations of Magic: Illicit Learned Magic in the Later Middle Ages and Renaissance", "where": "Medieval magic (PDF)"},
+        {"label": "Joseph H. Peterson (ed.), Grimorium Verum; The Lesser Key of Solomon", "where": "Medieval magic (PDF)"},
+        {"label": "Sophie Page & Catherine Rider (eds.), The Routledge History of Medieval Magic", "where": "Medieval magic (PDF)"},
+        {"label": "Deborah E. Harkness, John Dee's Conversations with Angels", "where": "Renaissance magic (PDF)"},
+        {"label": "RenaissanceMagicDB, s.vv. pentaculum, exorcismus, ligatura, characteres", "where": "RenaissanceMagicDB"},
+        {"label": "Etymonline / OED, s.v. grimoire (‹ grammaire ‹ grammar)", "where": "Etymology reference"}
+      ]
+    },
+    "talisman": {
+      "title": "Talisman: the made object, and the art of drawing down a star",
+      "dek": "From Greek 'consecration' through the Arabic Picatrix to Ficino's star-magic — the talisman is technology, not superstition.",
+      "read_min": 5,
+      "html": "<p>A <strong>talisman</strong> is, by the root, a <em>finished</em> thing. The word comes through Arabic <em>ṭilsam</em> from Byzantine Greek <em>telesma</em>, 'consecration, completion,' from <em>telein</em>, 'to complete, to consecrate.' That distinguishes it precisely from the <a href=\"term.html?t=amulet\">amulet</a>, which merely protects: a talisman is <em>made</em> powerful by ritual, deliberately charged, engineered. It is the closest the pre-modern world came to a manufactured magical device.</p><p>The engineering manual survives, and it sits in Ted's library. The <em>Picatrix</em> — Arabic <em>Ghāyat al-Ḥakīm</em>, 'the Goal of the Wise,' a 10th–11th-century compendium translated in Dan Attrell and David Porreca's edition — is essentially a talisman-maker's handbook: how to capture celestial <em>spiritus</em> in matter by choosing the right moment and the right material. The RenaissanceMagicDB preserves that technical vocabulary in Latin: the <em>electio</em>, the astrological <em>election</em> of the favourable hour; the <em>lamina</em>, the thin planetary metal-plate (gold for the Sun, silver for the Moon); the <em>characteres</em> inscribed to seize the power; the whole apparatus of <em>dignitas</em> and <em>exaltatio</em> that decides when a star is strong enough to draw down.</p><p>This is a real intellectual tradition with a pedigree, not folk superstition. Thābit ibn Qurra's <em>De Imaginibus</em> (in John Michael Greer's translation) gave the Latin West its theory of astral images; Marsilio Ficino, in the third book of his <em>De vita</em>, turned talisman-making into respectable Neoplatonic philosophy, capturing the <em>spiritus mundi</em> — the same <a href=\"term.html?t=hermetic\">Hermetic</a> world-soul the RenaissanceMagicDB glosses under <em>anima mundi</em>. Frank Klaassen's <em>Making Magic in Elizabethan England</em> shows the practice alive and vernacular a century later, and John Dee's <em>Sigillum Dei Aemeth</em> — a great circular talisman built from angelic dictation — is its baroque masterpiece.</p><p>Magic: The Gathering knows the talisman mainly as a mana-rock — a made object that channels power — which is, remarkably, the exact ancient idea: a consecrated device for drawing energy from the cosmos into your hand. The card mechanic and the <em>Picatrix</em> agree on what a talisman is <em>for</em>.</p>",
+      "sources": [
+        {"label": "Dan Attrell & David Porreca (trans.), Picatrix: A Medieval Treatise on Astral Magic", "where": "Medieval magic (PDF)"},
+        {"label": "John Michael Greer (trans.), De Imaginibus: Thābit ibn Qurra's Astral High Magic", "where": "Medieval magic (PDF)"},
+        {"label": "Frank Klaassen, Making Magic in Elizabethan England", "where": "Medieval magic (PDF)"},
+        {"label": "RenaissanceMagicDB, s.vv. electio, lamina, characteres, anima mundi, sigillum dei aemeth", "where": "RenaissanceMagicDB"},
+        {"label": "Marsilio Ficino, De vita coelitus comparanda (via Copenhaver; Yates, Giordano Bruno and the Hermetic Tradition)", "where": "Renaissance magic (PDF)"},
+        {"label": "Etymonline / OED, s.v. talisman (‹ Arabic ṭilsam ‹ Greek telesma)", "where": "Etymology reference"}
+      ]
+    },
+    "necromancer": {
+      "title": "Necromancer: how death-divination became the black arts",
+      "dek": "A single mistaken vowel turned a diviner who listens to the dead into a sorcerer who commands them.",
+      "read_min": 3,
+      "html": "<p>A <strong>necromancer</strong>, to a Greek, was not someone who raised the dead to fight for them. The word is <em>nekromanteia</em> — <em>nekros</em>, 'corpse,' plus <em>manteia</em>, 'divination.' It named a specific ancient practice: summoning the spirits of the dead not as servants but as <em>informants</em>. Odysseus performs it in <em>Odyssey</em> XI, digging a pit of blood so the shades will speak. It belongs, properly, with <a href=\"atlas.html#divination\">divination</a> — with scrying and augury — not with armies of the dead.</p><p>So how did the necromancer become the corpse-puppeteer of modern fantasy? Partly through a spelling accident, and Ted's databases document the drift. Medieval Latin, uneasy with the Greek, reshaped <em>necromantia</em> into <strong>nigromantia</strong> — as if from <em>niger</em>, 'black.' Death-divination was folk-etymologised into 'the black arts.' The RenaissanceMagicDB entry for <em>necromantia</em> preserves the original sense exactly — 'summoning or consulting the spirits of the dead to obtain hidden knowledge' — while Frank Klaassen's <em>The Transformations of Magic</em> and Claire Fanger's studies of ritual magic (<em>Invoking Angels</em>; <em>Rewriting Magic</em>) trace how the learned conjuring of spirits was recast, by hostile authorities, as the blackest of the illicit arts. Michael Bailey's <em>The Sacred and the Sinister</em> maps precisely that boundary-work.</p><p>Magic: The Gathering inherits the fantasy necromancer wholesale — the corpus overwhelmingly reanimates. But the older meaning is the better story, because it turns on a single mistaken letter. Change one vowel-cluster in a monk's Latin and you convert a diviner who <em>listens</em> to the dead into a sorcerer who <em>commands</em> them. Words, like the dead, don't always stay where you put them.</p>",
+      "sources": [
+        {"label": "RenaissanceMagicDB, s.v. necromantia", "where": "RenaissanceMagicDB"},
+        {"label": "Frank Klaassen, The Transformations of Magic", "where": "Medieval magic (PDF)"},
+        {"label": "Claire Fanger, Invoking Angels; Rewriting Magic", "where": "Medieval magic (PDF)"},
+        {"label": "Michael D. Bailey et al., The Sacred and the Sinister: Studies in Medieval Religion and Magic", "where": "Medieval magic (PDF)"},
+        {"label": "Etymonline, s.v. necromancy (‹ Greek nekromanteia; med.L. nigromantia)", "where": "Etymology reference"}
+      ]
+    },
+    "alchemy": {
+      "title": "Alchemy: the science with the Arabic article stuck on",
+      "dek": "Say it slowly and you can hear the seam: al-chemy, 'the-chemy,' the Arabic 'the' welded onto a Greek root.",
+      "read_min": 4,
+      "html": "<p>Say <strong>alchemy</strong> slowly and you can hear the seam. That <em>al-</em> is the Arabic definite article, 'the' — the same one welded onto <em>algebra</em>, <em>alkali</em>, <em>alcohol</em>, <em>algorithm</em>. Each entered European languages through Arabic scholarship with its 'the' fused on so tightly that English speakers never noticed they were saying 'the-chemy.'</p><p>What follows is murkier. Arabic <em>al-kīmiyāʾ</em> takes up a Greek word, and scholars still argue which: perhaps <em>khēmia</em>, 'the Egyptian art,' from <em>Khem</em>, the 'black land' of the Nile; or <em>khymeia</em>, 'a pouring, an infusion.' Either way the word records a transmission — Greek natural philosophy preserved and transformed in the Arabic-speaking world, then handed back to a Europe that had forgotten it. The definitive account is in the corpus: Lawrence Principe's <em>The Secrets of Alchemy</em> and William Newman's work on the Latin Geber, alongside Lyndy Abraham's indispensable <em>Dictionary of Alchemical Imagery</em>, which glosses the whole symbolic vocabulary the game borrows.</p><p>That journey is the point, and it's fitting the word enacts it. Alchemy is the art of <a href=\"term.html?t=transmute\">transmutation</a> — of moving a substance across the boundary of its own nature — and its vocabulary is itself a great transmutation, Greek roots passed through Arabic gold and cooled into Latin. This study gives alchemy its own <a href=\"atlas.html#alchemy\">family</a>: <a href=\"term.html?t=elixir\">elixir</a> and <a href=\"term.html?t=azoth\">azoth</a> (both Arabic), quintessence and vitriol (Latin), the athanor and the alembic. Trace them and you retrace how knowledge actually moved through the medieval world — never in a straight line, always with an article or two picked up along the way. (For the deeper history, cross-reference Ted's own alchemy databases and the Maier/<em>Atalanta Fugiens</em> materials.)</p>",
+      "sources": [
+        {"label": "Lyndy Abraham, A Dictionary of Alchemical Imagery (Cambridge)", "where": "Alchemy (PDF)"},
+        {"label": "Lawrence M. Principe, The Secrets of Alchemy; William R. Newman on the Latin Geber", "where": "Alchemy (PDF)"},
+        {"label": "Stanton J. Linden (ed.), The Alchemy Reader: From Hermes Trismegistus to Isaac Newton", "where": "Alchemy (PDF)"},
+        {"label": "TheosophicalAlchemyDB; Maier, Atalanta Fugiens materials", "where": "Ted's alchemy DBs"},
+        {"label": "Etymonline, s.v. alchemy (‹ Arabic al-kīmiyāʾ)", "where": "Etymology reference"}
+      ]
+    },
+    "phylactery": {
+      "title": "Phylactery: the amulet that fantasy turned into a soul-jar",
+      "dek": "Greek watch-charm, to Jewish prayer-box, to lich's soul-jar — one word, three owners.",
+      "read_min": 3,
+      "html": "<p>Few words have travelled as far, or changed masters as completely, as <em>phylactery</em>. It begins in Greek as <strong>phylaktērion</strong> — literally 'a thing that guards' — from <em>phylassein</em>, 'to keep watch.' A phylactery was an amulet: a small protective object worn against harm, exactly the kind of charged charm that fills this study's <a href=\"term.html?t=talisman\">classical-items</a> family.</p><p>From there it acquired a religious home. In the Greek of the New Testament, <em>phylaktēria</em> names the <strong>tefillin</strong> — the small leather boxes of scripture bound to arm and forehead in prayer. Same logic as the amulet: sacred text, sealed in a container, worn on the body. For most of its English life, from the 14th century on, that is what a phylactery was — a scripture-case, or any protective charm.</p><p>Then a game rewrote it. In <em>Dungeons &amp; Dragons</em>, a lich hides its soul inside a <strong>phylactery</strong>; destroy the object and you destroy the deathless wizard. The container-of-holy-power became a container-of-stolen-life — a total inversion of moral charge that keeps the core image perfectly intact: a small object in which something precious is sealed for safekeeping. Magic: The Gathering, notably, tends to keep closer to the older sense; the word remembers what it used to mean, even when we don't.</p>",
+      "sources": [
+        {"label": "Etymonline / OED, s.v. phylactery (‹ Greek phylaktērion)", "where": "Etymology reference"},
+        {"label": "Liddell–Scott–Jones, s.v. φυλακτήριον", "where": "Classical lexica"}
+      ]
+    },
+    "scry": {
+      "title": "Scry: how a whisper-word became a keyword",
+      "dek": "A four-century-old crystal-gazing word acquired a brand-new technical meaning inside living memory.",
+      "read_min": 2,
+      "html": "<p><em>Scry</em> is a small miracle of English thrift — what's left when you file the front off <strong>descry</strong>, 'to catch sight of at a distance,' from Old French <em>descrier</em>, 'to cry out, announce.' The announcing faded and only the seeing remained; by the mid-1500s a scryer was a crystal-gazer, one who saw hidden or distant things in a reflective surface — the world of John Dee and his obsidian mirror.</p><p>For centuries it was a quiet, archaic word. Then Magic: The Gathering, in 2004, made <strong>Scry</strong> a keyword: <em>look at the top N cards of your library, then reorder or bin them.</em> A word that meant 'to see the hidden' became a mechanic for seeing — and gently rearranging — your own future. This study's <a href=\"insights.html\">Insights</a> chart shows the result: 'scry' now lives overwhelmingly in rules text, a word that became a keyword inside living memory. Most words hide their history; scry wears a fresh coat of it.</p>",
+      "sources": [
+        {"label": "Etymonline / OED, s.v. scry, descry", "where": "Etymology reference"},
+        {"label": "Deborah E. Harkness, John Dee's Conversations with Angels (on scrying practice)", "where": "Renaissance magic (PDF)"}
+      ]
+    },
+    "glamour": {
+      "title": "Glamour & grimoire: two spells from one grammar",
+      "dek": "A fashion word, a spell-book, and a dictionary — all the same word.",
+      "read_min": 3,
+      "html": "<p>Here is the best trick in the whole magical lexicon, and it is entirely true. Take the dry word <strong>grammar</strong> — Greek <em>grammatikē</em>, 'the art of letters.' In the Middle Ages, when nearly all serious learning was Latin and looked, to the unlettered, indistinguishable from sorcery, 'grammar' picked up a second life meaning <em>occult learning</em>. A book of that learning became a <strong>grimoire</strong> — French pronouncing 'grammar' badly, and the mispronunciation stuck to the spell-book. (See the full <a href=\"term.html?t=grimoire#essay\">grimoire history</a>.)</p><p>But there is a third child. In Scots, the same 'grammar' mutated into <strong>glamour</strong> — 'a magic spell, an enchantment that deceives the eye.' To 'cast the glamour' was to bewitch someone into seeing what wasn't there. Walter Scott put it into wide circulation in the early 1800s; from there it drifted, over a century, into 'dazzling, illusory attractiveness.' Call a film star glamorous and you call them, at the root, <em>enchanted</em>.</p><p>Grammar, grimoire, glamour: a dictionary, a spell-book, and a red-carpet adjective, all one syllable, all descended from the ancient suspicion that <em>people who can read are dangerous</em>. It's the thesis of this whole project — that the words for magic carry, fossilised inside them, whole attitudes about knowledge and power.</p>",
+      "sources": [
+        {"label": "Etymonline / OED, s.vv. glamour, grammar, grimoire", "where": "Etymology reference"},
+        {"label": "Walter Scott, Letters on Demonology and Witchcraft (popularises 'glamour')", "where": "Renaissance magic (PDF)"}
+      ]
+    }
+  }
+}

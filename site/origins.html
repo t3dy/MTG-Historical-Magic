@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Loanword Atlas — The Vocabulary of Magic</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<div class="hero" style="padding-bottom:.4rem">
+  <h1>The Loanword Atlas</h1>
+  <div class="tag">English did not invent its magic — it borrowed it. Every term in the study, sorted by the language it ultimately came from.</div>
+</div>
+<div class="wrap">
+  <div class="panel"><div id="summary" class="note"></div></div>
+  <div class="panel" id="bars"></div>
+  <div class="panel"><h2 class="sec">Why it matters</h2>
+    <p class="note" style="font-style:normal;color:var(--ink);opacity:.9">Each borrowing is a history. <b>Greek</b> gives us the learned, priestly words — <em>necromancer</em>, <em>hierophant</em>, the whole <em>-mancy</em> family of divinations. <b>Latin</b> supplies the ritual verbs of the Church and the law — <em>conjure</em>, <em>consecrate</em>, <em>invoke</em>. <b>Arabic</b> carries the science — <em>alchemy</em>, <em>elixir</em>, <em>azoth</em> — each still wearing its <em>al-</em>. And the oldest, homeliest magic is <b>Old English</b>: <em>witch</em>, <em>warlock</em>, <em>spell</em>, <em>besom</em>. The map of where magic-words come from is a map of who Europe thought its magicians were.</p></div>
+</div>
+<script src="assets/common.js"></script>
+<script>
+(async function(){
+  mountChrome("origins.html");
+  const idx=(await getJSON("data/terms_index.json")).terms;
+  const by={}; idx.forEach(t=>{const l=t.lang||"Unknown";(by[l]=by[l]||[]).push(t);});
+  const langs=Object.entries(by).sort((a,b)=>b[1].length-a[1].length);
+  const max=langs[0][1].length;
+  document.getElementById("summary").innerHTML=
+    `<b style="color:var(--gold);font-size:1.1rem">${idx.length}</b> magical terms drawn from <b style="color:var(--gold);font-size:1.1rem">${langs.length}</b> source languages. `+
+    langs.slice(0,4).map(([l,ts])=>`${ts.length} from ${l}`).join(" · ")+".";
+  document.getElementById("bars").innerHTML=langs.map(([l,ts])=>{
+    const w=Math.max(6,Math.round(ts.length/max*100));
+    const chips=ts.sort((a,b)=>(b.flavor_total+b.name_match_count)-(a.flavor_total+a.name_match_count))
+      .map(t=>`<a href="term.html?t=${t.slug}">${esc(t.root)}</a>`).join("");
+    return `<div class="obar">
+      <div class="top"><span class="lname">${esc(l)}</span><span class="note">${ts.length} word${ts.length===1?'':'s'}</span></div>
+      <div class="track2"><div class="fill2" style="width:${w}%;background:${langColor(l)}"></div></div>
+      <div class="chips2">${chips}</div></div>`;
+  }).join("");
+})();
+</script>
+</body>
+</html>

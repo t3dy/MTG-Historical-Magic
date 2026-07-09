@@ -1,0 +1,466 @@
+{
+  "slug": "astrology",
+  "category": "divination",
+  "db_hits": [
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "daimon",
+      "text": "Daimon is the Greek original of the Latinized *daemon*, denoting both a class of intermediate spiritual beings and (in Socratic tradition) the personal guiding spirit attached to each individual. Renaissance magi drew on both senses: Ficino discussed the individual's *daimon* as an astrological and spiritual guide, while Agrippa catalogued daimonic hierarchies as agents of magical operation. The distinction between beneficent daimones and maleficent demons was a persistent tension in Renaissance magical philosophy, driving the *magia naturalis* defense."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "hermetica",
+      "text": "Hermetica designates the entire corpus of texts attributed to Hermes Trismegistus, including the philosophical Corpus Hermeticum and Asclepius, the technical/magical Hermetica (on alchemy, astrology, and talismanic magic), and various fragments. Renaissance scholars did not always distinguish between the philosophical and technical Hermetica, treating the whole corpus as evidence of an ancient unified wisdom tradition. The term appears across 591 corpus occurrences, reflecting Hermeticism's pervasive influence on Renaissance magical philosophy."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "de occulta philosophia",
+      "text": "De Occulta Philosophia Libri Tres (1531-1533) by Heinrich Cornelius Agrippa is the most comprehensive Renaissance synthesis of magical philosophy, organized into three ascending levels: natural magic (Book I, working with material sympathies), celestial magic (Book II, working with astrological correspondences and mathematical harmonies), and ceremonial magic (Book III, working with divine names, angels, and Kabbalistic operations). The treatise synthesizes Ficinian Hermeticism, Reuchlinian Kabbalah, and Trithemian angel magic into a systematic framework. Its 598 corpus occurrences make it one of the most-referenced primary works in the collection."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "divinatio",
+      "text": "Divinatio ('divination') encompasses all methods of obtaining hidden or future knowledge through non-ordinary means, including scrying, astrology, dream interpretation, and sortilege. Renaissance debates over divination centered on whether it accessed natural causes (planetary influences) or required demonic mediation. Pico's Disputationes adversus astrologiam divinatricem attacked judicial astrology as a form of divination, while Dee's crystal scrying sessions represented the most documented divinatory practice in the corpus."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "picatrix",
+      "text": "The Picatrix (Arabic: Ghayat al-Hikam, 'Goal of the Wise') is a 10th-11th century Arabic compendium of astrological magic, talismanic construction, and planetary invocation, translated into Latin in the 13th century. It provided the most detailed practical instructions for image magic and suffumigation available to Renaissance magi. Ficino drew on the Picatrix for the planetary magic of De Vita Book III, though he cited it cautiously. The text represents the Arabic transmission pipeline that channeled Hellenistic magical theory into Latin Europe (Saif, Arabic Influences on Occult Philosophy)."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "electio",
+      "text": "Electio ('election') is the astrological practice of selecting the most favorable planetary configuration for initiating an action, constructing a talisman, or performing a magical operation. Elections represent the intersection of astrology and practical magic: the magus times operations to coincide with benefic planetary alignments, capturing celestial virtue at its peak. Ficino's De Vita and the Picatrix both provide detailed instructions for astrological elections in the context of talismanic magic."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "exaltatio",
+      "text": "Exaltatio ('exaltation') is one of the five essential dignities in traditional astrology, designating the zodiacal sign where a planet's influence reaches maximum strength (e.g., the Sun is exalted in Aries, the Moon in Taurus). Renaissance magi used planetary exaltations in timing magical operations and constructing talismans: an image made when its ruling planet is in exaltation would capture the planet's virtue at peak potency. The concept links astronomical observation to magical practice through the doctrine of celestial influence."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "dignitas",
+      "text": "Dignitas ('dignity') is the astrological framework for assessing a planet's strength based on its zodiacal position — including domicile, exaltation, triplicity, term, and face. Renaissance astrologers and magi used the dignity system to evaluate when planetary influences were strongest or weakest, directly informing the timing of magical operations, talismanic construction, and medical treatments. The term also carries the broader philosophical sense of 'worth' or 'honor,' notably in Pico's Oration on the Dignity of Man."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "influxus",
+      "text": "Influxus ('influence' or 'influx') denotes the streaming of celestial power from the stars and planets into the terrestrial realm, the foundational mechanism of all astrological magic. Ficino's De Vita treats *influxus* as the physical basis of *spiritus mundi* — the subtle medium through which planetary virtues reach earthly bodies, plants, and stones. Agrippa systematizes the doctrine in De Occulta Philosophia Book II, cataloguing which materials receive which planetary influxes. The concept bridges natural philosophy and operative magic: if celestial influx is a natural phenomenon, then capturing it through *electio* and talismanic construction constitutes *magia naturalis* rather than demonic commerce (Walker, Spiritual and Demonic Magic)."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "aspectus",
+      "text": "Aspectus ('aspect') designates the angular relationship between two planets as observed from Earth — conjunction, sextile, square, trine, and opposition — each producing a distinct quality of combined influence. Renaissance astrologers and magi treated aspects as the grammar of celestial communication: benefic aspects (trine, sextile) indicated harmonious *influxus*, while malefic aspects (square, opposition) signaled conflict or obstruction. Agrippa's De Occulta Philosophia and Ficino's De Vita both require the magus to calculate planetary aspects when timing *electiones* for talismanic operations. The doctrine connects astronomical observation to the theory of cosmic *sympatheia* (Copenhaver)."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "ascendens",
+      "text": "Ascendens ('ascendant') is the zodiacal degree rising on the eastern horizon at a specific moment, considered the most individuating point in a *nativitas* (birth chart) and central to astrological elections. Renaissance astrologers regarded the ascendant as the gateway through which celestial *influxus* enters the native's constitution, determining temperament, physical appearance, and susceptibility to planetary influence. Ficino's astrological medicine in De Vita requires knowledge of the patient's ascendant to prescribe appropriate planetary remedies. The concept connects natal astrology to the operative dimension of magical practice."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "domicilium",
+      "text": "Domicilium ('domicile') designates the zodiacal sign ruled by a given planet — the position where that planet's influence operates most naturally and powerfully (e.g., Mars in Aries, Venus in Taurus). In the system of *dignitas*, domicile represents the strongest essential dignity. Renaissance magi used domicile assignments when constructing talismans and timing magical operations: an image fashioned when its governing planet occupies its domicile captures that planet's virtue in its purest expression. Agrippa's De Occulta Philosophia systematizes domicile assignments alongside *exaltatio* and *detrimentum* as key factors in astrological magic."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "cauda draconis",
+      "text": "Cauda Draconis ('tail of the dragon') is the south lunar node — the point where the Moon's orbit crosses the ecliptic moving southward. In Renaissance astrological magic, the cauda was associated with diminution, dissolution, and endings, complementing the augmentative quality of the *caput draconis* (north node). Agrippa's De Occulta Philosophia includes the lunar nodes among the factors to consider in astrological elections, treating cauda draconis as unfavorable for beginnings but useful for operations of separation or release. The dragon symbolism derives from medieval Arabic astronomical tradition transmitted through the Picatrix and related texts."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "horoscopus",
+      "text": "Horoscopus ('hour-marker') originally designated the *ascendens* — the degree of the zodiac rising at the moment of birth — but by the Renaissance the term had expanded to denote the entire natal chart. Renaissance astrologer-magi such as Ficino, Cardano, and Dee constructed horoscopes as diagnostic instruments, mapping the celestial configuration at a native's birth to determine temperament, talents, and fate. The horoscope served as the foundation for astrological medicine and for timing magical operations through *electio*. Pico's Disputationes adversus astrologiam divinatricem attacked the predictive claims of horoscopic astrology while leaving natural celestial influence partly intact (Copenhaver)."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "caput draconis",
+      "text": "Caput Draconis ('head of the dragon') is the north lunar node — the ascending intersection of the Moon's orbit with the ecliptic plane. Renaissance astrological magic treated the caput as a point of augmentation, favorable for initiating enterprises, constructing talismans, and beginning magical operations. Agrippa pairs it with the *cauda draconis* in his discussion of the lunar nodes' operative significance in De Occulta Philosophia. The imagery of a celestial dragon whose head devours and whose tail releases derives from Arabic astronomical tradition, where eclipses were explained by the dragon's consumption of the luminaries."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "pars fortunae",
+      "text": "Pars Fortunae ('Part of Fortune') is a calculated point in the natal chart derived from the positions of the Sun, Moon, and *ascendens*, indicating the native's relationship to worldly prosperity and material well-being. Renaissance astrologers inherited the doctrine of Arabic Parts (lots) from medieval translations of Abu Ma'shar and al-Qabisi, and Ficino references the Part of Fortune in connection with astrological medicine. In operative magic, the Pars Fortunae informed the timing of elections aimed at securing material benefit, linking horoscopic calculation to practical magical purpose."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "nativitas",
+      "text": "Nativitas ('nativity') designates both the moment of birth and the astrological chart cast for that moment, mapping the positions of planets, signs, and houses onto the native's life. Renaissance astrologer-magi treated the nativitas as a comprehensive diagnostic tool: Ficino used nativities in his astrological medicine, Cardano published celebrated nativities of historical figures, and Dee cast nativities as part of his broader philosophical practice. The nativity chart provided the individuating data — *ascendens*, planetary positions, aspects — required for personalized magical and medical interventions (Copenhaver)."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "decanus",
+      "text": "Decanus ('decan') designates a ten-degree arc of the zodiac — three decans per sign, thirty-six in total — each associated with a specific planetary ruler and a talismanic image. The decan system originated in Egyptian astronomy and reached Renaissance magi through the Picatrix, Agrippa, and the Astromagia tradition. Agrippa's De Occulta Philosophia Book II catalogues the thirty-six decanal images as templates for talismanic construction, each capturing a specific quality of celestial *influxus*. The decans represent one of the most practically operative astrological frameworks in Renaissance image magic."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "philosophia hermetica",
+      "text": "Philosophia hermetica ('Hermetic philosophy') designates the body of philosophical and theological doctrine derived from the texts attributed to Hermes *Trismegistus*, encompassing cosmogony, the nature of the divine mind, the soul's fall and ascent, and the unity of all knowledge. Renaissance figures used the term to distinguish the philosophical dimension of the Hermetic tradition from its practical-magical counterpart (alchemy, talismanic magic, astrology). Ficino's translations and Pico's syncretic program elevated *philosophia hermetica* to the status of a *prisca theologia* — an ancient wisdom rivaling and confirming Platonic and Christian truth (Yates, Bruno and the Hermetic Tradition)."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "imago",
+      "text": "Imago ('image') designates a crafted figure — engraved, cast, or drawn — designed to capture and channel the *influxus* of a specific celestial body or spirit. Image magic (*magia imaginum*) is one of the most practically detailed branches of Renaissance astrological magic, with instructions provided in the Picatrix, Agrippa's De Occulta Philosophia, and Ficino's De Vita Book III. The magus fashions an *imago* under a precisely elected celestial configuration, inscribing it with appropriate *characteres* and divine names, then consecrates it through *suffumigatio* and *incantatio*. The practice straddles the boundary between *magia naturalis* and illicit magic — a persistent source of theological controversy (Copenhaver)."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "characteres",
+      "text": "Characteres ('characters') designates the signs, sigils, and symbolic figures inscribed on talismans, *laminae*, and ritual instruments to capture or direct celestial and spiritual forces. Renaissance magi distinguished *characteres* from ordinary writing: magical characters were understood as signatures of celestial intelligences or condensations of planetary *influxus* into graphic form. Agrippa's De Occulta Philosophia provides extensive catalogues of planetary, zodiacal, and angelic characters, while the Picatrix offers instructions for inscribing characters during astrological elections. The tradition connects to both Kabbalistic letter-mysticism and the Hermetic doctrine that written signs can embody operative power."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "suffumigatio",
+      "text": "Suffumigatio ('fumigation') is the ritual burning of specific substances — herbs, resins, animal parts — to produce smoke that attracts favorable celestial or spiritual influences or repels maleficent ones. The practice is among the most practically detailed in Renaissance magical literature: the Picatrix provides planetary fumigation recipes, and Agrippa's De Occulta Philosophia catalogues suffumigations for each planet. Ficino's De Vita recommends solar fumigations as part of his astrological medicine. Suffumigation operates through *sympatheia* — each substance corresponds to a planetary power, and its smoke carries that correspondence into the surrounding environment, preparing the ritual space for magical operation."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "lamina",
+      "text": "Lamina ('plate' or 'sheet') designates a thin metal plate — typically of the metal corresponding to a specific planet (gold for the Sun, silver for the Moon, copper for Venus) — inscribed with *characteres*, divine names, and numerical squares during an astrological *electio*. Laminae are among the most concretely described magical objects in the Renaissance corpus: the Picatrix and Agrippa's De Occulta Philosophia provide detailed instructions for their construction, inscription, and consecration through *suffumigatio*. The practice exemplifies the integration of astrological timing, material correspondence, and ritual inscription that defines Renaissance talismanic magic."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "spiritus",
+      "text": "Spiritus ('spirit') designates the subtle, quasi-material substance that mediates between the immaterial soul and the material body — the physiological and cosmological medium through which celestial influences reach terrestrial things. Ficino's De Vita makes *spiritus* the key concept of his natural magic: the *spiritus mundi* (world spirit) carries planetary virtues, and the individual's *spiritus* can be tuned to receive specific celestial influences through diet, music, images, and fumigations. The concept derives from Galenic medical theory (the vital, natural, and animal spirits) but is extended by Ficino into a full magical cosmology. Spiritus bridges medicine, astrology, and operative magic (Walker, Spiritual and Demonic Magic)."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "actus",
+      "text": "Actus ('actuality' or 'act') designates the realized state of a thing — what it has become as opposed to what it might become (*potentia*). In Renaissance magical philosophy, the actus-potentia framework explains how the magus actualizes latent celestial virtues in natural objects through ritual and astrological timing. God, as *actus purus* (pure actuality), stands at the apex of the metaphysical hierarchy, and all magical operation moves materials and spirits from potentiality toward greater actualization of their divine archetypes. Ficino and Agrippa employ the concept within their respective accounts of how celestial influence activates dormant correspondences in the sublunary world."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "providentia",
+      "text": "Providentia ('providence') designates the doctrine that God governs creation through a rational, purposeful order mediated by celestial and natural causes. Renaissance magi invoked providentia to legitimize their practice: if God governs through natural causes including celestial influences, then understanding and using those influences constitutes cooperation with divine providence rather than transgression against it. Ficino's De Vita frames astrological medicine as an instrument of providence, and Agrippa argues that the magus who works through natural and celestial channels participates in God's providential design. The concept distinguishes legitimate magic from the fatalism of judicial astrology, which Pico attacked as incompatible with divine and human freedom (Copenhaver)."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Manuscript Miscellany",
+      "text": "Manuscript miscellany is an Analyst Term for codices that collect heterogeneous texts; in medieval magic scholarship it matters because ritual, medical, devotional, astrological, and divinatory materials often survive together rather than in isolated genre books.",
+      "extra": "Manuscript miscellany is an Analyst Term for codices that collect heterogeneous texts; in medieval magic scholarship it matters because ritual, medical, devotional, astrological, and divinatory materials often survive together rather than in isolated genre books."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Divination",
+      "text": "\n    <p><b>Divination</b> is a <b>Hybrid</b> category in MedievalMagicDB: medieval actors used specific terms for particular techniques and condemnatory classes of knowledge, while modern scholars also employ \"divination\" as a broad analyst term for attempts to obtain hidden information through signs, lots, celestial judgment, bodily marks, dreams, spirits, or other mediated procedures. Because it gathers heterogeneous practices, the category must always be handled with care. Its usefulness lies in comparison and navigation, not in forcing all such practices into a single intellectual mold.</p>\n\n    <h2>Historical Usage</h2>\n    <p>Medieval sources discuss divination through a whole family of named arts: geomancy, chiromancy, hydromancy, sortilege, astrology, dream interpretation, lot casting, physiognomic reading, and spirit-mediated revelation, among others. Some are presented as observational or natural, others as unlawful or demonic, and many shift status depending on who is speaking. A university master, a confessor, a physician, and a compiler of practical recipes may all use different criteria to judge whether a technique is prudent, curious, natural, deceptive, or sinful.</p>\n\n    <p>This diversity makes divination one of the portal's major hub concepts. It is where one sees most clearly that the history of medieval magic is not only about conjurations and grimoires, but also about the desire to know what should remain uncertain: the future, hidden motives, unseen causes, divine favor, bodily prognosis, lost objects, or secret conditions of the world. Divination is therefore tied to epistemic desire as much as to any one ritual form.</p>\n\n    <h2>Named Arts and Local Contexts</h2>\n    <p>Different divinatory arts had different social and intellectual lives. Geomancy could be copied as a technical art with rules and figures; chiromancy might circulate as bodily reading; hydromancy and sortilege often appeared in lists of forbidden practices; astrological judgment could be defended as mathematically grounded while remaining suspect in some applications. This variety is why the portal links divination outward to narrower entries rather than letting the category absorb them. Each art has its own evidentiary profile, textual environment, and history of condemnation or defense.</p>\n\n    <p>The category is also shaped by genre. Manuals may teach techniques; scholastic discussions debate causation and licitness; confessional and pastoral literature focus on suspect consultation; chronicles or miracle collections preserve reports of outcomes; and legal texts flatten several practices into one accusatory field. Divination thus becomes legible only when it is tracked across genres rather than extracted from them.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>As a modern category, divination is useful precisely because it allows comparison without pretending that comparison erases difference. Catherine Rider and Jean-Patrice Boudet are especially important here because they show how medieval divinatory techniques were distributed across medicine, theology, prediction, natural inquiry, and occult speculation. The category is strongest when it functions as a hub that clarifies relation, not as a blanket term that removes texture.</p>\n\n    <p>Divination also matters because it is one of the best places to study the boundary between natural and illicit knowledge. A prognostic procedure may be treated as medicine, astronomy, prudence, curiosity, or superstition depending on its claims and context. That instability makes divination central to the history of classification. The issue is not only what people did, but how authorities sorted kinds of knowing and kinds of risk.</p>\n\n    <h2>Knowledge, Uncertainty, and Control</h2>\n    <p>At a deeper level, divination reveals a persistent medieval concern with the management of uncertainty. Prognostic arts promise orientation in situations where ordinary judgment seems inadequate: illness, travel, politics, weather, fertility, litigation, or danger. This promise can make divination look intellectually adjacent to accepted disciplines even when moralists condemn it. The category therefore helps explain why suspicion and reliance could coexist. Practices criticized in one register might still answer real needs in another.</p>\n\n    <p>The same point helps explain why divination often shades into neighboring domains. Ritual consultation may overlap with prayer, medicine, computation, memory, or spirit work. A hard separation between divination and the rest of medieval learned or practical culture is therefore historically misleading. The boundaries were negotiated, and the negotiation is part of the archive.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>Divinatory material often survives in small and mobile units: a brief section in a larger compilation, a chapter in a mirror-for-princes, a pastoral list, a notebook appendix, or a compact art in a technical miscellany. This archival pattern means divination is not simply a genre but a recurrent function within many genres. The portal uses it as a relational category tied to manuscripts, codicological settings, and local contexts of use.</p>\n\n    <p>The category's variant forms are also why it cannot be reduced to one master narrative. Dream books, lots, bodily arts, astral judgments, and spirit consultations do not share one logic, even when later authorities condemn them together. Good historical use of the term keeps these internal differences visible.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Divination belongs naturally with <a href=\"../concepts/geomancy.html\">geomancy</a>, <a href=\"../concepts/chiromancy.html\">chiromancy</a>, <a href=\"../concepts/hydromancy.html\">hydromancy</a>, and <a href=\"../concepts/sortilege.html\">sortilege</a> as narrower arts. It also intersects with <a href=\"../concepts/superstitio.html\">superstitio</a> where pastoral and theological writers classify unlawful consultation, and with <a href=\"../concepts/necromancy.html\">necromancy</a> where hidden knowledge is sought through spirits rather than through natural or symbolic signs. Its relationship to <a href=\"../concepts/celestial_influence.html\">celestial influence</a> is especially important wherever astrology or astral theory underwrites prediction.</p>\n\n    <h2>Literature</h2>\n    <p>Boudet, Jean-Patrice. Studies on learned divination and medieval occult sciences.<br/>\n    Kieckhefer, Richard. <i>Magic in the Middle Ages</i>. Cambridge: Cambridge University Press, 2014.<br/>\n    Rider, Catherine. Studies on divination, medicine, and pastoral classification in the medieval West.<br/>\n    Thorndike, Lynn. <i>A History of Magic and Experimental Science</i>. New York: Columbia University Press, 1923-1958.<br/>\n    Weill-Parot, Nicolas. Studies on astrology and the classification of occult knowledge.</p>\n    ",
+      "extra": "Divination covers practices for obtaining hidden knowledge, from geomancy and sortilege to astrological judgment; medieval sources classify it variously as natural, superstitious, demonic, or licit depending on method and authority."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Geomancy",
+      "text": "\n    <p><b>Geomancy</b> is an <b>Actor Term</b> for a divinatory art in which patterned combinations of points or marks are generated, arranged, and interpreted to produce judgments about hidden matters. It became one of the most widely discussed and transmitted specific arts of divination in the medieval West. For MedievalMagicDB it matters because it is both a sharply defined technical practice and a recurring touchstone in pastoral, theological, and learned classifications of suspect knowledge.</p>\n\n    <h2>Historical Usage</h2>\n    <p>Medieval sources typically treat geomancy as one art among others rather than as a synonym for divination in general. Manuals explain figures and judgments, while theological and pastoral texts classify the practice through broader concerns about hidden knowledge, stars, chance, and illicit inquiry. The art's relative technical clarity makes it especially valuable to historians. Unlike very broad labels such as superstition, geomancy names a specific procedure with its own textual traditions and interpretive vocabulary.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>Geomancy matters because it shows how divinatory practices could be at once technical, textual, and suspect. It appears in learned settings, in compilations alongside astrology and chiromancy, and in condemnatory literature that treats it as part of a wider field of forbidden arts. As a result it is one of the best narrower entries through which to understand the larger category of divination. It is also useful for reminding the reader that medieval magical and divinatory history is not only about spirit conjuration or grimoires.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>The art circulated in Latin and vernacular forms and could appear as a self-contained manual or as one part of a larger compendium of practical knowledge. Its diagrams, named figures, and interpretive structures made it portable across manuscripts. That portability also exposed it to repeated moral scrutiny. Geomancy is therefore a case where textual transmission and condemnation move in tandem.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Geomancy belongs first of all with <a href=\"../concepts/divination.html\">divination</a>, of which it is a narrower and more concrete example. It also sits beside <a href=\"../concepts/chiromancy.html\">chiromancy</a> and <a href=\"../concepts/sortilege.html\">sortilege</a> as related arts of hidden judgment, and it may enter discussions of <a href=\"../concepts/superstitio.html\">superstitio</a> when pastoral writers classify it as illicit dependence.</p>\n\n    <h2>Literature</h2>\n    <p>Boudet, Jean-Patrice. Studies on learned divination and medieval occult sciences.<br/>\n    Rider, Catherine. Studies on divination and pastoral classification.<br/>\n    Thorndike, Lynn. <i>A History of Magic and Experimental Science</i>. New York: Columbia University Press, 1923-1958.<br/>\n    Page, Sophie, and Catherine Rider, eds. <i>The Routledge History of Medieval Magic</i>. London: Routledge, 2019.<br/>\n    Studies on medieval geomantic manuals and manuscript transmission.</p>\n    ",
+      "extra": "Geomancy is an Actor Term for a learned divinatory art based on figures generated by points or marks and interpreted through structured houses, often circulating with astrology and other clerical arts."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Chiromancy",
+      "text": "\n    <p><b>Chiromancy</b> is an <b>Actor Term</b> for palmistry or hand-reading, a divinatory practice treated in medieval manuals and frequently named in broader condemnations of forbidden arts. The term is historically specific enough to resist flattening into \"divination\" in general, yet common enough in learned and pastoral classifications that it serves as an important test case for how particular arts are gathered into larger moral and epistemic debates.</p>\n\n    <h2>Historical Usage</h2>\n    <p>Medieval texts typically list chiromancy among the arts that claim to infer hidden character, fate, or future outcomes from bodily signs. Its interest lies precisely in that relation between observation and prediction. Unlike spirit conjuration, chiromancy can appear close to natural sign-reading, yet authorities often classify it as suspect because it overreaches the legitimate interpretation of nature. This makes it a revealing middle case between natural knowledge and illicit divination.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>Chiromancy matters because it shows that medieval divinatory history is not reducible to either astrology or necromancy. It represents a bodily and semiotic art whose status depends heavily on context and classification. Historiographically, it helps explain why medieval authorities often worried about unauthorized prediction even where demonic pact or explicit ritual did not seem central.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>The art circulated in manuals, compendia, and lists of forbidden knowledge. It could appear alongside geomancy, physiognomy, and sortilege in larger surveys of divinatory practice. This manuscript and classificatory mobility is one reason chiromancy deserves its own portal entry. Its importance lies not only in technique but in how often it is made to stand for the problem of reading signs too confidently.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Chiromancy belongs naturally with <a href=\"../concepts/divination.html\">divination</a> and <a href=\"../concepts/geomancy.html\">geomancy</a> as one narrower predictive art among others. It also intersects with <a href=\"../concepts/secret_of_secrets.html\">Secret of Secrets</a> and physiognomic traditions where bodily interpretation and elite knowledge can overlap with suspect prediction.</p>\n\n    <h2>Literature</h2>\n    <p>Boudet, Jean-Patrice. Studies on learned divination and occult sciences.<br/>\n    Rider, Catherine. Studies on divination and pastoral classification.<br/>\n    Thorndike, Lynn. <i>A History of Magic and Experimental Science</i>. New York: Columbia University Press, 1923-1958.<br/>\n    Page, Sophie, and Catherine Rider, eds. <i>The Routledge History of Medieval Magic</i>. London: Routledge, 2019.<br/>\n    Studies on medieval manuals of chiromancy and related bodily arts.</p>\n    ",
+      "extra": "Chiromancy is an Actor Term for palmistry or hand-reading, a divinatory practice treated in medieval manuals and often debated within broader classifications of natural signs and illicit prediction."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Talismans",
+      "text": "\n    <p><b>Talismans</b> is a <b>Hybrid</b> category in medieval magic scholarship. Modern historians use the term broadly for crafted objects intended to mediate celestial, spiritual, or symbolic power, while medieval texts more often speak of images, figures, characters, or seals in more specific ways. The category is indispensable for understanding astral image theory and the Arabic-Latin occult sciences, but it must be handled carefully because \"talisman\" can become too smooth a label for a field whose historical vocabularies were much rougher.</p>\n\n    <h2>Historical Usage</h2>\n    <p>Medieval Latin materials associated with talismanic practice often concern images made under specific celestial conditions, inscribed objects, prepared materials, and theories of natural or astral causation. Yet the texts themselves do not always use one equivalent term consistently. Instead they describe what the object is, how it is related to a planet or sign, or what sort of influence it mediates. This is especially visible in the Latin reception of Arabic image magic, where translation and adaptation create a layered vocabulary.</p>\n\n    <p>The category therefore exists partly because modern scholarship needs a comparative word for a recurring phenomenon. Used well, it clarifies; used badly, it erases the distinctions medieval authors actually made among images, seals, characters, and prepared objects.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>Modern scholarship relies on \"talismans\" because it provides a bridge among image-making traditions, astral theory, and manuscript evidence. Nicolas Weill-Parot and Jean-Patrice Boudet have shown how important it is to distinguish different theories of image efficacy rather than treating every image-object as the same phenomenon. The category is strongest when it remains analytic and relational.</p>\n\n    <p>Talismans also matter because they keep the materiality of ritual practice in view. Many histories of magic drift toward names, diagrams, and texts; talismanic traditions insist that matter, craft, and cosmic timing are equally central.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>The field is deeply shaped by Arabic-Latin transmission. Concepts translated from Arabic occult science entered Latin through works such as the <i>Picatrix</i>, attributed texts of Thabit ibn Qurra, and other astral-image materials. Across this movement, terminology shifted. Image, seal, figure, and talismanic object do not always overlap perfectly. The manuscript evidence also reveals recombination: image recipes, theoretical passages, and practical notes could be excerpted into larger compilations, making the talismanic tradition a network rather than a single corpus.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Talismans are especially close to <a href=\"../concepts/astral_image_magic.html\">astral image magic</a> and <a href=\"../concepts/celestial_influence.html\">celestial influence</a>, since the category often depends on planetary causation. They also intersect with <a href=\"../concepts/amulets.html\">amulets</a>, though the latter can extend more broadly into protective and devotional object culture. Finally, the category belongs with <a href=\"../concepts/suffumigation.html\">suffumigation</a> and <a href=\"../concepts/characters_and_seals.html\">characters and seals</a>, both of which recur in image-oriented textual traditions.</p>\n\n    <h2>Literature</h2>\n    <p>Attrell, Dan, and David Porreca. <i>Picatrix: A Medieval Treatise on Astral Magic</i>. University Park: Pennsylvania State University Press, 2019.<br/>\n    Boudet, Jean-Patrice. Studies on astrology, image magic, and learned occult sciences.<br/>\n    Pingree, David. Studies on Arabic astral magic and the <i>Ghayat al-hakim</i>.<br/>\n    Weill-Parot, Nicolas. Studies on astral images and medieval theories of efficacy.<br/>\n    Page, Sophie, and Catherine Rider, eds. <i>The Routledge History of Medieval Magic</i>. London: Routledge, 2019.</p>\n    ",
+      "extra": "Talismans are crafted objects intended to mediate celestial, spiritual, or symbolic power; in medieval scholarship the term often overlaps with image magic, astral magic, and Arabic-Latin theories of celestial influence."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Occult Properties",
+      "text": "\n    <p><b>Occult Properties</b> is a <b>Hybrid</b> category naming hidden natural powers invoked to explain effects not reducible to manifest sensible qualities. The phrase has both medieval and modern analytical force, though not always in exactly the same wording. It is one of the most important concepts in the portal because it marks the zone where natural philosophy, medicine, astrology, and magic approach one another without becoming identical. To speak of occult properties is to speak of explanation under strain.</p>\n\n    <h2>Historical Usage</h2>\n    <p>Medieval discussions of hidden virtues emerge in natural-philosophical, medical, and encyclopedic contexts concerned with stones, herbs, bodies, celestial influence, and unexplained effects. Such discussions do not automatically endorse magic. On the contrary, they often function to provide non-demonic explanations for phenomena that might otherwise seem suspicious. Thinkers such as Albertus Magnus and Roger Bacon are crucial here, because they show how one could take strange efficacy seriously within an account of created nature.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>The category matters because it helps historians avoid a false choice between credulity and condemnation. Hidden powers were not simply medieval mistakes; they were structured attempts to describe effects whose causes seemed real but obscure. Modern scholarship uses occult properties to explain why natural magic, astral image theory, and practical remedies could appear plausible within educated culture. It is therefore one of the central hinge concepts between science and magic in the historiography of the field.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>Occult properties are discussed across multiple textual genres: treatises on minerals, scholastic commentaries, works on celestial action, and broader histories of natural powers. The concept is thus not tied to one book but to a recurring explanatory habit. Its transmission is partly conceptual and partly textual, passing through authoritative names, translated works, and educational structures. That diffuse archive is exactly why the portal treats it as a major dictionary entry rather than as a side note.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Occult properties belong with <a href=\"../concepts/natural_powers.html\">natural powers</a> and <a href=\"../concepts/celestial_influence.html\">celestial influence</a>, since hidden effects were often traced to material and astral causes. They also intersect with <a href=\"../concepts/experimental_science.html\">experimental science</a>, which names later historiographical attempts to study such inquiry, and with <a href=\"../concepts/talismans.html\">talismans</a> where naturalized theories of efficacy became most controversial.</p>\n\n    <h2>Literature</h2>\n    <p>Kieckhefer, Richard. <i>Magic in the Middle Ages</i>. Cambridge: Cambridge University Press, 2014.<br/>\n    Newman, William R., and other historians of medieval natural philosophy on hidden qualities and causation.<br/>\n    Thorndike, Lynn. <i>A History of Magic and Experimental Science</i>. New York: Columbia University Press, 1923-1958.<br/>\n    Weill-Parot, Nicolas. Studies on occult science, natural explanation, and image magic.<br/>\n    Page, Sophie, and Catherine Rider, eds. <i>The Routledge History of Medieval Magic</i>. London: Routledge, 2019.</p>\n    ",
+      "extra": "Occult properties are hidden natural powers invoked in scholastic natural philosophy to explain effects not reducible to manifest qualities, creating a crucial boundary zone with natural magic."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Celestial Influence",
+      "text": "\n    <p><b>Celestial Influence</b> is a <b>Hybrid</b> category for medieval theories of astral causation through which stars, planets, and larger heavenly configurations were believed to affect bodies, materials, moods, times, and the conditions of action below the moon. It is one of the most important concepts in MedievalMagicDB because it anchors astrology, medicine, image magic, and many attempts to naturalize occult efficacy without automatically invoking demons.</p>\n\n    <h2>Historical Usage</h2>\n    <p>Medieval discussions of celestial influence appear in astrology, medicine, natural philosophy, image theory, and practical timing instructions. These discussions do not all carry the same force. In some settings astral influence is descriptive and cosmological; in others it becomes a basis for judgment, election, or crafted operation. This range is exactly why the concept matters. The heavens are not merely background in the medieval archive. They are active explanatory agents.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>The concept matters because it helps explain why astrology and occult practices remained intellectually plausible to many learned medieval readers. If the heavens shape bodily and material conditions, then timing, images, words, and substances may become newly meaningful. Modern scholarship uses celestial influence to connect astrology with medicine, natural powers, and image magic without reducing them to one another. It is therefore one of the field's key hinge concepts.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>Theories of celestial influence move through Arabic and Latin texts, astronomical and astrological compendia, scholastic classifications, and practical ritual books. This broad transmission history is historically decisive. It shows that the concept belongs simultaneously to mainstream learned culture and to suspect or contested operations. That dual belonging is one reason the portal treats the category as hybrid rather than purely actor or purely analyst language.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Celestial influence belongs closely with <a href=\"../concepts/astral_image_magic.html\">astral image magic</a> and <a href=\"../concepts/talismans.html\">talismans</a>, since both often depend on heavenly causation. It also intersects with <a href=\"../concepts/occult_properties.html\">occult properties</a> and <a href=\"../concepts/natural_powers.html\">natural powers</a>, where celestial causes may be invoked as part of a broader natural account of efficacy.</p>\n\n    <h2>Literature</h2>\n    <p>Boudet, Jean-Patrice. Studies on astrology and medieval occult sciences.<br/>\n    Burnett, Charles. Studies on Arabic-Latin technical transmission.<br/>\n    Weill-Parot, Nicolas. Studies on image magic and astral causality.<br/>\n    Thorndike, Lynn. <i>A History of Magic and Experimental Science</i>. New York: Columbia University Press, 1923-1958.<br/>\n    Page, Sophie, and Catherine Rider, eds. <i>The Routledge History of Medieval Magic</i>. London: Routledge, 2019.</p>\n    ",
+      "extra": "Celestial influence names medieval theories of astral causation that support astrology, image magic, medicine, and debates over determinism."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "University Condemnation",
+      "text": "University condemnation is an Analyst Term for institutional acts that classified, restricted, or prohibited suspect doctrines and practices, including astrology, image magic, and demonic arts.",
+      "extra": "University condemnation is an Analyst Term for institutional acts that classified, restricted, or prohibited suspect doctrines and practices, including astrology, image magic, and demonic arts."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Planetary Spirits",
+      "text": "Planetary spirits are named intelligences, angels, or demons associated with planets in ritual and astral texts, linking astrology to invocation and image practice.",
+      "extra": "Planetary spirits are named intelligences, angels, or demons associated with planets in ritual and astral texts, linking astrology to invocation and image practice."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Experimental Science",
+      "text": "\n    <p><b>Experimental Science</b> is an <b>Analyst Term</b> whose importance in this portal is chiefly historiographical. It is strongly associated with large modern syntheses, above all Lynn Thorndike's <i>A History of Magic and Experimental Science</i>, in which magic and experiment appear as intertwined attempts to understand and manipulate nature. Medieval actors did not possess a single stable category equivalent to the phrase, and modern historians use it cautiously because it can blur crucial differences among natural philosophy, practical testing, occult causality, and illicit arts.</p>\n\n    <h2>Historical Usage</h2>\n    <p>There is no exact medieval actor term corresponding to experimental science as one unified field. Medieval writers spoke instead of <i>experimentum</i>, experience, mathematical arts, natural philosophy, properties, causes, and specific arts or operations. Figures such as Roger Bacon, Albertus Magnus, al-Kindi, Michael Scot, and later scholastic compilers become relevant here because they wrote about disciplined inquiry into causes, effects, rays, celestial influence, or hidden structures of nature. Those inquiries often touch the same problems modern historians place near magic.</p>\n\n    <p>That overlap is historically important, but it should not be overstated. Medieval authors did not simply think \"science and magic are the same.\" They argued over what counted as lawful inquiry, what relied on occult properties, what could be demonstrated from nature, and what risked illicit dependence on stars, spirits, or unknown powers. Experimental science is therefore most useful as a label for an unstable zone of inquiry rather than as a triumphalist anticipation of modern laboratory science.</p>\n\n    <h2>Thorndike and the Historiography of Continuity</h2>\n    <p>The phrase matters above all because of the historiographical problem it names. Thorndike's monumental history insisted that medieval and early modern inquiry could not be narrated cleanly as the gradual shedding of magic in favor of science. Instead, attempts to explain unusual effects, verify powers, and manipulate nature often developed in close conversation with astrology, image magic, occult properties, and practical experimenta. Later scholarship has revised Thorndike sharply, but it has not made the underlying problem disappear.</p>\n\n    <p>Modern historians now tend to avoid any simple continuity story from magic to science. Yet the category remains useful because it reminds us that medieval natural inquiry did not grow in sterile isolation from occult speculation. The archive itself is messier: recipes, observations, image theories, ray theory, mineral virtues, and astral causation coexist in ways that force historians to think relationally.</p>\n\n    <h2>Natural Inquiry and Occult Causality</h2>\n    <p>One reason the category remains productive is that it highlights how often medieval inquiry focused on effects that were real or reputed but not fully explicable within ordinary causal language. Hidden virtues of stones, the action of celestial rays, the efficacy of properly timed images, or the transformation of substances all invited analysis that was neither straightforwardly magical nor fully normalized as scholastic natural philosophy. Experimental science, as an analytical label, points to that pressure point where explanation seeks discipline without yet attaining consensus.</p>\n\n    <p>Roger Bacon is especially important in this respect because later historians repeatedly recruited him into narratives of experiment, technology, and anti-superstitious critique. Albertus Magnus matters because his discussions of nature, minerals, and hidden properties reveal how inquiry into unusual effects could be methodical without being disenchanted. The category therefore serves less to canonize modern heroes than to illuminate medieval arguments over reliable knowledge.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>The category names both a temptation and an insight. The temptation is to read medieval inquiry as proto-modern science steadily purifying itself of magical residue. The insight is that many medieval attempts to explain, test, or manipulate unusual effects did inhabit a shared zone with occult causality, astral influence, and hidden virtues. Thorndike exaggerated some continuities, but he also forced the field to confront the archive that makes such continuities thinkable.</p>\n\n    <p>Later scholars have refined the problem by insisting on stronger distinctions among genres, institutions, and explanatory registers. Nicolas Weill-Parot, David Pingree, and others have shown that one must separate astral image theory, mathematical speculation, scholastic natural philosophy, and practical recipe culture with more care than Thorndike sometimes did. Even so, the phrase remains valuable because it names the historiographical work required to keep those distinctions visible without pretending the domains never touched.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>Because this is an analyst term, its transmission occurs mainly through modern scholarship rather than through medieval manuscript self-description. Yet it organizes a very real medieval archive: treatises on rays, minerals, celestial influence, experimenta, and natural powers; compilations where practical recipes and theoretical discussions coexist; and later scholarly narratives that sought to bind these materials together. The portal uses the category not to collapse distinctions, but to help the user see why those distinctions became historically urgent.</p>\n\n    <p>Its variant forms are especially visible in the way different scholars have populated the label. For some, it stresses observation and practical verification. For others, it names an archive where occult explanation and natural inquiry remain intertwined. The portal follows the latter, more cautious usage: experimental science is a historiographical guide to a mixed field, not a declaration that medieval magic was secretly modern science in disguise.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Experimental science borders closely on <a href=\"../concepts/occult_properties.html\">occult properties</a>, <a href=\"../concepts/natural_powers.html\">natural powers</a>, and <a href=\"../concepts/celestial_influence.html\">celestial influence</a>, all of which concern partially explained efficacy within nature. It also intersects with <a href=\"../concepts/learned_magic.html\">learned magic</a> where the classificatory problem becomes especially sharp, and with <a href=\"../concepts/mathematical_arts.html\">mathematical arts</a> where quantification, observation, and prediction overlap with suspect forms of knowledge.</p>\n\n    <h2>Literature</h2>\n    <p>Hackett, Jeremiah. Studies on medieval science and scholastic inquiry.<br/>\n    Kieckhefer, Richard. <i>Magic in the Middle Ages</i>. Cambridge: Cambridge University Press, 2014.<br/>\n    Lindberg, David C. Studies on medieval science and natural philosophy.<br/>\n    Thorndike, Lynn. <i>A History of Magic and Experimental Science</i>. New York: Columbia University Press, 1923-1958.<br/>\n    Weill-Parot, Nicolas. Studies on the relation of occult science, mathematics, and scholastic classification.</p>\n    ",
+      "extra": "Experimental science is an Analyst Term especially associated with older histories such as Thorndike's, where magic and experiment are studied as intertwined medieval attempts to test, command, or explain nature."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Natural Powers",
+      "text": "\n    <p><b>Natural Powers</b> is a <b>Hybrid</b> category for medieval attempts to explain unusual efficacy through created nature rather than through explicit demonic pact. The phrase is useful because it gathers together one of the most important intellectual moves in the history of magic: the effort to say that strange effects may still be natural. In MedievalMagicDB it is a core bridge between natural philosophy, medicine, astrology, and the learned occult sciences.</p>\n\n    <h2>Historical Usage</h2>\n    <p>Medieval discussions of natural powers appear in works on stones, herbs, stars, bodies, rays, and hidden properties. Such discussions do not eliminate suspicion, but they provide alternatives to demonological explanation. Figures such as Albertus Magnus, Roger Bacon, and authors associated with Arabic technical traditions all become important here, because they show that effects later treated as magical could be described within a broader account of nature's capacities.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>The category matters because it prevents historians from assuming that every unusual effect in medieval discourse was either dismissed or demonized. Natural powers give the archive a third zone: serious but incomplete explanation. Modern scholarship uses this category to map the boundary where occult properties, celestial influence, and practical operations become hardest to sort. It is therefore central to both the intellectual and historiographical architecture of the portal.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>Natural powers are discussed across treatises, commentaries, compendia, and later histories of science and magic. The category has no single founding text. Instead it recurs as an explanatory disposition across multiple genres and languages. That diffuse transmission is itself historically meaningful, since it shows how widely shared the pressure to naturalize efficacy could be.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Natural powers belong closely with <a href=\"../concepts/occult_properties.html\">occult properties</a> and <a href=\"../concepts/celestial_influence.html\">celestial influence</a>, since both concern partially visible causal structures. They also intersect with <a href=\"../concepts/experimental_science.html\">experimental science</a> in later historiography and with <a href=\"../concepts/talismans.html\">talismans</a> where naturalized explanations become most contested.</p>\n\n    <h2>Literature</h2>\n    <p>Kieckhefer, Richard. <i>Magic in the Middle Ages</i>. Cambridge: Cambridge University Press, 2014.<br/>\n    Newman, William R., and other historians of medieval natural philosophy on hidden causation.<br/>\n    Thorndike, Lynn. <i>A History of Magic and Experimental Science</i>. New York: Columbia University Press, 1923-1958.<br/>\n    Weill-Parot, Nicolas. Studies on astral images and natural explanation.<br/>\n    Page, Sophie, and Catherine Rider, eds. <i>The Routledge History of Medieval Magic</i>. London: Routledge, 2019.</p>\n    ",
+      "extra": "Natural powers names medieval attempts to explain unusual effects through created nature rather than demonic pact, a key boundary zone between natural philosophy and magic."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Prohibited Arts",
+      "text": "Prohibited arts is a hybrid category for practices forbidden by theological, legal, university, or pastoral authorities, including forms of divination, image magic, spirit invocation, and suspect astrology.",
+      "extra": "Prohibited arts is a hybrid category for practices forbidden by theological, legal, university, or pastoral authorities, including forms of divination, image magic, spirit invocation, and suspect astrology."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Mathematical Arts",
+      "text": "Mathematical arts refers to quadrivial and astral disciplines, especially astrology, whose learned status made their relation to divination and magic especially contested.",
+      "extra": "Mathematical arts refers to quadrivial and astral disciplines, especially astrology, whose learned status made their relation to divination and magic especially contested."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Secret of Secrets",
+      "text": "Secret of Secrets refers to the Secretum Secretorum tradition and its reception as a pseudo-Aristotelian vehicle for princely counsel, occult knowledge, physiognomy, astrology, and medicine.",
+      "extra": "Secret of Secrets refers to the Secretum Secretorum tradition and its reception as a pseudo-Aristotelian vehicle for princely counsel, occult knowledge, physiognomy, astrology, and medicine."
+    }
+  ],
+  "corpus_hits": [
+    {
+      "corpus": "Medieval magic",
+      "file": "Aleister Crowley Christopher S Hyatt Lon Milo Duquette Peter Conte Daniel Pineda David P Wilson Aleister Crowley s Illustrated Goetia New Falcon Publi.txt",
+      "cite": "Aleister Crowley Christopher S Hyatt Lon Milo Duquette Peter Conte Daniel Pineda David P Wilson Aleister Crowley s Illustrated Goetia New Fa",
+      "snippet": "…ldmanwitha longbeardanda hoaryhead,riding uponapale-coloredhorse,withasharpweaponinhishand.His officeistoteachtheartsofphilosophy,astrology,rhetoric,logic, cheiromancy,andpyromancy,inalltheirparts,andperfectly.He has underhis Power 20 Legionsof Spirits. o o o TheI[[us…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Bailey, Michael David_Bain, Kristi Woodward_Callan, Maeve Brigid - The Sacred and the Sinister_ Studies in Medieval Religion and Magic (2019, The Penn.txt",
+      "cite": "Bailey, Michael David Bain, Kristi Woodward Callan, Maeve Brigid The Sacred and the Sinister Studies in Medieval Religion and Magic (2019, T",
+      "snippet": "…however, there is some debate about what range of practices should be grouped together. Should quasi sciences such as alchemy and astrology, for example, be kept apart from necromantic conjurations? While critical medieval authorities typically lumped these practices t…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Claire Fanger Invoking Angels_ Theurgic Ideas and Practices Thirteenth to Sixteenth Centuries Penn State Press.txt",
+      "cite": "Claire Fanger Invoking Angels Theurgic Ideas and Practices Thirteenth to Sixteenth Centuries Penn State Press",
+      "snippet": "…ide to spirit summoning that references both types of operation, noting that the most pow aful actions implement both magical and astrological principles. Antonio's work is interesting in its justification of magic through philosophical means; he brings together a spirit…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Dan Attrell_ David Porreca Picatrix_ A Medieval Treatise on Astral Magic 10 1515_9780271084152 libgen li.txt",
+      "cite": "Dan Attrell David Porreca Picatrix A Medieval Treatise on Astral Magic 10 1515",
+      "snippet": "…ject their rays onto the planets that move themselves about. It is the science of knowing the signs in the heavens when they (the astrologers) do what they intend to do. Under this topic we include all the debates of the ancient sages regarding the selection of hours and…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "DR STEPHEN CLARK SKINNER _ Daniel Clark Ars Notoria the Grimoire of Rapid Learning by Magic with the Golden Flowers of Apollonius of Tyana_ A Mediaeva.txt",
+      "cite": "DR STEPHEN CLARK SKINNER Daniel Clark Ars Notoria the Grimoire of Rapid Learning by Magic with the Golden Flowers of Apollonius of Tyana A M",
+      "snippet": "…rbiddenRites,1997,pp.193-196,analysesoneexperimentum whichpermitsthemasteryoftheliberalartsinjustthirtydays.] theartsofarithmetic,astrology,astronomy,cyromancy (chiromancy),dialectic(logic),geomancy,geometry,geonogia, [Footnote: ProbablyGeneralArts,fromtheGreekyeovoyia…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Fanger Claire Rewriting Magic_ An Exegesis of the Visionary Autobiography of a Fourteenth Century French Monk Pennsylvania State University Press.txt",
+      "cite": "Fanger Claire Rewriting Magic An Exegesis of the Visionary Autobiography of a Fourteenth Century French Monk Pennsylvania State University P",
+      "snippet": "…eft off and the other began. Part of the problem was that many types of magic that seemed in some loca- tions to draw on natural astrological forces also included invocations in other places, so the distinctions that existed in principle were riddled with ambigui- ties i…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Frank Klaassen Making Magic in Elizabethan England_ Two Early Modern Vernacular Books of Magic Penn State University Press.txt",
+      "cite": "Frank Klaassen Making Magic in Elizabethan England Two Early Modern Vernacular Books of Magic Penn State University Press",
+      "snippet": "…heir cre- ation and the names and figures to be engraved or written on them. Although much more complex than many of the forms of astrological magic that had been circulating in Europe since the twelfth century, they assume a similar set of prin- ciples. To greater and le…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Frank Klaassen The Transformations of Magic_ Illicit Learned Magic in the Later Middle Ages and Renaissance.txt",
+      "cite": "Frank Klaassen The Transformations of Magic Illicit Learned Magic in the Later Middle Ages and Renaissance",
+      "snippet": "…250.144.144 on Sat, 04 Jun 2016 20:42:19 UTC All use subject to http://about.jstor.org/terms Despite the complete absence of any astrological elements in the actual instructions, the introduction makes clear that the rings are to be understood as deriving their power fro…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "John Michael Greer De Imaginibus_ Astral High Magic Thabit Ibn Qurra s De Imaginibus Renaissance Astrology.txt",
+      "cite": "John Michael Greer De Imaginibus Astral High Magic Thabit Ibn Qurra s De Imaginibus Renaissance Astrology",
+      "snippet": "Introduction De Imaginibus, On Images or more loosely; How to Make Astrological Talismans, has been generally accepted as the work of Thabit Ibn Qurra, the 9th century Harranian sage. It was translated into La…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Joseph H Peterson Grimorium Verum Createspace.txt",
+      "cite": "Joseph H Peterson Grimorium Verum Createspace",
+      "snippet": "…had remained unknown up to now. The exemplar has on the cover the label of Astaroth, edition of 1521. THE FUTURE REVEALED, or the astrology, horoscopy, and ancient divinations explained by the soothsayers of the Middle Ages. ELEMENTS OF CHIROMANCY, the art of explainin…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Carlo Ginzburg - The Cheese and the Worms_ The Cosmos of a Sixteenth-Century Miller (1992, Johns Hopkins University Press) - libgen.li.txt",
+      "cite": "Carlo Ginzburg The Cheese and the Worms The Cosmos of a Sixteenth Century Miller (1992, Johns Hopkins University Press)",
+      "snippet": "…n for coherence, by a series of chapters taken largely from the Elucidarium of Honorius of Autun, where metaphysics is mixed with astrology and theology with the doctrine of the four temperaments. Chapter 4 of the Fioretto, \"How God created man out of four elements,\" b…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Deborah E Harkness John Dee s Conversations with Angels_ Cabala Alchemy and the End of Nature Cambridge University Press.txt",
+      "cite": "Deborah E Harkness John Dee s Conversations with Angels Cabala Alchemy and the End of Nature Cambridge University Press",
+      "snippet": "…versations should take place. The Dee household was bustling with activity, and unheralded visitors could stop by at any time for astrological consultations or to use the library. At Mortlake, Dee's home until his departure for the continent in 1583, the angel conversatio…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Ecstasies_Deciphering_Witches_Sabbath.txt",
+      "cite": "Ecstasies Deciphering Witches Sabbath",
+      "snippet": "…transformed them into constellations: Ursa Major and the Ursa Minor.?> Quoting a passage from Phaenomena (vv. 30-35), the poem of astrological popularization written by Aratus around 275 sc, Diodorus identified the Mothers of Engyon with the two bears. According to other…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Frank Klaassen The Transformations of Magic.txt",
+      "cite": "Frank Klaassen The Transformations of Magic",
+      "snippet": "…gny. In each case, the protagonist faces an essentially unsolvable problem. The apothecary must decide whether to believe that an astrological image that made him rich derived its power from occult natural properties or from deceptive demons. Brother John, by contrast, st…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Glyn Parry The Arch Conjuror of England_ John Dee Yale University Press.txt",
+      "cite": "Glyn Parry The Arch Conjuror of England John Dee Yale University Press",
+      "snippet": "…later service at Court. In 1570 his 'Mathematical Preface' to Euclid's Geometry conventionally described alchemy as 'terrestrial astrology'. It cited Aristotle's On Coming-to-be, as well as his Physics and Meteorology, which discussed the stars, to prove that the rays…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Håkansson, Håkan - Seeing the Word_ John Dee and Renaissance Occultism (2001) - libgen.li.txt",
+      "cite": "Håkansson, Håkan Seeing the Word John Dee and Renaissance Occultism (2001)",
+      "snippet": "…comprehensive term for the various sciences dealing with invisible or non-manifest forces, such as magic, alchemy, divination and astrology — confined it to the margins of historiography. Confronted with beliefs and conceptions so strange and otherworldly that they see…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Ioan P Couliano Eros and Magic.txt",
+      "cite": "Ioan P Couliano Eros and Magic",
+      "snippet": "…could not be upset simply by changing theories about the structure of the world. Ma-gicians such as Giordano Bruno or Pythagorean astrologers like Kepler have no difficulty in conforming to the new philosophy. What does Phantasms at Work change, from one cosmos to anothe…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Keith Thomas - Religion and the Decline of Magic.txt",
+      "cite": "Keith Thomas Religion and the Decline of Magic",
+      "snippet": "…nce. Hence the vogue of diaries and autobiographies chronicling the notable happenings in the writer's life – ‘accidents’, as the astrologers called them. The godly writer would solemnly detail all his childhood illnesses and his preservation from a variety of mishaps. H…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Paola Zambelli Astrology and Magic.txt",
+      "cite": "Paola Zambelli Astrology and Magic",
+      "snippet": "…p. 111 ff. T. regory). • 9 L. Thorndtke, A I lutory of Magic and Expmmental Science, ew York, 1923 ff., 8 vol .: I Theories on Astrology and Magic (1348-1586) in Recent Interpretations 3 documentation, I ~o not ee the principal argument in that link, especially whe…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Paola Zambelli White Magic.txt",
+      "cite": "Paola Zambelli White Magic",
+      "snippet": "…cienti\u0002 c revolution—all with good reason. I shall not, however, concentrate on these aspects but rather upon the interference of astrology and magic with alternative rites and also with witchcraft, which in the Renaissance period was an important question for social a…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Attilio Mastrocinque_ Joseph E Sanzo_ Marianna Scapini Ancient Magic_ Then and Now.txt",
+      "cite": "Attilio Mastrocinque Joseph E Sanzo Marianna Scapini Ancient Magic Then and Now",
+      "snippet": "…wide range of sources as part of his contention that the polarity between right and left – a central theme in the Greek and Roman astrology – can also be found in Greek and Roman therapeutic and aphrodisiac recipes and spells. The third section of the book, \"The Transm…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Francesca Rochberg In the Path of the Moon_ Babylonian Celestial Divination and Its Legacy Brill Academic Publishers.txt",
+      "cite": "Francesca Rochberg In the Path of the Moon Babylonian Celestial Divination and Its Legacy Brill Academic Publishers",
+      "snippet": "…[Footnote: The expression for a rising eclipsed moon is Sin adriš uÉī\"the moon rises dimly visible,\" as in the following from an astrological commentary: ¢dÜSin ad-riš È-ma id-lip \"the moon rises dimly visible and lingers on,\" BM 47447:24 (unpub. tablet collated and cite…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Fritz Graf Sarah Iles Johnston Ritual Texts for the Afterlife_ Orpheus and the Bacchic Gold Tablets Routledge.txt",
+      "cite": "Fritz Graf Sarah Iles Johnston Ritual Texts for the Afterlife Orpheus and the Bacchic Gold Tablets Routledge",
+      "snippet": "…d in Chapter 3 as well as other episodes.61 Nor have we yet exhausted the possibilities: Lucian portrays Orpheus as having taught astrology to the Greeks through hieroi logoi, for instance (Astr. 10; cf. OF 718–82). That hieroi logoi might also include both ritual pres…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Hans Dieter Betz The Greek Magical Papyri in Translation Including the Demotic Spells Vol 1_ Texts University of Chicago Press.txt",
+      "cite": "Hans Dieter Betz The Greek Magical Papyri in Translation Including the Demotic Spells Vol 1 Texts University of Chicago Press",
+      "snippet": "…arc bad for thc body; within them also arc the dangerous points. *Tr.: W. C. Grcsc. The section appcars to bc a fragment from an astrological work about the influoncc of the planets upon tlic pcriods of lifc. PGM IV. 850-929 \"Charm of Solomon that produces a aanceU6 (u~o…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "John G Gager Curse Tablets and Binding Spells from the Ancient World.txt",
+      "cite": "John G Gager Curse Tablets and Binding Spells from the Ancient World",
+      "snippet": "…istian writer, Cassiodorus, in the sixth century C.E., who provides an elaborate interpretation of the circus and its races as an astrological and astronomical symbol of the entire universe—the twenty-four races each day are the twenty-four hours; the seven laps of each r…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Korshi Dosoo_ Markéta Preininger Papyri Copticae Magicae_ Coptic Magical Texts Volume 1_ Formularies De Gruyter.txt",
+      "cite": "Korshi Dosoo Markéta Preininger Papyri Copticae Magicae Coptic Magical Texts Volume 1 Formularies De Gruyter",
+      "snippet": "…n of the Great Bear, which would make sense in the context of the mention of several msḫ.tyw) other celestial bodies. In Egyptian astrology, Ursa Major is called the Foreleg ( and is associated with the god *Seth (Neugebauer/Parker 1969: 190–191). It is is frequently i…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Marvin W Meyer Paul Allan Mirecki Magic and Ritual in the Ancient World Brill Academic Publishers.txt",
+      "cite": "Marvin W Meyer Paul Allan Mirecki Magic and Ritual in the Ancient World Brill Academic Publishers",
+      "snippet": "…rials in continental Europe (211-222), England (223-82), and Scotland (283- Scott concludes the final Letter, largely devoted to astrology (344- 51) and apparitions (351-401), both of which he considers independ- ent of witchcraft and demonology, with a rationalist's…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Panayotov Strahil V _Vacín Luděk Mesopotamian Medicine and Magic_ Studies in Honor of Markham J Geller Brill.txt",
+      "cite": "Panayotov Strahil V Vacín Luděk Mesopotamian Medicine and Magic Studies in Honor of Markham J Geller Brill",
+      "snippet": "…vilization:The Evolution of an Urban Land- scape, by Guillermo Algaze.JRAI 15: 630–631. Reading the Human Body: Physiognomics and Astrology in the Dead Sea Scrolls and Hellenistic-Early Roman Period Judaism (STDJ 67), by Mladen Popović.JJS 60: 143–144. An Akkadian Lexi…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Petropoulos Greek Magic Ancient Medieval and Modern BB Routledge.txt",
+      "cite": "Petropoulos Greek Magic Ancient Medieval and Modern BB Routledge",
+      "snippet": "…became specialized in religious func- tions. St Matthew, as many of us know, recognized that the Magoi (in Greek) were competent astrologers intimately familiar with the sky. But well before the Christian era, Herodotus revealed the members of this γένος to be carrying…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "PhD Thesis Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts and Europ.txt",
+      "cite": "PhD Thesis Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts",
+      "snippet": "…iquity. Byzantine Sources. In the early 20th century, most of the scholarly work on the Byzantine Greek texts was confined to the astrological rather than the magical aspects.19 The Testament of Solomon, published by Chester McCown in 1922, helped establish the existence…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Brian P Copenhaver Hermetica_ The Greek Corpus Hermeticum and the Latin Asclepius in a New English Translation with Notes and Introduction Cambridge U.txt",
+      "cite": "Brian P Copenhaver Hermetica The Greek Corpus Hermeticum and the Latin Asclepius in a New English Translation with Notes and Introduction Ca",
+      "snippet": "…. Nock. \"The Milieu of Gnosticism,\" in Essays I: 444-51. Nock. \"The Question of Jewish Mysteries,\" in Essays I: 459-68. Nock. \"Astrology and Cultural History,\" in Essays I: 493-502. Nock. \"Greeks and Magi,\" in Essays II: 516-26. Nock. \"Ruler Worship and Syncretism…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Christian H Bull The Tradition of Hermes Trismegistus_ The Egyptian Priestly Figure as a Teacher of Hellenized Wisdom Brill.txt",
+      "cite": "Christian H Bull The Tradition of Hermes Trismegistus The Egyptian Priestly Figure as a Teacher of Hellenized Wisdom Brill",
+      "snippet": "…ern itself with the myth of Hermes as it appears in the philo- sophical Hermetica, as well as in some external testimonies to the astrological Hermetica. This investigation will indicate that there were in fact philosophi- cal Hermetica in circulation already at the turn…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Claudio Moreschini Hermes Christianus_ The Intermingling of Hermetic Piety and Christian Thought Brepols Publishers.txt",
+      "cite": "Claudio Moreschini Hermes Christianus The Intermingling of Hermetic Piety and Christian Thought Brepols Publishers",
+      "snippet": "…two categories, popular and learned, although he admits that 'these two groups are not without overlap. Thus there are traces of astrology in learned Hermetism, traces of alchemy in the Kore Kosmou. Moreover, two writings of the alchemist Zosimus are clearly influence…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "E tudes pre liminaires aux religions orientales dans l empire romain 91 R van den Broek M J Vermaseren Studies in Gnosticism and Hellenistic Religions.txt",
+      "cite": "E tudes pre liminaires aux religions orientales dans l empire romain 91 R van den Broek M J Vermaseren Studies in Gnosticism and Hellenistic",
+      "snippet": "…e with heretical views and philosophies. It is now a widely accepted notion that the rabbis had a fairly good knowledge of magic, astrology, medicine, cosmology, etc. Indeed, some of them were by all standards learned scholars. However, in the case of heresies, it appe…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Hermetism_and_Hieratic_Tradition_in_the.txt",
+      "cite": "Hermetism and Hieratic Tradition in the",
+      "snippet": "…to \"Pitys,\" the alleged author of a series of necro- mantic rites in PGM4. On Bitys see Fowden, Egyptian Hermes 150–153.] and the astrological manual Salmeschiniaka, which dealt with the risings and settings of stars and technical details of horoscopic astrology relating…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Jeffrey B Pettis The Sleeper s Dream_ Asclepius Ritual and Early Christian Discourse libgen li.txt",
+      "cite": "Jeffrey B Pettis The Sleeper s Dream Asclepius Ritual and Early Christian Discourse",
+      "snippet": "…shes to treat abdominal cramps or bruises (36.203). letic drugs and botanical lore. [Footnote: Included also are pharmacological astrology, incantational formu- lae, imprecations and spells, and animal products used as medicines.] An examination of the content of this…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "M David Litwa Hermetica II_ The Excerpts of Stobaeus Papyrus Fragments and Ancient Testimonies in an English Translation with Notes and Introduction C.txt",
+      "cite": "M David Litwa Hermetica II The Excerpts of Stobaeus Papyrus Fragments and Ancient Testimonies in an English Translation with Notes and Intro",
+      "snippet": "…ntheheavens.\"Hermeswastheultimatetheologian,yetthe scope of his expertise was in fact more vast. There are existing treatises on astrology,thevirtuesofstones,theprinciplesofcreation,theoriginand natureofthesoul,alchemicalpractices,Fate,theeffectsofclimateon intelligen…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Speculum 1997 jan vol 72 iss 1 Review by_ David Pingree De Triginta Sex Decanis by Hermes Trismegistus_ Simonetta Feraboli_Translatio Gallica Capitum .txt",
+      "cite": "Speculum 1997 jan vol 72 iss 1 Review by David Pingree De Triginta Sex Decanis by Hermes Trismegistus Simonetta Feraboli Translatio Gallica ",
+      "snippet": "…s 3 color illustrations and 5 black-and-white figures, 387; tables. In this exemplary edition of the Latin translation of a Greek astrological compendium that In this exemplary edition of the Latin translation of a Greek astrological compendium that has generally been kno…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Speculum 2008 jul vol 83 iss 3 Matula Jozef Hermes Trismegistus De sex rerum principiis ed Paolo Lucentini and Mark D Delp 10 1017_s0038713400014962 l.txt",
+      "cite": "Speculum 2008 jul vol 83 iss 3 Matula Jozef Hermes Trismegistus De sex rerum principiis ed Paolo Lucentini and Mark D Delp 10 1017 s00387134",
+      "snippet": "…ars. Previous analyses have been limited to the recognition of its copious verbatim quotations of Firmicus Maternus and of Arabic astrology or its development of the notion natura as inherited from the Latin philosophical tradition. Delp's study of the history of the t…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Speculum 2008 jul vol 83 iss 3 Review by_ Jozef Matula De sex rerum principiisby Hermes Trismegistus_ Paolo Lucentini_ Mark D Delp 10 2307_20466319 li.txt",
+      "cite": "Speculum 2008 jul vol 83 iss 3 Review by Jozef Matula De sex rerum principiisby Hermes Trismegistus Paolo Lucentini Mark D Delp 10 2307 2046",
+      "snippet": "…ars. Previous analyses have been limited to the recognition of its copious verbatim quotations of Firmicus Maternus and of Arabic astrology or its development of the notion natura as inherited from the Latin philosophical tradition. Delp's study of the history of the t…"
+    }
+  ],
+  "counts": {
+    "db": 40,
+    "corpus": 40
+  }
+}

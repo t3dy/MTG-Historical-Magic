@@ -1,0 +1,256 @@
+{
+  "slug": "witch",
+  "category": "profession",
+  "db_hits": [
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "maleficium",
+      "text": "Maleficium ('harmful magic' or 'sorcery') designates the use of magical means to cause injury, illness, death, or misfortune. The term functioned primarily as an accusation rather than a self-description: those charged with maleficium in ecclesiastical and secular courts rarely identified their practices by that label. Renaissance demonologists such as the authors of the Malleus Maleficarum (1486) treated maleficium as proof of demonic compact, while defenders of *magia naturalis* like Ficino and Agrippa sought to distinguish their philosophical magic from the maleficium attributed to village sorcerers. The polemical dimension of the term is essential — it marked the boundary between tolerated and persecuted forms of magical practice."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "ligatura",
+      "text": "Ligatura ('binding') designates a magical operation that constrains or compels a person, spirit, or natural process — preventing harm, restricting movement, or enforcing obedience. The term encompasses both folk practices (knotted cords, binding amulets) and learned ceremonial techniques for binding spirits to the operator's will. Agrippa's De Occulta Philosophia discusses binding operations within his account of the power of words and *characteres*, while grimoire literature provides detailed protocols for constraining evoked spirits within magical circles. Ligatura was frequently cited in witch-trial accusations as evidence of *maleficium*, blurring the line between learned and popular magical traditions."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Demonic Pact",
+      "text": "\n    <p><b>Demonic Pact</b> is a <b>Hybrid</b> category because it has both strong historical presence in theological and legal discourse and strong modern usefulness as an analytic label. Medieval writers used the idea of pact to explain how illicit magic might depend on explicit or implicit agreement with demons. Modern historians, however, treat the category cautiously because it often functions polemically and juridically rather than as transparent description of practitioners' intentions.</p>\n\n    <h2>Historical Usage</h2>\n    <p>In medieval theology and later demonological writing, pact language helps explain why certain acts are illicit even when their outward form resembles prayer, consultation, or practical remedy. The pact need not always be imagined as a dramatic formal contract. It can also be implicit, inferred from dependence on demonic aid or from the use of signs and invocations authorities deem unlawful. This elasticity is one reason the category became so powerful.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>Demonic pact matters because it reveals how authorities turned ambiguous practices into morally legible offenses. The concept helps connect necromancy, witchcraft, demonology, and pastoral classification, but it must not be mistaken for a self-report of practice. Modern scholarship uses it precisely to study the interpretive work by which suspect acts were absorbed into a demonological framework.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>The category circulates through theology, pastoral writing, legal reasoning, and later witchcraft discourse. Its meanings shift across these settings. In some contexts it is a speculative explanation, in others a judicial accusation, in still others a broader model for understanding illicit dependence. This variability is what makes the concept historically rich.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Demonic pact belongs naturally with <a href=\"../concepts/demonology.html\">demonology</a> and <a href=\"../concepts/necromancy.html\">necromancy</a>, since those are among the main fields in which spirit dependence is theorized. It also intersects strongly with <a href=\"../concepts/witchcraft.html\">witchcraft</a> and <a href=\"../concepts/maleficium.html\">maleficium</a> where accusations of harmful and illicit alliance become especially charged.</p>\n\n    <h2>Literature</h2>\n    <p>Bailey, Michael D. Studies on demonological classification and witchcraft.<br/>\n    Kieckhefer, Richard. <i>Magic in the Middle Ages</i>. Cambridge: Cambridge University Press, 2014.<br/>\n    Rider, Catherine. Studies on pastoral and theological classification.<br/>\n    Thorndike, Lynn. <i>A History of Magic and Experimental Science</i>. New York: Columbia University Press, 1923-1958.<br/>\n    Page, Sophie, and Catherine Rider, eds. <i>The Routledge History of Medieval Magic</i>. London: Routledge, 2019.</p>\n    ",
+      "extra": "Demonic pact is a theological and legal category used to explain illicit magic as explicit or implicit agreement with demons, while modern historians analyze it as a polemical and juridical tool rather than a transparent description of practice."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Demonology",
+      "text": "\n    <p><b>Demonology</b> is an <b>Analyst Term</b> for learned discourse about demons: their ontology, powers, limits, deceptive capacities, and relation to human ritual action. It is a crucial category for medieval magic scholarship because many condemnations of magic are really arguments about what demons can accomplish and how they may insinuate themselves into practices of divination, healing, image use, or spirit invocation. Yet demonology should never be allowed to stand in for the whole field of magic. It is one powerful framework among others.</p>\n\n    <h2>Historical Usage</h2>\n    <p>Medieval actors did not usually gather all relevant materials under a single neutral heading equivalent to the modern word demonology. Rather, discussions of demons appear in theology, biblical exegesis, pastoral literature, scholastic disputation, exorcistic practice, and polemic against suspect arts. This dispersed archive is historically important. It shows that demonological reasoning was not marginal but woven into mainstream religious thought. At the same time, the relation between demons and magic was not uniform. Some texts make demons central to efficacy; others argue that certain effects can be natural or illusory instead.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>Demonology matters because it helps historians understand how the category of illicit magic was built. William of Auvergne, Thomas Aquinas, Augustine, and later demonological writers all provided conceptual grammars for reading ritual actions through demonic causation. Modern scholars such as Michael D. Bailey and Richard Kieckhefer have shown that this framework must be studied alongside manuscript evidence rather than accepted as direct description of practice. Demonology is therefore both source and problem: it tells us how authorities thought, and it risks obscuring how practitioners understood themselves.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>The field moves across patristic, scholastic, pastoral, and legal traditions. A demonological claim in Augustine does not function exactly like one in a confessor's manual, an exorcistic rite, or a later witchcraft treatise. The category also shifts across vernacularization and institutional use. Medieval demonology is thus better treated as a family of discourses than as a single stable science. The modern term names a real scholarly object, but a composite one.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Demonology is tightly linked to <a href=\"../concepts/exorcism.html\">exorcism</a>, where demonic presence becomes a matter of ritual management. It also intersects with <a href=\"../concepts/necromancy.html\">necromancy</a> and <a href=\"../concepts/demonic_pact.html\">demonic pact</a>, though those concepts concern particular forms of suspected or theorized relation to spirits. In histories of accusation it also bears strongly on <a href=\"../concepts/witchcraft.html\">witchcraft</a> and <a href=\"../concepts/maleficium.html\">maleficium</a>.</p>\n\n    <h2>Literature</h2>\n    <p>Bailey, Michael D. Studies on medieval demonology, religion, and witchcraft.<br/>\n    Kieckhefer, Richard. <i>Magic in the Middle Ages</i>. Cambridge: Cambridge University Press, 2014.<br/>\n    Rider, Catherine. Studies on theology, pastoral care, and suspect practices.<br/>\n    Thorndike, Lynn. <i>A History of Magic and Experimental Science</i>. New York: Columbia University Press, 1923-1958.<br/>\n    Page, Sophie, and Catherine Rider, eds. <i>The Routledge History of Medieval Magic</i>. London: Routledge, 2019.</p>\n    ",
+      "extra": "Demonology is an Analyst Term for systematic learned discussion of demons, their powers, limitations, deception, and relation to divination, magic, superstition, and witchcraft."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Witchcraft",
+      "text": "\n    <p><b>Witchcraft</b> is an <b>Analyst Term</b> for a historically contingent cluster of accusations, learned constructions, beliefs, and legal or theological categories that became especially powerful in the later Middle Ages and early modern period. It does not map cleanly onto a single medieval actor term. Medieval writers more often used words such as <i>maleficium</i>, <i>superstitio</i>, <i>sortilegium</i>, and related labels of harm, false religion, or illicit practice. The portal therefore treats witchcraft as a necessary but unstable modern category whose value depends on careful attention to local evidence, chronology, and vocabulary.</p>\n\n    <h2>Historical Usage</h2>\n    <p>The medieval roots of what modern historians call witchcraft are dispersed across sermons, confessional manuals, miracle stories, canon law, scholastic theology, princely advice, vernacular narrative, and judicial record. A village-level charge of bodily or agricultural harm, a theologian's discussion of demons, and a pastoral warning against suspect cures all contribute different strands to the category. This dispersion matters because it means witchcraft was assembled historically out of partially connected fears and explanatory habits rather than inherited as a single fixed social reality.</p>\n\n    <p>Many early and central uses of the evidence revolve around harm. Livestock fail, weather threatens, fertility is disrupted, illness persists, impotence is feared, and someone is said to have caused it. Yet the explanatory language for such harm remains variable. One source may treat the problem as <i>maleficium</i>, another as deception by demons, another as superstitious misuse of sacred words or objects, and still another as social suspicion with minimal theoretical elaboration. The term \"witchcraft\" is therefore strongest when it is used not as an assumed essence but as a map of converging accusations and interpretations.</p>\n\n    <p>By the thirteenth through fifteenth centuries, several developments begin to tighten the field. Scholastic demonology expands the explanatory place of the devil and subordinate spirits. Pastoral programs sharpen concern with illicit rites and suspect consultations. Judicial and inquisitorial procedures provide stronger institutional mechanisms for gathering testimony and codifying suspicion. Vernacular didactic texts and learned polemics alike begin to align harmful action, hidden ritual, perverse intention, and demonic agency more explicitly than before. None of these developments alone \"creates\" witchcraft, but together they make the category more historically coherent and more socially dangerous.</p>\n\n    <h2>Analyst Term and Actor Vocabulary</h2>\n    <p>The category is methodologically important because it is one of the clearest places where modern analytical language can obscure historical vocabulary. Medieval sources usually do not say \"witchcraft\" in the modern historian's broad sense. They name injuries, unlawful observances, charms, prognostications, image rites, and demonic acts more specifically. To write the history of witchcraft well is therefore to preserve the distance between analyst shorthand and actor speech. The portal keeps that distance visible by linking witchcraft outward to narrower entries rather than letting it swallow them.</p>\n\n    <p>This actor-analyst tension also helps explain why the category must remain relational. A confessor concerned about a spoken charm, a theologian arguing about diabolic illusion, and a judge pursuing accusations of harmful magic are not simply describing one shared object. They are repositioning overlapping materials within different institutional frames. Witchcraft is the modern historian's name for that unstable but consequential overlap.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>Modern scholarship uses witchcraft because some larger term is needed for the convergence of harmful magic, demonological suspicion, social accusation, and legal or moral classification. Michael D. Bailey has been especially important in showing how this convergence belongs to the history of religion, classification, and pastoral reform rather than to a simple story of irrational panic. Richard Kieckhefer's work remains crucial because it helps keep clerical and learned forms of illicit ritual in view even where later witchcraft discourse tries to redraw all magical practice under a single demonological heading.</p>\n\n    <p>Catherine Rider, Sophie Page, and contributors to broader synthetic volumes have also helped integrate witchcraft back into the wider ecology of medieval magic. That move matters because the field can otherwise split artificially between elite ritual magic on one side and village accusation on the other. Medieval evidence rarely respects such a clean division. Theories, texts, and accusations moved across social registers in messy ways, and witchcraft is one of the places where that mess becomes historically visible.</p>\n\n    <h2>Accusation, Practice, and Social Form</h2>\n    <p>Witchcraft should not be reduced either to actual ritual practice or to fantasy imposed from above. Medieval evidence frequently contains both practice claims and accusatory projection, and the relative balance changes by genre. Some records preserve only polemical attribution. Others point to routines of healing, cursing, protective speech, or consultation that may have been locally meaningful apart from learned demonology. Historians therefore have to distinguish among performed action, narrated suspicion, legal scripting, and theological interpretation.</p>\n\n    <p>This distinction is especially important for the medieval period, where later early modern stereotypes can easily distort the archive. The sabbath complex, systematic confessions of pact, and strong gendered consolidation associated with later witch persecutions have medieval antecedents, but they should not be retrojected wholesale into earlier centuries. The portal's entry architecture accordingly treats witchcraft as a moving category with a long prehistory rather than as a fully formed medieval constant.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>Witchcraft is shaped not by one grimoire or one legal code but by the circulation of ideas across theology, canon law, pastoral practice, miracle narratives, exempla, demonological speculation, and vernacular teaching. In some texts, harmful action is central and demonic theory secondary. In others, the reverse is true. Some sources foreground women; others worry more about clerics, diviners, healers, or household specialists. The category's variation is therefore part of its history, not an imperfection to be cleaned away.</p>\n\n    <p>The relation between witchcraft and learned magic is likewise unstable. Some authors carefully distinguish clerical ritual books from popular harmful practices. Others absorb both into a single logic of illicit commerce with spirits. This instability is one reason the portal treats witchcraft as a hub entry: it forces the user to browse among accusation, ritual technique, moral theology, and institutional classification rather than settling too quickly on one explanatory model.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Witchcraft overlaps most obviously with <a href=\"../concepts/maleficium.html\">maleficium</a>, though the latter names harm more precisely and historically. It also intersects with <a href=\"../concepts/demonology.html\">demonology</a> and <a href=\"../concepts/demonic_pact.html\">demonic pact</a>, which often provide the explanatory framework for accusations. Finally, it bears on <a href=\"../concepts/charms.html\">charms</a>, <a href=\"../concepts/divination.html\">divination</a>, and <a href=\"../concepts/confession.html\">confession</a>, where ordinary, protective, or prognostic acts may be redrawn as suspect under pastoral or polemical pressure.</p>\n\n    <h2>Literature</h2>\n    <p>Bailey, Michael D. <i>Magic and Superstition in Europe: A Concise History from Antiquity to the Present</i>. Lanham: Rowman &amp; Littlefield, 2007.<br/>\n    Kieckhefer, Richard. <i>Magic in the Middle Ages</i>. Cambridge: Cambridge University Press, 2014.<br/>\n    Kieckhefer, Richard. <i>Forbidden Rites: A Necromancer's Manual of the Fifteenth Century</i>. University Park: Pennsylvania State University Press, 1998.<br/>\n    Page, Sophie, and Catherine Rider, eds. <i>The Routledge History of Medieval Magic</i>. London: Routledge, 2019.<br/>\n    Rider, Catherine. Studies on pastoral and legal classification in the medieval West.</p>\n    ",
+      "extra": "Witchcraft is an Analyst Term for accusations, learned demonological categories, and late medieval constructions of harmful magic; it must be distinguished from ritual manuscripts and from broader categories of learned magic."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Maleficium",
+      "text": "\n    <p><b>Maleficium</b> is an <b>Actor Term</b> used in medieval and early modern Latin to designate harmful action, injurious bewitchment, or damage attributed to illicit manipulation. It is narrower and more concrete than many modern uses of the word magic. Rather than naming the whole field of suspect occult practice, <i>maleficium</i> most often points toward harmful effects: bodily injury, spoiled fertility, damaged goods, or other misfortune construed as the product of unlawful intervention. For that reason it is indispensable to any precise discussion of witchcraft, accusation, and pastoral or legal classification.</p>\n\n    <h2>Historical Usage</h2>\n    <p>Medieval writers used <i>maleficium</i> in theological, legal, pastoral, and narrative contexts to identify acts of harm rather than simply suspect knowledge. A source may treat divination, charms, or spirit dealings as illicit without calling them <i>maleficium</i>; conversely, an accusation of <i>maleficium</i> can foreground damage without preserving much technical detail about means. This makes the term an excellent example of why actor vocabulary matters. It directs attention to injury, accusation, and social consequence rather than to a unified theory of occult practice.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>Modern historians use <i>maleficium</i> to keep discussions of witchcraft anchored in the historical language of harm. Michael D. Bailey, Richard Kieckhefer, and related scholars show that the term is especially important when tracing how late medieval fears of injury, demons, and illicit rites could converge without becoming identical. It therefore helps correct the tendency to treat every magical accusation as if it already contained the full later stereotype of witchcraft.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>The term appears across Latin theological and legal traditions and enters vernacular discourse through translation, paraphrase, and judicial use. Its semantic force remains relatively stable compared with broader labels such as <i>superstitio</i> or <i>nigromantia</i>, but its exact scope still depends on context. In some sources it refers to concrete harm attributed to occult means; in others it becomes part of a wider polemical vocabulary of illicit practice.</p>\n\n    <h2>Related Concepts</h2>\n    <p><i>Maleficium</i> belongs closely with <a href=\"../concepts/witchcraft.html\">witchcraft</a>, but the two are not interchangeable: the former is a historical term of harm, while the latter is usually a broader modern category. It also intersects with <a href=\"../concepts/superstitio.html\">superstitio</a> and <a href=\"../concepts/demonology.html\">demonology</a>, which often supply theological interpretation, and with <a href=\"../concepts/charms.html\">charms</a> when harmful verbal or object-based practices are at issue.</p>\n\n    <h2>Literature</h2>\n    <p>Bailey, Michael D. <i>Magic and Superstition in Europe: A Concise History from Antiquity to the Present</i>. Lanham: Rowman &amp; Littlefield, 2007.<br/>\n    Kieckhefer, Richard. <i>Magic in the Middle Ages</i>. Cambridge: Cambridge University Press, 2014.<br/>\n    Page, Sophie, and Catherine Rider, eds. <i>The Routledge History of Medieval Magic</i>. London: Routledge, 2019.<br/>\n    Rider, Catherine. Studies on pastoral and legal classifications of medieval magic.<br/>\n    Thorndike, Lynn. <i>A History of Magic and Experimental Science</i>. New York: Columbia University Press, 1923-1958.</p>\n    ",
+      "extra": "Core historical term for harmful magical accusation and legal-theological classification."
+    }
+  ],
+  "corpus_hits": [
+    {
+      "corpus": "Medieval magic",
+      "file": "Aleister Crowley Christopher S Hyatt Lon Milo Duquette Peter Conte Daniel Pineda David P Wilson Aleister Crowley s Illustrated Goetia New Falcon Publi.txt",
+      "cite": "Aleister Crowley Christopher S Hyatt Lon Milo Duquette Peter Conte Daniel Pineda David P Wilson Aleister Crowley s Illustrated Goetia New Fa",
+      "snippet": "…ormof a lion,(or havingtheheadofa lion),ridinguponablackhorse,andbearingaviperinhishand. His office is to discover things hidden, witches, wizards,and things present, past,and to come. He, at the commandof the Exorcistwill buildtowers,overthrowgreatstonewalls,andmake…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Bailey, Michael David_Bain, Kristi Woodward_Callan, Maeve Brigid - The Sacred and the Sinister_ Studies in Medieval Religion and Magic (2019, The Penn.txt",
+      "cite": "Bailey, Michael David Bain, Kristi Woodward Callan, Maeve Brigid The Sacred and the Sinister Studies in Medieval Religion and Magic (2019, T",
+      "snippet": "…mbridge: Cambridge University Press, 2014). 12. Richard Kieckhefer, ed., Hazards of the Dark Arts: Advice for Medieval Princes on Witchcraft and Magic, Magic in History Sourcebooks (University Park: Pennsylvania State University Press, 2017). 13. Richard Kieckhefer, ed.…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Claire Fanger Invoking Angels_ Theurgic Ideas and Practices Thirteenth to Sixteenth Centuries Penn State Press.txt",
+      "cite": "Claire Fanger Invoking Angels Theurgic Ideas and Practices Thirteenth to Sixteenth Centuries Penn State Press",
+      "snippet": "…pecially lbomas Aquinas. 136. Kieckhefer argues against this simplistic idea in his article \"The Holy and the Unholy: Saint hood, Witchcraft, and Magic in Late Medieval Europe,\" Jounu:l of Medieval and Renaissance Studies 24 : 355-85. 137-A few expressions among many th…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Dan Attrell_ David Porreca Picatrix_ A Medieval Treatise on Astral Magic 10 1515_9780271084152 libgen li.txt",
+      "cite": "Dan Attrell David Porreca Picatrix A Medieval Treatise on Astral Magic 10 1515",
+      "snippet": "…ppeared in Attrell and Porreca, \"Notes on the Picatrix,\" 1–6. 75. Boudet, \"Amour et les rituels,\" 149–62. 76. Bever, Realities of Witchcraft, 11–39. 77. Véronèse, \"Ars notoria\" au Moyen Âge, 59. 78. This observation contrasts with the claims made by Boudet and Coulon, w…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Fanger Claire Rewriting Magic_ An Exegesis of the Visionary Autobiography of a Fourteenth Century French Monk Pennsylvania State University Press.txt",
+      "cite": "Fanger Claire Rewriting Magic An Exegesis of the Visionary Autobiography of a Fourteenth Century French Monk Pennsylvania State University P",
+      "snippet": "…training that may be involved here, see Frank Klaassen, \"Th e Subjective Experience of Medieval Ritual Magic,\" Magic, Ritual, and Witch- craft 7, no. 1: 19–51. 21. Liber fl orum I.iii.2a: \"Inter quas vnam sepius uidebat sequentem. Videbat, eciam sen- ciebat, dormie…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Frank Klaassen Making Magic in Elizabethan England_ Two Early Modern Vernacular Books of Magic Penn State University Press.txt",
+      "cite": "Frank Klaassen Making Magic in Elizabethan England Two Early Modern Vernacular Books of Magic Penn State University Press",
+      "snippet": "…oses, including provoking or confirm- ing love, currying the favor of superiors, gaining material wealth, protection from harm or witchcraft, and curing diseases. The author provides considerable lists of materials to be employed in making these as well as the ideal tim…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Frank Klaassen The Transformations of Magic_ Illicit Learned Magic in the Later Middle Ages and Renaissance.txt",
+      "cite": "Frank Klaassen The Transformations of Magic Illicit Learned Magic in the Later Middle Ages and Renaissance",
+      "snippet": "…cult Phi- losophy, and other such printed works continued the pattern in the seven- teenth century. Reginald Scot's Discoverie of Witchcraft was not intended as a grimoire, but it was certainly used in that way, and its publishers evidently reissued it at midcentury, ha…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Joseph H Peterson The Lesser Key of Solomon.txt",
+      "cite": "Joseph H Peterson The Lesser Key of Solomon",
+      "snippet": "…eatking&anEarle,&appeareth in [107r] yeformeof aLyon81 riddingonaBlackhorsewtha viperinhishandhis officeistodiscover Thingshidden,witches,andThingspresentpast&to W:\"Chax,aliasScox.\" InScot'stranslation,\"Shax,aliasScox.\" W:\"storke.\" C:\"Vine,orVinea.\" C(footnote): \"Or,…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "saan de laat and harms privacy in magical manuscripts author submitted manuscript.txt",
+      "cite": "saan de laat and harms privacy in magical manuscripts author submitted manuscript",
+      "snippet": "…atial conditions, with varying degrees of success. \"Thou that workst them, be secret in them.\" [Footnote: Scot, The Discouerie of Witchcraft, 393.] On June 19, 1583, the angel Jubanladace, wearing white robes and brandishing a bloody cross, appeared before the Polish no…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Sharon Hubbs Wright Frank Klaassen Everyday Magicians_ Legal Records and Magic Manuscripts from Tudor England Penn State University Press.txt",
+      "cite": "Sharon Hubbs Wright Frank Klaassen Everyday Magicians Legal Records and Magic Manuscripts from Tudor England Penn State University Press",
+      "snippet": "…and 425 University Press, 2010), https://​ fol. 98r–98v. See also George Lyman ‌doi‌.org‌/10‌.1093‌/ref‌:odnb‌/27997. Kittredge, Witchcraft in Old and Everyday Magicians At some point, possibly wound up with losing his fortune, Underhill experienced a dramatic religio…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Carlo Ginzburg - The Cheese and the Worms_ The Cosmos of a Sixteenth-Century Miller (1992, Johns Hopkins University Press) - libgen.li.txt",
+      "cite": "Carlo Ginzburg The Cheese and the Worms The Cosmos of a Sixteenth Century Miller (1992, Johns Hopkins University Press)",
+      "snippet": "…\"unheard of\" isn't quite exact. Unquestionably, these inquisitors had held innumerable trials in the Friuli involving Lutherans, witches, benandanti, blasphemers, even Anabaptists, without ever encountering anything like this. Only with regard to Menocchio's remark…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Deborah E Harkness John Dee s Conversations with Angels_ Cabala Alchemy and the End of Nature Cambridge University Press.txt",
+      "cite": "Deborah E Harkness John Dee s Conversations with Angels Cabala Alchemy and the End of Nature Cambridge University Press",
+      "snippet": "…able weapon against atheists, \"Enthusiasts, who altogether depend upon new Revelations,\" and those unfortunate enough to seek out witches, conjurers, and astrologers. Nevertheless, Hooke, like Dee and Casaubon before him, found something of interest in the diaries. H…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Ecstasies_Deciphering_Witches_Sabbath.txt",
+      "cite": "Ecstasies Deciphering Witches Sabbath",
+      "snippet": "INTRODUCTION 1. Male and female witches met at night, generally in solitary places, in fields or on mountains. Sometimes, having anointed their bodies, they flew, arrivi…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Frank Klaassen The Transformations of Magic.txt",
+      "cite": "Frank Klaassen The Transformations of Magic",
+      "snippet": "…rwoven in the medieval period. Norman Cohn sought to understand the part that ritual magic played in late medieval conceptions of witchcraft and evil. Scholars have also tended tacitly to assume a division between magic before and after the 1480s, when Marsilio Ficino a…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Glyn Parry The Arch Conjuror of England_ John Dee Yale University Press.txt",
+      "cite": "Glyn Parry The Arch Conjuror of England John Dee Yale University Press",
+      "snippet": "…is red-hot tongs, which became Dunstan's symbol ever afterwards. Sixteenth-century Protestants preferred to retail accusations of witchcraft and necromancy, which had dogged his reputa tion for five centuries. Dunstan had restored Glastonbury Abbey, the legendary hidin…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Håkansson, Håkan - Seeing the Word_ John Dee and Renaissance Occultism (2001) - libgen.li.txt",
+      "cite": "Håkansson, Håkan Seeing the Word John Dee and Renaissance Occultism (2001)",
+      "snippet": "…lence and scope of magical beliefs in sixteenth- and seventeenth-century England. Protective amulets, magical invocations, omens, witchcraft and astrological predictions were all accepted as normal parts of life, some of them to be shunned for moral reasons, but all of…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Ioan P Couliano Eros and Magic.txt",
+      "cite": "Ioan P Couliano Eros and Magic",
+      "snippet": "…s matter for all concerned. All the same, his attitude is forgivable if he acknowledges the truth of that principle sacrosanct to witch hunting and enunciated by the tragic manifesto of puritanism, the Malleus maleficarum of the inquisitors Institoris and Sprenger:…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Keith Thomas - Religion and the Decline of Magic.txt",
+      "cite": "Keith Thomas Religion and the Decline of Magic",
+      "snippet": "…like rank go reeling in the streets.’ At executions drink was always ------------------------ 23 offered to the condemned: the witch, Anne Bodenham, who was executed at Salisbury in 1653, kept asking for drink and would have died drunk if her persecutors had all…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Paola Zambelli Astrology and Magic.txt",
+      "cite": "Paola Zambelli Astrology and Magic",
+      "snippet": "…cip . vic_enna' theory of the imagination explained many ccult phenomena a matJzatJ n, and Jt wa u ed in th theoretical defence f witchcraft. or e ample, P mp nazzi and J hann ~ ier u g ted that an ld woman' ye c uld harm an tnfant - which i \" f a t nder narur \" - witho…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Paola Zambelli White Magic.txt",
+      "cite": "Paola Zambelli White Magic",
+      "snippet": "…was man’s idea of nature’s laws. But it was the time of the demonology of those inquisitors who organized large-scale burnings of witches and who, after the Council of Trent, put on spectacular shows of exorcism of those considered possessed by demons; nor did they f…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Attilio Mastrocinque_ Joseph E Sanzo_ Marianna Scapini Ancient Magic_ Then and Now.txt",
+      "cite": "Attilio Mastrocinque Joseph E Sanzo Marianna Scapini Ancient Magic Then and Now",
+      "snippet": "…2014. It is important to note that Stratton is also quite nuanced in her account, highlighting instances of both female and male witchcraft accusations (Stratton 2014).] Perhaps more counterintuitive is the fact that objects, which scholars have labelled magical (e.g.,…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Hans Dieter Betz The Greek Magical Papyri in Translation Including the Demotic Spells Vol 1_ Texts University of Chicago Press.txt",
+      "cite": "Hans Dieter Betz The Greek Magical Papyri in Translation Including the Demotic Spells Vol 1 Texts University of Chicago Press",
+      "snippet": "…. O mistress HekateLY\" PHORBA PHORBOBAR BARO PHORPHOR PHORBAI ,' and chthonic A r i s t c k Y h d chthonic Tartaros and chthonic witchery, chtlionic Charon and chthonic escorts and thc dead and the daimons and souls of all men: I come today, Moirai and Destiny; accom…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Jessica L Lamont In Blood and Ashes_ Curse Tablets and Binding Spells in Ancient Greece Oxford University Press.txt",
+      "cite": "Jessica L Lamont In Blood and Ashes Curse Tablets and Binding Spells in Ancient Greece Oxford University Press",
+      "snippet": "…in the Greek world. That said, some Assyrian ceremonies did call for the manipulation of small figurines in connection with anti-​witchcraft ritu als; these involved the inscription of spells on dolls, the recitation of incantations over them, the burning or melting of…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "John G Gager Curse Tablets and Binding Spells from the Ancient World.txt",
+      "cite": "John G Gager Curse Tablets and Binding Spells from the Ancient World",
+      "snippet": "…chariot races and carried it to victory— victory that he won so often that envious rivals declared that he conquered by means of witchcraft. For they were driven to attribute his victories to magic when they could not account for them by the strength of his horses.30 \"…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Korshi Dosoo_ Markéta Preininger Papyri Copticae Magicae_ Coptic Magical Texts Volume 1_ Formularies De Gruyter.txt",
+      "cite": "Korshi Dosoo Markéta Preininger Papyri Copticae Magicae Coptic Magical Texts Volume 1 Formularies De Gruyter",
+      "snippet": "…ish Aramaic text which continued to be used into the 20th century, in which he sees a Judaised version of older Mesopotamian anti-witchcraft texts, such as the Maqlû (\"burning\") series, attested by the ninth century BCE. For the \"spell-loosener\", see Bohak 2019, and for…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Marvin W Meyer Paul Allan Mirecki Magic and Ritual in the Ancient World Brill Academic Publishers.txt",
+      "cite": "Marvin W Meyer Paul Allan Mirecki Magic and Ritual in the Ancient World Brill Academic Publishers",
+      "snippet": "…er enquiry, collected and compared by a circumspect enquirer residing among the Scottish-Irish in Scotland;9 and while Scotland's witch- craft trials have formed the centerpiece of Christina Larner's impor- tant works,10 these are all too slender a set of threads o…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Panayotov Strahil V _Vacín Luděk Mesopotamian Medicine and Magic_ Studies in Honor of Markham J Geller Brill.txt",
+      "cite": "Panayotov Strahil V Vacín Luděk Mesopotamian Medicine and Magic Studies in Honor of Markham J Geller Brill",
+      "snippet": "…itive of ṭeḫû occurs in the following passages: III 170: ayy-iṭḫûni: a-a TE.MEŠ-ni ayy-iṭḫûni kišpīkunu ruḫêkunu lemnūti May your witchcraft (and) evil spittle not approach me. V 129: ayy-iṭḫûni: ˹a-a˺ TE.MEŠ-ni kišpūkunu ayy-iṭḫûni May your witchcraft not approach me.…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Petropoulos Greek Magic Ancient Medieval and Modern BB Routledge.txt",
+      "cite": "Petropoulos Greek Magic Ancient Medieval and Modern BB Routledge",
+      "snippet": "…don, British Museum Phylactery seal. Early Christian period. Byzantine Museum, Athens Th e Empress Zoë (detail): Was she really a witch? Mosaic, 11th century, Haghia Sophia, Istanbul Magic symbols. Dimitsana MS., nineteenth century Magic circle used for predicting…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "PhD Thesis Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts and Europ.txt",
+      "cite": "PhD Thesis Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts",
+      "snippet": "…number of very useful observations on the intersection of these three cultures, and draws a clear line between learned magic and witchcraft. [Footnote: \"The ancient practitioners [of magic] would have been horrified to be lumped together with \"witches\" and \"warlocks\" \"…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Radcliffe G Edmonds III Carolina López Ruiz Sofía Torallas Tovar Magic and Religion in the Ancient Mediterranean World_ Studies in Honor of Christophe.txt",
+      "cite": "Radcliffe G Edmonds III Carolina López Ruiz Sofía Torallas Tovar Magic and Religion in the Ancient Mediterranean World Studies in Honor of C",
+      "snippet": "…Study of Ancient Magic. Leiden: Brill. Gordon, Richard. 1999. \"Imagining Greek and Roman Magic.\" B. Ankarloo and S. Clark (eds.) Witchcraft and Magic in Europe: Ancient Greece and Rome. Philadelphia: Univer sity of Pennsylvania Press, 159–275. Houlbrook, Ceri and Natal…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Claudio Moreschini Hermes Christianus_ The Intermingling of Hermetic Piety and Christian Thought Brepols Publishers.txt",
+      "cite": "Claudio Moreschini Hermes Christianus The Intermingling of Hermetic Piety and Christian Thought Brepols Publishers",
+      "snippet": "…24, p. 408, he quotes Peter's words of RecognitionesIII. 50 and 58. In CHXV. 3, p. 653, he refers to one of Simon Magus's acts of witchcraft: his transformation of the face of Faus- tinianus, a character in the pseudo-Clementines, who magically takes on the appearance o…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "E tudes pre liminaires aux religions orientales dans l empire romain 91 R van den Broek M J Vermaseren Studies in Gnosticism and Hellenistic Religions.txt",
+      "cite": "E tudes pre liminaires aux religions orientales dans l empire romain 91 R van den Broek M J Vermaseren Studies in Gnosticism and Hellenistic",
+      "snippet": "…, magicus, and mageia, were used with a variety of con- from the religion of the Magi to scurrilous, harmful notations - magic or witchcraft. The Magi were members of the priestly clan of the Persians and therefore could be considered as honest religionists. However, th…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Jeffrey B Pettis The Sleeper s Dream_ Asclepius Ritual and Early Christian Discourse libgen li.txt",
+      "cite": "Jeffrey B Pettis The Sleeper s Dream Asclepius Ritual and Early Christian Discourse",
+      "snippet": "…hard relates a cultural- specific analysis (the Zande of the Sudan), making the distinction between what he calls \"sorcery,\" and \"witchcraft.\" E. E. Evans-Pritchard, Witch- craft, Oracles, and Magic among the Aszande: 8–12. In the field of psychology Freud adopts the ev…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Wouter J Hanegraaff Peter J Forshaw and Marco Pasi Hermes Explains_ Thirty Questions about Western Esotericism Amsterdam University Press.txt",
+      "cite": "Wouter J Hanegraaff Peter J Forshaw and Marco Pasi Hermes Explains Thirty Questions about Western Esotericism Amsterdam University Press",
+      "snippet": "…Wicca, was embraced by the second wave of feminists, most notably Starhawk. Wiccans enthusiastically adopted the designation of \"witch,\" defining themselves as independent agents in control of their own destinies. These developments led to the Goddess movement. Th…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Wouter J. Hanegraaff - Hermetic Spirituality and the Historical Imagination_ Altered States of Knowledge in Late Antiquity (2022, Cambridge University.txt",
+      "cite": "Wouter J. Hanegraaff Hermetic Spirituality and the Historical Imagination Altered States of Knowledge in Late Antiquity (2022, Cambridge Uni",
+      "snippet": "…at was provoked by a passing refer- ence he made, in a public lecture, about an experiment in his early youth with the medi- eval witches' ointment as a hallucinogenic agent, see Hanegraaff, \"Will-Erich Peuckert,\"] No won- der then that most scholars would like to av…"
+    }
+  ],
+  "counts": {
+    "db": 6,
+    "corpus": 35
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "poppet",
+  "category": "item",
+  "db_hits": [],
+  "corpus_hits": [
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Attilio Mastrocinque_ Joseph E Sanzo_ Marianna Scapini Ancient Magic_ Then and Now.txt",
+      "cite": "Attilio Mastrocinque Joseph E Sanzo Marianna Scapini Ancient Magic Then and Now",
+      "snippet": "…na defixio: los textos de maldición a través de sus sopor- tes.\" Acta Classica 47: 79‒93. Sánchez Natalías, Celia. 2015. \"Magical Poppets in the Western Roman Empire: a case study from the Fountain of Anna Perenna.\" In The Ritual Year 10. Magic in Rituals and Rituals…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Jessica L Lamont In Blood and Ashes_ Curse Tablets and Binding Spells in Ancient Greece Oxford University Press.txt",
+      "cite": "Jessica L Lamont In Blood and Ashes Curse Tablets and Binding Spells in Ancient Greece Oxford University Press",
+      "snippet": "…the message. Those that survive for us to read are thus those that failed to be properly transmitted. Other tablets, and numerous poppets made of clay, mud and organic substances, which have mostly not survived sufficiently well to be recovered, were deposited elsewh…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "PhD Thesis Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts and Europ.txt",
+      "cite": "PhD Thesis Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts",
+      "snippet": "…421 He highlights the deformities of these figures, such as twisted heads and broken necks. Such deformities are apparent in the 'poppets' used in magic later in northern European witchcraft, but not so commonly in Solomonic magic. Sometimes, a rite in the PGM will s…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts and European Grimoir.txt",
+      "cite": "Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts and Europe",
+      "snippet": "…421 He highlights the deformities of these figures, such as twisted heads and broken necks. Such deformities are apparent in the 'poppets' used in magic later in northern European witchcraft, but not so commonly in Solomonic magic. Sometimes, a rite in the PGM will s…"
+    }
+  ],
+  "counts": {
+    "db": 0,
+    "corpus": 4
+  }
+}

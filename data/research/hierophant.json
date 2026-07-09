@@ -1,0 +1,70 @@
+{
+  "slug": "hierophant",
+  "category": "profession",
+  "db_hits": [
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "theophany",
+      "text": "Theophany ('divine manifestation') designates an event in which the divine becomes perceptible within the created world — through vision, voice, or numinous presence. Renaissance magical philosophy situated theophany within the Neoplatonic framework of *emanatio* and *proodos*: the divine progressively reveals itself through descending levels of reality, and the magus, through *epistrophe* (return), ascends to meet it. Dee's angelic conversations represent the most extensively documented theophanic claims in the Renaissance magical corpus. The concept connects to the related term *hierophany* (manifestation of the sacred) as used by modern scholars of religion."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "hierophany",
+      "text": "Hierophany ('manifestation of the sacred') is a term coined by the 20th-century historian of religions Mircea Eliade to designate any event or object through which the sacred manifests within profane reality — a stone, a tree, a ritual, a text. As a modern analytical label, hierophany was not used by Renaissance figures themselves but illuminates their understanding of how divine power becomes accessible through material objects, talismans, and consecrated spaces. The concept is useful for analyzing the logic of Renaissance talismanic magic, where specific materials and configurations become hierophanic — points at which celestial *influxus* enters the terrestrial world."
+    },
+    {
+      "source": "RenaissanceMagicDB · concordance",
+      "term": "hierophany",
+      "text": "...legs. In the same way, the snake was often linked to many gods, acting as an epiphany, theophany or hierophany of the divine entity that circumscribed their “field of action” without being the exact symbol of a...",
+      "cite": "William Rowlandson Angela Voss Daimonic Imagination"
+    },
+    {
+      "source": "RenaissanceMagicDB · concordance",
+      "term": "hierophany",
+      "text": "...ion, however, was more ambiguous. On the one hand he spoke with irony about the possibility of such hierophany, according to his famous  ---  23 Mysticism, Occultism, Magic Exaltation maxim: “Many are the thyrs...",
+      "cite": "Gyorgy E Szonyi John Dee s Occultism Magical Exaltation Through Powerful Signs State University of New York Press"
+    }
+  ],
+  "corpus_hits": [
+    {
+      "corpus": "Renaissance magic",
+      "file": "Gyorgy E Szonyi John Dee s Occultism_ Magical Exaltation Through Powerful Signs State University of New York Press.txt",
+      "cite": "Gyorgy E Szonyi John Dee s Occultism Magical Exaltation Through Powerful Signs State University of New York Press",
+      "snippet": "…d to a development in philosophy inclining towards the reintegration of dialectics and religion and turned the philosopher into a hierophant. Although Iamblichus is credited as having fathered the first comprehensive scheme of occult philosophy (see Ronan's introduction…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "John Dee - The Hieroglyphic Monad-Weiser Books (2000).txt",
+      "cite": "John Dee The Hieroglyphic Monad Weiser Books (2000)",
+      "snippet": "…he Sun exalted in Aries. Venus and Mars also come in for further consideration. The Great Ostanes was an Egyptian Priest, and the Hierophant who initiated Democritus into the Mysteries in the Temple at Memphis. He is often mentioned in alchemical literature. THEOREM XVI…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "chunk_0027_p76-78.md",
+      "cite": "chunk 0027 p76 78",
+      "snippet": "…d to a development in philosophy inclining towards the reintegration of dialectics and religion and turned the philosopher into a hierophant. Although Iamblichus is credited as having fathered the ﬁrst comprehensive scheme of occult philosophy (see Ronan’s introduction…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "chunk_0015_p40-41.md",
+      "cite": "chunk 0015 p40 41",
+      "snippet": "…nor f XI – Strength Water h Rubeus n XIII – Death Air k Tristesia x XVII – The Star Water (Fixed signs) Earth b Amissio w V – The Hierophant Fire i Acquisitio s XIV – Temperence Water l Laetitia q XVIII – The Moon Air c Albus z VI – The Lovers Air (Mutable signs) Earth…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Fritz Graf Sarah Iles Johnston Ritual Texts for the Afterlife_ Orpheus and the Bacchic Gold Tablets Routledge.txt",
+      "cite": "Fritz Graf Sarah Iles Johnston Ritual Texts for the Afterlife Orpheus and the Bacchic Gold Tablets Routledge",
+      "snippet": "…ro- kaisareia in Lydia, in the hinterland of Smyrna and dated to the second century CE, was dedicated to Dionysus Erikepaios by a hierophant:111 this local mystery cult had connections not only with Bacchus but with Orphic texts where Erikepaios alone appears. So did a…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Wouter J. Hanegraaff - Hermetic Spirituality and the Historical Imagination_ Altered States of Knowledge in Late Antiquity (2022, Cambridge University.txt",
+      "cite": "Wouter J. Hanegraaff Hermetic Spirituality and the Historical Imagination Altered States of Knowledge in Late Antiquity (2022, Cambridge Uni",
+      "snippet": "…century ce: What, then, shall I do? This shall I do. I shall proceed to Egypt, and there I shall cultivate the friendship of the hierophants or prophets, who preside at the shrines. Then I shall win over a magician by money, and entreat him, by what they call the necro…"
+    }
+  ],
+  "counts": {
+    "db": 4,
+    "corpus": 6
+  }
+}

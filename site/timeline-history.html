@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A History of Magic's Words — The Vocabulary of Magic</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<div class="hero" style="padding-bottom:.3rem">
+  <h1>A History of Magic's Words</h1>
+  <div class="tag">Five thousand years of the vocabulary, traditions, and practices of magic — from Babylonian liver-omens to the day <em>Scry</em> became a Magic: The Gathering keyword.</div>
+</div>
+<div class="wrap">
+  <p class="tl-intro">This is the deep-time backbone of the project. Each point ties a magical word to a real moment in its history — a coinage, a book, a person, a tradition, a practice, or a milestone in the game — sourced to the scholarship and, where the word survives on a card, linked to its <a href="index.html">term page</a>. Filter by kind or era; click a band to jump.</p>
+  <div class="spine" id="spine"></div>
+  <div class="tlctl" id="kinds"></div>
+  <div class="tlctl"><input id="search" type="search" placeholder="Search the timeline… (e.g. Picatrix, alchemy, Dee)" autocomplete="off" style="background:var(--panel);border:1px solid var(--line);color:var(--ink);padding:.5rem 1rem;border-radius:99px;min-width:min(340px,80vw)"></div>
+  <div class="tl" id="tl"></div>
+  <div class="tl-empty" id="empty" hidden>Nothing matches those filters.</div>
+</div>
+<script src="assets/common.js"></script>
+<script>
+const KIND = {
+  word:{label:"Words",color:"#8a7dff",glyph:"✍"}, text:{label:"Texts",color:"#d4a24a",glyph:"📖"},
+  figure:{label:"Figures",color:"#57c7c7",glyph:"👤"}, tradition:{label:"Traditions",color:"#b98be0",glyph:"✷"},
+  practice:{label:"Practices",color:"#6fbf7f",glyph:"⚙"}, game:{label:"MTG",color:"#e0708a",glyph:"◆"},
+};
+const KIND_ORDER=["word","text","figure","tradition","practice","game"];
+let DATA, active=new Set(KIND_ORDER), q="";
+
+function eraColor(i,n){ // gold gradient across eras
+  const hues=["#6a5a8f","#7a6a9a","#8a6f7a","#a0824e","#c9a24a","#b98b5a","#9a7d8f","#e0708a"];
+  return hues[i%hues.length];
+}
+function render(){
+  const host=document.getElementById("tl");
+  let shown=0, html="";
+  for(const era of DATA.eras){
+    const items=DATA.entries.filter(e=>e.era===era && active.has(e.kind) && match(e));
+    if(!items.length) continue;
+    html+=`<div class="tl-era" id="era-${era.replace(/\\s/g,'')}">${era} <small>${items.length} of ${DATA.by_era[era]}</small></div>`;
+    for(const e of items){ html+=item(e); shown++; }
+  }
+  host.innerHTML=html;
+  document.getElementById("empty").hidden=shown>0;
+}
+function match(e){
+  if(!q) return true;
+  return (e.title+" "+e.blurb+" "+(e.source||"")+" "+(e.region||"")+" "+(e.mtg||"")).toLowerCase().includes(q);
+}
+function item(e){
+  const k=KIND[e.kind]||{color:"#999",glyph:"•",label:e.kind};
+  const termLink = e.has_page ? `<a class="tl-termlink" href="term.html?t=${e.term}">${esc(e.term)} →</a>` : "";
+  return `<div class="tl-item">
+    <div class="tl-date">${esc(e.date)}</div>
+    <div class="tl-rail"><span class="tl-dot" style="background:${k.color}"></span></div>
+    <div class="tl-card">
+      <div class="top"><span class="tl-kind" style="background:${k.color}">${k.glyph} ${k.label}</span>
+        <h4>${esc(e.title)}</h4><span class="tl-region">${esc(e.region||"")}</span></div>
+      <p>${esc(e.blurb)}</p>
+      ${e.mtg?`<p class="tl-mtg">◆ ${esc(e.mtg)}</p>`:""}
+      <div class="tl-meta"><span class="tl-src">${esc(e.source||"")}</span>${termLink}</div>
+    </div></div>`;
+}
+function spine(){
+  const el=document.getElementById("spine"), total=DATA.count;
+  el.innerHTML=DATA.eras.map((era,i)=>{
+    const n=DATA.by_era[era];
+    return `<a href="#era-${era.replace(/\s/g,'')}" style="flex:${n} 1 0;background:${eraColor(i)}" title="${era}: ${n}"><span>${era}</span></a>`;
+  }).join("");
+}
+function kinds(){
+  const el=document.getElementById("kinds");
+  el.innerHTML=`<span class="kindchip ${active.size===KIND_ORDER.length?'on':''}" data-k="all" style="${active.size===KIND_ORDER.length?'background:var(--gold)':''}">All</span>`+
+    KIND_ORDER.map(k=>`<span class="kindchip ${active.has(k)?'on':''}" data-k="${k}" style="${active.has(k)?`background:${KIND[k].color}`:''}">${KIND[k].glyph} ${KIND[k].label} <b>${DATA.by_kind[k]||0}</b></span>`).join("");
+  el.querySelectorAll(".kindchip").forEach(c=>c.onclick=()=>{
+    const k=c.dataset.k;
+    if(k==="all"){ active=new Set(KIND_ORDER); }
+    else if(active.size===KIND_ORDER.length){ active=new Set([k]); }
+    else if(active.has(k)){ active.delete(k); if(!active.size) active=new Set(KIND_ORDER); }
+    else active.add(k);
+    kinds(); render();
+  });
+}
+(async function(){
+  mountChrome("timeline-history.html");
+  DATA=await getJSON("data/history_timeline.json");
+  document.querySelector(".hero .tag").insertAdjacentHTML("beforeend",
+    ` <b style="color:var(--gold)">${DATA.count} entries.</b>`);
+  spine(); kinds(); render();
+  const si=document.getElementById("search");
+  si.oninput=()=>{q=si.value.trim().toLowerCase();render();};
+})();
+</script>
+</body>
+</html>

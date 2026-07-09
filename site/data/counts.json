@@ -1,0 +1,4459 @@
+{
+  "meta": {
+    "cards_analyzed": 34629,
+    "lexicon_roots": 149,
+    "note": "professions = whitelisted magic-user creature classes; terms split oracle (rules) vs flavor (prose)"
+  },
+  "magical_professions": [
+    {
+      "subtype": "Wizard",
+      "count": 1288
+    },
+    {
+      "subtype": "Cleric",
+      "count": 709
+    },
+    {
+      "subtype": "Shaman",
+      "count": 504
+    },
+    {
+      "subtype": "Druid",
+      "count": 414
+    },
+    {
+      "subtype": "Artificer",
+      "count": 309
+    },
+    {
+      "subtype": "Warlock",
+      "count": 236
+    },
+    {
+      "subtype": "Monk",
+      "count": 159
+    },
+    {
+      "subtype": "Sorcerer",
+      "count": 58
+    },
+    {
+      "subtype": "Mystic",
+      "count": 7
+    }
+  ],
+  "subtypes": [
+    {
+      "subtype": "Human",
+      "count": 4801
+    },
+    {
+      "subtype": "Warrior",
+      "count": 1301
+    },
+    {
+      "subtype": "Aura",
+      "count": 1290
+    },
+    {
+      "subtype": "Wizard",
+      "count": 1288
+    },
+    {
+      "subtype": "Soldier",
+      "count": 1099
+    },
+    {
+      "subtype": "Spirit",
+      "count": 727
+    },
+    {
+      "subtype": "Elf",
+      "count": 713
+    },
+    {
+      "subtype": "Cleric",
+      "count": 709
+    },
+    {
+      "subtype": "Elemental",
+      "count": 681
+    },
+    {
+      "subtype": "Equipment",
+      "count": 651
+    },
+    {
+      "subtype": "Rogue",
+      "count": 636
+    },
+    {
+      "subtype": "Zombie",
+      "count": 632
+    },
+    {
+      "subtype": "Goblin",
+      "count": 561
+    },
+    {
+      "subtype": "Beast",
+      "count": 548
+    },
+    {
+      "subtype": "Knight",
+      "count": 544
+    },
+    {
+      "subtype": "Phyrexian",
+      "count": 508
+    },
+    {
+      "subtype": "Shaman",
+      "count": 504
+    },
+    {
+      "subtype": "Bird",
+      "count": 477
+    },
+    {
+      "subtype": "Dragon",
+      "count": 461
+    },
+    {
+      "subtype": "Vampire",
+      "count": 453
+    },
+    {
+      "subtype": "Druid",
+      "count": 414
+    },
+    {
+      "subtype": "Cat",
+      "count": 366
+    },
+    {
+      "subtype": "Horror",
+      "count": 353
+    },
+    {
+      "subtype": "Merfolk",
+      "count": 352
+    },
+    {
+      "subtype": "Artificer",
+      "count": 309
+    },
+    {
+      "subtype": "Scout",
+      "count": 301
+    },
+    {
+      "subtype": "Hero",
+      "count": 298
+    },
+    {
+      "subtype": "Insect",
+      "count": 297
+    },
+    {
+      "subtype": "Angel",
+      "count": 288
+    },
+    {
+      "subtype": "Construct",
+      "count": 255
+    },
+    {
+      "subtype": "Giant",
+      "count": 251
+    },
+    {
+      "subtype": "Warlock",
+      "count": 236
+    },
+    {
+      "subtype": "Mutant",
+      "count": 233
+    },
+    {
+      "subtype": "Saga",
+      "count": 229
+    },
+    {
+      "subtype": "Dinosaur",
+      "count": 228
+    },
+    {
+      "subtype": "Demon",
+      "count": 226
+    },
+    {
+      "subtype": "Noble",
+      "count": 221
+    },
+    {
+      "subtype": "Vehicle",
+      "count": 216
+    },
+    {
+      "subtype": "Ally",
+      "count": 211
+    },
+    {
+      "subtype": "Villain",
+      "count": 206
+    },
+    {
+      "subtype": "Eldrazi",
+      "count": 200
+    },
+    {
+      "subtype": "Lizard",
+      "count": 194
+    },
+    {
+      "subtype": "Advisor",
+      "count": 187
+    },
+    {
+      "subtype": "Snake",
+      "count": 186
+    },
+    {
+      "subtype": "Pirate",
+      "count": 184
+    },
+    {
+      "subtype": "Shapeshifter",
+      "count": 179
+    },
+    {
+      "subtype": "Faerie",
+      "count": 177
+    },
+    {
+      "subtype": "Avatar",
+      "count": 164
+    },
+    {
+      "subtype": "Assassin",
+      "count": 164
+    },
+    {
+      "subtype": "Golem",
+      "count": 163
+    },
+    {
+      "subtype": "Berserker",
+      "count": 163
+    },
+    {
+      "subtype": "Wall",
+      "count": 160
+    },
+    {
+      "subtype": "Monk",
+      "count": 159
+    },
+    {
+      "subtype": "Dog",
+      "count": 157
+    },
+    {
+      "subtype": "Dwarf",
+      "count": 155
+    },
+    {
+      "subtype": "Robot",
+      "count": 147
+    },
+    {
+      "subtype": "Spider",
+      "count": 145
+    },
+    {
+      "subtype": "Adventure",
+      "count": 141
+    },
+    {
+      "subtype": "Ogre",
+      "count": 139
+    },
+    {
+      "subtype": "Ninja",
+      "count": 130
+    },
+    {
+      "subtype": "Orc",
+      "count": 126
+    },
+    {
+      "subtype": "Treefolk",
+      "count": 125
+    },
+    {
+      "subtype": "Rat",
+      "count": 124
+    },
+    {
+      "subtype": "Archer",
+      "count": 123
+    },
+    {
+      "subtype": "Sliver",
+      "count": 121
+    },
+    {
+      "subtype": "Wurm",
+      "count": 118
+    },
+    {
+      "subtype": "Minotaur",
+      "count": 115
+    },
+    {
+      "subtype": "Citizen",
+      "count": 112
+    },
+    {
+      "subtype": "Drake",
+      "count": 110
+    },
+    {
+      "subtype": "Illusion",
+      "count": 106
+    },
+    {
+      "subtype": "Plant",
+      "count": 102
+    },
+    {
+      "subtype": "Nightmare",
+      "count": 101
+    },
+    {
+      "subtype": "Elephant",
+      "count": 101
+    },
+    {
+      "subtype": "Mercenary",
+      "count": 100
+    },
+    {
+      "subtype": "God",
+      "count": 97
+    },
+    {
+      "subtype": "Arcane",
+      "count": 97
+    },
+    {
+      "subtype": "Turtle",
+      "count": 96
+    },
+    {
+      "subtype": "Wolf",
+      "count": 95
+    },
+    {
+      "subtype": "Detective",
+      "count": 94
+    },
+    {
+      "subtype": "Frog",
+      "count": 89
+    },
+    {
+      "subtype": "Rebel",
+      "count": 88
+    },
+    {
+      "subtype": "Kithkin",
+      "count": 88
+    },
+    {
+      "subtype": "Kor",
+      "count": 88
+    },
+    {
+      "subtype": "Skeleton",
+      "count": 86
+    },
+    {
+      "subtype": "Samurai",
+      "count": 86
+    },
+    {
+      "subtype": "Sphinx",
+      "count": 85
+    },
+    {
+      "subtype": "Werewolf",
+      "count": 81
+    },
+    {
+      "subtype": "Vedalken",
+      "count": 80
+    },
+    {
+      "subtype": "Centaur",
+      "count": 77
+    },
+    {
+      "subtype": "Lesson",
+      "count": 76
+    },
+    {
+      "subtype": "Djinn",
+      "count": 74
+    },
+    {
+      "subtype": "Ranger",
+      "count": 74
+    },
+    {
+      "subtype": "Drone",
+      "count": 71
+    },
+    {
+      "subtype": "Fungus",
+      "count": 71
+    },
+    {
+      "subtype": "Bear",
+      "count": 70
+    },
+    {
+      "subtype": "Hydra",
+      "count": 70
+    },
+    {
+      "subtype": "Bard",
+      "count": 68
+    },
+    {
+      "subtype": "Rhino",
+      "count": 67
+    },
+    {
+      "subtype": "Ooze",
+      "count": 67
+    },
+    {
+      "subtype": "Scientist",
+      "count": 63
+    },
+    {
+      "subtype": "Boar",
+      "count": 63
+    },
+    {
+      "subtype": "Pilot",
+      "count": 63
+    },
+    {
+      "subtype": "Troll",
+      "count": 63
+    },
+    {
+      "subtype": "Horse",
+      "count": 62
+    },
+    {
+      "subtype": "Elder",
+      "count": 62
+    },
+    {
+      "subtype": "Kavu",
+      "count": 60
+    },
+    {
+      "subtype": "Devil",
+      "count": 59
+    },
+    {
+      "subtype": "Peasant",
+      "count": 59
+    },
+    {
+      "subtype": "Fish",
+      "count": 59
+    },
+    {
+      "subtype": "Sorcerer",
+      "count": 58
+    },
+    {
+      "subtype": "Dryad",
+      "count": 58
+    },
+    {
+      "subtype": "Spellshaper",
+      "count": 57
+    },
+    {
+      "subtype": "Serpent",
+      "count": 57
+    },
+    {
+      "subtype": "Fox",
+      "count": 55
+    },
+    {
+      "subtype": "Griffin",
+      "count": 55
+    },
+    {
+      "subtype": "Scarecrow",
+      "count": 54
+    },
+    {
+      "subtype": "Bat",
+      "count": 54
+    },
+    {
+      "subtype": "Octopus",
+      "count": 54
+    },
+    {
+      "subtype": "Barbarian",
+      "count": 52
+    },
+    {
+      "subtype": "Halfling",
+      "count": 52
+    },
+    {
+      "subtype": "Attraction",
+      "count": 50
+    },
+    {
+      "subtype": "Performer",
+      "count": 47
+    },
+    {
+      "subtype": "Alien",
+      "count": 47
+    },
+    {
+      "subtype": "Book",
+      "count": 47
+    },
+    {
+      "subtype": "Imp",
+      "count": 46
+    },
+    {
+      "subtype": "Crab",
+      "count": 45
+    },
+    {
+      "subtype": "Contraption",
+      "count": 45
+    },
+    {
+      "subtype": "Myr",
+      "count": 45
+    },
+    {
+      "subtype": "Forest",
+      "count": 44
+    },
+    {
+      "subtype": "Squirrel",
+      "count": 44
+    },
+    {
+      "subtype": "Mountain",
+      "count": 43
+    },
+    {
+      "subtype": "Island",
+      "count": 43
+    },
+    {
+      "subtype": "Ape",
+      "count": 43
+    },
+    {
+      "subtype": "Elk",
+      "count": 43
+    },
+    {
+      "subtype": "Plains",
+      "count": 42
+    },
+    {
+      "subtype": "Minion",
+      "count": 42
+    },
+    {
+      "subtype": "Phoenix",
+      "count": 42
+    },
+    {
+      "subtype": "Curse",
+      "count": 42
+    },
+    {
+      "subtype": "Swamp",
+      "count": 41
+    },
+    {
+      "subtype": "Crocodile",
+      "count": 40
+    },
+    {
+      "subtype": "Class",
+      "count": 38
+    },
+    {
+      "subtype": "Rabbit",
+      "count": 38
+    },
+    {
+      "subtype": "Desert",
+      "count": 38
+    },
+    {
+      "subtype": "Tyranid",
+      "count": 37
+    },
+    {
+      "subtype": "Gargoyle",
+      "count": 37
+    },
+    {
+      "subtype": "Siege",
+      "count": 37
+    },
+    {
+      "subtype": "Cyclops",
+      "count": 35
+    },
+    {
+      "subtype": "Food",
+      "count": 35
+    },
+    {
+      "subtype": "Spy",
+      "count": 35
+    },
+    {
+      "subtype": "Satyr",
+      "count": 35
+    },
+    {
+      "subtype": "Shade",
+      "count": 34
+    },
+    {
+      "subtype": "Unicorn",
+      "count": 34
+    },
+    {
+      "subtype": "Gamer",
+      "count": 33
+    },
+    {
+      "subtype": "Gnome",
+      "count": 33
+    },
+    {
+      "subtype": "Spacecraft",
+      "count": 33
+    },
+    {
+      "subtype": "Mount",
+      "count": 33
+    },
+    {
+      "subtype": "Incarnation",
+      "count": 32
+    },
+    {
+      "subtype": "Tiefling",
+      "count": 32
+    },
+    {
+      "subtype": "Background",
+      "count": 31
+    },
+    {
+      "subtype": "Moonfolk",
+      "count": 30
+    },
+    {
+      "subtype": "Time",
+      "count": 30
+    },
+    {
+      "subtype": "Homunculus",
+      "count": 30
+    },
+    {
+      "subtype": "Gate",
+      "count": 30
+    },
+    {
+      "subtype": "Ox",
+      "count": 30
+    },
+    {
+      "subtype": "Room",
+      "count": 30
+    },
+    {
+      "subtype": "Kraken",
+      "count": 29
+    },
+    {
+      "subtype": "Nomad",
+      "count": 29
+    },
+    {
+      "subtype": "Lord",
+      "count": 29
+    },
+    {
+      "subtype": "Raccoon",
+      "count": 29
+    },
+    {
+      "subtype": "Specter",
+      "count": 28
+    },
+    {
+      "subtype": "Otter",
+      "count": 28
+    },
+    {
+      "subtype": "Mouse",
+      "count": 28
+    },
+    {
+      "subtype": "Leviathan",
+      "count": 28
+    },
+    {
+      "subtype": "Efreet",
+      "count": 28
+    },
+    {
+      "subtype": "Jackal",
+      "count": 27
+    },
+    {
+      "subtype": "Gorgon",
+      "count": 27
+    },
+    {
+      "subtype": "Jellyfish",
+      "count": 27
+    },
+    {
+      "subtype": "Employee",
+      "count": 26
+    },
+    {
+      "subtype": "Town",
+      "count": 26
+    },
+    {
+      "subtype": "Pegasus",
+      "count": 25
+    },
+    {
+      "subtype": "Thrull",
+      "count": 25
+    },
+    {
+      "subtype": "Doctor",
+      "count": 25
+    },
+    {
+      "subtype": "Chimera",
+      "count": 25
+    },
+    {
+      "subtype": "Guest",
+      "count": 24
+    },
+    {
+      "subtype": "Shark",
+      "count": 24
+    },
+    {
+      "subtype": "Survivor",
+      "count": 24
+    },
+    {
+      "subtype": "Necron",
+      "count": 23
+    },
+    {
+      "subtype": "Hellion",
+      "count": 23
+    },
+    {
+      "subtype": "Chandra",
+      "count": 23
+    },
+    {
+      "subtype": "Siren",
+      "count": 23
+    },
+    {
+      "subtype": "Scorpion",
+      "count": 22
+    },
+    {
+      "subtype": "Cave",
+      "count": 22
+    },
+    {
+      "subtype": "Monkey",
+      "count": 22
+    },
+    {
+      "subtype": "Shrine",
+      "count": 22
+    },
+    {
+      "subtype": "Astartes",
+      "count": 22
+    },
+    {
+      "subtype": "Salamander",
+      "count": 21
+    },
+    {
+      "subtype": "Thopter",
+      "count": 21
+    },
+    {
+      "subtype": "Juggernaut",
+      "count": 21
+    },
+    {
+      "subtype": "Leech",
+      "count": 21
+    },
+    {
+      "subtype": "Archon",
+      "count": 21
+    },
+    {
+      "subtype": "Hag",
+      "count": 20
+    },
+    {
+      "subtype": "Lhurgoyf",
+      "count": 20
+    },
+    {
+      "subtype": "Ouphe",
+      "count": 20
+    },
+    {
+      "subtype": "Trap",
+      "count": 20
+    },
+    {
+      "subtype": "Gamma",
+      "count": 20
+    },
+    {
+      "subtype": "Nymph",
+      "count": 19
+    },
+    {
+      "subtype": "Aetherborn",
+      "count": 19
+    },
+    {
+      "subtype": "Praetor",
+      "count": 19
+    },
+    {
+      "subtype": "Clue",
+      "count": 19
+    },
+    {
+      "subtype": "Whale",
+      "count": 19
+    },
+    {
+      "subtype": "Cyborg",
+      "count": 18
+    },
+    {
+      "subtype": "Goat",
+      "count": 17
+    },
+    {
+      "subtype": "Weird",
+      "count": 17
+    },
+    {
+      "subtype": "Yeti",
+      "count": 16
+    },
+    {
+      "subtype": "Rigger",
+      "count": 16
+    },
+    {
+      "subtype": "Omen",
+      "count": 16
+    },
+    {
+      "subtype": "Glimmer",
+      "count": 16
+    },
+    {
+      "subtype": "Jace",
+      "count": 15
+    },
+    {
+      "subtype": "Lair",
+      "count": 15
+    },
+    {
+      "subtype": "Case",
+      "count": 15
+    },
+    {
+      "subtype": "Ajani",
+      "count": 15
+    },
+    {
+      "subtype": "Toy",
+      "count": 14
+    },
+    {
+      "subtype": "Kobold",
+      "count": 14
+    },
+    {
+      "subtype": "Gremlin",
+      "count": 14
+    },
+    {
+      "subtype": "Worm",
+      "count": 14
+    },
+    {
+      "subtype": "Wraith",
+      "count": 13
+    },
+    {
+      "subtype": "Badger",
+      "count": 13
+    },
+    {
+      "subtype": "Manticore",
+      "count": 13
+    },
+    {
+      "subtype": "Clown",
+      "count": 13
+    },
+    {
+      "subtype": "Liliana",
+      "count": 13
+    },
+    {
+      "subtype": "Basilisk",
+      "count": 13
+    },
+    {
+      "subtype": "Earth",
+      "count": 13
+    },
+    {
+      "subtype": "Assembly-Worker",
+      "count": 12
+    },
+    {
+      "subtype": "Processor",
+      "count": 12
+    },
+    {
+      "subtype": "Nightstalker",
+      "count": 12
+    },
+    {
+      "subtype": "Symbiote",
+      "count": 12
+    },
+    {
+      "subtype": "Spike",
+      "count": 12
+    },
+    {
+      "subtype": "Kirin",
+      "count": 12
+    },
+    {
+      "subtype": "Slug",
+      "count": 12
+    },
+    {
+      "subtype": "Mole",
+      "count": 12
+    },
+    {
+      "subtype": "Licid",
+      "count": 12
+    },
+    {
+      "subtype": "Atog",
+      "count": 12
+    },
+    {
+      "subtype": "Harpy",
+      "count": 12
+    },
+    {
+      "subtype": "Antelope",
+      "count": 11
+    },
+    {
+      "subtype": "Azra",
+      "count": 11
+    },
+    {
+      "subtype": "Eye",
+      "count": 11
+    },
+    {
+      "subtype": "Dauthi",
+      "count": 11
+    },
+    {
+      "subtype": "Nissa",
+      "count": 11
+    },
+    {
+      "subtype": "Egg",
+      "count": 11
+    },
+    {
+      "subtype": "Wolverine",
+      "count": 11
+    },
+    {
+      "subtype": "Kree",
+      "count": 10
+    },
+    {
+      "subtype": "Sphere",
+      "count": 10
+    },
+    {
+      "subtype": "Teferi",
+      "count": 10
+    },
+    {
+      "subtype": "Sorin",
+      "count": 10
+    },
+    {
+      "subtype": "Garruk",
+      "count": 10
+    },
+    {
+      "subtype": "Camel",
+      "count": 10
+    },
+    {
+      "subtype": "Hippogriff",
+      "count": 10
+    },
+    {
+      "subtype": "Secret",
+      "count": 10
+    },
+    {
+      "subtype": "Soltari",
+      "count": 10
+    },
+    {
+      "subtype": "Sloth",
+      "count": 9
+    },
+    {
+      "subtype": "Gith",
+      "count": 9
+    },
+    {
+      "subtype": "Dominaria",
+      "count": 9
+    },
+    {
+      "subtype": "Plan",
+      "count": 9
+    },
+    {
+      "subtype": "Tezzeret",
+      "count": 9
+    },
+    {
+      "subtype": "Pest",
+      "count": 9
+    },
+    {
+      "subtype": "Homarid",
+      "count": 9
+    },
+    {
+      "subtype": "Squid",
+      "count": 9
+    },
+    {
+      "subtype": "Urza's",
+      "count": 9
+    },
+    {
+      "subtype": "Elspeth",
+      "count": 8
+    },
+    {
+      "subtype": "Sarkhan",
+      "count": 8
+    },
+    {
+      "subtype": "Metathran",
+      "count": 8
+    },
+    {
+      "subtype": "Kaya",
+      "count": 8
+    },
+    {
+      "subtype": "Slith",
+      "count": 8
+    },
+    {
+      "subtype": "Ravnica",
+      "count": 8
+    },
+    {
+      "subtype": "Gideon",
+      "count": 8
+    },
+    {
+      "subtype": "Beholder",
+      "count": 8
+    },
+    {
+      "subtype": "Demigod",
+      "count": 8
+    },
+    {
+      "subtype": "Treasure",
+      "count": 7
+    },
+    {
+      "subtype": "Vraska",
+      "count": 7
+    },
+    {
+      "subtype": "Hippo",
+      "count": 7
+    },
+    {
+      "subtype": "Ral",
+      "count": 7
+    },
+    {
+      "subtype": "Vivien",
+      "count": 7
+    },
+    {
+      "subtype": "Bobblehead",
+      "count": 7
+    },
+    {
+      "subtype": "Thalakos",
+      "count": 7
+    },
+    {
+      "subtype": "Moogle",
+      "count": 7
+    },
+    {
+      "subtype": "Zubera",
+      "count": 7
+    },
+    {
+      "subtype": "Inhuman",
+      "count": 7
+    },
+    {
+      "subtype": "Hyena",
+      "count": 7
+    },
+    {
+      "subtype": "Sheep",
+      "count": 7
+    },
+    {
+      "subtype": "Mystic",
+      "count": 7
+    },
+    {
+      "subtype": "MagicCon",
+      "count": 6
+    },
+    {
+      "subtype": "Brushwagg",
+      "count": 6
+    },
+    {
+      "subtype": "Masticore",
+      "count": 6
+    },
+    {
+      "subtype": "Nahiri",
+      "count": 6
+    },
+    {
+      "subtype": "Noggle",
+      "count": 6
+    },
+    {
+      "subtype": "Drix",
+      "count": 6
+    },
+    {
+      "subtype": "Alara",
+      "count": 6
+    },
+    {
+      "subtype": "Pangolin",
+      "count": 6
+    },
+    {
+      "subtype": "Planet",
+      "count": 6
+    },
+    {
+      "subtype": "Utrom",
+      "count": 6
+    },
+    {
+      "subtype": "Las",
+      "count": 6
+    },
+    {
+      "subtype": "Vegas",
+      "count": 6
+    },
+    {
+      "subtype": "Nephilim",
+      "count": 6
+    },
+    {
+      "subtype": "Bringer",
+      "count": 6
+    },
+    {
+      "subtype": "Donkey",
+      "count": 6
+    },
+    {
+      "subtype": "Fractal",
+      "count": 6
+    },
+    {
+      "subtype": "Tamiyo",
+      "count": 5
+    },
+    {
+      "subtype": "Volver",
+      "count": 5
+    },
+    {
+      "subtype": "Rune",
+      "count": 5
+    },
+    {
+      "subtype": "Chicago",
+      "count": 5
+    },
+    {
+      "subtype": "Beeble",
+      "count": 5
+    },
+    {
+      "subtype": "Bolas",
+      "count": 5
+    },
+    {
+      "subtype": "Karn",
+      "count": 5
+    },
+    {
+      "subtype": "Role",
+      "count": 5
+    },
+    {
+      "subtype": "Dalek",
+      "count": 5
+    },
+    {
+      "subtype": "Tibalt",
+      "count": 5
+    },
+    {
+      "subtype": "Rowan",
+      "count": 5
+    },
+    {
+      "subtype": "Kamigawa",
+      "count": 5
+    },
+    {
+      "subtype": "Saheeli",
+      "count": 5
+    },
+    {
+      "subtype": "Mongoose",
+      "count": 5
+    },
+    {
+      "subtype": "Kaito",
+      "count": 5
+    },
+    {
+      "subtype": "Starfish",
+      "count": 5
+    },
+    {
+      "subtype": "Innistrad",
+      "count": 5
+    },
+    {
+      "subtype": "Athlete",
+      "count": 5
+    },
+    {
+      "subtype": "Trilobite",
+      "count": 5
+    },
+    {
+      "subtype": "Monger",
+      "count": 5
+    },
+    {
+      "subtype": "Cartouche",
+      "count": 5
+    },
+    {
+      "subtype": "Child",
+      "count": 5
+    },
+    {
+      "subtype": "Locus",
+      "count": 5
+    },
+    {
+      "subtype": "Carrier",
+      "count": 5
+    },
+    {
+      "subtype": "Ashiok",
+      "count": 5
+    },
+    {
+      "subtype": "Chorus",
+      "count": 5
+    },
+    {
+      "subtype": "Surrakar",
+      "count": 4
+    },
+    {
+      "subtype": "Bison",
+      "count": 4
+    },
+    {
+      "subtype": "Skrull",
+      "count": 4
+    },
+    {
+      "subtype": "Huatli",
+      "count": 4
+    },
+    {
+      "subtype": "Cyberman",
+      "count": 4
+    },
+    {
+      "subtype": "Zendikar",
+      "count": 4
+    },
+    {
+      "subtype": "Clamfolk",
+      "count": 4
+    },
+    {
+      "subtype": "Kiora",
+      "count": 4
+    },
+    {
+      "subtype": "Will",
+      "count": 4
+    },
+    {
+      "subtype": "Domri",
+      "count": 4
+    },
+    {
+      "subtype": "Nautilus",
+      "count": 4
+    },
+    {
+      "subtype": "Wrenn",
+      "count": 4
+    },
+    {
+      "subtype": "Phyrexia",
+      "count": 4
+    },
+    {
+      "subtype": "New",
+      "count": 4
+    },
+    {
+      "subtype": "Lorwyn",
+      "count": 4
+    },
+    {
+      "subtype": "Gnoll",
+      "count": 4
+    },
+    {
+      "subtype": "The",
+      "count": 4
+    },
+    {
+      "subtype": "Killbot",
+      "count": 4
+    },
+    {
+      "subtype": "Aurochs",
+      "count": 4
+    },
+    {
+      "subtype": "Coward",
+      "count": 4
+    },
+    {
+      "subtype": "Synth",
+      "count": 4
+    },
+    {
+      "subtype": "Oko",
+      "count": 4
+    },
+    {
+      "subtype": "Dreadnought",
+      "count": 4
+    },
+    {
+      "subtype": "Dovin",
+      "count": 4
+    },
+    {
+      "subtype": "Nixilis",
+      "count": 4
+    },
+    {
+      "subtype": "Orgg",
+      "count": 4
+    },
+    {
+      "subtype": "Cow",
+      "count": 3
+    },
+    {
+      "subtype": "Eternal",
+      "count": 3
+    },
+    {
+      "subtype": "Angrath",
+      "count": 3
+    },
+    {
+      "subtype": "Hedgehog",
+      "count": 3
+    },
+    {
+      "subtype": "Teyo",
+      "count": 3
+    },
+    {
+      "subtype": "Cockatrice",
+      "count": 3
+    },
+    {
+      "subtype": "Jaya",
+      "count": 3
+    },
+    {
+      "subtype": "Tyvar",
+      "count": 3
+    },
+    {
+      "subtype": "Amsterdam",
+      "count": 3
+    },
+    {
+      "subtype": "Ugin",
+      "count": 3
+    },
+    {
+      "subtype": "Lukka",
+      "count": 3
+    },
+    {
+      "subtype": "Yanling",
+      "count": 3
+    },
+    {
+      "subtype": "Ixalan",
+      "count": 3
+    },
+    {
+      "subtype": "Gallifrey",
+      "count": 3
+    },
+    {
+      "subtype": "Beaver",
+      "count": 3
+    },
+    {
+      "subtype": "Lammasu",
+      "count": 3
+    },
+    {
+      "subtype": "Mirrodin",
+      "count": 3
+    },
+    {
+      "subtype": "Possum",
+      "count": 3
+    },
+    {
+      "subtype": "Porcupine",
+      "count": 3
+    },
+    {
+      "subtype": "Artist",
+      "count": 3
+    },
+    {
+      "subtype": "Realm",
+      "count": 3
+    },
+    {
+      "subtype": "Brainiac",
+      "count": 3
+    },
+    {
+      "subtype": "Seal",
+      "count": 3
+    },
+    {
+      "subtype": "Arlinn",
+      "count": 3
+    },
+    {
+      "subtype": "Lobster",
+      "count": 3
+    },
+    {
+      "subtype": "Lemur",
+      "count": 3
+    },
+    {
+      "subtype": "Armadillo",
+      "count": 3
+    },
+    {
+      "subtype": "Narset",
+      "count": 3
+    },
+    {
+      "subtype": "Wombat",
+      "count": 3
+    },
+    {
+      "subtype": "Sponge",
+      "count": 2
+    },
+    {
+      "subtype": "Yanggu",
+      "count": 2
+    },
+    {
+      "subtype": "Kasmina",
+      "count": 2
+    },
+    {
+      "subtype": "Junction",
+      "count": 2
+    },
+    {
+      "subtype": "Thunder",
+      "count": 2
+    },
+    {
+      "subtype": "Grist",
+      "count": 2
+    },
+    {
+      "subtype": "Inkling",
+      "count": 2
+    },
+    {
+      "subtype": "Kaldheim",
+      "count": 2
+    },
+    {
+      "subtype": "Mite",
+      "count": 2
+    },
+    {
+      "subtype": "Townsfolk",
+      "count": 2
+    },
+    {
+      "subtype": "Basri",
+      "count": 2
+    },
+    {
+      "subtype": "Davriel",
+      "count": 2
+    },
+    {
+      "subtype": "Flagbearer",
+      "count": 2
+    },
+    {
+      "subtype": "Shandalar",
+      "count": 2
+    },
+    {
+      "subtype": "Urza",
+      "count": 2
+    },
+    {
+      "subtype": "Lamia",
+      "count": 2
+    },
+    {
+      "subtype": "Koth",
+      "count": 2
+    },
+    {
+      "subtype": "Judge",
+      "count": 2
+    },
+    {
+      "subtype": "Freyalise",
+      "count": 2
+    },
+    {
+      "subtype": "Tasha",
+      "count": 2
+    },
+    {
+      "subtype": "Minsc",
+      "count": 2
+    },
+    {
+      "subtype": "Autobot",
+      "count": 2
+    },
+    {
+      "subtype": "Chef",
+      "count": 2
+    },
+    {
+      "subtype": "Kangaroo",
+      "count": 2
+    },
+    {
+      "subtype": "Fortification",
+      "count": 2
+    },
+    {
+      "subtype": "Primarch",
+      "count": 2
+    },
+    {
+      "subtype": "Mars",
+      "count": 2
+    },
+    {
+      "subtype": "Eldraine",
+      "count": 2
+    },
+    {
+      "subtype": "Quintorius",
+      "count": 2
+    },
+    {
+      "subtype": "Snail",
+      "count": 2
+    },
+    {
+      "subtype": "Bureaucrat",
+      "count": 2
+    },
+    {
+      "subtype": "Avishkar",
+      "count": 2
+    },
+    {
+      "subtype": "Hatificer",
+      "count": 2
+    },
+    {
+      "subtype": "Samut",
+      "count": 2
+    },
+    {
+      "subtype": "Pony",
+      "count": 2
+    },
+    {
+      "subtype": "Mime",
+      "count": 2
+    },
+    {
+      "subtype": "Infinity",
+      "count": 2
+    },
+    {
+      "subtype": "Stone",
+      "count": 2
+    },
+    {
+      "subtype": "Inquisitor",
+      "count": 2
+    },
+    {
+      "subtype": "Phelddagrif",
+      "count": 2
+    },
+    {
+      "subtype": "Duskmourn",
+      "count": 2
+    },
+    {
+      "subtype": "Control",
+      "count": 2
+    },
+    {
+      "subtype": "Point",
+      "count": 2
+    },
+    {
+      "subtype": "Equilor",
+      "count": 2
+    },
+    {
+      "subtype": "Coyote",
+      "count": 2
+    },
+    {
+      "subtype": "Daretti",
+      "count": 2
+    },
+    {
+      "subtype": "Varmint",
+      "count": 2
+    },
+    {
+      "subtype": "Sable",
+      "count": 2
+    },
+    {
+      "subtype": "Belenon",
+      "count": 2
+    },
+    {
+      "subtype": "Ellywick",
+      "count": 2
+    },
+    {
+      "subtype": "C'tan",
+      "count": 2
+    },
+    {
+      "subtype": "Dihada",
+      "count": 2
+    },
+    {
+      "subtype": "Power-Plant",
+      "count": 2
+    },
+    {
+      "subtype": "Weasel",
+      "count": 2
+    },
+    {
+      "subtype": "Alicorn",
+      "count": 2
+    },
+    {
+      "subtype": "Tarkir",
+      "count": 1
+    },
+    {
+      "subtype": "Arcavios",
+      "count": 1
+    },
+    {
+      "subtype": "Zariel",
+      "count": 1
+    },
+    {
+      "subtype": "Oyster",
+      "count": 1
+    },
+    {
+      "subtype": "Pyrulea",
+      "count": 1
+    },
+    {
+      "subtype": "Mutter's",
+      "count": 1
+    },
+    {
+      "subtype": "Outside",
+      "count": 1
+    },
+    {
+      "subtype": "Spiral",
+      "count": 1
+    },
+    {
+      "subtype": "Capybara",
+      "count": 1
+    },
+    {
+      "subtype": "Beyondia",
+      "count": 1
+    },
+    {
+      "subtype": "Universia",
+      "count": 1
+    },
+    {
+      "subtype": "Ir",
+      "count": 1
+    },
+    {
+      "subtype": "You",
+      "count": 1
+    },
+    {
+      "subtype": "Igpay",
+      "count": 1
+    },
+    {
+      "subtype": "Cloud",
+      "count": 1
+    },
+    {
+      "subtype": "Foldaria",
+      "count": 1
+    },
+    {
+      "subtype": "Hell",
+      "count": 1
+    },
+    {
+      "subtype": "Skunk",
+      "count": 1
+    },
+    {
+      "subtype": "Vampyre",
+      "count": 1
+    },
+    {
+      "subtype": "Bahamut",
+      "count": 1
+    },
+    {
+      "subtype": "Unknown",
+      "count": 1
+    },
+    {
+      "subtype": "Waiter",
+      "count": 1
+    },
+    {
+      "subtype": "Spuzzem",
+      "count": 1
+    },
+    {
+      "subtype": "Luxior",
+      "count": 1
+    },
+    {
+      "subtype": "Mongseng",
+      "count": 1
+    },
+    {
+      "subtype": "Omenpath",
+      "count": 1
+    },
+    {
+      "subtype": "Luvion",
+      "count": 1
+    },
+    {
+      "subtype": "Qu",
+      "count": 1
+    },
+    {
+      "subtype": "Ship",
+      "count": 1
+    },
+    {
+      "subtype": "Fire",
+      "count": 1
+    },
+    {
+      "subtype": "Kyneth",
+      "count": 1
+    },
+    {
+      "subtype": "Abian",
+      "count": 1
+    },
+    {
+      "subtype": "Asylum",
+      "count": 1
+    },
+    {
+      "subtype": "Antausia",
+      "count": 1
+    },
+    {
+      "subtype": "Tower",
+      "count": 1
+    },
+    {
+      "subtype": "Dakkon",
+      "count": 1
+    },
+    {
+      "subtype": "Mine",
+      "count": 1
+    },
+    {
+      "subtype": "Spawn",
+      "count": 1
+    },
+    {
+      "subtype": "Moon",
+      "count": 1
+    },
+    {
+      "subtype": "Paratrooper",
+      "count": 1
+    },
+    {
+      "subtype": "Windgrace",
+      "count": 1
+    },
+    {
+      "subtype": "Aminatou",
+      "count": 1
+    },
+    {
+      "subtype": "Wildfire",
+      "count": 1
+    },
+    {
+      "subtype": "Fabacin",
+      "count": 1
+    },
+    {
+      "subtype": "Human?",
+      "count": 1
+    },
+    {
+      "subtype": "Walrus",
+      "count": 1
+    },
+    {
+      "subtype": "Blind",
+      "count": 1
+    },
+    {
+      "subtype": "Eternities",
+      "count": 1
+    },
+    {
+      "subtype": "Gobakhan",
+      "count": 1
+    },
+    {
+      "subtype": "Androzani",
+      "count": 1
+    },
+    {
+      "subtype": "Minor",
+      "count": 1
+    },
+    {
+      "subtype": "Barnyard",
+      "count": 1
+    },
+    {
+      "subtype": "Zhalfir",
+      "count": 1
+    },
+    {
+      "subtype": "Chicken",
+      "count": 1
+    },
+    {
+      "subtype": "Officer",
+      "count": 1
+    },
+    {
+      "subtype": "and/or",
+      "count": 1
+    },
+    {
+      "subtype": "Ulgrotha",
+      "count": 1
+    },
+    {
+      "subtype": "Elminster",
+      "count": 1
+    },
+    {
+      "subtype": "Tree",
+      "count": 1
+    },
+    {
+      "subtype": "Etiquette",
+      "count": 1
+    },
+    {
+      "subtype": "Lady",
+      "count": 1
+    },
+    {
+      "subtype": "Proper",
+      "count": 1
+    },
+    {
+      "subtype": "of",
+      "count": 1
+    },
+    {
+      "subtype": "Sivitri",
+      "count": 1
+    },
+    {
+      "subtype": "Head",
+      "count": 1
+    },
+    {
+      "subtype": "Reflection",
+      "count": 1
+    },
+    {
+      "subtype": "Kylem",
+      "count": 1
+    },
+    {
+      "subtype": "Cridhe",
+      "count": 1
+    },
+    {
+      "subtype": "Zonian",
+      "count": 1
+    },
+    {
+      "subtype": "Theros",
+      "count": 1
+    },
+    {
+      "subtype": "Library",
+      "count": 1
+    },
+    {
+      "subtype": "Dungeon",
+      "count": 1
+    },
+    {
+      "subtype": "Master",
+      "count": 1
+    },
+    {
+      "subtype": "Mordenkainen",
+      "count": 1
+    },
+    {
+      "subtype": "Echidna",
+      "count": 1
+    },
+    {
+      "subtype": "Kandoka",
+      "count": 1
+    },
+    {
+      "subtype": "Wanderer",
+      "count": 1
+    },
+    {
+      "subtype": "Niko",
+      "count": 1
+    },
+    {
+      "subtype": "Szat",
+      "count": 1
+    },
+    {
+      "subtype": "Xerex",
+      "count": 1
+    },
+    {
+      "subtype": "Lolth",
+      "count": 1
+    },
+    {
+      "subtype": "Alfava",
+      "count": 1
+    },
+    {
+      "subtype": "Metraxis",
+      "count": 1
+    },
+    {
+      "subtype": "Estrid",
+      "count": 1
+    },
+    {
+      "subtype": "Mummy",
+      "count": 1
+    },
+    {
+      "subtype": "Guff",
+      "count": 1
+    },
+    {
+      "subtype": "Wrestler",
+      "count": 1
+    },
+    {
+      "subtype": "Kolbahan",
+      "count": 1
+    },
+    {
+      "subtype": "Moag",
+      "count": 1
+    },
+    {
+      "subtype": "Arkhos",
+      "count": 1
+    },
+    {
+      "subtype": "Capenna",
+      "count": 1
+    },
+    {
+      "subtype": "Vronos",
+      "count": 1
+    },
+    {
+      "subtype": "Bloomburrow",
+      "count": 1
+    },
+    {
+      "subtype": "Art",
+      "count": 1
+    },
+    {
+      "subtype": "Byode",
+      "count": 1
+    },
+    {
+      "subtype": "Serra",
+      "count": 1
+    },
+    {
+      "subtype": "Sand",
+      "count": 1
+    },
+    {
+      "subtype": "Horsehead",
+      "count": 1
+    },
+    {
+      "subtype": "Nebula",
+      "count": 1
+    },
+    {
+      "subtype": "Dellian",
+      "count": 1
+    },
+    {
+      "subtype": "Penguin",
+      "count": 1
+    },
+    {
+      "subtype": "Hamster",
+      "count": 1
+    },
+    {
+      "subtype": "Iquatana",
+      "count": 1
+    },
+    {
+      "subtype": "Quest",
+      "count": 1
+    },
+    {
+      "subtype": "Baddest,",
+      "count": 1
+    },
+    {
+      "subtype": "Biggest,",
+      "count": 1
+    },
+    {
+      "subtype": "Nastiest,",
+      "count": 1
+    },
+    {
+      "subtype": "Platypus",
+      "count": 1
+    },
+    {
+      "subtype": "Echoir",
+      "count": 1
+    },
+    {
+      "subtype": "Xenagos",
+      "count": 1
+    },
+    {
+      "subtype": "Giraffe",
+      "count": 1
+    },
+    {
+      "subtype": "Monopoly",
+      "count": 1
+    },
+    {
+      "subtype": "Darillium",
+      "count": 1
+    },
+    {
+      "subtype": "Cephalid",
+      "count": 1
+    },
+    {
+      "subtype": "Dack",
+      "count": 1
+    },
+    {
+      "subtype": "Ersta",
+      "count": 1
+    },
+    {
+      "subtype": "Key",
+      "count": 1
+    },
+    {
+      "subtype": "Deb",
+      "count": 1
+    },
+    {
+      "subtype": "Shenmeng",
+      "count": 1
+    },
+    {
+      "subtype": "Amonkhet",
+      "count": 1
+    },
+    {
+      "subtype": "Skaro",
+      "count": 1
+    },
+    {
+      "subtype": "Koala",
+      "count": 1
+    },
+    {
+      "subtype": "Lander",
+      "count": 1
+    },
+    {
+      "subtype": "Venser",
+      "count": 1
+    },
+    {
+      "subtype": "Azgol",
+      "count": 1
+    },
+    {
+      "subtype": "LaIR",
+      "count": 1
+    },
+    {
+      "subtype": "sECreT",
+      "count": 1
+    },
+    {
+      "subtype": "Muraganda",
+      "count": 1
+    },
+    {
+      "subtype": "Jeska",
+      "count": 1
+    },
+    {
+      "subtype": "Mercadia",
+      "count": 1
+    },
+    {
+      "subtype": "Vryn",
+      "count": 1
+    },
+    {
+      "subtype": "Elemental?",
+      "count": 1
+    },
+    {
+      "subtype": "Shadowmoor",
+      "count": 1
+    },
+    {
+      "subtype": "Abyss",
+      "count": 1
+    },
+    {
+      "subtype": "Karsus",
+      "count": 1
+    },
+    {
+      "subtype": "Hawk",
+      "count": 1
+    },
+    {
+      "subtype": "Kinshala",
+      "count": 1
+    },
+    {
+      "subtype": "Inzerva",
+      "count": 1
+    },
+    {
+      "subtype": "Champion",
+      "count": 1
+    },
+    {
+      "subtype": "B.O.B.",
+      "count": 1
+    },
+    {
+      "subtype": "Powerstone",
+      "count": 1
+    },
+    {
+      "subtype": "Fiora",
+      "count": 1
+    },
+    {
+      "subtype": "Armored",
+      "count": 1
+    },
+    {
+      "subtype": "Gargantikar",
+      "count": 1
+    },
+    {
+      "subtype": "Mammoth",
+      "count": 1
+    },
+    {
+      "subtype": "Chameleon",
+      "count": 1
+    },
+    {
+      "subtype": "Segovia",
+      "count": 1
+    },
+    {
+      "subtype": "Ferret",
+      "count": 1
+    },
+    {
+      "subtype": "Splinter",
+      "count": 1
+    },
+    {
+      "subtype": "Necros",
+      "count": 1
+    },
+    {
+      "subtype": "Ulamog's",
+      "count": 1
+    },
+    {
+      "subtype": "Deer",
+      "count": 1
+    },
+    {
+      "subtype": "Mission",
+      "count": 1
+    },
+    {
+      "subtype": "Kephalai",
+      "count": 1
+    },
+    {
+      "subtype": "Ergamon",
+      "count": 1
+    },
+    {
+      "subtype": "Apalapucia",
+      "count": 1
+    },
+    {
+      "subtype": "Calix",
+      "count": 1
+    },
+    {
+      "subtype": "Saproling",
+      "count": 1
+    },
+    {
+      "subtype": "Regatha",
+      "count": 1
+    },
+    {
+      "subtype": "Boxer",
+      "count": 1
+    },
+    {
+      "subtype": "Custodes",
+      "count": 1
+    },
+    {
+      "subtype": "Grandchild",
+      "count": 1
+    },
+    {
+      "subtype": "Gus",
+      "count": 1
+    },
+    {
+      "subtype": "Clamhattan",
+      "count": 1
+    },
+    {
+      "subtype": "Foundations",
+      "count": 1
+    },
+    {
+      "subtype": "Comet",
+      "count": 1
+    },
+    {
+      "subtype": "Valla",
+      "count": 1
+    },
+    {
+      "subtype": "Elves",
+      "count": 1
+    },
+    {
+      "subtype": "Rabiah",
+      "count": 1
+    },
+    {
+      "subtype": "Serra's",
+      "count": 1
+    },
+    {
+      "subtype": "Bolas's",
+      "count": 1
+    },
+    {
+      "subtype": "Meditation",
+      "count": 1
+    },
+    {
+      "subtype": "Shi'ar",
+      "count": 1
+    },
+    {
+      "subtype": "Duck",
+      "count": 1
+    },
+    {
+      "subtype": "Designer",
+      "count": 1
+    },
+    {
+      "subtype": "Ikoria",
+      "count": 1
+    },
+    {
+      "subtype": "Jared",
+      "count": 1
+    },
+    {
+      "subtype": "Trenzalore",
+      "count": 1
+    },
+    {
+      "subtype": "Svega",
+      "count": 1
+    },
+    {
+      "subtype": "Rath",
+      "count": 1
+    }
+  ],
+  "terms": [
+    {
+      "root": "mage",
+      "gloss": "a magic-worker; the magical",
+      "category": "profession",
+      "total": 499,
+      "oracle_total": 82,
+      "flavor_total": 417,
+      "by_variant": {
+        "magic": 258,
+        "mage": 135,
+        "mages": 61,
+        "magical": 38,
+        "magi": 4,
+        "magician": 2,
+        "magically": 1
+      },
+      "in_oracle_cards": 70,
+      "in_flavor_cards": 398,
+      "flavor_example_cards": [
+        "Reclamation Sage",
+        "Showstopper",
+        "Spell Blast",
+        "Bursting Beebles",
+        "Wings of Aesthir",
+        "Heated Debate",
+        "Rain of Rust",
+        "Zuran Orb"
+      ]
+    },
+    {
+      "root": "bless",
+      "gloss": "to sanctify / bring favour",
+      "category": "act",
+      "total": 200,
+      "oracle_total": 74,
+      "flavor_total": 126,
+      "by_variant": {
+        "blessing": 109,
+        "blessed": 60,
+        "blessings": 21,
+        "bless": 8,
+        "blesses": 2
+      },
+      "in_oracle_cards": 41,
+      "in_flavor_cards": 123,
+      "flavor_example_cards": [
+        "Soul's Attendant",
+        "Natural End",
+        "Avacyn's Pilgrim",
+        "Pharika's Cure",
+        "Seraph of New Capenna // Seraph of New Phyrexia",
+        "Bark-Knuckle Boxer",
+        "Gravecrawler",
+        "Identity Crisis"
+      ]
+    },
+    {
+      "root": "wizard",
+      "gloss": "a worker of learned magic",
+      "category": "profession",
+      "total": 276,
+      "oracle_total": 170,
+      "flavor_total": 106,
+      "by_variant": {
+        "wizard": 212,
+        "wizards": 62,
+        "wizardry": 2
+      },
+      "in_oracle_cards": 149,
+      "in_flavor_cards": 100,
+      "flavor_example_cards": [
+        "Patchwork Gnomes",
+        "Angelic Shield",
+        "Sideswipe",
+        "Brightstone Ritual",
+        "Dark Banishing",
+        "Zzzyxas's Abyss",
+        "Owlbear",
+        "Vertigo"
+      ]
+    },
+    {
+      "root": "spell",
+      "gloss": "a formula of magical words",
+      "category": "act",
+      "total": 8299,
+      "oracle_total": 8202,
+      "flavor_total": 97,
+      "by_variant": {
+        "spell": 6851,
+        "spells": 1444,
+        "spellcasters": 2,
+        "spellcasting": 2
+      },
+      "in_oracle_cards": 6349,
+      "in_flavor_cards": 93,
+      "flavor_example_cards": [
+        "Sensory Deprivation",
+        "Pongify",
+        "Nucklavee",
+        "Auriok Transfixer",
+        "Firefist Adept",
+        "Yukora, the Prisoner",
+        "Dredge the Mire",
+        "Polluted Bonds"
+      ]
+    },
+    {
+      "root": "druid",
+      "gloss": "a nature-priest",
+      "category": "profession",
+      "total": 108,
+      "oracle_total": 20,
+      "flavor_total": 88,
+      "by_variant": {
+        "druid": 79,
+        "druids": 29
+      },
+      "in_oracle_cards": 18,
+      "in_flavor_cards": 86,
+      "flavor_example_cards": [
+        "Terrus Wurm",
+        "Kaysa",
+        "Spellwild Ouphe",
+        "Ground Seal",
+        "Krosan Wayfarer",
+        "Circle of Dreams Druid",
+        "Fang Guardian",
+        "Krosan Druid"
+      ]
+    },
+    {
+      "root": "curse",
+      "gloss": "a malediction",
+      "category": "act",
+      "total": 102,
+      "oracle_total": 27,
+      "flavor_total": 75,
+      "by_variant": {
+        "curse": 61,
+        "cursed": 28,
+        "curses": 10,
+        "cursing": 3
+      },
+      "in_oracle_cards": 22,
+      "in_flavor_cards": 72,
+      "flavor_example_cards": [
+        "South Wind Avatar",
+        "Hero's Downfall",
+        "Tattered Mummy",
+        "Mystic Decree",
+        "Crovax, Ascendant Hero",
+        "Tree of Perdition",
+        "Damping Matrix",
+        "Sigardian Savior"
+      ]
+    },
+    {
+      "root": "shaman",
+      "gloss": "a spirit-mediating healer",
+      "category": "profession",
+      "total": 90,
+      "oracle_total": 19,
+      "flavor_total": 71,
+      "by_variant": {
+        "shaman": 64,
+        "shamans": 23,
+        "shamanic": 3
+      },
+      "in_oracle_cards": 18,
+      "in_flavor_cards": 70,
+      "flavor_example_cards": [
+        "Ogre Shaman",
+        "Sideswipe",
+        "Orochi Leafcaller",
+        "Sachi, Daughter of Seshiro",
+        "Primal Forcemage",
+        "Oxidize",
+        "Skylasher",
+        "Akki Blizzard-Herder"
+      ]
+    },
+    {
+      "root": "necromancer",
+      "gloss": "a raiser of the dead",
+      "category": "profession",
+      "total": 55,
+      "oracle_total": 2,
+      "flavor_total": 53,
+      "by_variant": {
+        "necromancer": 32,
+        "necromancers": 11,
+        "necromancy": 9,
+        "necromantic": 3
+      },
+      "in_oracle_cards": 2,
+      "in_flavor_cards": 51,
+      "flavor_example_cards": [
+        "Refurbished Familiar",
+        "Minotaur Abomination",
+        "Cemetery Recruitment",
+        "Doomed Necromancer",
+        "Undead Minotaur",
+        "Chilling Shade",
+        "Dungeon Crawler",
+        "Stir the Grave"
+      ]
+    },
+    {
+      "root": "summon",
+      "gloss": "to call a being into presence",
+      "category": "act",
+      "total": 77,
+      "oracle_total": 27,
+      "flavor_total": 50,
+      "by_variant": {
+        "summoning": 28,
+        "summon": 16,
+        "summoner": 15,
+        "summoned": 10,
+        "summons": 7,
+        "summoners": 1
+      },
+      "in_oracle_cards": 26,
+      "in_flavor_cards": 50,
+      "flavor_example_cards": [
+        "Phantasmal Forces",
+        "Vastwood Animist",
+        "Peregrine Drake",
+        "Rydia's Return",
+        "Demonic Rising",
+        "Xorn",
+        "Skulltap",
+        "Gnarled Mass"
+      ]
+    },
+    {
+      "root": "witch",
+      "gloss": "a practitioner of witchcraft",
+      "category": "profession",
+      "total": 59,
+      "oracle_total": 13,
+      "flavor_total": 46,
+      "by_variant": {
+        "witch": 47,
+        "witches": 11,
+        "witchcraft": 1
+      },
+      "in_oracle_cards": 10,
+      "in_flavor_cards": 45,
+      "flavor_example_cards": [
+        "Wanda's Vision",
+        "Cursed Courtier",
+        "Ardent Elementalist",
+        "Hex Magic",
+        "Bog Initiate",
+        "Might of the Old Ways",
+        "Eerie Interference",
+        "Addle"
+      ]
+    },
+    {
+      "root": "haunt",
+      "gloss": "to be troubled by a spirit",
+      "category": "act",
+      "total": 83,
+      "oracle_total": 42,
+      "flavor_total": 41,
+      "by_variant": {
+        "haunt": 27,
+        "haunting": 22,
+        "haunted": 21,
+        "haunts": 13
+      },
+      "in_oracle_cards": 18,
+      "in_flavor_cards": 41,
+      "flavor_example_cards": [
+        "Shizo, Death's Storehouse",
+        "Natural End",
+        "Tree of Perdition",
+        "Cloak of Mists",
+        "Ruin Ghost",
+        "Karn",
+        "Glass Asp",
+        "Maeve, Insidious Singer"
+      ]
+    },
+    {
+      "root": "possess",
+      "gloss": "to inhabit/seize a body",
+      "category": "act",
+      "total": 40,
+      "oracle_total": 2,
+      "flavor_total": 38,
+      "by_variant": {
+        "possess": 15,
+        "possessed": 8,
+        "possession": 5,
+        "possessions": 5,
+        "possesses": 4,
+        "possessing": 3
+      },
+      "in_oracle_cards": 2,
+      "in_flavor_cards": 38,
+      "flavor_example_cards": [
+        "Maritime Guard",
+        "Due Respect",
+        "Hapless Researcher",
+        "Crafty Cutpurse",
+        "Infernal Captor",
+        "The Vision and Scarlet Witch",
+        "Carnivorous Plant",
+        "Virtuous Charge"
+      ]
+    },
+    {
+      "root": "oracle",
+      "gloss": "a mouthpiece of prophecy",
+      "category": "divination",
+      "total": 38,
+      "oracle_total": 4,
+      "flavor_total": 34,
+      "by_variant": {
+        "oracle": 32,
+        "oracles": 6
+      },
+      "in_oracle_cards": 3,
+      "in_flavor_cards": 34,
+      "flavor_example_cards": [
+        "Ranger en-Vec",
+        "Wasteland",
+        "Boulderfall",
+        "Rageblood Shaman",
+        "Archetype of Aggression",
+        "Magma Jet",
+        "Fanatical Devotion",
+        "Krakilin"
+      ]
+    },
+    {
+      "root": "mystic",
+      "gloss": "of hidden spiritual truth",
+      "category": "quality",
+      "total": 39,
+      "oracle_total": 6,
+      "flavor_total": 33,
+      "by_variant": {
+        "mystic": 24,
+        "mystical": 10,
+        "mystics": 5
+      },
+      "in_oracle_cards": 6,
+      "in_flavor_cards": 32,
+      "flavor_example_cards": [
+        "Funeral Pyre",
+        "Hedron Crawler",
+        "Polluted Bonds",
+        "Archon of the Wild Rose",
+        "Chilling Shade",
+        "Graceblade Artisan",
+        "Manaforge Cinder",
+        "Patchwork Banner"
+      ]
+    },
+    {
+      "root": "divine",
+      "gloss": "to foretell the hidden",
+      "category": "divination",
+      "total": 41,
+      "oracle_total": 10,
+      "flavor_total": 31,
+      "by_variant": {
+        "divine": 33,
+        "divining": 4,
+        "divination": 3,
+        "divined": 1
+      },
+      "in_oracle_cards": 7,
+      "in_flavor_cards": 31,
+      "flavor_example_cards": [
+        "Contagious Nim",
+        "Courier of Comestibles",
+        "Dawnglare Invoker",
+        "Serra Disciple",
+        "Sky Diamond",
+        "Divine Transformation",
+        "Soothsayer Adept",
+        "Sacred Boon"
+      ]
+    },
+    {
+      "root": "sorcerer",
+      "gloss": "a wielder of sorcery",
+      "category": "profession",
+      "total": 2322,
+      "oracle_total": 2292,
+      "flavor_total": 30,
+      "by_variant": {
+        "sorcery": 2284,
+        "sorcerer": 22,
+        "sorcerous": 6,
+        "sorcerers": 4,
+        "sorceries": 4,
+        "sorceress": 2
+      },
+      "in_oracle_cards": 2052,
+      "in_flavor_cards": 30,
+      "flavor_example_cards": [
+        "Krovikan Sorcerer",
+        "Mystic Decree",
+        "Wandering Stream",
+        "Bind",
+        "Glint",
+        "Sunastian Falconer",
+        "Flaring Flame-Kin",
+        "Arcane Flight"
+      ]
+    },
+    {
+      "root": "cleric",
+      "gloss": "a divine spellcaster",
+      "category": "profession",
+      "total": 138,
+      "oracle_total": 112,
+      "flavor_total": 26,
+      "by_variant": {
+        "cleric": 115,
+        "clerics": 23
+      },
+      "in_oracle_cards": 102,
+      "in_flavor_cards": 25,
+      "flavor_example_cards": [
+        "Master Apothecary",
+        "Leonin Abunas",
+        "Gangrenous Goliath",
+        "Cosi's Ravager",
+        "Fatal Mutation",
+        "Breath of Life",
+        "Meeting of Minds",
+        "Wax-Wane Witness"
+      ]
+    },
+    {
+      "root": "alchemy",
+      "gloss": "the art of transformation",
+      "category": "alchemy",
+      "total": 29,
+      "oracle_total": 3,
+      "flavor_total": 26,
+      "by_variant": {
+        "alchemist": 22,
+        "alchemists": 6,
+        "alchemy": 1
+      },
+      "in_oracle_cards": 3,
+      "in_flavor_cards": 26,
+      "flavor_example_cards": [
+        "Makeshift Mauler",
+        "Leeches",
+        "Geistwave",
+        "Narstad Scrapper",
+        "Laboratory Drudge",
+        "Thirst for Discovery",
+        "Whimwader",
+        "Bone to Ash"
+      ]
+    },
+    {
+      "root": "seer",
+      "gloss": "one who sees the hidden",
+      "category": "divination",
+      "total": 23,
+      "oracle_total": 0,
+      "flavor_total": 23,
+      "by_variant": {
+        "seer": 21,
+        "seers": 2
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 23,
+      "flavor_example_cards": [
+        "Wildest Dreams",
+        "Artisan's Sorrow",
+        "Godhead of Awe",
+        "Divinity of Pride",
+        "Reckless Assault",
+        "Ornithopter of Paradise",
+        "Nobilis of War",
+        "Overbeing of Myth"
+      ]
+    },
+    {
+      "root": "ward",
+      "gloss": "a protective magical guard",
+      "category": "act",
+      "total": 361,
+      "oracle_total": 339,
+      "flavor_total": 22,
+      "by_variant": {
+        "ward": 349,
+        "wards": 12
+      },
+      "in_oracle_cards": 322,
+      "in_flavor_cards": 22,
+      "flavor_example_cards": [
+        "Burrenton Bombardier",
+        "Saiba Cryptomancer",
+        "Bar the Door",
+        "Builder's Blessing",
+        "Scorchwalker",
+        "Barrier Breach",
+        "Treefolk Mystic",
+        "Relic Runner"
+      ]
+    },
+    {
+      "root": "chant",
+      "gloss": "rhythmic ritual utterance",
+      "category": "act",
+      "total": 25,
+      "oracle_total": 3,
+      "flavor_total": 22,
+      "by_variant": {
+        "chant": 19,
+        "chanting": 4,
+        "chants": 1,
+        "chanted": 1
+      },
+      "in_oracle_cards": 3,
+      "in_flavor_cards": 22,
+      "flavor_example_cards": [
+        "Cryptolith Rite",
+        "Gravecrawler",
+        "Needlebug",
+        "Soltari Crusader",
+        "Painwracker Oni",
+        "Frazzle",
+        "Dosan's Oldest Chant",
+        "Ripclaw Wrangler"
+      ]
+    },
+    {
+      "root": "arcane",
+      "gloss": "hidden/secret magical knowledge",
+      "category": "quality",
+      "total": 145,
+      "oracle_total": 124,
+      "flavor_total": 21,
+      "by_variant": {
+        "arcane": 140,
+        "arcanum": 4,
+        "arcana": 1
+      },
+      "in_oracle_cards": 96,
+      "in_flavor_cards": 21,
+      "flavor_example_cards": [
+        "Cinderheart Giant",
+        "Prodigal Pyromancer",
+        "Seat of the Synod",
+        "Dark Ritual",
+        "Spellgorger Weird",
+        "Scroll Thief",
+        "Jodah, Archmage Eternal",
+        "Vodalian Mage"
+      ]
+    },
+    {
+      "root": "omen",
+      "gloss": "a portent",
+      "category": "divination",
+      "total": 41,
+      "oracle_total": 20,
+      "flavor_total": 21,
+      "by_variant": {
+        "omen": 20,
+        "ominous": 12,
+        "omens": 9
+      },
+      "in_oracle_cards": 10,
+      "in_flavor_cards": 21,
+      "flavor_example_cards": [
+        "Strategic Planning",
+        "Meteor Storm",
+        "Illuminated Folio",
+        "Magma Jet",
+        "Wavebreak Hippocamp",
+        "Winged Portent",
+        "Nimbus of the Isles",
+        "Flameborn Hellion"
+      ]
+    },
+    {
+      "root": "scroll",
+      "gloss": "a rolled manuscript",
+      "category": "book",
+      "total": 29,
+      "oracle_total": 8,
+      "flavor_total": 21,
+      "by_variant": {
+        "scroll": 21,
+        "scrolls": 8
+      },
+      "in_oracle_cards": 4,
+      "in_flavor_cards": 20,
+      "flavor_example_cards": [
+        "Brawn",
+        "Auriok Transfixer",
+        "Wonder",
+        "Ardent Dustspeaker",
+        "Glory",
+        "Krosan Grip",
+        "Quiet Purity",
+        "Filth"
+      ]
+    },
+    {
+      "root": "rune",
+      "gloss": "a letter of magical power",
+      "category": "item",
+      "total": 27,
+      "oracle_total": 8,
+      "flavor_total": 19,
+      "by_variant": {
+        "rune": 13,
+        "runes": 11,
+        "runic": 3
+      },
+      "in_oracle_cards": 6,
+      "in_flavor_cards": 18,
+      "flavor_example_cards": [
+        "Graven Lore",
+        "Runed Stalactite",
+        "Ayula's Influence",
+        "Raven Wings",
+        "Skinbrand Goblin",
+        "Ascended Lawmage",
+        "Hengegate Pathway // Mistgate Pathway",
+        "Sigiled Skink"
+      ]
+    },
+    {
+      "root": "sigil",
+      "gloss": "a drawn magical symbol",
+      "category": "item",
+      "total": 22,
+      "oracle_total": 3,
+      "flavor_total": 19,
+      "by_variant": {
+        "sigil": 15,
+        "sigils": 7
+      },
+      "in_oracle_cards": 2,
+      "in_flavor_cards": 19,
+      "flavor_example_cards": [
+        "Deft Duelist",
+        "Akrasan Squire",
+        "Simic Signet",
+        "Patron of the Valiant",
+        "Rhox War Monk",
+        "Sigil Captain",
+        "Kiss of the Amesha",
+        "Sigil Blessing"
+      ]
+    },
+    {
+      "root": "potion",
+      "gloss": "a prepared magical draught",
+      "category": "alchemy",
+      "total": 17,
+      "oracle_total": 0,
+      "flavor_total": 17,
+      "by_variant": {
+        "potions": 11,
+        "potion": 6
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 13,
+      "flavor_example_cards": [
+        "Elder Auntie",
+        "Leeches",
+        "Samite Alchemist",
+        "Preposterous Proportions",
+        "Bazaar Trader",
+        "Grow Extra Arms",
+        "Bile-Vial Boggart",
+        "Eyetwitch"
+      ]
+    },
+    {
+      "root": "prophesy",
+      "gloss": "to foretell; a foreteller",
+      "category": "divination",
+      "total": 18,
+      "oracle_total": 2,
+      "flavor_total": 16,
+      "by_variant": {
+        "prophecy": 10,
+        "prophet": 3,
+        "prophecies": 3,
+        "prophetic": 2
+      },
+      "in_oracle_cards": 2,
+      "in_flavor_cards": 15,
+      "flavor_example_cards": [
+        "Bogwater Lumaret",
+        "Steam Augury",
+        "Piety",
+        "Green Sun's Zenith",
+        "Omenspeaker",
+        "Fiery Emancipation",
+        "Duskana, the Rage Mother",
+        "Sigiled Starfish"
+      ]
+    },
+    {
+      "root": "banish",
+      "gloss": "to drive out by power",
+      "category": "act",
+      "total": 16,
+      "oracle_total": 1,
+      "flavor_total": 15,
+      "by_variant": {
+        "banished": 8,
+        "banish": 4,
+        "banishment": 2,
+        "banishes": 1,
+        "banishing": 1
+      },
+      "in_oracle_cards": 1,
+      "in_flavor_cards": 15,
+      "flavor_example_cards": [
+        "Skyhunter Skirmisher",
+        "Kin-Tree Severance",
+        "Takara",
+        "Devouring Light",
+        "Cloudstone Curio",
+        "Zuko's Exile",
+        "Dawnstrike Vanguard",
+        "Rumbling Slum"
+      ]
+    },
+    {
+      "root": "tome",
+      "gloss": "a large, weighty book",
+      "category": "book",
+      "total": 18,
+      "oracle_total": 4,
+      "flavor_total": 14,
+      "by_variant": {
+        "tome": 13,
+        "tomes": 5
+      },
+      "in_oracle_cards": 4,
+      "in_flavor_cards": 14,
+      "flavor_example_cards": [
+        "Flowstone Embrace",
+        "Retrieval Agent",
+        "My First Tome",
+        "Enthusiastic Study",
+        "Phyrexian Censor",
+        "Two-Headed Zombie",
+        "Candles of Leng",
+        "Primeval Light"
+      ]
+    },
+    {
+      "root": "pyromancy",
+      "gloss": "divination by fire",
+      "category": "divination",
+      "total": 16,
+      "oracle_total": 2,
+      "flavor_total": 14,
+      "by_variant": {
+        "pyromancer": 9,
+        "pyromancers": 4,
+        "pyromancy": 3
+      },
+      "in_oracle_cards": 2,
+      "in_flavor_cards": 13,
+      "flavor_example_cards": [
+        "Geistflame",
+        "Seismic Strike",
+        "Fire Elemental",
+        "Incinerating Blast",
+        "Coal Stoker",
+        "Insidious Will",
+        "Pyromancer's Assault",
+        "Ghitu Lavarunner"
+      ]
+    },
+    {
+      "root": "charm",
+      "gloss": "a spell-object; to captivate magically",
+      "category": "act",
+      "total": 36,
+      "oracle_total": 23,
+      "flavor_total": 13,
+      "by_variant": {
+        "charm": 29,
+        "charms": 3,
+        "charmed": 2,
+        "charming": 2
+      },
+      "in_oracle_cards": 19,
+      "in_flavor_cards": 13,
+      "flavor_example_cards": [
+        "Mana Geode",
+        "Rootwater Matriarch",
+        "Exorcist",
+        "Novellamental",
+        "Bonethorn Valesk",
+        "Crimson Manticore",
+        "Lucky Clover",
+        "Cooped Up"
+      ]
+    },
+    {
+      "root": "augur",
+      "gloss": "divination by the flight/behaviour of birds",
+      "category": "divination",
+      "total": 14,
+      "oracle_total": 1,
+      "flavor_total": 13,
+      "by_variant": {
+        "augur": 11,
+        "augurs": 3
+      },
+      "in_oracle_cards": 1,
+      "in_flavor_cards": 13,
+      "flavor_example_cards": [
+        "Steel Sabotage",
+        "Distant Memories",
+        "Psychosis Crawler",
+        "Inexorable Tide",
+        "Culling Dais",
+        "Psychic Miasma",
+        "Lost Hours",
+        "Altar's Reap"
+      ]
+    },
+    {
+      "root": "conjure",
+      "gloss": "to call forth by magic",
+      "category": "act",
+      "total": 207,
+      "oracle_total": 197,
+      "flavor_total": 10,
+      "by_variant": {
+        "conjure": 195,
+        "conjures": 5,
+        "conjured": 5,
+        "conjuration": 2
+      },
+      "in_oracle_cards": 186,
+      "in_flavor_cards": 10,
+      "flavor_example_cards": [
+        "Enatu Golem",
+        "Rune Snag",
+        "Kellan's Lightblades",
+        "Zhalfirin Lancer",
+        "Aerie Worshippers",
+        "Cerulean Wyvern",
+        "Djinn of Fool's Fall",
+        "Spellheart Chimera"
+      ]
+    },
+    {
+      "root": "cauldron",
+      "gloss": "the witch's brewing pot",
+      "category": "item",
+      "total": 16,
+      "oracle_total": 6,
+      "flavor_total": 10,
+      "by_variant": {
+        "cauldron": 16
+      },
+      "in_oracle_cards": 4,
+      "in_flavor_cards": 10,
+      "flavor_example_cards": [
+        "Feed the Cauldron",
+        "Blacklance Paragon",
+        "Forever Young",
+        "Festering Newt",
+        "Festive Funeral",
+        "Ragged Recluse // Odious Witch",
+        "Penregon Strongbull",
+        "Cauldron Familiar"
+      ]
+    },
+    {
+      "root": "testament",
+      "gloss": "a witnessed writing / scripture",
+      "category": "book",
+      "total": 10,
+      "oracle_total": 0,
+      "flavor_total": 10,
+      "by_variant": {
+        "testament": 10
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 10,
+      "flavor_example_cards": [
+        "Rend Flesh",
+        "Needlepeak Spider",
+        "Seaside Citadel",
+        "Amaranthine Wall",
+        "Midgar, City of Mako // Reactor Raid",
+        "Verdant Sun's Avatar",
+        "Tranquil Domain",
+        "Rend Spirit"
+      ]
+    },
+    {
+      "root": "enchanter",
+      "gloss": "a caster of enchantments",
+      "category": "profession",
+      "total": 9,
+      "oracle_total": 0,
+      "flavor_total": 9,
+      "by_variant": {
+        "enchanter": 7,
+        "enchanters": 1,
+        "enchantress": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 9,
+      "flavor_example_cards": [
+        "Krovikan Sorcerer",
+        "Martyr of Frost",
+        "Krovikan Elementalist",
+        "Rune Snag",
+        "Estrid's Invocation",
+        "Femeref Enchantress",
+        "Zuran Spellcaster",
+        "Mesmeric Trance"
+      ]
+    },
+    {
+      "root": "glamour",
+      "gloss": "an illusion-spell (Scots)",
+      "category": "act",
+      "total": 9,
+      "oracle_total": 0,
+      "flavor_total": 9,
+      "by_variant": {
+        "glamers": 4,
+        "glamer": 3,
+        "glamour": 1,
+        "glamours": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 9,
+      "flavor_example_cards": [
+        "Secluded Glen",
+        "Vampiric Fury",
+        "Sower of Temptation",
+        "Wanderwine Distracter",
+        "Tegwyll, Duke of Splendor",
+        "Strip Bare",
+        "Mirror Sheen",
+        "Unbury"
+      ]
+    },
+    {
+      "root": "infernal",
+      "gloss": "of the lower/hellish realm",
+      "category": "quality",
+      "total": 16,
+      "oracle_total": 8,
+      "flavor_total": 8,
+      "by_variant": {
+        "inferno": 11,
+        "infernal": 5
+      },
+      "in_oracle_cards": 8,
+      "in_flavor_cards": 8,
+      "flavor_example_cards": [
+        "Rune-Scarred Demon",
+        "Screeching Phoenix",
+        "Curse of Bloodletting",
+        "Los Diablos Missile Base",
+        "Pyromancer's Gauntlet",
+        "Fire Nation Cadets",
+        "Cinderclasm",
+        "Skull Catapult"
+      ]
+    },
+    {
+      "root": "enchant",
+      "gloss": "to bind under a spell",
+      "category": "act",
+      "total": 5576,
+      "oracle_total": 5569,
+      "flavor_total": 7,
+      "by_variant": {
+        "enchantment": 2143,
+        "enchanted": 1924,
+        "enchant": 1380,
+        "enchantments": 121,
+        "enchants": 5,
+        "enchanting": 3
+      },
+      "in_oracle_cards": 3140,
+      "in_flavor_cards": 7,
+      "flavor_example_cards": [
+        "Knight of New Benalia",
+        "Aven Gagglemaster",
+        "Blessed Light",
+        "Village Elder",
+        "Teferi's Sentinel",
+        "Hammerheim",
+        "Shield of the Realm"
+      ]
+    },
+    {
+      "root": "portent",
+      "gloss": "a sign of things to come",
+      "category": "divination",
+      "total": 8,
+      "oracle_total": 1,
+      "flavor_total": 7,
+      "by_variant": {
+        "portent": 6,
+        "portents": 2
+      },
+      "in_oracle_cards": 1,
+      "in_flavor_cards": 7,
+      "flavor_example_cards": [
+        "Charcoal Diamond",
+        "Femeref Scouts",
+        "Soothsayer Adept",
+        "Divinity of Pride",
+        "Witch's Familiar",
+        "Birds of Paradise",
+        "Prismatic Omen"
+      ]
+    },
+    {
+      "root": "incant",
+      "gloss": "ritual chanting of words of power",
+      "category": "act",
+      "total": 7,
+      "oracle_total": 0,
+      "flavor_total": 7,
+      "by_variant": {
+        "incantation": 6,
+        "incantations": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 7,
+      "flavor_example_cards": [
+        "Lava Spike",
+        "Halcyon Glaze",
+        "Wall of Vapor",
+        "Tempting Witch",
+        "Reave Soul",
+        "Barrow Witches",
+        "Taste of Death"
+      ]
+    },
+    {
+      "root": "warlock",
+      "gloss": "an oath-bound magic-user",
+      "category": "profession",
+      "total": 34,
+      "oracle_total": 29,
+      "flavor_total": 5,
+      "by_variant": {
+        "warlocks": 21,
+        "warlock": 13
+      },
+      "in_oracle_cards": 26,
+      "in_flavor_cards": 5,
+      "flavor_example_cards": [
+        "Eldritch Pact",
+        "Underdark Basilisk",
+        "Armor of Shadows",
+        "Feywild Trickster",
+        "Arms of Hadar"
+      ]
+    },
+    {
+      "root": "amulet",
+      "gloss": "a worn protective charm",
+      "category": "item",
+      "total": 7,
+      "oracle_total": 2,
+      "flavor_total": 5,
+      "by_variant": {
+        "amulet": 4,
+        "amulets": 3
+      },
+      "in_oracle_cards": 2,
+      "in_flavor_cards": 5,
+      "flavor_example_cards": [
+        "Traveler's Amulet",
+        "Amulet of Kroog",
+        "Sun Clasp",
+        "Quicksilver Amulet",
+        "Treasured Find"
+      ]
+    },
+    {
+      "root": "elixir",
+      "gloss": "a life-giving/perfecting draught",
+      "category": "alchemy",
+      "total": 9,
+      "oracle_total": 5,
+      "flavor_total": 4,
+      "by_variant": {
+        "elixir": 9
+      },
+      "in_oracle_cards": 3,
+      "in_flavor_cards": 4,
+      "flavor_example_cards": [
+        "Reviving Dose",
+        "Revitalize",
+        "Magic Pot",
+        "Cosmos Elixir"
+      ]
+    },
+    {
+      "root": "geomancy",
+      "gloss": "divination by earth/figures",
+      "category": "divination",
+      "total": 4,
+      "oracle_total": 0,
+      "flavor_total": 4,
+      "by_variant": {
+        "geomancer": 2,
+        "geomancy": 1,
+        "geomancers": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 3,
+      "flavor_example_cards": [
+        "Geomancer's Gambit",
+        "Volcanic Geyser",
+        "Seismic Stomp"
+      ]
+    },
+    {
+      "root": "distill",
+      "gloss": "to separate by vaporising",
+      "category": "alchemy",
+      "total": 4,
+      "oracle_total": 0,
+      "flavor_total": 4,
+      "by_variant": {
+        "distill": 2,
+        "distilled": 1,
+        "distillation": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 4,
+      "flavor_example_cards": [
+        "Poison the Blade",
+        "Necrotic Wound",
+        "Revitalize",
+        "Braidwood Cup"
+      ]
+    },
+    {
+      "root": "crucible",
+      "gloss": "a melting-vessel",
+      "category": "alchemy",
+      "total": 4,
+      "oracle_total": 0,
+      "flavor_total": 4,
+      "by_variant": {
+        "crucible": 4
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 3,
+      "flavor_example_cards": [
+        "Rising Populace",
+        "Masterwork of Ingenuity",
+        "Zhalfirin Crusader"
+      ]
+    },
+    {
+      "root": "wand",
+      "gloss": "a rod/virga directing power",
+      "category": "item",
+      "total": 4,
+      "oracle_total": 0,
+      "flavor_total": 4,
+      "by_variant": {
+        "wand": 2,
+        "wands": 2
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 3,
+      "flavor_example_cards": [
+        "Goblin Pyromancer",
+        "Skystinger",
+        "Ore-Rich Stalactite // Cosmium Catalyst"
+      ]
+    },
+    {
+      "root": "consecrate",
+      "gloss": "to make sacred by rite",
+      "category": "act",
+      "total": 4,
+      "oracle_total": 0,
+      "flavor_total": 4,
+      "by_variant": {
+        "consecration": 2,
+        "consecrated": 1,
+        "consecrate": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 4,
+      "flavor_example_cards": [
+        "Zarichi Tiger",
+        "Withered Wretch",
+        "Banishment Decree",
+        "Pharika's Chosen"
+      ]
+    },
+    {
+      "root": "invoke",
+      "gloss": "to call upon a power",
+      "category": "act",
+      "total": 6,
+      "oracle_total": 3,
+      "flavor_total": 3,
+      "by_variant": {
+        "invoke": 4,
+        "invoking": 1,
+        "invoked": 1
+      },
+      "in_oracle_cards": 3,
+      "in_flavor_cards": 3,
+      "flavor_example_cards": [
+        "Haunting Hymn",
+        "Lightning Strike",
+        "Quench"
+      ]
+    },
+    {
+      "root": "commune",
+      "gloss": "to converse with spirits/nature",
+      "category": "act",
+      "total": 3,
+      "oracle_total": 0,
+      "flavor_total": 3,
+      "by_variant": {
+        "commune": 2,
+        "communing": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 3,
+      "flavor_example_cards": [
+        "Didact Echo",
+        "Spinning Wheel Kick",
+        "Tempered in Solitude"
+      ]
+    },
+    {
+      "root": "magus",
+      "gloss": "a master mage (Latin/Persian magi)",
+      "category": "profession",
+      "total": 3,
+      "oracle_total": 0,
+      "flavor_total": 3,
+      "by_variant": {
+        "magus": 3
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 3,
+      "flavor_example_cards": [
+        "Magus of the Arena",
+        "Magus of the Library",
+        "Barren Glory"
+      ]
+    },
+    {
+      "root": "thaumaturge",
+      "gloss": "a wonder-worker",
+      "category": "profession",
+      "total": 3,
+      "oracle_total": 0,
+      "flavor_total": 3,
+      "by_variant": {
+        "thaumaturges": 2,
+        "thaumaturge": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 3,
+      "flavor_example_cards": [
+        "Unravel the Aether",
+        "Thaumaturge's Familiar",
+        "Spellheart Chimera"
+      ]
+    },
+    {
+      "root": "hydromancy",
+      "gloss": "divination by water",
+      "category": "divination",
+      "total": 3,
+      "oracle_total": 0,
+      "flavor_total": 3,
+      "by_variant": {
+        "hydromancer": 2,
+        "hydromancy": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 3,
+      "flavor_example_cards": [
+        "Hydrolash",
+        "Hydrosurge",
+        "Pop Quiz"
+      ]
+    },
+    {
+      "root": "hex",
+      "gloss": "a curse; to curse",
+      "category": "act",
+      "total": 5,
+      "oracle_total": 3,
+      "flavor_total": 2,
+      "by_variant": {
+        "hex": 4,
+        "hexes": 1
+      },
+      "in_oracle_cards": 2,
+      "in_flavor_cards": 2,
+      "flavor_example_cards": [
+        "Chaos Spewer",
+        "Witch's Vengeance"
+      ]
+    },
+    {
+      "root": "grimoire",
+      "gloss": "a book of spells",
+      "category": "book",
+      "total": 5,
+      "oracle_total": 3,
+      "flavor_total": 2,
+      "by_variant": {
+        "grimoire": 4,
+        "grimoires": 1
+      },
+      "in_oracle_cards": 2,
+      "in_flavor_cards": 2,
+      "flavor_example_cards": [
+        "Psionic Gift",
+        "Adun Oakenshield"
+      ]
+    },
+    {
+      "root": "bewitch",
+      "gloss": "to charm by witchcraft",
+      "category": "act",
+      "total": 4,
+      "oracle_total": 2,
+      "flavor_total": 2,
+      "by_variant": {
+        "bewitching": 3,
+        "bewitched": 1
+      },
+      "in_oracle_cards": 2,
+      "in_flavor_cards": 2,
+      "flavor_example_cards": [
+        "Unmake",
+        "Entrancing Melody"
+      ]
+    },
+    {
+      "root": "conjurer",
+      "gloss": "a summoner of spirits",
+      "category": "profession",
+      "total": 4,
+      "oracle_total": 2,
+      "flavor_total": 2,
+      "by_variant": {
+        "conjurers": 2,
+        "conjurer": 2
+      },
+      "in_oracle_cards": 2,
+      "in_flavor_cards": 2,
+      "flavor_example_cards": [
+        "Mystic Decree",
+        "Frenzy Sliver"
+      ]
+    },
+    {
+      "root": "eldritch",
+      "gloss": "weird, otherworldly",
+      "category": "quality",
+      "total": 3,
+      "oracle_total": 1,
+      "flavor_total": 2,
+      "by_variant": {
+        "eldritch": 3
+      },
+      "in_oracle_cards": 1,
+      "in_flavor_cards": 2,
+      "flavor_example_cards": [
+        "Asylum Visitor",
+        "Strionic Resonator"
+      ]
+    },
+    {
+      "root": "reliquary",
+      "gloss": "a container for holy relics",
+      "category": "item",
+      "total": 3,
+      "oracle_total": 1,
+      "flavor_total": 2,
+      "by_variant": {
+        "reliquary": 3
+      },
+      "in_oracle_cards": 1,
+      "in_flavor_cards": 2,
+      "flavor_example_cards": [
+        "Liminal Hold",
+        "Reliquary Tower"
+      ]
+    },
+    {
+      "root": "hierophant",
+      "gloss": "an interpreter of sacred mystery",
+      "category": "profession",
+      "total": 2,
+      "oracle_total": 0,
+      "flavor_total": 2,
+      "by_variant": {
+        "hierophant": 2
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 2,
+      "flavor_example_cards": [
+        "Camaraderie",
+        "Selesnya Locket"
+      ]
+    },
+    {
+      "root": "soothsayer",
+      "gloss": "a truth-teller / foreteller",
+      "category": "divination",
+      "total": 2,
+      "oracle_total": 0,
+      "flavor_total": 2,
+      "by_variant": {
+        "soothsayer": 2
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 2,
+      "flavor_example_cards": [
+        "Catacomb Slug",
+        "Goblin Soothsayer"
+      ]
+    },
+    {
+      "root": "codex",
+      "gloss": "the bound-leaf book (vs scroll)",
+      "category": "book",
+      "total": 2,
+      "oracle_total": 0,
+      "flavor_total": 2,
+      "by_variant": {
+        "codex": 2
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 2,
+      "flavor_example_cards": [
+        "Holy Strength",
+        "Moonlit Meditation"
+      ]
+    },
+    {
+      "root": "exorcist",
+      "gloss": "a caster-out of spirits",
+      "category": "profession",
+      "total": 2,
+      "oracle_total": 0,
+      "flavor_total": 2,
+      "by_variant": {
+        "exorcist": 1,
+        "exorcists": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 2,
+      "flavor_example_cards": [
+        "Gutter Skulk",
+        "Exorcist"
+      ]
+    },
+    {
+      "root": "retort",
+      "gloss": "a distilling vessel",
+      "category": "alchemy",
+      "total": 2,
+      "oracle_total": 0,
+      "flavor_total": 2,
+      "by_variant": {
+        "retort": 2
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 2,
+      "flavor_example_cards": [
+        "Soul Sear",
+        "Hungry Flames"
+      ]
+    },
+    {
+      "root": "scry",
+      "gloss": "to see by crystal/surface gazing",
+      "category": "divination",
+      "total": 535,
+      "oracle_total": 534,
+      "flavor_total": 1,
+      "by_variant": {
+        "scry": 524,
+        "scrying": 7,
+        "scries": 4
+      },
+      "in_oracle_cards": 484,
+      "in_flavor_cards": 1,
+      "flavor_example_cards": [
+        "Tidepool Turtle"
+      ]
+    },
+    {
+      "root": "evoke",
+      "gloss": "to call out a spirit",
+      "category": "act",
+      "total": 69,
+      "oracle_total": 68,
+      "flavor_total": 1,
+      "by_variant": {
+        "evoke": 69
+      },
+      "in_oracle_cards": 40,
+      "in_flavor_cards": 1,
+      "flavor_example_cards": [
+        "Skinbrand Goblin"
+      ]
+    },
+    {
+      "root": "transmute",
+      "gloss": "to change one substance into another",
+      "category": "alchemy",
+      "total": 31,
+      "oracle_total": 30,
+      "flavor_total": 1,
+      "by_variant": {
+        "transmute": 28,
+        "transmutation": 2,
+        "transmuted": 1
+      },
+      "in_oracle_cards": 16,
+      "in_flavor_cards": 1,
+      "flavor_example_cards": [
+        "Gaea's Protector"
+      ]
+    },
+    {
+      "root": "phylactery",
+      "gloss": "Greek amulet / scripture-case",
+      "category": "item",
+      "total": 3,
+      "oracle_total": 2,
+      "flavor_total": 1,
+      "by_variant": {
+        "phylactery": 3
+      },
+      "in_oracle_cards": 1,
+      "in_flavor_cards": 1,
+      "flavor_example_cards": [
+        "Brittle Effigy"
+      ]
+    },
+    {
+      "root": "amalgam",
+      "gloss": "a mercury alloy; a blending",
+      "category": "alchemy",
+      "total": 2,
+      "oracle_total": 1,
+      "flavor_total": 1,
+      "by_variant": {
+        "amalgam": 1,
+        "amalgamation": 1
+      },
+      "in_oracle_cards": 1,
+      "in_flavor_cards": 1,
+      "flavor_example_cards": [
+        "Phantom Monster"
+      ]
+    },
+    {
+      "root": "chalice",
+      "gloss": "a ritual cup",
+      "category": "item",
+      "total": 2,
+      "oracle_total": 1,
+      "flavor_total": 1,
+      "by_variant": {
+        "chalice": 2
+      },
+      "in_oracle_cards": 1,
+      "in_flavor_cards": 1,
+      "flavor_example_cards": [
+        "Wrathful Red Dragon"
+      ]
+    },
+    {
+      "root": "esoteric",
+      "gloss": "inner, initiate-only knowledge",
+      "category": "quality",
+      "total": 1,
+      "oracle_total": 0,
+      "flavor_total": 1,
+      "by_variant": {
+        "esoteric": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 1,
+      "flavor_example_cards": [
+        "Kraul Warrior"
+      ]
+    },
+    {
+      "root": "diviner",
+      "gloss": "a practitioner of divination",
+      "category": "divination",
+      "total": 1,
+      "oracle_total": 0,
+      "flavor_total": 1,
+      "by_variant": {
+        "diviner": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 1,
+      "flavor_example_cards": [
+        "Wicker Warcrawler"
+      ]
+    },
+    {
+      "root": "astrology",
+      "gloss": "divination by the stars",
+      "category": "divination",
+      "total": 1,
+      "oracle_total": 0,
+      "flavor_total": 1,
+      "by_variant": {
+        "astrologer": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 1,
+      "flavor_example_cards": [
+        "Valley Flamecaller"
+      ]
+    },
+    {
+      "root": "clairvoyance",
+      "gloss": "clear-seeing of the hidden",
+      "category": "divination",
+      "total": 1,
+      "oracle_total": 0,
+      "flavor_total": 1,
+      "by_variant": {
+        "clairvoyants": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 1,
+      "flavor_example_cards": [
+        "Sage of Epityr"
+      ]
+    },
+    {
+      "root": "sublimate",
+      "gloss": "to raise a solid to vapour",
+      "category": "alchemy",
+      "total": 1,
+      "oracle_total": 0,
+      "flavor_total": 1,
+      "by_variant": {
+        "sublimation": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 1,
+      "flavor_example_cards": [
+        "Vedalken Anatomist"
+      ]
+    },
+    {
+      "root": "tincture",
+      "gloss": "a colouring/perfecting essence",
+      "category": "alchemy",
+      "total": 1,
+      "oracle_total": 0,
+      "flavor_total": 1,
+      "by_variant": {
+        "tincture": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 1,
+      "flavor_example_cards": [
+        "Accomplished Alchemist"
+      ]
+    },
+    {
+      "root": "poppet",
+      "gloss": "an effigy for sympathetic magic",
+      "category": "item",
+      "total": 1,
+      "oracle_total": 0,
+      "flavor_total": 1,
+      "by_variant": {
+        "poppets": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 1,
+      "flavor_example_cards": [
+        "Scarecrone"
+      ]
+    },
+    {
+      "root": "fetish",
+      "gloss": "an inhabited power-object",
+      "category": "item",
+      "total": 1,
+      "oracle_total": 0,
+      "flavor_total": 1,
+      "by_variant": {
+        "fetishes": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 1,
+      "flavor_example_cards": [
+        "Krovikan Fetish"
+      ]
+    },
+    {
+      "root": "manuscript",
+      "gloss": "a hand-written book",
+      "category": "book",
+      "total": 1,
+      "oracle_total": 0,
+      "flavor_total": 1,
+      "by_variant": {
+        "manuscripts": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 1,
+      "flavor_example_cards": [
+        "Library Larcenist"
+      ]
+    },
+    {
+      "root": "folio",
+      "gloss": "a full-sheet-format volume",
+      "category": "book",
+      "total": 1,
+      "oracle_total": 0,
+      "flavor_total": 1,
+      "by_variant": {
+        "folios": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 1,
+      "flavor_example_cards": [
+        "Skullknocker Ogre"
+      ]
+    },
+    {
+      "root": "treatise",
+      "gloss": "a formal written argument",
+      "category": "book",
+      "total": 1,
+      "oracle_total": 0,
+      "flavor_total": 1,
+      "by_variant": {
+        "treatises": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 1,
+      "flavor_example_cards": [
+        "Tolarian Terror"
+      ]
+    },
+    {
+      "root": "sibyl",
+      "gloss": "a prophetess of antiquity",
+      "category": "divination",
+      "total": 1,
+      "oracle_total": 0,
+      "flavor_total": 1,
+      "by_variant": {
+        "sibyl": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 1,
+      "flavor_example_cards": [
+        "Windurst, Federation Center"
+      ]
+    },
+    {
+      "root": "presage",
+      "gloss": "to portend / a foreboding",
+      "category": "divination",
+      "total": 1,
+      "oracle_total": 0,
+      "flavor_total": 1,
+      "by_variant": {
+        "presages": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 1,
+      "flavor_example_cards": [
+        "Sai of the Shinobi"
+      ]
+    },
+    {
+      "root": "diabolic",
+      "gloss": "of the devil",
+      "category": "quality",
+      "total": 1,
+      "oracle_total": 0,
+      "flavor_total": 1,
+      "by_variant": {
+        "diabolical": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 1,
+      "flavor_example_cards": [
+        "Bite Down"
+      ]
+    },
+    {
+      "root": "grail",
+      "gloss": "the sought sacred vessel",
+      "category": "item",
+      "total": 1,
+      "oracle_total": 0,
+      "flavor_total": 1,
+      "by_variant": {
+        "grail": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 1,
+      "flavor_example_cards": [
+        "Sol Grail"
+      ]
+    },
+    {
+      "root": "crystal-ball",
+      "gloss": "a scrying-sphere",
+      "category": "item",
+      "total": 1,
+      "oracle_total": 0,
+      "flavor_total": 1,
+      "by_variant": {
+        "crystal ball": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 1,
+      "flavor_example_cards": [
+        "Cait Sith, Fortune Teller"
+      ]
+    },
+    {
+      "root": "book-of-hours",
+      "gloss": "a lay devotional day-book",
+      "category": "book",
+      "total": 1,
+      "oracle_total": 0,
+      "flavor_total": 1,
+      "by_variant": {
+        "book of hours": 1
+      },
+      "in_oracle_cards": 0,
+      "in_flavor_cards": 1,
+      "flavor_example_cards": [
+        "Sister Hospitaller"
+      ]
+    },
+    {
+      "root": "talisman",
+      "gloss": "a charged, made object of power",
+      "category": "item",
+      "total": 2,
+      "oracle_total": 2,
+      "flavor_total": 0,
+      "by_variant": {
+        "talisman": 2
+      },
+      "in_oracle_cards": 2,
+      "in_flavor_cards": 0,
+      "flavor_example_cards": []
+    },
+    {
+      "root": "occultist",
+      "gloss": "a student of hidden arts",
+      "category": "profession",
+      "total": 1,
+      "oracle_total": 1,
+      "flavor_total": 0,
+      "by_variant": {
+        "occult": 1
+      },
+      "in_oracle_cards": 1,
+      "in_flavor_cards": 0,
+      "flavor_example_cards": []
+    },
+    {
+      "root": "occult",
+      "gloss": "the hidden",
+      "category": "quality",
+      "total": 1,
+      "oracle_total": 1,
+      "flavor_total": 0,
+      "by_variant": {
+        "occult": 1
+      },
+      "in_oracle_cards": 1,
+      "in_flavor_cards": 0,
+      "flavor_example_cards": []
+    }
+  ]
+}

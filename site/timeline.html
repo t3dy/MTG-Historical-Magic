@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vocabulary over Time — The Vocabulary of Magic</title>
+<link rel="stylesheet" href="assets/styles.css">
+<style>
+  svg{max-width:100%;height:auto;display:block;margin:0 auto}
+  .chartwrap{overflow-x:auto}
+  .axlbl{fill:var(--muted);font-size:11px;font-family:var(--sans)}
+  .legend{display:flex;flex-wrap:wrap;gap:.7rem;justify-content:center;margin:.4rem 0 1rem}
+  .legend span{font-size:.82rem;color:var(--muted);display:flex;align-items:center;gap:.3rem;cursor:default}
+  .legend i{width:12px;height:12px;border-radius:3px;display:inline-block}
+  .toggle{display:flex;gap:.4rem;justify-content:center;margin:.3rem 0 1rem}
+  .toggle button{background:var(--panel);border:1px solid var(--line);color:var(--muted);border-radius:99px;padding:.35rem .9rem;cursor:pointer;font-family:var(--sans);font-size:.85rem}
+  .toggle button.on{background:var(--gold);color:#141019;font-weight:600;border-color:transparent}
+  .debut{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:.8rem}
+  .debut .era b{color:var(--gold);font-family:var(--serif)}
+  .debut .era p{color:var(--muted);font-size:.85rem;margin:.3rem 0 0}
+  .debut .era a{text-transform:capitalize}
+</style>
+</head>
+<body>
+<div class="hero" style="padding-bottom:.4rem">
+  <h1>Vocabulary over Time (in Magic)</h1>
+  <div class="tag">Thirty-four years of Magic, 1993–2026: how many cards each year reach for each family of magical words. (A card can use several families.) For the <a href="timeline-history.html">5,000-year historical timeline</a>, see Timeline.</div>
+</div>
+<div class="wrap">
+  <div class="panel">
+    <div class="legend" id="legend"></div>
+    <div class="toggle"><button data-m="abs" class="on">Absolute</button><button data-m="pct">Share of magic-words</button></div>
+    <div class="chartwrap"><div id="chart"></div></div>
+  </div>
+  <div class="panel"><h2 class="sec">Debuts <small>the year each word first reached the game</small></h2><div class="debut" id="debut"></div></div>
+</div>
+<script src="assets/common.js"></script>
+<script>
+const W=860,H=470,P=52;
+let TL, IDX, mode="abs";
+function area(){
+  const years=TL.years, cats=CAT_ORDER.filter(c=>TL.categories[c]);
+  const x=i=>P+i/(years.length-1)*(W-2*P);
+  // stack sums
+  const colSum=years.map(y=>cats.reduce((a,c)=>a+(TL.categories[c][y]||0),0));
+  const ymax=mode==="abs"?Math.max(...colSum,1):1;
+  const val=(c,yi)=>{const raw=TL.categories[c][years[yi]]||0;return mode==="abs"?raw:(colSum[yi]?raw/colSum[yi]:0);};
+  const y=v=>H-P-v/ymax*(H-2*P);
+  // build cumulative bands
+  let lower=years.map(()=>0);
+  const paths=cats.map(c=>{
+    const upper=years.map((_,i)=>lower[i]+val(c,i));
+    const top=years.map((_,i)=>`${x(i)},${y(upper[i])}`).join(" ");
+    const bot=years.map((_,i)=>`${x(years.length-1-i)},${y(lower[years.length-1-i])}`).join(" ");
+    lower=upper;
+    return `<polygon points="${top} ${bot}" fill="${getComputedStyle(document.documentElement).getPropertyValue('--c-'+c).trim()}" fill-opacity=".82"><title>${CATS[c].label}</title></polygon>`;
+  }).join("");
+  // axes
+  const yticks=[];const steps=mode==="abs"?5:4;
+  for(let i=0;i<=steps;i++){const v=ymax*i/steps;yticks.push(`<line x1="${P}" y1="${y(v)}" x2="${W-P}" y2="${y(v)}" stroke="var(--line)"/><text class="axlbl" x="${P-8}" y="${y(v)+4}" text-anchor="end">${mode==="abs"?Math.round(v):Math.round(v*100)+'%'}</text>`);}
+  const xticks=years.map((yr,i)=>((+yr)%4===0)?`<text class="axlbl" x="${x(i)}" y="${H-P+18}" text-anchor="middle">${yr}</text>`:"").join("");
+  document.getElementById("chart").innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Stacked area of magical vocabulary over time">
+    ${yticks.join("")}${paths}${xticks}
+    <line x1="${P}" y1="${H-P}" x2="${W-P}" y2="${H-P}" stroke="var(--muted)"/></svg>`;
+}
+(async function(){
+  mountChrome("timeline.html");
+  [TL, IDX]=await Promise.all([getJSON("data/timeline.json"), getJSON("data/terms_index.json")]);
+  document.getElementById("legend").innerHTML=CAT_ORDER.filter(c=>TL.categories[c]).map(c=>`<span><i style="background:var(--c-${c})"></i>${CATS[c].label}</span>`).join("");
+  area();
+  document.querySelectorAll(".toggle button").forEach(b=>b.onclick=()=>{
+    document.querySelectorAll(".toggle button").forEach(x=>x.classList.remove("on"));b.classList.add("on");mode=b.dataset.m;area();});
+  // debuts by era
+  const eras=[["The founding","1993","1996"],["Classic","1997","2007"],["Modern","2008","2018"],["Recent","2019","2026"]];
+  document.getElementById("debut").innerHTML=eras.map(([name,a,b])=>{
+    const ws=IDX.terms.filter(t=>t.first_year>=+a&&t.first_year<=+b).sort((x,y)=>x.first_year-y.first_year).slice(0,10);
+    return `<div class="era"><b>${name}</b> <span class="note">(${a}–${b})</span>
+      <p>${ws.map(t=>`<a href="term.html?t=${t.slug}">${esc(t.root)}</a> <span class="note">${t.first_year}</span>`).join(" · ")||"—"}</p></div>`;
+  }).join("");
+})();
+</script>
+</body>
+</html>

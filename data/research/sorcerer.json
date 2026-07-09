@@ -1,0 +1,247 @@
+{
+  "slug": "sorcerer",
+  "category": "profession",
+  "db_hits": [
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "magia naturalis",
+      "text": "Magia naturalis ('natural magic') designates the practice of working with occult natural properties — sympathies, antipathies, celestial influences — as distinct from ceremonial or demonic magic. The concept served as the primary intellectual defense for Renaissance magical practice: Ficino, Agrippa, and Della Porta all framed their work as natural philosophy rather than forbidden sorcery. The term appears less frequently (192 occurrences) than the actual practice terminology (incantatio 538, invocatio 534), suggesting the defensive label was less commonly used than the practices it was meant to legitimize."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "fascinatio",
+      "text": "Fascinatio ('fascination') designates the power to harm, enchant, or bind another through the gaze or through an emanation of *spiritus* from the eyes — the learned Latin term for the widespread folk belief in the evil eye. Ficino discusses fascinatio in De Vita as a natural phenomenon: the spiritus of one person, charged with strong emotion, can affect the spiritus of another through visual contact. Agrippa's De Occulta Philosophia treats fascination as a species of natural magic operating through sympathetic channels. The concept occupied a contested boundary between *magia naturalis* and *maleficium* (harmful sorcery), as it could explain both involuntary influence and deliberate magical assault (Walker, Spiritual and Demonic Magic)."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "maleficium",
+      "text": "Maleficium ('harmful magic' or 'sorcery') designates the use of magical means to cause injury, illness, death, or misfortune. The term functioned primarily as an accusation rather than a self-description: those charged with maleficium in ecclesiastical and secular courts rarely identified their practices by that label. Renaissance demonologists such as the authors of the Malleus Maleficarum (1486) treated maleficium as proof of demonic compact, while defenders of *magia naturalis* like Ficino and Agrippa sought to distinguish their philosophical magic from the maleficium attributed to village sorcerers. The polemical dimension of the term is essential — it marked the boundary between tolerated and persecuted forms of magical practice."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "goetia",
+      "text": "Goetia (Greek: 'sorcery' or 'howling') designates the practice of summoning and commanding demons for magical purposes, positioned at the lowest and most condemned register of Renaissance magical taxonomy. The term derives from the Greek *goes* (sorcerer) and carries strongly pejorative connotations, contrasting with the elevated *theurgia* (divine work). Renaissance magi used the distinction between goetia and theurgy to defend their own practices: Agrippa and Ficino insisted their magic was theurgic (working with divine and angelic powers) rather than goetic (trafficking with demons). The Ars Goetia, cataloguing seventy-two demons, became the most widely known section of the Lemegeton grimoire tradition."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "theurgia",
+      "text": "Theurgia ('divine work') designates the system of ritual practices, developed by the later Neoplatonists Iamblichus and Proclus, through which the soul ascends to communion with the divine — not through philosophical contemplation alone but through sacred rites, invocations, and the manipulation of material *symbola* (tokens) that embody divine presence. Ficino's translation of Iamblichus' De Mysteriis made theurgy available to Renaissance readers, and the concept shaped the self-understanding of figures from Ficino through Dee: their magic was *theurgia*, divine work, not *goetia*, demonic sorcery. The term establishes the highest register of Renaissance magical self-legitimation (Shaw, Theurgy and the Soul)."
+    }
+  ],
+  "corpus_hits": [
+    {
+      "corpus": "Medieval magic",
+      "file": "Bailey, Michael David_Bain, Kristi Woodward_Callan, Maeve Brigid - The Sacred and the Sinister_ Studies in Medieval Religion and Magic (2019, The Penn.txt",
+      "cite": "Bailey, Michael David Bain, Kristi Woodward Callan, Maeve Brigid The Sacred and the Sinister Studies in Medieval Religion and Magic (2019, T",
+      "snippet": "…\"counted as evidence for sanctity\" in one context \"under slightly different circumstances might have marked [its performer] as a sorceress,\" because \"sainthood and witchcraft were ascribed roles and could give occasion for competing ascription, with different observ-…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Claire Fanger Invoking Angels_ Theurgic Ideas and Practices Thirteenth to Sixteenth Centuries Penn State Press.txt",
+      "cite": "Claire Fanger Invoking Angels Theurgic Ideas and Practices Thirteenth to Sixteenth Centuries Penn State Press",
+      "snippet": "…in? These are the questions to which the art guarantees answers without re course to the traditional methods of divination or the sorcerer's oracles. It turns an extraordinary prophetic gift to ordinary ends. In this regard, Jean Dupebe emphasizes that \"contrary to 'o…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Fanger Claire Rewriting Magic_ An Exegesis of the Visionary Autobiography of a Fourteenth Century French Monk Pennsylvania State University Press.txt",
+      "cite": "Fanger Claire Rewriting Magic An Exegesis of the Visionary Autobiography of a Fourteenth Century French Monk Pennsylvania State University P",
+      "snippet": "…genre. Perhaps the closest sort of thing would be the exemplary tales of magicians who overreach and repent their ways (like the sorcerer's apprentice, like Th eophilus). Yet from the very fi rst ars notorial vision, John's account struck me as coming closer to the w…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Sharon Hubbs Wright Frank Klaassen Everyday Magicians_ Legal Records and Magic Manuscripts from Tudor England Penn State University Press.txt",
+      "cite": "Sharon Hubbs Wright Frank Klaassen Everyday Magicians Legal Records and Magic Manuscripts from Tudor England Penn State University Press",
+      "snippet": "…e spoken of, Doctor Recorde,30 who examined him and he [Allen] knew not the rules of astronomy but was a very unlearned ass and a sorcerer. For this he was worthy [of] hanging, said Mr. Recorde. To have further matter unto him we sent for Thomas Robins, [Harley 424, f…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Sophie Page Magic in the Cloister Pious Motives Illicit Interests and Occult Approaches to the Medieval Universe.txt",
+      "cite": "Sophie Page Magic in the Cloister Pious Motives Illicit Interests and Occult Approaches to the Medieval Universe",
+      "snippet": "…ued by Etienne Tempier, bishop of Paris, in March 1277,137 this note states that \"nigromantic books, rolls or quires, or works of sorcery are condemned by the bishop of Paris and the chancellor of the University of Paris and all who shall have taught or lis- tened to…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "The Magic of Rogues_ Necromancers in Early Tudor England Penn State University Press.txt",
+      "cite": "The Magic of Rogues Necromancers in Early Tudor England Penn State University Press",
+      "snippet": "…rob- ably written around 1600 and contains manipulations of Gregory Wisdom a variety of short magical secrets or in Alec Ryrie, A Sorcerer's Tale: Faith experiments. and Fraud in Tudor England (Oxford: Oxford University Press, 2008), 1–34. Magic and the Secular Autho…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "[Canto Classics] Richard Kieckhefer - Magic in the Middle Ages (2014, Cambridge University Press) - libgen.li.txt",
+      "cite": "[Canto Classics] Richard Kieckhefer Magic in the Middle Ages (2014, Cambridge University Press)",
+      "snippet": "…likely to recall was from Homer's Odyssey (eighth century B.C.). During his travels Odysseus lands on the island of the seductive sorceress Circe. She disposes of his companions by turning them into swine (Fig. 4). Odysseus protects himself by using a magic herb given…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "[The American Historical Review 1994-jun vol. 99 iss. 3] Richard Kieckhefer - The Specific Rationality of Medieval Magic (1994) [10.2307_2167771] - li.txt",
+      "cite": "[The American Historical Review 1994 jun vol. 99 iss. 3] Richard Kieckhefer The Specific Rationality of Medieval Magic (1994) [10.2307 21677",
+      "snippet": "…t has been argued that in medieval Europe various specific terms were current (\"enchant- ment,\" \"necromancy,' ''conjuration,\" or \"sorcery\") but that the generic term \"magic\" was not common until the sixteenth century.9 To be sure, collections of charms do not present…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "[The Routledge Histories] Sophie Page (Editor), Catherine Rider (Editor) - The Routledge History of Medieval Magic (2019, Routledge) - libgen.li.txt",
+      "cite": "[The Routledge Histories] Sophie Page (Editor), Catherine Rider (Editor) The Routledge History of Medieval Magic (2019, Routledge)",
+      "snippet": "…icism and high medieval opposition to magic David J. Collins Pastoral literature and preaching Kathleen Kamerick Superstition and sorcery Michael D. Bailey Witchcraft Martine Ostorero Epilogue: Cosmology and magic – The angel of Mars in the Libro de astromagia Alejan…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Deborah E Harkness John Dee s Conversations with Angels_ Cabala Alchemy and the End of Nature Cambridge University Press.txt",
+      "cite": "Deborah E Harkness John Dee s Conversations with Angels Cabala Alchemy and the End of Nature Cambridge University Press",
+      "snippet": "…who contributed to the hybrid, early modern Christian angelology, disagreement over this issue was prevalent - as were charges of sorcery, conjuring, and enchantment against those interested in communicating with angels. Natural philosophers interested in the cosmos'…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Ecstasies_Deciphering_Witches_Sabbath.txt",
+      "cite": "Ecstasies Deciphering Witches Sabbath",
+      "snippet": "…existence of an actual sect of female and male witches, much more dangerous than the isolated figures, familiar for centuries, of sorceresses or enchanters. The uniformity of the confessions was considered proof that the followers of this sect were ubiquitous, and everyw…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Glyn Parry The Arch Conjuror of England_ John Dee Yale University Press.txt",
+      "cite": "Glyn Parry The Arch Conjuror of England John Dee Yale University Press",
+      "snippet": "…devout Protestant William Harrison, whose close friend Christopher Carye had studied with Dee in the 1550s, denounced Bacon as a sorcerer, 'whatsoever John Dee our countryman either hath or will write in the defence of Bacon to the contrary'. In February 1546 Dee too…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Ioan P Couliano Eros and Magic.txt",
+      "cite": "Ioan P Couliano Eros and Magic",
+      "snippet": "…to anger, but he can control himself for a long time. A glutton, he is usually fat and slowmoving. Miser, impostor, crook, thief, sorcerer or magician, you have no doubt met in your life this silent type, of the profession of usurer, farmer, revolutionary, perpetrator…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Keith Thomas - Religion and the Decline of Magic.txt",
+      "cite": "Keith Thomas Religion and the Decline of Magic",
+      "snippet": "…th century John Bale complained that the Mass had become a remedy for the diseases of man and beast. It was employed by ‘witches… sorcerers, charmers, enchanters, dreamers, soothsayers, necromancers, conjurers, cross-diggers, devil-raisers, miracle-doers, dog-leeches a…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Paola Zambelli Astrology and Magic.txt",
+      "cite": "Paola Zambelli Astrology and Magic",
+      "snippet": "…ample the theories of astrology and various magical practices. While it has been observed that several decades ago witchcraft and sorcery had got thematically in the foreground of social and religious history itself, it is also true that the theme of their theories a…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Paola Zambelli White Magic.txt",
+      "cite": "Paola Zambelli White Magic",
+      "snippet": "…and thus became convinced that it was impossible to hide his light under a bushel? In order to differ from the popular methods of sorcerers, in 1486 Ficino and Pico had claimed the possibility of a purely natural magic, with no invocation of demons: a few years later (…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Stuart Clark Thinking with Demons.txt",
+      "cite": "Stuart Clark Thinking with Demons",
+      "snippet": "…h, Lombard, Tuscan, and English tongues. Noirot argued similarly that the Latin for mask (larva) suggested the Latin for witch or sorceress (lamia) and, thus, some internal connection between disguising and demons. It was thus possible to move from the festive to the d…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Edward Peters - The Magician, the Witch, and the Law (1978, University of Pennsylvania Press) - libgen.li.txt",
+      "cite": "Edward Peters The Magician, the Witch, and the Law (1978, University of Pennsylvania Press)",
+      "snippet": "…bletitleoftheurgy.Forpeopleattempttomakesome sortofdistinctionbetweenpractitionersofevilarts,whoaretobecondemned, classingtheseas\"sorcerers\"(thepopularnameforwhichisnecromancy)and otherswhomtheyarepreparedtoregardaspraiseworthy,attributingtothem thepracticeoftheurgy.In…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Frances A Yates Giordano Bruno and the Hermetic Tradition.txt",
+      "cite": "Frances A Yates Giordano Bruno and the Hermetic Tradition",
+      "snippet": "…magic memory published in Paris has for its not yet born, in the maternal womb, adolescent, old, dead, beyond heroine that great sorceress Circe, the daughter of the Sun. The death. If you embrace in your thought all things at once, times, title of it is Cantus Circae…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Attilio Mastrocinque_ Joseph E Sanzo_ Marianna Scapini Ancient Magic_ Then and Now.txt",
+      "cite": "Attilio Mastrocinque Joseph E Sanzo Marianna Scapini Ancient Magic Then and Now",
+      "snippet": "…d, has often been overlooked in the study of ancient ma- gic.5 Aune concluded that scholars ought to replace the term magic with \"sorcery,\" which, he contends, is not burdened with the same degree of ideological bias.6 This 2007-study marked a radical departure from…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Francesca Rochberg In the Path of the Moon_ Babylonian Celestial Divination and Its Legacy Brill Academic Publishers.txt",
+      "cite": "Francesca Rochberg In the Path of the Moon Babylonian Celestial Divination and Its Legacy Brill Academic Publishers",
+      "snippet": "…ions as gods who have power to be, using E. Reiner's expres- sion, \"harnessed.\" The opening invocation of the ritual text against sorcery, Maqlû \"Burning,\" not only calls upon the \"gods of the night,\" but also the personifi ed watches and night itself, \"night, veiled…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Fritz Graf Sarah Iles Johnston Ritual Texts for the Afterlife_ Orpheus and the Bacchic Gold Tablets Routledge.txt",
+      "cite": "Fritz Graf Sarah Iles Johnston Ritual Texts for the Afterlife Orpheus and the Bacchic Gold Tablets Routledge",
+      "snippet": "…, the Dactyls were connected with metallurgy and with magic and the remedies to magical spells. The combination of blacksmith and sorcerer is attested throughout the world and stems both from the marginality of a specialist in a somewhat uncanny craft and the organiza…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Hans Dieter Betz The Greek Magical Papyri in Translation Including the Demotic Spells Vol 1_ Texts University of Chicago Press.txt",
+      "cite": "Hans Dieter Betz The Greek Magical Papyri in Translation Including the Demotic Spells Vol 1 Texts University of Chicago Press",
+      "snippet": "…their principal (lots?) should [fall] on the side of [the lots] of '\"Tyche\" or \"Daimon\" [it is good?] for a spell (?) concerning sorcery 1 -the same principal (tosses?) of the lot producing the same rcsult, with a \"Tychc\" or \"Daimon\" bcing an aceilcnt toss. And the…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Jessica L Lamont In Blood and Ashes_ Curse Tablets and Binding Spells in Ancient Greece Oxford University Press.txt",
+      "cite": "Jessica L Lamont In Blood and Ashes Curse Tablets and Binding Spells in Ancient Greece Oxford University Press",
+      "snippet": "…status. Further, according to instructions in Assyrian ritual texts, figurines of adversaries (in overtly aggressive rites) or of sorcerers and witches (in defensive rites) were routinely inscribed;26 the Assyrian Maqlû also mentions the placement of such figurines in…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "John G Gager Curse Tablets and Binding Spells from the Ancient World.txt",
+      "cite": "John G Gager Curse Tablets and Binding Spells from the Ancient World",
+      "snippet": "…ter the earliest Greek tablets, he relates that \"once, when I had decided to enter a competition for reciting theatrical verse, a sorcerer (haruspex) sent to inquire of me how much I would pay him to guarantee a victory.\"8 In the period that concerns us here, the seco…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Korshi Dosoo_ Markéta Preininger Papyri Copticae Magicae_ Coptic Magical Texts Volume 1_ Formularies De Gruyter.txt",
+      "cite": "Korshi Dosoo Markéta Preininger Papyri Copticae Magicae Coptic Magical Texts Volume 1 Formularies De Gruyter",
+      "snippet": "…| i.e.καταχθόνιον | i.e.Sϭⲓϫ || 33ⲉⲱⲗⲱ corrected by washing and overwriting?| l.ⲉⲃⲟⲗ ϩⲓ? W || four rivers! Neither magician nor sorcerer nor heavenly ‹being› nor underworld ‹being› nor ‹the› hand of man will be able to contain this blood which is under NN ‹child of›…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Marvin W Meyer Paul Allan Mirecki Magic and Ritual in the Ancient World Brill Academic Publishers.txt",
+      "cite": "Marvin W Meyer Paul Allan Mirecki Magic and Ritual in the Ancient World Brill Academic Publishers",
+      "snippet": "…otnote: Eliade, Shamanism 255, n. 120. For the same issue beyond the circumpolar region, see, among others, C. Lévi-Strauss, \"The Sorcerer and His Magic,\" in Lévi- Strauss, Structural Anthropology 1:167-85; A. P. Elkin, Aboriginal Men of High Degree, 2nd ed. 7-8, et p…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Panayotov Strahil V _Vacín Luděk Mesopotamian Medicine and Magic_ Studies in Honor of Markham J Geller Brill.txt",
+      "cite": "Panayotov Strahil V Vacín Luděk Mesopotamian Medicine and Magic Studies in Honor of Markham J Geller Brill",
+      "snippet": "…. VII 13: ayy-iṭḫûni: a-a TE.MEŠ-ni ... ipša bārtu amāt lemutti ayy-iṭḫûni ayy-ibāʾūni bāba ayy-īrubūni ana bīti (12–13) ... May sorcery, rebellion, an evil word not approach me, not pass the door to me, not enter the house to me. VII 167: [ayy-iṭ]ḫâ: [a-a T]E-a [ay…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Petropoulos Greek Magic Ancient Medieval and Modern BB Routledge.txt",
+      "cite": "Petropoulos Greek Magic Ancient Medieval and Modern BB Routledge",
+      "snippet": "…ry to a helper and sees Odysseus safely through his most threatening adventure, namely the descent into the Underworld. Circe the sorceress becomes the pro- tector of Odysseus and his men. In other words, she herself assumes the function of the apotropaic amulet. Th e…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Christian H Bull The Tradition of Hermes Trismegistus_ The Egyptian Priestly Figure as a Teacher of Hellenized Wisdom Brill.txt",
+      "cite": "Christian H Bull The Tradition of Hermes Trismegistus The Egyptian Priestly Figure as a Teacher of Hellenized Wisdom Brill",
+      "snippet": "…duced from the names alone, and is meant to differentiate between 'high' and admi- rable divine encounters, and 'low,' despicable sorcery. A similar, but less nor- mative scheme is found in Richard Gordon's division between divination by dreams, vessels, lamps—the la…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "E tudes pre liminaires aux religions orientales dans l empire romain 91 R van den Broek M J Vermaseren Studies in Gnosticism and Hellenistic Religions.txt",
+      "cite": "E tudes pre liminaires aux religions orientales dans l empire romain 91 R van den Broek M J Vermaseren Studies in Gnosticism and Hellenistic",
+      "snippet": "….] The great witches of Greek legend - Medea, Erichtho, etc. - were literary creations, but the fear of witchcraft and the use of sorcery were obviously quite common. Among the Romans, especially those in the lower classes, sorcery, though illegal, was often practice…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Jeffrey B Pettis The Sleeper s Dream_ Asclepius Ritual and Early Christian Discourse libgen li.txt",
+      "cite": "Jeffrey B Pettis The Sleeper s Dream Asclepius Ritual and Early Christian Discourse",
+      "snippet": "…er, Evans Pritchard relates a cultural- specific analysis (the Zande of the Sudan), making the distinction between what he calls \"sorcery,\" and \"witchcraft.\" E. E. Evans-Pritchard, Witch- craft, Oracles, and Magic among the Aszande: 8–12. In the field of psychology F…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "M David Litwa Hermetica II_ The Excerpts of Stobaeus Papyrus Fragments and Ancient Testimonies in an English Translation with Notes and Introduction C.txt",
+      "cite": "M David Litwa Hermetica II The Excerpts of Stobaeus Papyrus Fragments and Ancient Testimonies in an English Translation with Notes and Intro",
+      "snippet": "…ng: O Lord God Almighty, I suffer hurt more than all your creation, bearing the fornications, adulteries,murders,thefts,perjuries,sorceries,andwitchcraftsofhumanbeings,andalltheevils that they do, so that the father rises up against son, and the son against father, the…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Wouter J Hanegraaff Peter J Forshaw and Marco Pasi Hermes Explains_ Thirty Questions about Western Esotericism Amsterdam University Press.txt",
+      "cite": "Wouter J Hanegraaff Peter J Forshaw and Marco Pasi Hermes Explains Thirty Questions about Western Esotericism Amsterdam University Press",
+      "snippet": "…marks immediately following his mention of Rossi: \"the above magical works, however, are more concerned with the superstitions of sorcery than with magic proper, and when attached to Gnosticism characterise its degradation in the hands of the superstitious and ignora…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Wouter J. Hanegraaff - Hermetic Spirituality and the Historical Imagination_ Altered States of Knowledge in Late Antiquity (2022, Cambridge University.txt",
+      "cite": "Wouter J. Hanegraaff Hermetic Spirituality and the Historical Imagination Altered States of Knowledge in Late Antiquity (2022, Cambridge Uni",
+      "snippet": "…ott IV, 244–245. The scholion is written in the margin of Parisinus Gr.] They refer to CH I 18 and basically accuse Hermes, \"this sorcerer\" (goēs), of plagia- rizing Moses. Technically this is no proof that Psellos knew our Corpus Hermeticum as a compositional unity,…"
+    }
+  ],
+  "counts": {
+    "db": 5,
+    "corpus": 35
+  }
+}

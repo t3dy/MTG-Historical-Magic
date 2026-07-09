@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Color of Magic — The Vocabulary of Magic</title>
+<link rel="stylesheet" href="assets/styles.css">
+<style>
+  .crow{display:grid;grid-template-columns:150px 1fr;gap:1rem;align-items:center;margin:.7rem 0}
+  .crow .cn{font-family:var(--serif);font-size:1.1rem}
+  .crow .cn small{display:block;color:var(--muted);font-style:italic;font-size:.78rem}
+  .clegend{display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;margin:.4rem 0 1rem}
+  .clegend span{font-size:.85rem;color:var(--muted);display:flex;align-items:center;gap:.35rem}
+</style>
+</head>
+<body>
+<div class="hero" style="padding-bottom:.4rem">
+  <h1>The Color of Magic</h1>
+  <div class="tag">Magic: The Gathering sorts all magic into five colors. Does the <em>language</em> of magic sort the same way? Each family's color identity, measured.</div>
+</div>
+<div class="wrap">
+  <div class="clegend" id="legend"></div>
+  <div class="panel" id="rows"></div>
+  <div class="panel"><h2 class="sec">What the colors say</h2><div id="findings" class="note" style="font-style:normal;color:var(--ink);opacity:.9"></div></div>
+</div>
+<script src="assets/common.js"></script>
+<script>
+(async function(){
+  mountChrome("colors.html");
+  const data=(await getJSON("data/colors.json")).byCategory;
+  document.getElementById("legend").innerHTML=WUBRG.map(c=>`<span><span class="pip ${c}"></span>${COLORNAME[c]}</span>`).join("");
+  const rows=CAT_ORDER.filter(c=>data[c]).map(cat=>{
+    const m=CATS[cat];
+    return `<div class="crow"><div class="cn">${m.glyph} ${m.label}<small>${m.sub}</small></div>${colorBar(data[cat],24)}</div>`;
+  }).join("");
+  document.getElementById("rows").innerHTML=rows;
+
+  // auto-findings: dominant colour per category
+  const pct=(d,c)=>{const t=WUBRG.reduce((a,k)=>a+(d[k]||0),0)||1;return Math.round(100*(d[c]||0)/t);};
+  const dom=cat=>{const d=data[cat];let best="C",bv=-1;["W","U","B","R","G"].forEach(c=>{if((d[c]||0)>bv){bv=d[c]||0;best=c;}});return best;};
+  const f=[];
+  ["divination","alchemy","quality","act","profession","item","book"].forEach(cat=>{
+    if(!data[cat])return; const c=dom(cat);
+    f.push(`<b style="text-transform:capitalize">${CATS[cat].label}</b> lean <b style="color:${COLORHEX[c]}">${COLORNAME[c]}</b> (${pct(data[cat],c)}%)`);
+  });
+  document.getElementById("findings").innerHTML=
+    `<p>${f.join("; ")}.</p>
+     <p>The standout is <b>Divination</b>, decisively <b style="color:${COLORHEX.U}">Blue</b> — the color Magic assigns to knowledge, foresight and drawing cards. The game's own color-pie has, in effect, absorbed the ancient association of seeing-magic with the intellect. <b>Books</b> and <b>classical items</b> pull toward <b>Colorless</b>, because so many are printed as artifacts — a grimoire or a talisman is a thing, not a spell. And the <b>acts</b> and <b>practitioners</b> spread across all five, because every color in Magic has <em>somebody</em> casting <em>something</em>.</p>`;
+})();
+</script>
+</body>
+</html>

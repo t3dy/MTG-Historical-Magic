@@ -1,0 +1,174 @@
+{
+  "slug": "prognostic",
+  "category": "divination",
+  "db_hits": [
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Divination",
+      "text": "\n    <p><b>Divination</b> is a <b>Hybrid</b> category in MedievalMagicDB: medieval actors used specific terms for particular techniques and condemnatory classes of knowledge, while modern scholars also employ \"divination\" as a broad analyst term for attempts to obtain hidden information through signs, lots, celestial judgment, bodily marks, dreams, spirits, or other mediated procedures. Because it gathers heterogeneous practices, the category must always be handled with care. Its usefulness lies in comparison and navigation, not in forcing all such practices into a single intellectual mold.</p>\n\n    <h2>Historical Usage</h2>\n    <p>Medieval sources discuss divination through a whole family of named arts: geomancy, chiromancy, hydromancy, sortilege, astrology, dream interpretation, lot casting, physiognomic reading, and spirit-mediated revelation, among others. Some are presented as observational or natural, others as unlawful or demonic, and many shift status depending on who is speaking. A university master, a confessor, a physician, and a compiler of practical recipes may all use different criteria to judge whether a technique is prudent, curious, natural, deceptive, or sinful.</p>\n\n    <p>This diversity makes divination one of the portal's major hub concepts. It is where one sees most clearly that the history of medieval magic is not only about conjurations and grimoires, but also about the desire to know what should remain uncertain: the future, hidden motives, unseen causes, divine favor, bodily prognosis, lost objects, or secret conditions of the world. Divination is therefore tied to epistemic desire as much as to any one ritual form.</p>\n\n    <h2>Named Arts and Local Contexts</h2>\n    <p>Different divinatory arts had different social and intellectual lives. Geomancy could be copied as a technical art with rules and figures; chiromancy might circulate as bodily reading; hydromancy and sortilege often appeared in lists of forbidden practices; astrological judgment could be defended as mathematically grounded while remaining suspect in some applications. This variety is why the portal links divination outward to narrower entries rather than letting the category absorb them. Each art has its own evidentiary profile, textual environment, and history of condemnation or defense.</p>\n\n    <p>The category is also shaped by genre. Manuals may teach techniques; scholastic discussions debate causation and licitness; confessional and pastoral literature focus on suspect consultation; chronicles or miracle collections preserve reports of outcomes; and legal texts flatten several practices into one accusatory field. Divination thus becomes legible only when it is tracked across genres rather than extracted from them.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>As a modern category, divination is useful precisely because it allows comparison without pretending that comparison erases difference. Catherine Rider and Jean-Patrice Boudet are especially important here because they show how medieval divinatory techniques were distributed across medicine, theology, prediction, natural inquiry, and occult speculation. The category is strongest when it functions as a hub that clarifies relation, not as a blanket term that removes texture.</p>\n\n    <p>Divination also matters because it is one of the best places to study the boundary between natural and illicit knowledge. A prognostic procedure may be treated as medicine, astronomy, prudence, curiosity, or superstition depending on its claims and context. That instability makes divination central to the history of classification. The issue is not only what people did, but how authorities sorted kinds of knowing and kinds of risk.</p>\n\n    <h2>Knowledge, Uncertainty, and Control</h2>\n    <p>At a deeper level, divination reveals a persistent medieval concern with the management of uncertainty. Prognostic arts promise orientation in situations where ordinary judgment seems inadequate: illness, travel, politics, weather, fertility, litigation, or danger. This promise can make divination look intellectually adjacent to accepted disciplines even when moralists condemn it. The category therefore helps explain why suspicion and reliance could coexist. Practices criticized in one register might still answer real needs in another.</p>\n\n    <p>The same point helps explain why divination often shades into neighboring domains. Ritual consultation may overlap with prayer, medicine, computation, memory, or spirit work. A hard separation between divination and the rest of medieval learned or practical culture is therefore historically misleading. The boundaries were negotiated, and the negotiation is part of the archive.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>Divinatory material often survives in small and mobile units: a brief section in a larger compilation, a chapter in a mirror-for-princes, a pastoral list, a notebook appendix, or a compact art in a technical miscellany. This archival pattern means divination is not simply a genre but a recurrent function within many genres. The portal uses it as a relational category tied to manuscripts, codicological settings, and local contexts of use.</p>\n\n    <p>The category's variant forms are also why it cannot be reduced to one master narrative. Dream books, lots, bodily arts, astral judgments, and spirit consultations do not share one logic, even when later authorities condemn them together. Good historical use of the term keeps these internal differences visible.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Divination belongs naturally with <a href=\"../concepts/geomancy.html\">geomancy</a>, <a href=\"../concepts/chiromancy.html\">chiromancy</a>, <a href=\"../concepts/hydromancy.html\">hydromancy</a>, and <a href=\"../concepts/sortilege.html\">sortilege</a> as narrower arts. It also intersects with <a href=\"../concepts/superstitio.html\">superstitio</a> where pastoral and theological writers classify unlawful consultation, and with <a href=\"../concepts/necromancy.html\">necromancy</a> where hidden knowledge is sought through spirits rather than through natural or symbolic signs. Its relationship to <a href=\"../concepts/celestial_influence.html\">celestial influence</a> is especially important wherever astrology or astral theory underwrites prediction.</p>\n\n    <h2>Literature</h2>\n    <p>Boudet, Jean-Patrice. Studies on learned divination and medieval occult sciences.<br/>\n    Kieckhefer, Richard. <i>Magic in the Middle Ages</i>. Cambridge: Cambridge University Press, 2014.<br/>\n    Rider, Catherine. Studies on divination, medicine, and pastoral classification in the medieval West.<br/>\n    Thorndike, Lynn. <i>A History of Magic and Experimental Science</i>. New York: Columbia University Press, 1923-1958.<br/>\n    Weill-Parot, Nicolas. Studies on astrology and the classification of occult knowledge.</p>\n    ",
+      "extra": "Divination covers practices for obtaining hidden knowledge, from geomancy and sortilege to astrological judgment; medieval sources classify it variously as natural, superstitious, demonic, or licit depending on method and authority."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Witchcraft",
+      "text": "\n    <p><b>Witchcraft</b> is an <b>Analyst Term</b> for a historically contingent cluster of accusations, learned constructions, beliefs, and legal or theological categories that became especially powerful in the later Middle Ages and early modern period. It does not map cleanly onto a single medieval actor term. Medieval writers more often used words such as <i>maleficium</i>, <i>superstitio</i>, <i>sortilegium</i>, and related labels of harm, false religion, or illicit practice. The portal therefore treats witchcraft as a necessary but unstable modern category whose value depends on careful attention to local evidence, chronology, and vocabulary.</p>\n\n    <h2>Historical Usage</h2>\n    <p>The medieval roots of what modern historians call witchcraft are dispersed across sermons, confessional manuals, miracle stories, canon law, scholastic theology, princely advice, vernacular narrative, and judicial record. A village-level charge of bodily or agricultural harm, a theologian's discussion of demons, and a pastoral warning against suspect cures all contribute different strands to the category. This dispersion matters because it means witchcraft was assembled historically out of partially connected fears and explanatory habits rather than inherited as a single fixed social reality.</p>\n\n    <p>Many early and central uses of the evidence revolve around harm. Livestock fail, weather threatens, fertility is disrupted, illness persists, impotence is feared, and someone is said to have caused it. Yet the explanatory language for such harm remains variable. One source may treat the problem as <i>maleficium</i>, another as deception by demons, another as superstitious misuse of sacred words or objects, and still another as social suspicion with minimal theoretical elaboration. The term \"witchcraft\" is therefore strongest when it is used not as an assumed essence but as a map of converging accusations and interpretations.</p>\n\n    <p>By the thirteenth through fifteenth centuries, several developments begin to tighten the field. Scholastic demonology expands the explanatory place of the devil and subordinate spirits. Pastoral programs sharpen concern with illicit rites and suspect consultations. Judicial and inquisitorial procedures provide stronger institutional mechanisms for gathering testimony and codifying suspicion. Vernacular didactic texts and learned polemics alike begin to align harmful action, hidden ritual, perverse intention, and demonic agency more explicitly than before. None of these developments alone \"creates\" witchcraft, but together they make the category more historically coherent and more socially dangerous.</p>\n\n    <h2>Analyst Term and Actor Vocabulary</h2>\n    <p>The category is methodologically important because it is one of the clearest places where modern analytical language can obscure historical vocabulary. Medieval sources usually do not say \"witchcraft\" in the modern historian's broad sense. They name injuries, unlawful observances, charms, prognostications, image rites, and demonic acts more specifically. To write the history of witchcraft well is therefore to preserve the distance between analyst shorthand and actor speech. The portal keeps that distance visible by linking witchcraft outward to narrower entries rather than letting it swallow them.</p>\n\n    <p>This actor-analyst tension also helps explain why the category must remain relational. A confessor concerned about a spoken charm, a theologian arguing about diabolic illusion, and a judge pursuing accusations of harmful magic are not simply describing one shared object. They are repositioning overlapping materials within different institutional frames. Witchcraft is the modern historian's name for that unstable but consequential overlap.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>Modern scholarship uses witchcraft because some larger term is needed for the convergence of harmful magic, demonological suspicion, social accusation, and legal or moral classification. Michael D. Bailey has been especially important in showing how this convergence belongs to the history of religion, classification, and pastoral reform rather than to a simple story of irrational panic. Richard Kieckhefer's work remains crucial because it helps keep clerical and learned forms of illicit ritual in view even where later witchcraft discourse tries to redraw all magical practice under a single demonological heading.</p>\n\n    <p>Catherine Rider, Sophie Page, and contributors to broader synthetic volumes have also helped integrate witchcraft back into the wider ecology of medieval magic. That move matters because the field can otherwise split artificially between elite ritual magic on one side and village accusation on the other. Medieval evidence rarely respects such a clean division. Theories, texts, and accusations moved across social registers in messy ways, and witchcraft is one of the places where that mess becomes historically visible.</p>\n\n    <h2>Accusation, Practice, and Social Form</h2>\n    <p>Witchcraft should not be reduced either to actual ritual practice or to fantasy imposed from above. Medieval evidence frequently contains both practice claims and accusatory projection, and the relative balance changes by genre. Some records preserve only polemical attribution. Others point to routines of healing, cursing, protective speech, or consultation that may have been locally meaningful apart from learned demonology. Historians therefore have to distinguish among performed action, narrated suspicion, legal scripting, and theological interpretation.</p>\n\n    <p>This distinction is especially important for the medieval period, where later early modern stereotypes can easily distort the archive. The sabbath complex, systematic confessions of pact, and strong gendered consolidation associated with later witch persecutions have medieval antecedents, but they should not be retrojected wholesale into earlier centuries. The portal's entry architecture accordingly treats witchcraft as a moving category with a long prehistory rather than as a fully formed medieval constant.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>Witchcraft is shaped not by one grimoire or one legal code but by the circulation of ideas across theology, canon law, pastoral practice, miracle narratives, exempla, demonological speculation, and vernacular teaching. In some texts, harmful action is central and demonic theory secondary. In others, the reverse is true. Some sources foreground women; others worry more about clerics, diviners, healers, or household specialists. The category's variation is therefore part of its history, not an imperfection to be cleaned away.</p>\n\n    <p>The relation between witchcraft and learned magic is likewise unstable. Some authors carefully distinguish clerical ritual books from popular harmful practices. Others absorb both into a single logic of illicit commerce with spirits. This instability is one reason the portal treats witchcraft as a hub entry: it forces the user to browse among accusation, ritual technique, moral theology, and institutional classification rather than settling too quickly on one explanatory model.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Witchcraft overlaps most obviously with <a href=\"../concepts/maleficium.html\">maleficium</a>, though the latter names harm more precisely and historically. It also intersects with <a href=\"../concepts/demonology.html\">demonology</a> and <a href=\"../concepts/demonic_pact.html\">demonic pact</a>, which often provide the explanatory framework for accusations. Finally, it bears on <a href=\"../concepts/charms.html\">charms</a>, <a href=\"../concepts/divination.html\">divination</a>, and <a href=\"../concepts/confession.html\">confession</a>, where ordinary, protective, or prognostic acts may be redrawn as suspect under pastoral or polemical pressure.</p>\n\n    <h2>Literature</h2>\n    <p>Bailey, Michael D. <i>Magic and Superstition in Europe: A Concise History from Antiquity to the Present</i>. Lanham: Rowman &amp; Littlefield, 2007.<br/>\n    Kieckhefer, Richard. <i>Magic in the Middle Ages</i>. Cambridge: Cambridge University Press, 2014.<br/>\n    Kieckhefer, Richard. <i>Forbidden Rites: A Necromancer's Manual of the Fifteenth Century</i>. University Park: Pennsylvania State University Press, 1998.<br/>\n    Page, Sophie, and Catherine Rider, eds. <i>The Routledge History of Medieval Magic</i>. London: Routledge, 2019.<br/>\n    Rider, Catherine. Studies on pastoral and legal classification in the medieval West.</p>\n    ",
+      "extra": "Witchcraft is an Analyst Term for accusations, learned demonological categories, and late medieval constructions of harmful magic; it must be distinguished from ritual manuscripts and from broader categories of learned magic."
+    }
+  ],
+  "corpus_hits": [
+    {
+      "corpus": "Medieval magic",
+      "file": "Bailey, Michael David_Bain, Kristi Woodward_Callan, Maeve Brigid - The Sacred and the Sinister_ Studies in Medieval Religion and Magic (2019, The Penn.txt",
+      "cite": "Bailey, Michael David Bain, Kristi Woodward Callan, Maeve Brigid The Sacred and the Sinister Studies in Medieval Religion and Magic (2019, T",
+      "snippet": "…penetrate. Chapter 2 functions chiefly to concretize Francis's intent to live and die according to the will of God. If it is also prognostic of the reception of the stigmata in the next chapter, this is only because words, for Francis, especially scriptural ones, always…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Claire Fanger Invoking Angels_ Theurgic Ideas and Practices Thirteenth to Sixteenth Centuries Penn State Press.txt",
+      "cite": "Claire Fanger Invoking Angels Theurgic Ideas and Practices Thirteenth to Sixteenth Centuries Penn State Press",
+      "snippet": "…may be converted and live;' but also simultaneously by the failure of his own Jewish community to grasp the correct sense of this prognostic dream, which was read by the Jewish interpreters as pertaining to material prosperity rather than {as only Christianity understoo…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Frank Klaassen The Transformations of Magic_ Illicit Learned Magic in the Later Middle Ages and Renaissance.txt",
+      "cite": "Frank Klaassen The Transformations of Magic Illicit Learned Magic in the Later Middle Ages and Renaissance",
+      "snippet": "…e more \"active\" features of astrology of a nonmagic kind, such as discus- sions of judicial astrology, the casting of horoscopes, prognostication of one form or another, the use of astrological influences in medical treatment, or the detection of thieves. Digby 193 is a code…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Sharon Hubbs Wright Frank Klaassen Everyday Magicians_ Legal Records and Magic Manuscripts from Tudor England Penn State University Press.txt",
+      "cite": "Sharon Hubbs Wright Frank Klaassen Everyday Magicians Legal Records and Magic Manuscripts from Tudor England Penn State University Press",
+      "snippet": "…Where this is not the case, we have included graphic representations of the figures and/or letters. Chapter 1 The God of Norfolk Prognostication and Other Cunning n During the reign of King Edward VI a cunning man from Norfolk named Robert Allen was imprisoned in the Tower…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Sophie Page Magic in the Cloister Pious Motives Illicit Interests and Occult Approaches to the Medieval Universe.txt",
+      "cite": "Sophie Page Magic in the Cloister Pious Motives Illicit Interests and Occult Approaches to the Medieval Universe",
+      "snippet": "…by magicians. OBL Douce 88, Part E) contains a combination of genres similar to that found in some of Adam's volumes: a bestiary, prognostications, Alexander romance literature (a body of legends about the career of Alexander the Great), and items on marvels and the propertie…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "[Canto Classics] Richard Kieckhefer - Magic in the Middle Ages (2014, Cambridge University Press) - libgen.li.txt",
+      "cite": "[Canto Classics] Richard Kieckhefer Magic in the Middle Ages (2014, Cambridge University Press)",
+      "snippet": "…ed in the skies as well, and they were often treated in the same kind of mock-systematic fashion. One of the more common means of prognostication was interpretation of thun- der. The direction it came from might be significant: if it sounded in the east, for example, it port…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "[The Routledge Histories] Sophie Page (Editor), Catherine Rider (Editor) - The Routledge History of Medieval Magic (2019, Routledge) - libgen.li.txt",
+      "cite": "[The Routledge Histories] Sophie Page (Editor), Catherine Rider (Editor) The Routledge History of Medieval Magic (2019, Routledge)",
+      "snippet": "…tualizing the translated materials, Bulgarians, Serbians and Russians took over a wide range of Byzantine methods. These included prognostications on the basis of meteorology (Gromnik, that is thunder divination), on the basis of the calendar (Koliadnik) and other methods inv…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Frank Klaassen The Transformations of Magic.txt",
+      "cite": "Frank Klaassen The Transformations of Magic",
+      "snippet": "…the more “active” features of astrology of a nonmagic kind, such as discussions of judicial astrology, the casting of horoscopes, prognostication of one form or another, the use of astrological influences in medical treatment, or the detection of thieves. Digby 193 is a code…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Glyn Parry The Arch Conjuror of England_ John Dee Yale University Press.txt",
+      "cite": "Glyn Parry The Arch Conjuror of England John Dee Yale University Press",
+      "snippet": "…athematical type Dee had learned at Louvain seemed harmlessly conventional. Mary's own doctors applied commonplace ideas of lunar prognostication to argue that the birth 'unless it take place at this new phase of the moon [23 May] may be protracted beyond the full moon and i…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Ioan P Couliano Eros and Magic.txt",
+      "cite": "Ioan P Couliano Eros and Magic",
+      "snippet": "…sm called the world. 6 ״ Chrysippus, author of two books on soothsaying, uses the theory of the continuity of the pneuma to prove prognostic phenomena. The attention paid to this subject by Cicero seems to indicate that the Stoic philosophers practiced the prediction of…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Keith Thomas - Religion and the Decline of Magic.txt",
+      "cite": "Keith Thomas Religion and the Decline of Magic",
+      "snippet": "…their supposedly inherent natural properties. A similar ambiguity surrounded the wizards’ practice of making both diagnosis and prognostication on the basis of the patient's urine. A handbook of 1631 assured its readers that one could tell whether a sick man would live or…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Paola Zambelli Astrology and Magic.txt",
+      "cite": "Paola Zambelli Astrology and Magic",
+      "snippet": "…tory, I would like to make two preliminary points. First of all, Luther is included in Gustav Hellmann's valuable bibliography of prognostications concerning the 1524 flood. As Josef Benzing has acutely pointed out, one of Luther's 1522 Advent sermons was excerpted and publis…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Paola Zambelli White Magic.txt",
+      "cite": "Paola Zambelli White Magic",
+      "snippet": "…her editions in German (Speyer 1529), in Dutch (Antwerp 1532), and in French (Paris 1867; Paris 1898). In a Vatican miscellany of prognostications magic, pseudepigraphy, prophecies and forgeries last phases of the astrological controversy and propaganda over the \u0003 ood and the…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Stuart Clark Thinking with Demons.txt",
+      "cite": "Stuart Clark Thinking with Demons",
+      "snippet": "…greater insight (another common eschatological concept), while the arrival of the Antichrist turned what had previously been mere prognostication into current affairs. The latter also accounted for the flourishing of witchcraft both locally and as a national disease, for wit…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Frank Klaassen The Transformations of Magic.txt",
+      "cite": "Frank Klaassen The Transformations of Magic",
+      "snippet": "…e more \"active\" features of astrology of a nonmagic kind, such as discus- sions of judicial astrology, the casting of horoscopes, prognostication of one form or another, the use of astrological influences in medical treatment, or the detection of thieves. Digby 193 is a code…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Ioan P Couliano Eros and Magic in the Renaissance.txt",
+      "cite": "Ioan P Couliano Eros and Magic in the Renaissance",
+      "snippet": "…sm called the world.6 ״ Chrysippus, author of two books on soothsaying,7 uses the theory of the continuity of the pneuma to prove prognostic phenomena. The at- tention paid to this subject8 by Cicero seems to indicate that the Stoic philosophers practiced the prediction…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Keith Thomas - Religion and the Decline of Magic Studies in Popular Beliefs in Sixteenth- and Seventeenth-Century England (1973, Penguin Books) - libg.txt",
+      "cite": "Keith Thomas Religion and the Decline of Magic Studies in Popular Beliefs in Sixteenth and Seventeenth Century England (1973, Penguin Books)",
+      "snippet": "…o their supposedly inherent natural properties. A similar ambiguity surrounded the wizards' practice of making both diagnosis and prognostication on the basis of the patient's urine. A handbook of 1631 assured its readers that one could tell whether a sick man would live or…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Attilio Mastrocinque_ Joseph E Sanzo_ Marianna Scapini Ancient Magic_ Then and Now.txt",
+      "cite": "Attilio Mastrocinque Joseph E Sanzo Marianna Scapini Ancient Magic Then and Now",
+      "snippet": "…h word coelbren was only taken to mean \"alphabet.\" Its original sense, however, was \"casting lots,\" from pren, \"wood,\" and coel, \"prognostic, use.\" Divination through casting lots of wood is attested as early as Hippolytus. [Footnote: Philosophumena 1. 25.] It is also w…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Francesca Rochberg In the Path of the Moon_ Babylonian Celestial Divination and Its Legacy Brill Academic Publishers.txt",
+      "cite": "Francesca Rochberg In the Path of the Moon Babylonian Celestial Divination and Its Legacy Brill Academic Publishers",
+      "snippet": "…dmissible, but with important qualifi cations. This claim can be supported in the most gen- eral way for the original impetus for prognostication on the basis of babylonian contribution to hellenistic astrology astronomical phenomena, but cuneiform evidence confi rms the tr…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Hans Dieter Betz The Greek Magical Papyri in Translation Including the Demotic Spells Vol 1_ Texts University of Chicago Press.txt",
+      "cite": "Hans Dieter Betz The Greek Magical Papyri in Translation Including the Demotic Spells Vol 1 Texts University of Chicago Press",
+      "snippet": "…OROTII.\" *Tr.: Morton Smith. The Demotic titlc (line 270) is written benveen the scctions. PGM XII. 351-64 *Demokritos' \"sphere\": prognostic of life and death. Find out what day of the month\" the sick one took to bed. Add his name from birthR9 to the day of the month an…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Panayotov Strahil V _Vacín Luděk Mesopotamian Medicine and Magic_ Studies in Honor of Markham J Geller Brill.txt",
+      "cite": "Panayotov Strahil V Vacín Luděk Mesopotamian Medicine and Magic Studies in Honor of Markham J Geller Brill",
+      "snippet": "…s.2 They discuss family troubles, financial success, or marital matches. But the most common topic among these private matters is prognostication. The predictions concerning the fate of \"the sick man\" are rather simplistic. Usually, they only mention whether the patient will…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Petropoulos Greek Magic Ancient Medieval and Modern BB Routledge.txt",
+      "cite": "Petropoulos Greek Magic Ancient Medieval and Modern BB Routledge",
+      "snippet": "…ifi cally, the preoccupation of the (mostly iconographic) gems, while the papyri attend in addition to matters of love, money and prognostication, through elaborate word schemes of white- and black-magic manipulation. Among the magical papyri is a Coptic papyrus containing a…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Radcliffe G Edmonds III Carolina López Ruiz Sofía Torallas Tovar Magic and Religion in the Ancient Mediterranean World_ Studies in Honor of Christophe.txt",
+      "cite": "Radcliffe G Edmonds III Carolina López Ruiz Sofía Torallas Tovar Magic and Religion in the Ancient Mediterranean World Studies in Honor of C",
+      "snippet": "…procedures collected in the book do not match all the categories of the calendar. The formulary is mainly devoted to collecting prognostic procedures of different kind, but recipes for lecanomancy (λεκανομαντεία), dream-request (ὀνειραιτητόν), aero mancy (ἀερομαντεία)…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Christian H Bull The Tradition of Hermes Trismegistus_ The Egyptian Priestly Figure as a Teacher of Hellenized Wisdom Brill.txt",
+      "cite": "Christian H Bull The Tradition of Hermes Trismegistus The Egyptian Priestly Figure as a Teacher of Hellenized Wisdom Brill",
+      "snippet": "…o respond to Philadelphus' demand for knowledge of the future. As Adler formulates it: \"Offering to Ptolemy Philadelphus Hermetic prognostications about the future of the universe, 'Manetho' here plays the role of Hermetist far better than he does the Egyptian annalist.\"98 Th…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Jeffrey B Pettis The Sleeper s Dream_ Asclepius Ritual and Early Christian Discourse libgen li.txt",
+      "cite": "Jeffrey B Pettis The Sleeper s Dream Asclepius Ritual and Early Christian Discourse",
+      "snippet": "…otion simultane- ously with the soul of the universe, and became filled with di- vine madness, by means of which it is allowed to prognosticate events which are about to happen. (On Dreams II.1–2) [Footnote: Philo, On Dreams,translated by C. D. Yonge.] According to Philo,…"
+    }
+  ],
+  "counts": {
+    "db": 2,
+    "corpus": 25
+  }
+}

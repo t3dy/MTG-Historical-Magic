@@ -1,0 +1,215 @@
+{
+  "slug": "exorcist",
+  "category": "profession",
+  "db_hits": [
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "exorcismus",
+      "text": "Exorcismus ('exorcism') designates the ritual expulsion of demonic entities from persons, places, or objects through the invocation of divine authority, sacred names, and consecrated formulae. In Renaissance practice, exorcism occupied an ambiguous position between orthodox sacramental rite and magical operation: the Church authorized formal exorcism as a clerical function, but the boundary between ecclesiastical exorcism and the magical *evocatio* and binding of spirits was persistently contested. Agrippa's De Occulta Philosophia and grimoire literature both describe exorcistic procedures, employing divine names and Kabbalistic formulae that overlap substantially with the Church's own ritual vocabulary (Walker, Spiritual and Demonic Magic)."
+    },
+    {
+      "source": "RenaissanceMagicDB · concordance",
+      "term": "exorcismus",
+      "text": "...teenth century within the walls of the mon­ astery. We are going to focus here on the ordo entitled Exorcismus contra imminentem tempestatem fulgurum et grandinem, where the title already indicates that it was...",
+      "cite": "Michael R Lynn Magic Witchcraft and Ghosts in the Enlightenment"
+    },
+    {
+      "source": "RenaissanceMagicDB · concordance",
+      "term": "exorcismus",
+      "text": "...rs with the function of blessing (benedictio), equal importance was attributed to curse-type texts (exorcismus). This latter type of prayer mostly served to purge the object of the liturgical act (animals, plan...",
+      "cite": "Michael R Lynn Magic Witchcraft and Ghosts in the Enlightenment"
+    },
+    {
+      "source": "RenaissanceMagicDB · concordance",
+      "term": "exorcismus",
+      "text": "...ions and threats concerning the lake of fire and sulphur. (56) Pietro Antonio Stampa, Fuga Satanae. Exorcismus ex sacrarum litterarum fontibus, pioque sacros, ecclesia instituto exhaustus (Lyons, 1619), sigs. D...",
+      "cite": "Stuart Clark Thinking with Demons"
+    },
+    {
+      "source": "RenaissanceMagicDB · concordance",
+      "term": "exorcismus",
+      "text": "...uberey, auch greüwel vor Gott dem Herren seind (Basel, 1543). STAMPA, PIETRO ANTONIO, Fuga Satanae. Exorcismus ex sacrarum litter arum fontibus, pioque sacros, ecclesia instituto exhaustus (Lyons, 1619). STAPHY...",
+      "cite": "Stuart Clark Thinking with Demons"
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Demonology",
+      "text": "\n    <p><b>Demonology</b> is an <b>Analyst Term</b> for learned discourse about demons: their ontology, powers, limits, deceptive capacities, and relation to human ritual action. It is a crucial category for medieval magic scholarship because many condemnations of magic are really arguments about what demons can accomplish and how they may insinuate themselves into practices of divination, healing, image use, or spirit invocation. Yet demonology should never be allowed to stand in for the whole field of magic. It is one powerful framework among others.</p>\n\n    <h2>Historical Usage</h2>\n    <p>Medieval actors did not usually gather all relevant materials under a single neutral heading equivalent to the modern word demonology. Rather, discussions of demons appear in theology, biblical exegesis, pastoral literature, scholastic disputation, exorcistic practice, and polemic against suspect arts. This dispersed archive is historically important. It shows that demonological reasoning was not marginal but woven into mainstream religious thought. At the same time, the relation between demons and magic was not uniform. Some texts make demons central to efficacy; others argue that certain effects can be natural or illusory instead.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>Demonology matters because it helps historians understand how the category of illicit magic was built. William of Auvergne, Thomas Aquinas, Augustine, and later demonological writers all provided conceptual grammars for reading ritual actions through demonic causation. Modern scholars such as Michael D. Bailey and Richard Kieckhefer have shown that this framework must be studied alongside manuscript evidence rather than accepted as direct description of practice. Demonology is therefore both source and problem: it tells us how authorities thought, and it risks obscuring how practitioners understood themselves.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>The field moves across patristic, scholastic, pastoral, and legal traditions. A demonological claim in Augustine does not function exactly like one in a confessor's manual, an exorcistic rite, or a later witchcraft treatise. The category also shifts across vernacularization and institutional use. Medieval demonology is thus better treated as a family of discourses than as a single stable science. The modern term names a real scholarly object, but a composite one.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Demonology is tightly linked to <a href=\"../concepts/exorcism.html\">exorcism</a>, where demonic presence becomes a matter of ritual management. It also intersects with <a href=\"../concepts/necromancy.html\">necromancy</a> and <a href=\"../concepts/demonic_pact.html\">demonic pact</a>, though those concepts concern particular forms of suspected or theorized relation to spirits. In histories of accusation it also bears strongly on <a href=\"../concepts/witchcraft.html\">witchcraft</a> and <a href=\"../concepts/maleficium.html\">maleficium</a>.</p>\n\n    <h2>Literature</h2>\n    <p>Bailey, Michael D. Studies on medieval demonology, religion, and witchcraft.<br/>\n    Kieckhefer, Richard. <i>Magic in the Middle Ages</i>. Cambridge: Cambridge University Press, 2014.<br/>\n    Rider, Catherine. Studies on theology, pastoral care, and suspect practices.<br/>\n    Thorndike, Lynn. <i>A History of Magic and Experimental Science</i>. New York: Columbia University Press, 1923-1958.<br/>\n    Page, Sophie, and Catherine Rider, eds. <i>The Routledge History of Medieval Magic</i>. London: Routledge, 2019.</p>\n    ",
+      "extra": "Demonology is an Analyst Term for systematic learned discussion of demons, their powers, limitations, deception, and relation to divination, magic, superstition, and witchcraft."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Exorcism",
+      "text": "\n    <p><b>Exorcism</b> is a <b>Hybrid</b> category because it names both authorized Christian rites for expelling or restraining spirits and adjacent ritual forms that could blur into illicit command, adjuration, or coercive spirit management. For MedievalMagicDB it is one of the most revealing boundary concepts in the corpus. Exorcism forces the reader to confront how close liturgical, pastoral, and magical forms could appear in language and gesture even when ecclesiastical legitimacy sharply distinguished them.</p>\n\n    <h2>Historical Usage</h2>\n    <p>In medieval usage exorcism belongs first to the sphere of authorized Christian ritual. It appears in liturgical books, pastoral practice, and sacramental or quasi-sacramental settings concerned with demonic disturbance, purification, and protection. Yet the same verbal technologies of adjuration and command could also appear in suspect rites and magical manuscripts. This does not mean the two spheres are identical. It means that historians must pay careful attention to institutional authorization, intention, textual frame, and manuscript setting.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>Exorcism matters because it shows why the history of medieval magic cannot be reduced to a simple binary between orthodoxy and deviance. Authorized ritual and illicit spirit work may share forms of address while differing radically in status and interpretation. Scholars such as Florence Chave-Mahir, Claire Fanger, and Richard Kieckhefer have helped make this borderland visible. The category is especially valuable when analyzing angelic and demonic ritual texts that borrow from or imitate authoritative liturgical styles.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>Exorcistic materials circulate through service books, pastoral manuals, narrative accounts, and magical compilations. This variety means that the category has no single archive. Some exorcistic language is stable and official; some is mobile and excerpted; some is recontextualized into ritual handbooks that test the boundary of legitimacy. The study of exorcism therefore requires both liturgical history and manuscript comparison.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Exorcism belongs naturally with <a href=\"../concepts/demonology.html\">demonology</a>, since theories of spirit action shape ritual response. It also intersects with <a href=\"../concepts/angelic_invocation.html\">angelic invocation</a> and <a href=\"../concepts/ritual_purity.html\">ritual purity</a>, because authorized and suspect rites alike often stress preparation and right relation to spiritual power. In pastoral settings it is also close to <a href=\"../concepts/confession.html\">confession</a>.</p>\n\n    <h2>Literature</h2>\n    <p>Chave-Mahir, Florence. Studies on exorcism, liturgy, and ritual authority.<br/>\n    Fanger, Claire. <i>Invoking Angels: Theurgic Ideas and Practices, Thirteenth to Sixteenth Centuries</i>. University Park: Pennsylvania State University Press, 2012.<br/>\n    Kieckhefer, Richard. <i>Magic in the Middle Ages</i>. Cambridge: Cambridge University Press, 2014.<br/>\n    Rider, Catherine. Studies on pastoral and ritual boundaries in medieval religion.<br/>\n    Page, Sophie, and Catherine Rider, eds. <i>The Routledge History of Medieval Magic</i>. London: Routledge, 2019.</p>\n    ",
+      "extra": "Exorcism names authorized Christian rites and adjacent ritual practices for expelling or commanding spirits, making it a boundary category between liturgy, pastoral care, and ritual magic."
+    },
+    {
+      "source": "MedievalMagicDB · concept",
+      "term": "Confession",
+      "text": "\n    <p><b>Confession</b> is an <b>Actor Term</b> for a sacramental and pastoral practice that became one of the main settings in which medieval clergy identified charms, divination, superstitious remedies, and suspect ritual dependence as matters of correction. In MedievalMagicDB it is not treated as a generic religious background element but as an active archive of magical classification. Confessional discourse helps historians see how everyday practices were named, sorted, and morally interpreted.</p>\n\n    <h2>Historical Usage</h2>\n    <p>Medieval confessors' manuals, penitential instructions, and pastoral writings frequently ask about practical acts that modern scholars might group under magic: carrying words for protection, consulting diviners, using illicit remedies, or trusting in unsanctioned signs. Confession therefore matters because it provides evidence at the level of ordinary correction rather than elite philosophical theory or exceptional legal prosecution. It shows how magical suspicion entered the routine discipline of Christian life.</p>\n\n    <h2>Scholarly Significance</h2>\n    <p>The category is important because it grounds the study of medieval magic in pastoral history. Scholars such as Catherine Rider and Michael D. Bailey have shown that confessional discourse often preserves a more granular picture of suspect practice than grand demonological treatises do. At the same time, confession is not transparent evidence of behavior. It is a structured moral technology that frames questions in order to produce correction. Its evidence is therefore both rich and mediated.</p>\n\n    <h2>Transmission and Variant Forms</h2>\n    <p>Confessional classification survives in pastoral manuals, sermon literature, theological discussion, and later handbooks of discipline. The archive is widely transmitted and often vernacularized. This breadth means that confession can connect elite and non-elite histories of magic more effectively than many better-known ritual texts. It also explains why the portal places confession near charms, amulets, superstition, and pastoral care.</p>\n\n    <h2>Related Concepts</h2>\n    <p>Confession belongs closely with <a href=\"../concepts/superstitio.html\">superstitio</a>, since pastoral correction often used that language to classify improper dependence. It also intersects with <a href=\"../concepts/charms.html\">charms</a> and <a href=\"../concepts/amulets.html\">amulets</a>, which appear frequently in pastoral concern, and with <a href=\"../concepts/exorcism.html\">exorcism</a> where clerical management of spiritual danger becomes especially explicit.</p>\n\n    <h2>Literature</h2>\n    <p>Bailey, Michael D. Studies on religion, superstition, and magical classification.<br/>\n    Rider, Catherine. Studies on pastoral care, confession, and practical ritual in the medieval West.<br/>\n    Kieckhefer, Richard. <i>Magic in the Middle Ages</i>. Cambridge: Cambridge University Press, 2014.<br/>\n    Page, Sophie, and Catherine Rider, eds. <i>The Routledge History of Medieval Magic</i>. London: Routledge, 2019.<br/>\n    Studies on penitential and confessional literature in relation to medieval magic.</p>\n    ",
+      "extra": "Confession is a sacramental and pastoral context in which medieval clergy identified charms, divination, superstition, and illicit ritual practices as matters of correction."
+    }
+  ],
+  "corpus_hits": [
+    {
+      "corpus": "Medieval magic",
+      "file": "Aleister Crowley Christopher S Hyatt Lon Milo Duquette Peter Conte Daniel Pineda David P Wilson Aleister Crowley s Illustrated Goetia New Falcon Publi.txt",
+      "cite": "Aleister Crowley Christopher S Hyatt Lon Milo Duquette Peter Conte Daniel Pineda David P Wilson Aleister Crowley s Illustrated Goetia New Fa",
+      "snippet": "…rinanalteredstateofconsciousness creationoftheworld.Heisveryfaithfuluntothe wherebyhecanseeandcommunicatewiththeSpirit.Iwasconfi- Exorcist,andwillnotallowhimtobetemptedof dentthatIcouldachieveboththesestateswithoutthetiresome anySpirit.He governs20 Legionsof Spirits.…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Frank Klaassen The Transformations of Magic_ Illicit Learned Magic in the Later Middle Ages and Renaissance.txt",
+      "cite": "Frank Klaassen The Transformations of Magic Illicit Learned Magic in the Later Middle Ages and Renaissance",
+      "snippet": "…gic tradition in general. Second, as we have seen elsewhere, the operations give the operator a central position. When the Jewish exorcists in Acts 19:13–17 tried to cast out demons by invoking Jesus, of whom Paul preaches, the demon answers, \"Jesus I know, Paul I know…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Joseph H Peterson Grimorium Verum Createspace.txt",
+      "cite": "Joseph H Peterson Grimorium Verum Createspace",
+      "snippet": "…e same results by more than one means. So it is that scientists, Kabbalists, necromancers, profound magicians, sages, and careful exorcists do not all operate in the same way, but by various extraordinary and sublime works. One is often predestined by need of the occul…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Joseph H Peterson The Lesser Key of Solomon.txt",
+      "cite": "Joseph H Peterson The Lesser Key of Solomon",
+      "snippet": "…ON The 36thspiritis called Stolas,65 heis a greatandpowerfullPrince,appear- ing iny\" shapeof aNight[mighty]66 Ravenatfirstbeforey\"Exorcist,but afterwardshetakeththeimageof aman&c;heteacheththeArtof As- tronomy,&thevertuses[sic] of hearbs&preciousstones,hegoverneth 26…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "The Magic of Rogues_ Necromancers in Early Tudor England Penn State University Press.txt",
+      "cite": "The Magic of Rogues Necromancers in Early Tudor England Penn State University Press",
+      "snippet": "…ames that any spirit may be compelled by, and by all extortions, exorcisms, conjurations, and precepts by which Solomon and other exorcists have bound and called and compelled any spirit,35 and by all names that you shalt be compelled or constrained by at the dreadful…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "[Canto Classics] Richard Kieckhefer - Magic in the Middle Ages (2014, Cambridge University Press) - libgen.li.txt",
+      "cite": "[Canto Classics] Richard Kieckhefer Magic in the Middle Ages (2014, Cambridge University Press)",
+      "snippet": "…away some impurity; when even by night you rise to pray? Will younot be thought to be engaged in some sort of magic?\"11 Christian exorcists could command the demons by using powerful and secret names. Indeed, the name of Jesus held such power against demons that in the…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "[The Routledge Histories] Sophie Page (Editor), Catherine Rider (Editor) - The Routledge History of Medieval Magic (2019, Routledge) - libgen.li.txt",
+      "cite": "[The Routledge Histories] Sophie Page (Editor), Catherine Rider (Editor) The Routledge History of Medieval Magic (2019, Routledge)",
+      "snippet": "…general fashion to the am- bivalent image of Solomon – at once a wise and inspired scholar, an authority on the natural world, an exorcist and, by extension, a master of spirits or magician in the Judeo-Christian and Islamic tradition – reflects a common narrative str…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Frank Klaassen The Transformations of Magic.txt",
+      "cite": "Frank Klaassen The Transformations of Magic",
+      "snippet": "…gic tradition in general. Second, as we have seen elsewhere, the operations give the operator a central position. When the Jewish exorcists in Acts 19:13–17 tried to cast out demons by invoking Jesus, of whom Paul preaches, the demon answers, “Jesus I know, Paul I know…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Glyn Parry The Arch Conjuror of England_ John Dee Yale University Press.txt",
+      "cite": "Glyn Parry The Arch Conjuror of England John Dee Yale University Press",
+      "snippet": "…and Samuel Harsnett to criticise the Presbyterians for their magical claims. They frequently cited Scot against the Presbyterian exorcist John Darrell's use of prayer and fasting to cure the demonically possessed, and they would gleefully exploit Dee's involvement wi…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Keith Thomas - Religion and the Decline of Magic.txt",
+      "cite": "Keith Thomas Religion and the Decline of Magic",
+      "snippet": "…k procedures. The Anglican Church had rejected holy water, the sign of the cross, and all the paraphernalia of the Roman Catholic exorcists, but they had nothing to put in their place, save a general injunction to prayer and repentance. The Church thus maintained the t…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Paola Zambelli White Magic.txt",
+      "cite": "Paola Zambelli White Magic",
+      "snippet": "…exorcisms is veri\u0002 ed by descriptions of Abbot Adam’s activities. In charge of the Saint Martin monastery in Cologne and a famous exorcist, he healed numerous possessed nuns in monasteries in various regions. Cf. Chronicon Hirsaugiense, pp. 576–79. 93 Liber VIII quaes…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Stuart Clark Thinking with Demons.txt",
+      "cite": "Stuart Clark Thinking with Demons",
+      "snippet": "…mandy, Father Esprit Du Bosroger, applied the same logic to the demonic possessions at Louviers in the 1640s—he was the principal exorcist on this occasion. His view was that the devil plagued Catholic religious houses precisely because of their success in creating al…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Frank Klaassen The Transformations of Magic.txt",
+      "cite": "Frank Klaassen The Transformations of Magic",
+      "snippet": "…gic tradition in general. Second, as we have seen elsewhere, the operations give the operator a central position. When the Jewish exorcists in Acts 19:13–17 tried to cast out demons by invoking Jesus, of whom Paul preaches, the demon answers, \"Jesus I know, Paul I know…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Keith Thomas - Religion and the Decline of Magic Studies in Popular Beliefs in Sixteenth- and Seventeenth-Century England (1973, Penguin Books) - libg.txt",
+      "cite": "Keith Thomas Religion and the Decline of Magic Studies in Popular Beliefs in Sixteenth and Seventeenth Century England (1973, Penguin Books)",
+      "snippet": "…k procedures. The Anglican Church had rejected holy water, the sign of the cross, and all the paraphernalia of the Roman Catholic exorcists, but they had nothing to put in their place, save a general injunction to prayer and repentance. The Church thus maintained the t…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Paola Zambelli White Magic Black Magic in the European Renaissance.txt",
+      "cite": "Paola Zambelli White Magic Black Magic in the European Renaissance",
+      "snippet": "…exorcisms is veri ed by descriptions of Abbot Adam's activities. In charge of the Saint Martin monastery in Cologne and a famous exorcist, he healed numerous possessed nuns in monasteries in various regions. Cf. Chronicon Hirsaugiense,pp. 576–79.] With regard to the…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Stuart Clark Thinking with Demons.txt",
+      "cite": "Stuart Clark Thinking with Demons",
+      "snippet": "…mandy, Father Esprit Du Bosroger, applied the same logic to the demonic possessions at Louviers in the 1640s—he was the principal exorcist on this occasion. His view was that the devil plagued Catholic religious houses precisely because of their success in creating al…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Noel L. Brann - Trithemius and Magical Theology.txt",
+      "cite": "Noel L. Brann Trithemius and Magical Theology",
+      "snippet": "…paign to distinguish good from bad magic. This is how to distinguish those specially vested with the power to expunge demons, the exorcists, from the demon-conjuring sorcerers whose powers they are pledged to counter. It followed as a logical consequence of Trithemius'…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Attilio Mastrocinque_ Joseph E Sanzo_ Marianna Scapini Ancient Magic_ Then and Now.txt",
+      "cite": "Attilio Mastrocinque Joseph E Sanzo Marianna Scapini Ancient Magic Then and Now",
+      "snippet": "…ing and the use of the figurine was basically that of establish- ing a magic identification, which then could be exploited by the exorcist to the disadvantage of the demons and for the benefit of his patient: demons and evil forces were harassing humans in various sta…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Eleni Pachoumi The Concepts of the Divine in the Greek Magical Papyri Mohr Siebeck.txt",
+      "cite": "Eleni Pachoumi The Concepts of the Divine in the Greek Magical Papyri Mohr Siebeck",
+      "snippet": "…zant of Jesus' fame in casting out demons. In the Acts of the Apostles (19:13) it is reported that Jesus' name was used by Jewish exorcists to exor- cise demons in the middle of the first century C.E. [Footnote: Acts 19:13: <ȼϼţɾyÅ»šÌÀżËÁ ̧ĖÌľÅȼÉÀ1⁄4ÉÏÇÄšÅÑÅ`ÇÍ» ̧ţÑÅëÆ…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Francesca Rochberg In the Path of the Moon_ Babylonian Celestial Divination and Its Legacy Brill Academic Publishers.txt",
+      "cite": "Francesca Rochberg In the Path of the Moon Babylonian Celestial Divination and Its Legacy Brill Academic Publishers",
+      "snippet": "…W.G. Lambert, \"A Catalogue of Texts and Authors,\" JCS 16, pp. 59–77, for the text see p. 64 I (K.2248):1–4.] There we read: \"[The Exorcists'] Series (ašipûtu), The Lamentation Priests' Series (kalûtu), The Celestial Omen Series (Enūma Anu Enlil), [(If ) a ]Form (alamdi…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Marvin W Meyer Paul Allan Mirecki Magic and Ritual in the Ancient World Brill Academic Publishers.txt",
+      "cite": "Marvin W Meyer Paul Allan Mirecki Magic and Ritual in the Ancient World Brill Academic Publishers",
+      "snippet": "…or recommend visits to regional shrines, or when more \"familiar\" experts refer ambiguous matters to peripheral specialists (like exorcists), or when local and regional experts combine forces to negotiate a community problem (e.g., in cases of witch- cleansing, as disc…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Panayotov Strahil V _Vacín Luděk Mesopotamian Medicine and Magic_ Studies in Honor of Markham J Geller Brill.txt",
+      "cite": "Panayotov Strahil V Vacín Luděk Mesopotamian Medicine and Magic Studies in Honor of Markham J Geller Brill",
+      "snippet": "…quires control over sickness and witchcraft by cursing the south wind. In the Mesopotamian world view, Adapa the sage is the good exorcist and the south wind is a bad magician. Accord- ing to the Jewish counter narrative, Adam is the sinner and Seth becomes the father…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Petropoulos Greek Magic Ancient Medieval and Modern BB Routledge.txt",
+      "cite": "Petropoulos Greek Magic Ancient Medieval and Modern BB Routledge",
+      "snippet": "…rom an individual. Th e trick, as Christians soon learned, was to force the demon to name himself and thus subject himself to the exorcist's mastery. Th e eschatological importance of the procedure perhaps explains the Byzantines' abiding interest in the names and esp…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "PhD Thesis Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts and Europ.txt",
+      "cite": "PhD Thesis Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts",
+      "snippet": "…even H B A planets, and their angels and demons 11. Conjuration of the H B A angels 4. Confession which the 1-1 12. Prayer to God Exorcist must do and 1-4 - 1-4 recite H B A the 24 hours of the seven days PART III: Equipment: 8. Of Burning Incense and 2-10 [Footnote:…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts and European Grimoir.txt",
+      "cite": "Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts and Europe",
+      "snippet": "…even H B A planets, and their angels and demons 11. Conjuration of the H B A angels 4. Confession which the 1-1 12. Prayer to God Exorcist must do and 1-4 - 1-4 recite H B A the 24 hours of the seven days PART III: Equipment: 8. Of Burning Incense and 2-10 [Footnote:…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "E tudes pre liminaires aux religions orientales dans l empire romain 91 R van den Broek M J Vermaseren Studies in Gnosticism and Hellenistic Religions.txt",
+      "cite": "E tudes pre liminaires aux religions orientales dans l empire romain 91 R van den Broek M J Vermaseren Studies in Gnosticism and Hellenistic",
+      "snippet": "…accepted as tutelary spirits, one had to decide whether the \"demons\" were angels - as some Jewish or devils. Most often the judg- exorcists were evidently claiming45 - ment of the orthodox group was that these demons were evil, hence our use of the term \"demonic\" in co…"
+    }
+  ],
+  "counts": {
+    "db": 8,
+    "corpus": 26
+  }
+}

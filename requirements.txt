@@ -1,0 +1,13 @@
+# Core pipeline runs on the stdlib alone (urllib + re + json).
+# Everything below is OPTIONAL — for the richer morphology / analysis layers.
+
+# Lemmatization discovery aid (analyze.py uses it only if present):
+# nltk>=3.8
+
+# Faster / nicer data wrangling if we outgrow jsonl:
+# pandas>=2.0
+# pyarrow>=15.0
+
+# If we commit to real NLP lemmatization instead of regex roots:
+# spacy>=3.7
+#   then: python -m spacy download en_core_web_sm

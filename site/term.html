@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Term — The Vocabulary of Magic</title>
+<link rel="stylesheet" href="assets/styles.css">
+<style>
+  .thero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+  .thero .bg{position:absolute;inset:0;background-size:cover;background-position:center 25%;opacity:.28;filter:saturate(1.1)}
+  .thero .bgveil{position:absolute;inset:0;background:linear-gradient(180deg,rgba(16,14,24,.55),rgba(16,14,24,.94))}
+  .thero .inner{position:relative;max-width:1120px;margin:0 auto;padding:2.4rem 1.5rem 1.3rem}
+  .thero .crumb{color:var(--muted);font-size:.85rem;margin-bottom:.5rem}
+  .thero h1{font-family:var(--serif);font-size:clamp(2.2rem,6vw,3.4rem);margin:.1rem 0;color:var(--ink);text-transform:capitalize}
+  .thero .gloss{color:var(--gold);font-style:italic;font-size:1.15rem}
+  .thero .badges{margin-top:.7rem;display:flex;gap:.5rem;flex-wrap:wrap}
+  .badge{font-size:.72rem;letter-spacing:.05em;padding:.2rem .6rem;border-radius:99px;border:1px solid var(--line);color:var(--muted)}
+  .badge.kw{color:var(--gold);border-color:var(--gold-dim)}
+  .tabs{position:sticky;top:47px;z-index:20;display:flex;gap:.3rem;padding:.4rem 1.5rem;background:rgba(16,14,24,.9);
+    backdrop-filter:blur(8px);border-bottom:1px solid var(--line);overflow-x:auto}
+  .tab{white-space:nowrap;cursor:pointer;color:var(--muted);font-size:.9rem;padding:.5rem .9rem;border-radius:8px}
+  .tab:hover{color:var(--ink);background:var(--panel)}
+  .tab.on{color:#141019;background:var(--gold);font-weight:600}
+  .tab .c{opacity:.7;font-size:.8em}
+  .pane{display:none}.pane.on{display:block}
+  .statcards{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.9rem;margin:.2rem 0 1rem}
+  .stat{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:.9rem 1rem;text-align:center}
+  .stat b{display:block;font-family:var(--serif);font-size:1.8rem;color:var(--gold)}
+  .stat span{color:var(--muted);font-size:.76rem;text-transform:uppercase;letter-spacing:.06em}
+  .bars{display:flex;flex-direction:column;gap:.4rem}
+  .bar{display:grid;grid-template-columns:130px 1fr 52px;align-items:center;gap:.6rem;font-size:.9rem}
+  .bar .track{background:var(--bg2);border-radius:99px;height:14px;overflow:hidden}
+  .bar .fill{height:100%;background:linear-gradient(90deg,var(--gold-dim),var(--gold));border-radius:99px}
+  .bar .lbl{color:var(--ink)}.bar .val{color:var(--gold);text-align:right;font-variant-numeric:tabular-nums;font-size:.82rem}
+  .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(146px,1fr));gap:.8rem}
+  .gcard{position:relative;border-radius:9px;overflow:hidden;border:1px solid var(--line);background:var(--panel2);aspect-ratio:146/204;display:block}
+  .gcard img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .2s}
+  .gcard:hover img{transform:scale(1.05)}
+  .gcard .cap{position:absolute;left:0;right:0;bottom:0;padding:.5rem .5rem .4rem;font-size:.72rem;color:#f2ecff;
+    background:linear-gradient(transparent,rgba(10,8,14,.92));opacity:0;transition:opacity .16s}
+  .gcard:hover .cap{opacity:1}
+  .gcard .cap b{display:block}.gcard .cap span{color:var(--muted)}
+  .quote{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--gold-dim);border-radius:10px;
+    padding:1rem 1.2rem;margin:.8rem 0;display:flex;gap:1rem;align-items:flex-start}
+  .quote .qart{width:74px;height:74px;border-radius:8px;object-fit:cover;flex:none;border:1px solid var(--line)}
+  .quote .qtext{font-family:var(--serif);font-size:1.05rem;line-height:1.5}
+  .quote .attr{color:var(--muted);font-size:.82rem;margin-top:.4rem}
+  .callout{background:linear-gradient(135deg,rgba(212,176,106,.13),rgba(212,176,106,.04));
+    border:1px solid var(--gold-dim);border-radius:12px;padding:1rem 1.2rem;margin:1rem 0}
+  .callout .k{color:var(--gold);font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;margin-bottom:.3rem}
+  .etymrow{display:grid;grid-template-columns:130px 1fr;gap:.4rem 1rem;margin:.3rem 0}
+  .etymrow .k{color:var(--muted);font-size:.85rem}
+  .related{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.6rem}
+  .related a{font-size:.85rem;padding:.3rem .7rem;border:1px solid var(--line);border-radius:99px;color:var(--ink);text-transform:capitalize;background:var(--panel)}
+  .related a:hover{border-color:var(--gold-dim)}
+  .prevnext{display:flex;justify-content:space-between;margin:1.4rem 0 0;gap:1rem}
+  .prevnext a{color:var(--muted);font-size:.9rem}
+  .note{color:var(--muted);font-size:.85rem;font-style:italic}
+</style>
+</head>
+<body>
+<div id="content"></div>
+<script src="assets/common.js"></script>
+<script>
+const KW_NOTE = {
+  scry:"“Scry N” — look at the top N cards, reorder or bin them. Divination distilled into a keyword.",
+  ward:"“Ward” — a protective tax on targeting the permanent. The oldest protective magic, as a rules ability.",
+  transmute:"“Transmute” — discard this to search for a card of equal mana value. Alchemy as a tutor.",
+  conjure:"“Conjure” (Alchemy) — create a named card from nowhere into hand or library.",
+  enchant:"“Enchant [type]” — the defining word of the Aura, binding a spell onto a permanent.",
+  haunt:"“Haunt” — the ability lingers, exiled onto another permanent, acting again from beyond.",
+  bewitch:"A curse/enchantment flavor keyword — the word made mechanic.",
+  cascade:"“Cascade” — cast the next spell free from atop your deck; a chain-conjuring.",
+};
+function bar(label,val,max){
+  const w=max>0?Math.max(2,Math.round(val/max*100)):0;
+  return `<div class="bar"><div class="lbl">${esc(label)}</div><div class="track"><div class="fill" style="width:${w}%"></div></div><div class="val">${val}</div></div>`;
+}
+function gcard(c){
+  const cap=`<div class="cap"><b>${esc(c.name)}</b><span>${esc(c.set)} · ${esc(c.rarity)} ${pips(c.colors)}</span></div>`;
+  return `<a class="gcard" href="${c.scryfall_uri||'#'}" target="_blank" rel="noopener" title="${esc(c.name)}">
+    <img loading="lazy" src="${c.local}" onerror="this.onerror=null;this.src='${c.img_small}'" alt="${esc(c.name)}">${cap}</a>`;
+}
+
+(async function(){
+  mountChrome("index.html");
+  const slug=new URLSearchParams(location.search).get("t");
+  const root=document.getElementById("content");
+  let d, idx;
+  try{ [d, idx]=await Promise.all([getJSON(`data/terms/${slug}.json`), getJSON("data/terms_index.json")]); }
+  catch(e){ root.innerHTML=`<div class="wrap"><p class="note">Term not found. <a href="index.html">← back to all terms</a></p></div>`; return; }
+  document.title=`${d.root} — The Vocabulary of Magic`;
+  const cm=CATS[d.category]||{label:d.category};
+  const st=d.stats, ety=d.etymology;
+  const heroArt=(d.thumb&&d.thumb.art)|| (d.cards[0]&&d.cards[0].img_normal)||"";
+
+  // header + tabs
+  const tabs=[["overview","Overview"],["gallery",`Gallery`,st.name_match_count],["flavor","Flavor",st.in_flavor_cards],
+              ["mechanics","Mechanics",st.in_oracle_cards],["etymology","Etymology"]];
+  if(d.essay) tabs.push(["essay","Word History ✦"]);
+  root.insertAdjacentHTML("beforeend",`
+    <div class="thero">
+      <div class="bg" style="background-image:url('${heroArt}')"></div><div class="bgveil"></div>
+      <div class="inner">
+        <div class="crumb"><a href="index.html">Terms</a> › <a href="index.html">${cm.label}</a></div>
+        <h1>${esc(d.root)}</h1>
+        <div class="gloss">${esc(d.gloss)}</div>
+        <div class="badges">
+          ${catTag(d.category)}
+          ${d.is_keyword?'<span class="badge kw">◆ MTG keyword</span>':''}
+          ${(st.flavor_total+st.oracle_total+st.name_match_count===0)?'<span class="badge">word history · not in the card set</span>':''}
+          ${ety?'<span class="badge">📜 etymology</span>':'<span class="badge">etymology pending</span>'}
+        </div>
+      </div>
+    </div>
+    <div class="tabs" id="tabs">${tabs.map(([k,l,c],i)=>`<div class="tab ${i===0?'on':''}" data-k="${k}">${l}${c!=null?` <span class="c">${c}</span>`:''}</div>`).join("")}</div>
+    <div class="wrap" id="panes"></div>`);
+
+  // ---- panes ----
+  const variantRows=Object.entries(st.by_variant);
+  const vmax=Math.max(...variantRows.map(([,v])=>v),1);
+  const overview=`<div class="pane on" data-k="overview">
+    ${ety&&ety.hook?`<div class="callout"><div class="k">Podcast angle</div>${esc(ety.hook)}</div>`:""}
+    <div class="statcards">
+      <div class="stat"><b>${st.flavor_total}</b><span>flavor uses</span></div>
+      <div class="stat"><b>${st.oracle_total}</b><span>rules uses</span></div>
+      <div class="stat"><b>${st.name_match_count}</b><span>cards in title</span></div>
+      <div class="stat"><b>${st.first_year||'—'}</b><span>first printed</span></div>
+    </div>
+    <div class="panel"><h2 class="sec">Colour identity <small>the Magic colours of every card using this word</small></h2>
+      ${colorBar(st.colors,22)}
+      <div style="display:flex;flex-wrap:wrap;gap:.8rem;margin-top:.6rem;font-size:.8rem;color:var(--muted)">
+        ${WUBRG.filter(c=>st.colors[c]).map(c=>`<span><span class="pip ${c}"></span> ${COLORNAME[c]} ${st.colors[c]}</span>`).join("")}</div></div>
+    <div class="panel"><h2 class="sec">Morphological spread <small>every inflection collapsed to this root</small></h2>
+      <div class="bars">${variantRows.sort((a,b)=>b[1]-a[1]).map(([v,c])=>bar(v,c,vmax)).join("")}</div></div>
+    <p class="note">Flavor uses = the word in a card’s story text (natural language). Rules uses = the word in reminder/ability text (often a game mechanic). The gap between them is the difference between a <em>word</em> and a <em>keyword</em>.</p>
+  </div>`;
+
+  const gallery=`<div class="pane" data-k="gallery">
+    <h2 class="sec">Cards with “${esc(d.root)}” in the title <small>${st.name_match_count} card${st.name_match_count===1?'':'s'}${st.name_match_count>=80?' (first 80)':''} · click for Scryfall</small></h2>
+    ${d.cards.length?`<div class="gal">${d.cards.map(gcard).join("")}</div>`:'<p class="note">No card titles contain this exact word — but it lives in the flavor and rules text. See the other tabs.</p>'}
+  </div>`;
+
+  const flavor=`<div class="pane" data-k="flavor">
+    <h2 class="sec">In the flavor text <small>the word at play in the story of the cards</small></h2>
+    ${d.flavor_snippets.length? d.flavor_snippets.map(s=>`
+      <div class="quote">${s.art?`<img class="qart" loading="lazy" src="${s.art}" alt="">`:""}
+        <div><div class="qtext">“${s.html}”</div><div class="attr">— ${esc(s.card)} · ${esc(s.set)}</div></div></div>`).join("")
+      :'<p class="note">This word appears in rules text but not (yet) in any flavor text.</p>'}
+  </div>`;
+
+  const mechNote = d.is_keyword && KW_NOTE[d.slug] ? `<div class="callout"><div class="k">As a game mechanic</div>${esc(KW_NOTE[d.slug])}</div>`:"";
+  const ratio = st.flavor_total>0 ? (st.oracle_total/st.flavor_total) : (st.oracle_total>0?Infinity:0);
+  const ratioNote = st.oracle_total===0 ? "This word never appears in rules text — it is pure flavor, a literary word the game borrows only for atmosphere."
+    : ratio>=5 ? `Used <b>${ratio===Infinity?'only':Math.round(ratio)+'×'}</b> more in rules than in story — this is largely a <em>mechanical</em> word in Magic.`
+    : ratio<=0.5 ? "Used far more in story than in rules — a <em>literary</em> word the game rarely mechanizes."
+    : "Roughly balanced between story and rules use.";
+  const mechanics=`<div class="pane" data-k="mechanics">
+    <h2 class="sec">In the rules text <small>how the word behaves as game vocabulary</small></h2>
+    ${mechNote}
+    <p class="note">${ratioNote}</p>
+    ${d.mechanics_snippets.length? d.mechanics_snippets.map(s=>`
+      <div class="quote"><div class="qtext" style="font-size:.98rem">${s.html}</div><div class="attr">— ${esc(s.card)} · ${esc(s.set)}</div></div>`).join("")
+      :'<p class="note">This word does not appear in any rules text — see the Flavor tab.</p>'}
+  </div>`;
+
+  const src=(d.sources||[]).map(s=>`<li>${esc(s)}</li>`).join("");
+  const etymology=`<div class="pane" data-k="etymology">
+    <h2 class="sec">Etymology &amp; history <small>origins and the story of the word</small></h2>
+    ${ety?`
+      <div class="etymrow"><div class="k">Origin</div><div>${esc(ety.origin||"")}</div></div>
+      ${ety.first?`<div class="etymrow"><div class="k">Attestation</div><div>${esc(ety.first)}</div></div>`:""}
+      <div class="etymrow"><div class="k">The story</div><div>${esc(ety.note||"")}</div></div>
+      ${ety.hook?`<div class="callout"><div class="k">Podcast angle</div>${esc(ety.hook)}</div>`:""}
+    `:`<p class="note">Full etymology research pending. Draft it from the sources below plus your historical-magic databases, then add it to <code>data/etymology.json</code>.</p>`}
+    <div id="scholarship"></div>
+    <div class="panel"><h2 class="sec" style="font-size:1rem">Reference sources</h2><ul class="note" style="margin:0;padding-left:1.2rem">${src}</ul></div>
+  </div>`;
+
+  const sourcesBlock = (d.essay && d.essay.sources && d.essay.sources.length) ? `
+    <div class="panel" style="margin-top:1.2rem"><h2 class="sec" style="font-size:1.05rem">Sources &amp; further reading</h2>
+      <ul class="srclist">${d.essay.sources.map(s=>`<li><span class="lbl">${esc(s.label)}</span><span class="where">${esc(s.where||'')}</span></li>`).join("")}</ul>
+      <p class="note" style="margin:.6rem 0 0">Surfaced from Ted's databases &amp; PDF library via the project's research method.</p></div>` : "";
+  const essay = d.essay ? `<div class="pane" data-k="essay">
+    <div class="essay panel">
+      <h3>${esc(d.essay.title)}</h3>
+      ${d.essay.dek?`<div class="dek">${esc(d.essay.dek)}</div>`:''}
+      <div class="meta">${d.essay.read_min?`${d.essay.read_min} min read · `:''}a Word History — origin, etymology &amp; historical usage</div>
+      ${d.essay.html}
+    </div>${sourcesBlock}</div>` : "";
+
+  document.getElementById("panes").innerHTML=overview+gallery+flavor+mechanics+etymology+essay;
+
+  // related + prev/next
+  const sameCat=idx.terms.filter(t=>t.category===d.category && t.slug!==d.slug).slice(0,12);
+  const all=idx.terms; const pos=all.findIndex(t=>t.slug===d.slug);
+  const prev=all[pos-1], next=all[pos+1];
+  document.getElementById("panes").insertAdjacentHTML("beforeend",`
+    <div class="panel"><h2 class="sec" style="font-size:1rem">More in ${(CATS[d.category]||{}).label||d.category}</h2>
+      <div class="related">${sameCat.map(t=>`<a href="term.html?t=${t.slug}">${esc(t.root)}</a>`).join("")}</div></div>
+    <div class="prevnext">
+      <span>${prev?`<a href="term.html?t=${prev.slug}">← ${esc(prev.root)}</a>`:""}</span>
+      <span><a href="index.html">All terms</a></span>
+      <span>${next?`<a href="term.html?t=${next.slug}">${esc(next.root)} →</a>`:""}</span>
+    </div>`);
+
+  // tab switching
+  const tabsEl=document.getElementById("tabs"), panes=[...document.querySelectorAll(".pane")];
+  tabsEl.querySelectorAll(".tab").forEach(t=>t.onclick=()=>{
+    tabsEl.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));
+    t.classList.add("on"); const k=t.dataset.k;
+    panes.forEach(p=>p.classList.toggle("on",p.dataset.k===k));
+    history.replaceState(null,"",`?t=${slug}#${k}`);
+  });
+  const hash=location.hash.slice(1);
+  if(hash){ const t=tabsEl.querySelector(`.tab[data-k="${hash}"]`); if(t) t.click(); }
+
+  // Auto-surface the research dossier (Ted's DBs + PDF library) on the Etymology tab.
+  (async function(){
+    let r; try{ r=await getJSON(`data/research/${slug}.json`); }catch(e){ return; }
+    if(!r || (!r.db_hits.length && !r.corpus_hits.length)) return;
+    const st=slug.slice(0,5).toLowerCase();
+    const defs=r.db_hits.filter(h=>/definition|concept/.test(h.source));
+    defs.sort((a,b)=>((b.term||'').toLowerCase().includes(st)?1:0)-((a.term||'').toLowerCase().includes(st)?1:0));
+    const seen=new Set(), topDefs=[];
+    for(const h of defs){ const k=(h.term||'')+h.source; if(seen.has(k))continue; seen.add(k); topDefs.push(h); if(topDefs.length>=5)break; }
+    const seenC=new Set(), cites=[];
+    for(const h of r.corpus_hits){ if(seenC.has(h.cite))continue; seenC.add(h.cite); cites.push(h); if(cites.length>=6)break; }
+    const defHtml=topDefs.map(h=>`<div class="schol-def"><div class="t">${esc(h.term)} <span class="src">${esc(h.source)}</span></div><p>${esc((h.text||'').slice(0,340))}${(h.text||'').length>340?'…':''}</p></div>`).join("");
+    const citeHtml=cites.map(h=>`<div class="quote"><div class="qtext" style="font-size:.95rem">“${esc(h.snippet)}”</div><div class="attr">— ${esc(h.cite)} <span class="note">· ${esc(h.corpus)}</span></div></div>`).join("");
+    document.getElementById("scholarship").innerHTML=`
+      <div class="panel"><h2 class="sec">In the scholarship <small>from Ted's magic databases &amp; PDF library</small></h2>
+        ${defHtml?`<div class="schol-defs">${defHtml}</div>`:""}
+        ${citeHtml?`<h2 class="sec" style="font-size:1rem;margin-top:1rem">Quoted in the sources</h2>${citeHtml}`:""}
+        <p class="note" style="margin-top:.6rem">Auto-surfaced by <code>scripts/research.py</code> from the medieval- and renaissance-magic databases and the PDF corpora; verify each quote against its source before citing.</p>
+      </div>`;
+  })();
+})();
+</script>
+</body>
+</html>

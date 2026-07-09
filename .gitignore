@@ -1,0 +1,14 @@
+# Large regenerable data (rebuild via scripts/fetch_bulk.py + the pipeline)
+data/raw/
+data/derived/cards.jsonl
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+.DS_Store
+
+# NOTE: site/data/ and site/img/ ARE committed — they are the deployed static site.

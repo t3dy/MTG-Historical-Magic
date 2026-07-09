@@ -1,0 +1,309 @@
+{
+  "slug": "alchemy",
+  "category": "alchemy",
+  "db_hits": [
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "hermetica",
+      "text": "Hermetica designates the entire corpus of texts attributed to Hermes Trismegistus, including the philosophical Corpus Hermeticum and Asclepius, the technical/magical Hermetica (on alchemy, astrology, and talismanic magic), and various fragments. Renaissance scholars did not always distinguish between the philosophical and technical Hermetica, treating the whole corpus as evidence of an ancient unified wisdom tradition. The term appears across 591 corpus occurrences, reflecting Hermeticism's pervasive influence on Renaissance magical philosophy."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "monas hieroglyphica",
+      "text": "The Monas Hieroglyphica is a symbolic figure devised by John Dee and presented in his 1564 treatise of the same name, intended to encode the entire structure of cosmic knowledge — astronomical, alchemical, mathematical, and Kabbalistic — in a single hieroglyphic sign. The symbol combines the signs of the seven planets, the zodiac, and the elements into one unified glyph. It is the single most-referenced primary work symbol in this corpus (809 occurrences), reflecting Dee's ambition to achieve a total synthesis of Renaissance magical knowledge through symbolic compression."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "philosophia hermetica",
+      "text": "Philosophia hermetica ('Hermetic philosophy') designates the body of philosophical and theological doctrine derived from the texts attributed to Hermes *Trismegistus*, encompassing cosmogony, the nature of the divine mind, the soul's fall and ascent, and the unity of all knowledge. Renaissance figures used the term to distinguish the philosophical dimension of the Hermetic tradition from its practical-magical counterpart (alchemy, talismanic magic, astrology). Ficino's translations and Pico's syncretic program elevated *philosophia hermetica* to the status of a *prisca theologia* — an ancient wisdom rivaling and confirming Platonic and Christian truth (Yates, Bruno and the Hermetic Tradition)."
+    }
+  ],
+  "corpus_hits": [
+    {
+      "corpus": "Medieval magic",
+      "file": "Bailey, Michael David_Bain, Kristi Woodward_Callan, Maeve Brigid - The Sacred and the Sinister_ Studies in Medieval Religion and Magic (2019, The Penn.txt",
+      "cite": "Bailey, Michael David Bain, Kristi Woodward Callan, Maeve Brigid The Sacred and the Sinister Studies in Medieval Religion and Magic (2019, T",
+      "snippet": "…. Here too, however, there is some debate about what range of practices should be grouped together. Should quasi sciences such as alchemy and astrology, for example, be kept apart from necromantic conjurations? While critical medieval authorities typically lumped the…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Dan Attrell_ David Porreca Picatrix_ A Medieval Treatise on Astral Magic 10 1515_9780271084152 libgen li.txt",
+      "cite": "Dan Attrell David Porreca Picatrix A Medieval Treatise on Astral Magic 10 1515",
+      "snippet": "…pirit, making those things similar that are not so by their essence. Working with images, however, involves spirit in matter, and alchemical work involves matter in matter. Gen- erally, we use the term \"magic\" for everything hidden from the senses whose causes most of h…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "DR STEPHEN CLARK SKINNER _ Daniel Clark Ars Notoria the Grimoire of Rapid Learning by Magic with the Golden Flowers of Apollonius of Tyana_ A Mediaeva.txt",
+      "cite": "DR STEPHEN CLARK SKINNER Daniel Clark Ars Notoria the Grimoire of Rapid Learning by Magic with the Golden Flowers of Apollonius of Tyana A M",
+      "snippet": "…isseminatedpublicly.Turner tookfulladvantageofthisperiodofliteraryfreedomanditwasthen thatmanyofhistranslatedtextsconcerningmagic,alchemical, medicinalandlike-mindedtopicswereproducedaswellashisoriginal works(seeAppendix5fordetailsofallhispublications). Althoughtheactua…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Fanger Claire Rewriting Magic_ An Exegesis of the Visionary Autobiography of a Fourteenth Century French Monk Pennsylvania State University Press.txt",
+      "cite": "Fanger Claire Rewriting Magic An Exegesis of the Visionary Autobiography of a Fourteenth Century French Monk Pennsylvania State University P",
+      "snippet": "…sacre magice was fi rst noticed by Carlos Gilly, \"Between Paracelsus, Pelagius, and Ganellus: Herme- tism in John Dee,\" in Magic, Alchemy, and Science, 15th–18th Centuries, edited by Carlos Gilly and Cis van Heertum, 1:286. For more information on smaller texts incor…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Frank Klaassen The Transformations of Magic_ Illicit Learned Magic in the Later Middle Ages and Renaissance.txt",
+      "cite": "Frank Klaassen The Transformations of Magic Illicit Learned Magic in the Later Middle Ages and Renaissance",
+      "snippet": "…dieval manuscripts of image magic were, in large measure, preserved by sixteenth- and seventeenth- century collectors of medical, alchemical, and astrological works who had no particular interest in image magic per se. Very few surviving codices dedicate more than a fra…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "John Michael Greer De Imaginibus_ Astral High Magic Thabit Ibn Qurra s De Imaginibus Renaissance Astrology.txt",
+      "cite": "John Michael Greer De Imaginibus Astral High Magic Thabit Ibn Qurra s De Imaginibus Renaissance Astrology",
+      "snippet": "…f material goals can be attained that the philosophical and spiritual bases of Hermeticism are correct. This insight explains why alchemy, astrology and magic are the preparatory studies for Hermetic gnosis, the mystic union with the Divine. The Sabians of Harran an…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Sharon Hubbs Wright Frank Klaassen Everyday Magicians_ Legal Records and Magic Manuscripts from Tudor England Penn State University Press.txt",
+      "cite": "Sharon Hubbs Wright Frank Klaassen Everyday Magicians Legal Records and Magic Manuscripts from Tudor England Penn State University Press",
+      "snippet": "…he Tudors, Henry VIII to Eliza- and Magic in Elizabethan London: beth I, 1509–1603, State Papers Domes- Simon Forman, Astrologer, Alchemist, tic, SP and Physician, Oxford Historical Monographs (Oxford: Clarendon Press, 2005), 77 and 232. On Robert Allen, see in Shakesp…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Sophie Page Magic in the Cloister Pious Motives Illicit Interests and Occult Approaches to the Medieval Universe.txt",
+      "cite": "Sophie Page Magic in the Cloister Pious Motives Illicit Interests and Occult Approaches to the Medieval Universe",
+      "snippet": "…Volumes containing magic texts were dispersed through- out a number of larger subject groupings, including astronomy, astrology, alchemy, and medicine. In addition to the library collection, books were located in other parts of the abbey in accordance with their siz…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "The Magic of Rogues_ Necromancers in Early Tudor England Penn State University Press.txt",
+      "cite": "The Magic of Rogues Necromancers in Early Tudor England Penn State University Press",
+      "snippet": "…magic books, and is familiar with the literature of learned magic, including the work of Agrippa. Jones also evidently practiced alchemy, given the reported presence of stills and alembics in his rooms and his offer to perform alchemy for the crown. In a case we con…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "[Canto Classics] Richard Kieckhefer - Magic in the Middle Ages (2014, Cambridge University Press) - libgen.li.txt",
+      "cite": "[Canto Classics] Richard Kieckhefer Magic in the Middle Ages (2014, Cambridge University Press)",
+      "snippet": "…ing, in which technical secrets were guarded jealously from outsiders — which laid the foundations for what would later be called alchemy. Also commonly associated with Alexandria, though in fact of uncertain provenance, is a body of second- and third-century Greek w…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Deborah E Harkness John Dee s Conversations with Angels_ Cabala Alchemy and the End of Nature Cambridge University Press.txt",
+      "cite": "Deborah E Harkness John Dee s Conversations with Angels Cabala Alchemy and the End of Nature Cambridge University Press",
+      "snippet": "…hampered their efforts. Dee hoped, through the information imparted to him by his angelic \"schoolmasters,\" to practice a restored alchemy that would finally yield positive results. With the Book of Scripture in hand and the Book of Nature before him, Dee was attempti…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Frank Klaassen The Transformations of Magic.txt",
+      "cite": "Frank Klaassen The Transformations of Magic",
+      "snippet": "…rray of thematic treatments of these and related subjects. William Eamon’s study of books of secrets and William Newman’s work on alchemy, while not focused precisely on magic, provide a useful backdrop against which other traditions of magic may be measured. At the…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Glyn Parry The Arch Conjuror of England_ John Dee Yale University Press.txt",
+      "cite": "Glyn Parry The Arch Conjuror of England John Dee Yale University Press",
+      "snippet": "…had dogged his reputa tion for five centuries. Dunstan had restored Glastonbury Abbey, the legendary hiding place for mysterious alchemical books and even the philosopher's stone itself, as Dee would discover. As Archbishop of Canterbury, Dunstan had crowned King Edgar…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Håkansson, Håkan - Seeing the Word_ John Dee and Renaissance Occultism (2001) - libgen.li.txt",
+      "cite": "Håkansson, Håkan Seeing the Word John Dee and Renaissance Occultism (2001)",
+      "snippet": "…occultism — taken as a comprehensive term for the various sciences dealing with invisible or non-manifest forces, such as magic, alchemy, divination and astrology — confined it to the margins of historiography. Confronted with beliefs and conceptions so strange and…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Ioan P Couliano Eros and Magic.txt",
+      "cite": "Ioan P Couliano Eros and Magic",
+      "snippet": "…travels, involves the assumption of all the phantasmic processes of the Renaissance: Eros, the Art of Memory, theoretical magic, alchemy, and practical magic. T H E P H A N T A S M I C P N E U M A The Aristotelian theory of the phantasmic pneuma did not come out of…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Keith Thomas - Religion and the Decline of Magic.txt",
+      "cite": "Keith Thomas Religion and the Decline of Magic",
+      "snippet": "…ain woman to bring her with child, and the medicine was made of the spawn of a trotter’. This may have been a folk version of the alchemical attempt to create homunculi, reflected in the supposed desire of the Rosicrucians to beget descendants without what Sir Thomas Br…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Paola Zambelli Astrology and Magic.txt",
+      "cite": "Paola Zambelli Astrology and Magic",
+      "snippet": "…m, 3 Quadripartitumand the a tr logy of Albuma ar; for what concern magic Kirannides, al-Kindi 6 and me pa age fr m vicenna; £ r alchemy Geber) Debate about the alidity of a trological prediction and \"natural\" magic had begun at lea t a century befor 1348 with \\ ill…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Paola Zambelli White Magic.txt",
+      "cite": "Paola Zambelli White Magic",
+      "snippet": "…y documents and in the hobbies of important scientists (the most quoted example being that of Newton, with his secret passion for alchemy); but this is not the subject of this book. A great deal, too much perhaps, has already been said about it; interest (and sometim…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Stuart Clark Thinking with Demons.txt",
+      "cite": "Stuart Clark Thinking with Demons",
+      "snippet": "…”; if real, they fall under pneumatology, and, if unreal, under morbid psychology.’ This means that demonology, like astrology or alchemy, has invariably been regarded as an ‘occult’ or ‘pseudo’ science and, therefore, incompatible with scientific insight and progres…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "16775 Article Text 16440 1 10 20170821 saif arabic influences occult phil.txt",
+      "cite": "16775 Article Text 16440 1 10 20170821 saif arabic influences occult phil",
+      "snippet": "…as a multiplication of species. In Monas Hieroglyphica, the investigation of natural reality consists in a combination of magic, alchemy and astrology. Dee's production can be evaluated as another instance of the science-occultism interaction in the early modern age…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Hans Dieter Betz The Greek Magical Papyri in Translation Including the Demotic Spells Vol 1_ Texts University of Chicago Press.txt",
+      "cite": "Hans Dieter Betz The Greek Magical Papyri in Translation Including the Demotic Spells Vol 1 Texts University of Chicago Press",
+      "snippet": "…cry hour with you,\" pseudo gold. This is in kcrping with thr fact that rhc scction 193-201 is &IU of technical tcrnminolog). from alchemy. See M. P. Crosland, HindS d i a in the I,aneqe ofchnnimy (London: Heincmann, rulers, 0 exaltcrs ofthe abased, 0 rcvcalcrs of th…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Korshi Dosoo_ Markéta Preininger Papyri Copticae Magicae_ Coptic Magical Texts Volume 1_ Formularies De Gruyter.txt",
+      "cite": "Korshi Dosoo Markéta Preininger Papyri Copticae Magicae Coptic Magical Texts Volume 1 Formularies De Gruyter",
+      "snippet": "…represent the right-sloping majuscule common in Kleinliteratur (\"minor literature\")—technical texts such as medical, magical, and alchemical works—as well as in the colophons of literary texts. [Footnote: Till 1942: 101; Boud'hors 1997; Mihálykó 2019: 85–92.] Occasional…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Marvin W Meyer Paul Allan Mirecki Magic and Ritual in the Ancient World Brill Academic Publishers.txt",
+      "cite": "Marvin W Meyer Paul Allan Mirecki Magic and Ritual in the Ancient World Brill Academic Publishers",
+      "snippet": "…ther class of documents, the contents of which are ascribed to Hermes Trismegistus; namely, writings concerning astrology, magic, alchemy, and kindred forms of pseudo-science. [These things might be grouped together under the vague but convenient term 'occult arts an…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Petropoulos Greek Magic Ancient Medieval and Modern BB Routledge.txt",
+      "cite": "Petropoulos Greek Magic Ancient Medieval and Modern BB Routledge",
+      "snippet": "…marked by numerous reversals. Yesterday's Orthodox Christian practice has, in some cases, become today's magical practice just as alchemy was once an acceptable form of science but is now considered a magical pursuit. In his Les formes élémentaires de la vie religieu…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "PhD Thesis Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts and Europ.txt",
+      "cite": "PhD Thesis Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts",
+      "snippet": "…s.] will be understood in exactly the way Dr John Dee [Footnote: An Elizabethan polymath who wrote books on geometry, navigation, alchemy, rectification of the calendar, and promoted the idea of the British Empire. His interest in angelic invocation lead him to emplo…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Radcliffe G Edmonds III Carolina López Ruiz Sofía Torallas Tovar Magic and Religion in the Ancient Mediterranean World_ Studies in Honor of Christophe.txt",
+      "cite": "Radcliffe G Edmonds III Carolina López Ruiz Sofía Torallas Tovar Magic and Religion in the Ancient Mediterranean World Studies in Honor of C",
+      "snippet": "…rned 57 distinct aims among his 96 formularies of all lengths, which he reduced to 14 main groups + non magical miscellaneous and alchemical. Nowitzki 2021, 136–375 provides an exhaustive account of aims in PGM texts, based on selected individual praxeis.] In practice t…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts and European Grimoir.txt",
+      "cite": "Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts and Europe",
+      "snippet": "…s.] will be understood in exactly the way Dr John Dee [Footnote: An Elizabethan polymath who wrote books on geometry, navigation, alchemy, rectification of the calendar, and promoted the idea of the British Empire. His interest in angelic invocation lead him to emplo…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Brian P Copenhaver Hermetica_ The Greek Corpus Hermeticum and the Latin Asclepius in a New English Translation with Notes and Introduction Cambridge U.txt",
+      "cite": "Brian P Copenhaver Hermetica The Greek Corpus Hermeticum and the Latin Asclepius in a New English Translation with Notes and Introduction Ca",
+      "snippet": "…94) who interprets paredokas (\"provided\") and exousian (\"authority\") as referring to secret knowledge of the mysteries, magic and alchemy. Ferguson - like Norden, who was interested primarily in New Testament parallels such as Matt. 11:25-30, Rom. 11:25 - explains th…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Christian H Bull The Tradition of Hermes Trismegistus_ The Egyptian Priestly Figure as a Teacher of Hellenized Wisdom Brill.txt",
+      "cite": "Christian H Bull The Tradition of Hermes Trismegistus The Egyptian Priestly Figure as a Teacher of Hellenized Wisdom Brill",
+      "snippet": "…βοῦσα) the demiurgical logos, Nature as the counsel of God be- gets both the elements and the souls as offspring (γεννήματα). The alchemical creation of soul in KK has thus been replaced with a sacred marriage between the demiurgical logos and Nature. As in the KK, the…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Claudio Moreschini Hermes Christianus_ The Intermingling of Hermetic Piety and Christian Thought Brepols Publishers.txt",
+      "cite": "Claudio Moreschini Hermes Christianus The Intermingling of Hermetic Piety and Christian Thought Brepols Publishers",
+      "snippet": "…ough he admits that 'these two groups are not without overlap. Thus there are traces of astrology in learned Hermetism, traces of alchemy in the Kore Kosmou. Moreover, two writings of the alchemist Zosimus are clearly influenced by the Gnostic and mystical speculatio…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Gilles Quispel Gnosis als Weltreligion libgen li.txt",
+      "cite": "Gilles Quispel Gnosis als Weltreligion",
+      "snippet": "…dass der Urmensch Adam von den Archonten in den körperlichen Leib gelockt worden ist, um ihn zum Sklaven zu machen. Das teilt der Alchemist Zosimus aus der Apokalypse des Nikotheos mit. Nun ist es so, dass die jüdische Schöpfungsgeschichte der Genesis den Ausführungen…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Hermetism_and_Hieratic_Tradition_in_the.txt",
+      "cite": "Hermetism and Hieratic Tradition in the",
+      "snippet": "…reconstructing the wider Greco-Egyptian milieu of Hermetism, and its intersections with neighbouring esoteric currents, including alchemy, astrol- ogy, magic, and theurgy. [Footnote: See Garth Fowden's pioneering study, The Egyptian Hermes: A Historical Approach to t…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Jeffrey B Pettis The Sleeper s Dream_ Asclepius Ritual and Early Christian Discourse libgen li.txt",
+      "cite": "Jeffrey B Pettis The Sleeper s Dream Asclepius Ritual and Early Christian Discourse",
+      "snippet": "…-mouth of cult dreamers, and by patrons such as Aristides who glories the cult with his Sacred Tales. CHAPTER 2:PHARMACOLOGY AND ALCHEMY IN ANTIQUITY [B]ut he taught his companions what herbs must be applied to running wounds, and what to inflamed and dry wounds, an…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "M David Litwa Hermetica II_ The Excerpts of Stobaeus Papyrus Fragments and Ancient Testimonies in an English Translation with Notes and Introduction C.txt",
+      "cite": "M David Litwa Hermetica II The Excerpts of Stobaeus Papyrus Fragments and Ancient Testimonies in an English Translation with Notes and Intro",
+      "snippet": "…reoffersomeoftheprimarysourcesrequiredto tracethishistory.InthecourseoftimebothMuslimsandChristians interested in the sciences of alchemy, astrology, and (natural) magic found waystointegrate Hermes intotheirsacred histories.Some Christians like Nock, \"Diatribe For…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Wouter J Hanegraaff Peter J Forshaw and Marco Pasi Hermes Explains_ Thirty Questions about Western Esotericism Amsterdam University Press.txt",
+      "cite": "Wouter J Hanegraaff Peter J Forshaw and Marco Pasi Hermes Explains Thirty Questions about Western Esotericism Amsterdam University Press",
+      "snippet": "…ophical Hermetica,\" in contrast to another group of texts that also circulated under his name and dealt with magic, astrology and alchemy, the so-called \"technical (or: practical) Hermetica.\" The best-known treatises of the first group are the seventeen tractates of…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Wouter J. Hanegraaff - Hermetic Spirituality and the Historical Imagination_ Altered States of Knowledge in Late Antiquity (2022, Cambridge University.txt",
+      "cite": "Wouter J. Hanegraaff Hermetic Spirituality and the Historical Imagination Altered States of Knowledge in Late Antiquity (2022, Cambridge Uni",
+      "snippet": "…tic translations. Chapter 4 is about the only three practitioners of Hermetic spirituality who are still known to us by name: the alchemist Zosimos of Panopolis and his associate Theosebeia, and the Platonic theurgist Iamblichus of Chalcis. To prepare for my in-depth a…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "[Gnosis_ Journal of Gnostic Studies 2018-apr 04 vol. 3 iss. 1] Bull, Christian H. - Hermes Trismegistus_ Special Issue (2018) [10.1163_2451859x-123400.txt",
+      "cite": "[Gnosis Journal of Gnostic Studies 2018 apr 04 vol. 3 iss. 1] Bull, Christian H. Hermes Trismegistus Special Issue (2018) [10.1163 2451859x",
+      "snippet": "…to be done. Rather, it seeks to show some of the trajectories taken by the literature attributed to Hermes—in antiquity, ancient alchemy, Arabic pseudepigraphy, Renaissance Christianity, and Theosophy. Although the contours of the historical religious groups devoted…"
+    },
+    {
+      "corpus": "Alchemy",
+      "file": "001-Adam-McLean-A-Commentary-on-the-Mutus-Liber.md",
+      "cite": "001 Adam McLean A Commentary on the Mutus Liber",
+      "snippet": "<!-- Source: E:\\pdf\\alchemy\\Adam McLean A Commentary on the Mutus Liber.pdf --> # Adam McLean A Commentary on the Mutus Liber MUTUS LIBER Wherein all oper…"
+    },
+    {
+      "corpus": "Alchemy",
+      "file": "001-Adam-McLean-A-Threefold-Alchemical-Journey-Through-the-Book-of-Lambspring.md",
+      "cite": "001 Adam McLean A Threefold Alchemical Journey Through the Book of Lambspring",
+      "snippet": "<!-- Source: E:\\pdf\\alchemy\\Adam McLean A Threefold Alchemical Journey Through the Book of Lambspring.pdf --> # Adam McLean A Threefold Alchemical Journey T…"
+    },
+    {
+      "corpus": "Alchemy",
+      "file": "001-Adam-McLean-The-Second-Collection-of-Alchemical-and-Hermetic-Emblems.md",
+      "cite": "001 Adam McLean The Second Collection of Alchemical and Hermetic Emblems",
+      "snippet": "<!-- Source: E:\\pdf\\alchemy\\Adam McLean The Second Collection of Alchemical and Hermetic Emblems.pdf --> # Adam McLean The Second Collection of Alchemical a…"
+    },
+    {
+      "corpus": "Alchemy",
+      "file": "001-Adam-McLean-The-Second-Collection-of-Alchemical-and-Hermetic-Emblems-maier_extract.md",
+      "cite": "001 Adam McLean The Second Collection of Alchemical and Hermetic Emblems maier extract",
+      "snippet": "<!-- Source: E:\\pdf\\alchemy\\Adam McLean The Second Collection of Alchemical and Hermetic Emblems.maier_extract.txt --> # Adam McLean The Second Collection o…"
+    },
+    {
+      "corpus": "Alchemy",
+      "file": "001-Half-Title.md",
+      "cite": "001 Half Title",
+      "snippet": "<!-- Source: E:\\pdf\\alchemy\\Alchemy Jung and Remedios Varo_ Cultural Complexes and the Redemptive Power of the Abjected F.pdf --> # Half Title Alchemy, Jun…"
+    },
+    {
+      "corpus": "Alchemy",
+      "file": "002-Series-Information.md",
+      "cite": "002 Series Information",
+      "snippet": "<!-- Source: E:\\pdf\\alchemy\\Alchemy Jung and Remedios Varo_ Cultural Complexes and the Redemptive Power of the Abjected F.pdf --> # Series Information Rese…"
+    },
+    {
+      "corpus": "Alchemy",
+      "file": "003-Title-Page.md",
+      "cite": "003 Title Page",
+      "snippet": "<!-- Source: E:\\pdf\\alchemy\\Alchemy Jung and Remedios Varo_ Cultural Complexes and the Redemptive Power of the Abjected F.pdf --> # Title Page Alchemy, Jun…"
+    },
+    {
+      "corpus": "Alchemy",
+      "file": "004-Copyright-Page.md",
+      "cite": "004 Copyright Page",
+      "snippet": "<!-- Source: E:\\pdf\\alchemy\\Alchemy Jung and Remedios Varo_ Cultural Complexes and the Redemptive Power of the Abjected F.pdf --> # Copyright Page First pu…"
+    },
+    {
+      "corpus": "Alchemy",
+      "file": "005-Dedication.md",
+      "cite": "005 Dedication",
+      "snippet": "<!-- Source: E:\\pdf\\alchemy\\Alchemy Jung and Remedios Varo_ Cultural Complexes and the Redemptive Power of the Abjected F.pdf --> # Dedication For Rebecca,…"
+    },
+    {
+      "corpus": "Alchemy",
+      "file": "006-Table-of-contents.md",
+      "cite": "006 Table of contents",
+      "snippet": "<!-- Source: E:\\pdf\\alchemy\\Alchemy Jung and Remedios Varo_ Cultural Complexes and the Redemptive Power of the Abjected F.pdf --> # Table of contents Conte…"
+    }
+  ],
+  "counts": {
+    "db": 3,
+    "corpus": 47
+  }
+}

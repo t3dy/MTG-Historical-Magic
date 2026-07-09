@@ -1,0 +1,111 @@
+{
+  "slug": "rune",
+  "category": "item",
+  "db_hits": [
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "kabbalah",
+      "text": "Kabbalah designates the Jewish mystical tradition centered on the doctrine of the ten *sephiroth* (divine emanations) and the creative power of Hebrew letters. In Renaissance magic, Kabbalah was adapted by Christian scholars — notably Pico della Mirandola and Reuchlin — who argued that Kabbalistic methods (gematria, notarikon, temurah) confirmed Christian doctrine and provided access to divine names of power. The term appears with near-equal frequency as the Latinized *cabala* in this corpus, reflecting the tradition's dual existence as Jewish mystical practice and Christian appropriation. Pico's 900 Conclusiones (1486) and Reuchlin's De Arte Cabalistica (1517) established Christian Cabala as a central pillar of Renaissance magical philosophy (Yates, Bruno and the Hermetic Tradition; Copenhaver)."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "zohar",
+      "text": "The Zohar ('Splendor') is the foundational text of medieval Kabbalah, a mystical commentary on the Torah attributed to the 2nd-century Rabbi Shimon bar Yochai but composed in late-13th-century Spain, most likely by Moses de Leon. In Renaissance magic, the Zohar provided the cosmological framework of the ten Sephiroth and the doctrine of divine emanation that Pico and Reuchlin incorporated into their Christian Cabala. The corpus references the Zohar frequently alongside the Sefer Yetzirah as the twin pillars of Kabbalistic authority (Copenhaver; Yates, Bruno and the Hermetic Tradition)."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "sephiroth",
+      "text": "The Sephiroth are the ten divine attributes or emanations through which the infinite God (*Ein Sof*) manifests and sustains creation, arranged in the Kabbalistic Tree of Life. Renaissance magi recognized in the Sephirotic system a Hebraic parallel to Neoplatonic emanation theory — the procession from the One through successive levels of being. Pico della Mirandola mapped the Sephiroth onto angelic hierarchies and Neoplatonic hypostases, while Reuchlin's De Arte Cabalistica provided the most systematic Christian exposition of the Sephirotic doctrine (Yates, Bruno and the Hermetic Tradition)."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "prisca theologia",
+      "text": "Prisca theologia ('ancient theology') is the Renaissance belief that a single divine revelation was transmitted through a chain of ancient sages — typically Hermes Trismegistus, Moses, Orpheus, Zoroaster, Pythagoras, and Plato — and that recovering this wisdom was the highest intellectual project. Ficino articulated the doctrine in justifying his translations of the Hermetica, and Pico extended it to include Kabbalah. The prisca theologia framework motivated the entire Renaissance magical enterprise: practitioners believed they were recovering, not inventing, sacred knowledge (Yates, Bruno and the Hermetic Tradition; Walker, Spiritual and Demonic Magic)."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "corpus hermeticum",
+      "text": "The Corpus Hermeticum is a collection of seventeen Greek treatises attributed to the legendary sage Hermes Trismegistus, composed in the 2nd-3rd centuries CE but believed by Renaissance scholars to preserve pre-Mosaic Egyptian wisdom. Ficino's Latin translation (1463), commissioned by Cosimo de' Medici, launched the Renaissance Hermetic revival and established the Hermetica as a foundational text alongside Plato and Scripture. Isaac Casaubon's 1614 redating of the texts to the early Christian era eventually undermined the prisca theologia claim, but by then Hermeticism had deeply shaped European magical philosophy (Copenhaver; Yates, Bruno and the Hermetic Tradition)."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "philosophia perennis",
+      "text": "Philosophia perennis ('perennial philosophy') is the doctrine, closely related to *prisca theologia*, that a single philosophical truth persists through all historical periods and cultural expressions. The term appears in the corpus in connection with the Renaissance syncretic project: Pico, Ficino, and their successors claimed to recover not merely ancient texts but a timeless wisdom that Egyptian, Greek, Hebrew, and Christian traditions all partially expressed."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "thoth",
+      "text": "Thoth is the Egyptian deity of writing, wisdom, and sacred knowledge whom the Greeks identified with their god Hermes, producing the syncretic figure Hermes *Trismegistus*. Renaissance scholars, following their ancient sources, regarded Thoth-Hermes as a historical sage-priest of primordial Egypt who received direct divine revelation and recorded it in the *Hermetica*. Ficino's preface to his Corpus Hermeticum translation places Thoth at the head of the *prisca theologia* chain, before Moses and Orpheus. The identification of Thoth with Hermes provided the mythological foundation for the entire Renaissance Hermetic enterprise (Yates, Bruno and the Hermetic Tradition)."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "philosophia hermetica",
+      "text": "Philosophia hermetica ('Hermetic philosophy') designates the body of philosophical and theological doctrine derived from the texts attributed to Hermes *Trismegistus*, encompassing cosmogony, the nature of the divine mind, the soul's fall and ascent, and the unity of all knowledge. Renaissance figures used the term to distinguish the philosophical dimension of the Hermetic tradition from its practical-magical counterpart (alchemy, talismanic magic, astrology). Ficino's translations and Pico's syncretic program elevated *philosophia hermetica* to the status of a *prisca theologia* — an ancient wisdom rivaling and confirming Platonic and Christian truth (Yates, Bruno and the Hermetic Tradition)."
+    },
+    {
+      "source": "RenaissanceMagicDB · definitions",
+      "term": "ars memoriae",
+      "text": "Ars memoriae ('art of memory') designates the mnemonic tradition, originating in classical rhetoric, of organizing knowledge through vivid mental images placed within imagined architectural spaces (memory palaces). Renaissance magi transformed the ars memoriae from a rhetorical technique into a magical-philosophical system: Giulio Camillo's Memory Theater (c. 1530) arranged all knowledge according to celestial and Kabbalistic correspondences, and Giordano Bruno's memory works integrated Hermetic imagery with combinatory logic. The art of memory bridges rhetoric, magic, and cosmology — organizing the mind to mirror the structure of the cosmos (Yates, The Art of Memory)."
+    }
+  ],
+  "corpus_hits": [
+    {
+      "corpus": "Medieval magic",
+      "file": "Claire Fanger Invoking Angels_ Theurgic Ideas and Practices Thirteenth to Sixteenth Centuries Penn State Press.txt",
+      "cite": "Claire Fanger Invoking Angels Theurgic Ideas and Practices Thirteenth to Sixteenth Centuries Penn State Press",
+      "snippet": "…amatis and a Manuscript of Astrological and Astronomical Works from Bar celona (Biblioteca de Catalunya, 634)\"; and \"Scandinavian Runes in a Latin Magical Treatise;• all in _\\fagic and Divination in the Middle Ages: Texts and Techniques in the Islamic and Christian…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "Joseph H Peterson_ Dan Harms Book of Magic with Instructions for Invoking Spirits 1 1 libgen li.txt",
+      "cite": "Joseph H Peterson Dan Harms Book of Magic with Instructions for Invoking Spirits 1 1",
+      "snippet": "…most [????] paines wast given to thee Esell & gall to drincke which with a speare wast thrust in[to] thy right side where out did rune plenteously of blood & water for the redemption o[f] the whole world which hast ryssen againe the 3d daye hast spoyled hell & has…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "[Canto Classics] Richard Kieckhefer - Magic in the Middle Ages (2014, Cambridge University Press) - libgen.li.txt",
+      "cite": "[Canto Classics] Richard Kieckhefer Magic in the Middle Ages (2014, Cambridge University Press)",
+      "snippet": "…. In Germanic mythology, for example, the god Woden (or Odin) was himself a master of magic who had gained power over the magical runic alphabet and could use its characters to perform wondrous deeds. An Anglo-Saxon healing charm might invoke the power of this god;…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "[The American Historical Review 1994-jun vol. 99 iss. 3] Richard Kieckhefer - The Specific Rationality of Medieval Magic (1994) [10.2307_2167771] - li.txt",
+      "cite": "[The American Historical Review 1994 jun vol. 99 iss. 3] Richard Kieckhefer The Specific Rationality of Medieval Magic (1994) [10.2307 21677",
+      "snippet": "…not confrontable. Sorcerers tap into a hidden source of dark power disproportionate to their operations: it is not the carving of runes per se that works wondrous effects but the invocation of a mysterious power through the runes. Ultimately, it was this disproport…"
+    },
+    {
+      "corpus": "Medieval magic",
+      "file": "[The Routledge Histories] Sophie Page (Editor), Catherine Rider (Editor) - The Routledge History of Medieval Magic (2019, Routledge) - libgen.li.txt",
+      "cite": "[The Routledge Histories] Sophie Page (Editor), Catherine Rider (Editor) The Routledge History of Medieval Magic (2019, Routledge)",
+      "snippet": "…sible exception: two of the four surviving Libri runarum (a particular text combining hermetic talismanic magic with Scandinavian runes) have come to us from the Krakow region. A considerable number of survived talismanic objects testify that the methods put forwar…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Paola Zambelli Astrology and Magic.txt",
+      "cite": "Paola Zambelli Astrology and Magic",
+      "snippet": "…ink (London: Warburg In orute, 1962), p. 32: \" t tamen intellectu facile, quod perfecrus tempori numerus perfectum annum compleat rune demum, cum omnium octo circumactionum cur us peracti velut ad originem atque exordium circumactionis alterius revertunrur, quam s…"
+    },
+    {
+      "corpus": "Renaissance magic",
+      "file": "Paola Zambelli Astrology and Magic from the Medieval Latin and Islamic World to Renaissance Europe.txt",
+      "cite": "Paola Zambelli Astrology and Magic from the Medieval Latin and Islamic World to Renaissance Europe",
+      "snippet": "…men intellectu h f eternally repeated pa age rom c ao to or er, • facile, quod perfecrus tempori numerus perfectum annum compleat rune demum, cum omnium octo circumactionum cur us peracti velut ad originem atque exordium circumactionis alterius revertunrur, quam s…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "PhD Thesis Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts and Europ.txt",
+      "cite": "PhD Thesis Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts",
+      "snippet": "…to the magician who, standing nearby, performs the evocation. Translating manteia as'divination,' a term which encompasses tarot, runes, geomancy, lots, astrology, etc., is misleading for this very specific procedure, even if it is superficially a literal translati…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts and European Grimoir.txt",
+      "cite": "Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts and Europe",
+      "snippet": "…to the magician who, standing nearby, performs the evocation. Translating manteia as'divination,' a term which encompasses tarot, runes, geomancy, lots, astrology, etc., is misleading for this very specific procedure, even if it is superficially a literal translati…"
+    }
+  ],
+  "counts": {
+    "db": 9,
+    "corpus": 9
+  }
+}

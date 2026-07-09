@@ -1,0 +1,53 @@
+{
+  "slug": "warlock",
+  "category": "profession",
+  "db_hits": [],
+  "corpus_hits": [
+    {
+      "corpus": "Renaissance magic",
+      "file": "Stuart Clark Thinking with Demons.txt",
+      "cite": "Stuart Clark Thinking with Demons",
+      "snippet": "…228, even calls it a ‘collective psychosis’. (49) One authority, Martín de Castañega, declared that there were just as many male ‘warlocks (nigromànticos)’ in the devil's service as female witches. The real difference, he said, was ‘not among the ministers of the devi…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Attilio Mastrocinque_ Joseph E Sanzo_ Marianna Scapini Ancient Magic_ Then and Now.txt",
+      "cite": "Attilio Mastrocinque Joseph E Sanzo Marianna Scapini Ancient Magic Then and Now",
+      "snippet": "…ropean languages in the an overwhelming number of testimonials that put into question the traditional as- sumption that marginal warlock ritual practices exist or are situated on the periphery of religious norms, have explored the possibility ‒ at least on occasion…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Marvin W Meyer Paul Allan Mirecki Magic and Ritual in the Ancient World Brill Academic Publishers.txt",
+      "cite": "Marvin W Meyer Paul Allan Mirecki Magic and Ritual in the Ancient World Brill Academic Publishers",
+      "snippet": "…y means of the word, incantationes. The fact that hartumim is later trans- lated in the latter by malefici, the generic Latin for warlock, [Footnote: As a concension to purists, it is to be observed that a true calque on warlock would be sponsifrax vel sim.] and by t…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Petropoulos Greek Magic Ancient Medieval and Modern BB Routledge.txt",
+      "cite": "Petropoulos Greek Magic Ancient Medieval and Modern BB Routledge",
+      "snippet": "…mocracy and rational enquiry, but also numerous magical beliefs, practices and fi gures such as the medieval and modern witch and warlock.6 Whether or not it is true, as the anthropologist M. Winkelman has argued,7 that magical traditions generally have a serious bas…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "PhD Thesis Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts and Europ.txt",
+      "cite": "PhD Thesis Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts",
+      "snippet": "…witchcraft. [Footnote: \"The ancient practitioners [of magic] would have been horrified to be lumped together with \"witches\" and \"warlocks\" \" – Janowicz, p. 3.] Matthew Dickie in Magic and Magicians in the Greco-Roman World provides cogent background on the various sh…"
+    },
+    {
+      "corpus": "Ancient magic (PGM)",
+      "file": "Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts and European Grimoir.txt",
+      "cite": "Stephen Skinner Magical Techniques and Implements present in Graeco Egyptian Magical Papyri Byzantine Greek Solomonic Manuscripts and Europe",
+      "snippet": "…witchcraft. [Footnote: \"The ancient practitioners [of magic] would have been horrified to be lumped together with \"witches\" and \"warlocks\" \" – Janowicz, p. 3.] Matthew Dickie in Magic and Magicians in the Greco-Roman World provides cogent background on the various sh…"
+    },
+    {
+      "corpus": "Hermetica",
+      "file": "Wouter J Hanegraaff Peter J Forshaw and Marco Pasi Hermes Explains_ Thirty Questions about Western Esotericism Amsterdam University Press.txt",
+      "cite": "Wouter J Hanegraaff Peter J Forshaw and Marco Pasi Hermes Explains Thirty Questions about Western Esotericism Amsterdam University Press",
+      "snippet": "…ing have been preserved on The Fugs' Tenderness Junction,.] The fact that the assembled hippie warriors were costumed as witches, warlocks, and wizards made this scene all the more mind-blowing. Their exorcism succeeded in winning over three members of the military po…"
+    }
+  ],
+  "counts": {
+    "db": 0,
+    "corpus": 7
+  }
+}

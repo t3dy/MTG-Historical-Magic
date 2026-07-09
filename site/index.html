@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Vocabulary of Magic — a word study of Magic: The Gathering</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<div class="hero">
+  <h1>The Vocabulary of Magic</h1>
+  <div class="tag">Every word for magic across the complete <em>Magic: The Gathering</em> corpus —
+  wizards and shamans, conjuring and scrying, athanors and grimoires — counted, illustrated, and traced to its roots.</div>
+  <div class="statband" id="statband"></div>
+</div>
+
+<div class="wrap">
+  <div class="controls">
+    <input id="search" type="search" placeholder="Search a term or meaning… (e.g. conjure, divination, book)" autocomplete="off">
+    <select class="sort" id="sort">
+      <option value="prom">Sort: most prominent</option>
+      <option value="flavor">Sort: flavor-text use</option>
+      <option value="cards">Sort: card count</option>
+      <option value="alpha">Sort: A→Z</option>
+    </select>
+  </div>
+  <div class="chips" id="chips"></div>
+  <div class="grid" id="grid"></div>
+  <div class="emptymsg" id="empty" hidden>No terms match your search.</div>
+</div>
+
+<script src="assets/common.js"></script>
+<script>
+let TERMS=[], activeCat="all", q="", sortMode="prom";
+
+function score(t){ return t.flavor_total*3 + t.name_match_count*2 + (t.has_etym?40:0); }
+function sortTerms(a,b){
+  if(sortMode==="alpha") return a.root.localeCompare(b.root);
+  if(sortMode==="flavor") return b.flavor_total-a.flavor_total;
+  if(sortMode==="cards")  return b.name_match_count-a.name_match_count;
+  return score(b)-score(a);
+}
+function card(t){
+  const m=CATS[t.category]||{};
+  const art=t.thumb?`<div class="art" style="background-image:url('${t.thumb}')"></div>`:"";
+  return `<a class="tcard" href="term.html?t=${encodeURIComponent(t.slug)}">
+    ${art}<div class="veil"></div>
+    <div class="body">
+      ${catTag(t.category)}
+      ${t.is_keyword?'<span class="kw">MTG keyword</span>':''}
+      <h3>${esc(t.root)}</h3>
+      <div class="gloss">${esc(t.gloss)}</div>
+      <div class="mini">
+        <span title="natural-language / flavor uses"><b>${t.flavor_total}</b> prose</span>
+        <span title="cards with the word in the title"><b>${t.name_match_count}</b> cards</span>
+        ${t.has_essay?'<span title="has a Word History">✦ history</span>':t.has_etym?'<span title="etymology written">📜 etym</span>':''}
+      </div>
+    </div>
+  </a>`;
+}
+function render(){
+  let list=TERMS.filter(t=>{
+    if(activeCat!=="all" && t.category!==activeCat) return false;
+    if(q){ const s=(t.root+" "+t.gloss+" "+t.category).toLowerCase(); return s.includes(q); }
+    return true;
+  }).sort(sortTerms);
+  document.getElementById("grid").innerHTML=list.map(card).join("");
+  document.getElementById("empty").hidden=list.length>0;
+}
+function chips(){
+  const counts={}; TERMS.forEach(t=>counts[t.category]=(counts[t.category]||0)+1);
+  const el=document.getElementById("chips");
+  const mk=(key,label,color)=>`<span class="chip ${key===activeCat?'on':''}" data-c="${key}" ${color?`style="${key===activeCat?`background:${color};`:''}"`:''}>${label}${key!=="all"?` <b>${counts[key]||0}</b>`:""}</span>`;
+  el.innerHTML=mk("all","All "+TERMS.length,"var(--gold)")+CAT_ORDER.filter(c=>counts[c]).map(c=>mk(c,CATS[c].label,CATS[c].color)).join("");
+  el.querySelectorAll(".chip").forEach(ch=>ch.onclick=()=>{activeCat=ch.dataset.c;chips();render();});
+}
+
+(async function(){
+  mountChrome("index.html");
+  const [idx, counts] = await Promise.all([getJSON("data/terms_index.json"), getJSON("data/counts.json").catch(()=>null)]);
+  TERMS=idx.terms;
+  const cards = counts? counts.meta.cards_analyzed : 34629;
+  const galleryCards = TERMS.reduce((a,t)=>a+t.name_match_count,0);
+  document.getElementById("statband").innerHTML=`
+    <div class="s"><b>${cards.toLocaleString()}</b><span>cards mined</span></div>
+    <div class="s"><b>${TERMS.length}</b><span>magic terms</span></div>
+    <div class="s"><b>7</b><span>themed families</span></div>
+    <div class="s"><b>${galleryCards.toLocaleString()}</b><span>cards in galleries</span></div>`;
+  chips(); render();
+  const si=document.getElementById("search");
+  si.oninput=()=>{q=si.value.trim().toLowerCase();render();};
+  document.getElementById("sort").onchange=e=>{sortMode=e.target.value;render();};
+})();
+</script>
+</body>
+</html>
