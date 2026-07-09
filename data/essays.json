@@ -1,6 +1,74 @@
 {
   "_about": "Word Histories — flagship long-form pages on a term's origin, etymology, and historical usage. Grounded in Ted's databases + PDF library via scripts/research.py (see docs/RESEARCH_METHOD.md). Each 'sources' entry cites a real work surfaced in data/research/<slug>.json — verify against the source before quoting. Rendered in the 'Word History' tab + histories.html. (File name kept as essays.json for pipeline stability.)",
   "essays": {
+    "wizard": {
+      "title": "Wizard: the wise man who went wrong",
+      "dek": "The word began as a compliment. Watch a sage curdle into a suspect.",
+      "read_min": 3,
+      "html": "<p>Magic: The Gathering has 1,288 creatures with the <em>Wizard</em> type — its single largest class of magic-user, and, tellingly, its bluest, blue being the game's color of knowledge. That is exactly right, because <strong>wizard</strong> began not as a word for power but as a word for <em>wisdom</em>. Middle English <em>wysard</em>, first recorded around 1440, joined <em>wys</em> ('wise') to the suffix <em>-ard</em>, and it meant a philosopher, a sage — a wise man, full stop.</p><p>Then it curdled. The suffix <em>-ard</em> is a souring one: it makes <em>drunkard</em>, <em>coward</em>, <em>sluggard</em>, <em>dullard</em>, and by the 1550s it was doing the same to the wise man. A <em>wizard</em> came to mean one whose wisdom had strayed into forbidden art — a knower of too much. The hardening tracks a real historical squeeze: this is the century in which England began prosecuting its 'cunning folk,' the village healers and finders whose learning, as Keith Thomas shows in <em>Religion and the Decline of Magic</em>, was recategorized from useful to illicit. The word's fall is the culture's suspicion, fossilized.</p><p>Fantasy then restored the honorific. Tolkien's Gandalf (1954) is a sage before he is a spellcaster, and the game inherits that dignity: its wizards <em>study</em>, and in Strixhaven (2021) the whole setting became a university of them. But both lives of the word survive on the cards — the revered adept and the meddler who knew too much. A wizard is, etymologically, only a wise guy; whether that is a compliment has always depended on who is saying it.</p>",
+      "sources": [
+        {"label": "Etymonline, s.vv. wizard, -ard", "where": "Etymology reference"},
+        {"label": "Keith Thomas, Religion and the Decline of Magic (cunning folk)", "where": "Renaissance magic (PDF)"},
+        {"label": "the corpus (Wizard creature type, color distribution)", "where": "Corpus"}
+      ]
+    },
+    "sorcerer": {
+      "title": "Sorcerer: the dice buried in the word",
+      "dek": "Hidden inside 'sorcery' is an ancient technique — the casting of lots.",
+      "read_min": 3,
+      "html": "<p>A <strong>sorcerer</strong> and a <a href=\"term.html?t=wizard\">wizard</a> are, on the surface, the same thing — a worker of magic — but the words carry different weather. The wizard studies; the sorcerer <em>channels</em>, and keeps a whiff of the illicit the wizard has mostly shed. That difference is buried in the etymology, and it is a genuine surprise.</p><p><strong>Sorcerer</strong> comes through Old French <em>sorcier</em> from Vulgar Latin <em>sortiarius</em> — literally 'a caster of lots,' from Latin <em>sors, sortem</em>, 'lot, fate.' A sorcerer was, at the root, not a spell-slinger but a <em>diviner</em>: one who told fortunes and manipulated fate by casting lots, drawing straws, opening a book at random. The same <em>sors</em> gives us <em>sortilege</em>, which the RenaissanceMagicDB defines precisely as 'divination through the casting of lots — dice, marked objects, or randomly selected passages.' The magical sense we now hear arrives in English only around the 1520s, layered over that older fortune-telling core.</p><p>Magic: The Gathering has, without meaning to, buried the word even deeper. In the game <em>Sorcery</em> is a card <em>type</em> — a spell you can cast only at 'sorcery speed,' on your own turn — a purely mechanical term with no fortune-telling left in it at all. And yet the pun holds: every Sorcery is drawn from the top of a shuffled deck, a throw of the dice. The word came full circle to chance without anyone noticing.</p>",
+      "sources": [
+        {"label": "Etymonline, s.v. sorcerer (Latin sortiarius ‹ sors)", "where": "Etymology reference"},
+        {"label": "RenaissanceMagicDB, s.v. sortilegium", "where": "RenaissanceMagicDB"},
+        {"label": "the corpus (Sorcery card type)", "where": "Corpus"}
+      ]
+    },
+    "witch": {
+      "title": "Witch: the word older than the trials",
+      "dek": "One of the oldest magic-words in English, and among the most fought-over.",
+      "read_min": 4,
+      "html": "<p><strong>Witch</strong> is one of the oldest words in this whole lexicon, and one of the murkiest. Old English had <em>wicce</em> (feminine) and <em>wicca</em> (masculine), beside the verb <em>wiccian</em>, 'to work magic' — but the root beneath them is genuinely uncertain, perhaps tied to a sense of 'bending' or of 'sacred rite.' It is older than nearly every learned magic-word English later borrowed from Greek and Latin, and its pre-history is a real dead end. That obscurity is fitting for a word that has spent a thousand years being defined by other people.</p><p>Its darkest definition came in the early modern centuries. The witch trials killed tens of thousands, powered by manuals like the <em>Malleus Maleficarum</em> (1487) that fused folk <a href=\"term.html?t=maleficium\">maleficium</a>, heresy, and a lurid demonology into a single crime. The great achievement of modern scholarship was to take that story apart: Norman Cohn's <em>Europe's Inner Demons</em> showed the sabbat to be a fantasy assembled by inquisitors from older libels, Keith Thomas set witchcraft in its social world, and Carlo Ginzburg's <em>The Night Battles</em> uncovered, beneath the trial records, a folk-magic reality — the Friulian <em>benandanti</em> who believed they fought witches in dream-battles for the harvest — that the courts could only hear as devil-worship.</p><p>Then the word was reclaimed. In 1954 Gerald Gardner's Wicca — a new religion stitched, as Ronald Hutton's <em>The Triumph of the Moon</em> demonstrates, from Romantic, Masonic, and folkloric threads, and from Margaret Murray's since-discredited witch-cult thesis — turned 'witch' into a chosen, positive identity. Magic: The Gathering inherits chiefly the fairy-tale witch of Eldraine and the covens of Innistrad. But the word holds all of it at once: the obscure ancient practitioner, the innocent burned as one, and the modern who claims the name with pride.</p>",
+      "sources": [
+        {"label": "Bosworth–Toller, s.vv. wicce, wicca", "where": "Classical lexica"},
+        {"label": "Norman Cohn, Europe's Inner Demons", "where": "Renaissance magic (PDF)"},
+        {"label": "Carlo Ginzburg, The Night Battles", "where": "Renaissance magic (PDF)"},
+        {"label": "Ronald Hutton, The Triumph of the Moon", "where": "Renaissance magic (PDF)"},
+        {"label": "Etymonline, s.v. witch", "where": "Etymology reference"}
+      ]
+    },
+    "warlock": {
+      "title": "Warlock: the broken oath",
+      "dek": "Not a male witch by origin — an oath-breaker. The pact is in the word.",
+      "read_min": 3,
+      "html": "<p>Modern fantasy treats a <strong>warlock</strong> as a male magic-user, often one who draws power from a bargain with a darker patron — the pact-caster of Dungeons &amp; Dragons and of Magic: The Gathering. By origin the word has nothing to do with being male, and everything to do with the bargain.</p><p>Old English <em>wǣrloga</em> means 'oath-breaker, traitor' — <em>wǣr</em>, 'a pledge, a covenant,' plus <em>-loga</em>, 'a liar,' from <em>lēogan</em>, 'to lie.' A warlock is, at the root, a <em>covenant-breaker</em>, and the word's first great referent was the Devil himself: the archetypal traitor, the being who broke faith with God. Only later, and chiefly in Scots, did it drift toward 'a man in league with the Devil,' and thence to the fantasy 'male witch' — a folk-symmetry with <a href=\"term.html?t=witch\">witch</a> that the etymology never actually supported.</p><p>What is uncanny is how the modern game-warlock circles back to the oath. The Dungeons &amp; Dragons warlock is defined by a pact sworn to a patron — a fiend, a fey, a Great Old One — and the whole drama of the class is that the power is <em>borrowed on terms</em>. That is, precisely, a covenant, and the danger in it is precisely that covenants can be broken. A thousand years on, the warlock is still defined by an oath: not the pledge kept, like the paladin's, but the pledge made in the dark, and never quite safe.</p>",
+      "sources": [
+        {"label": "Bosworth–Toller, s.v. wǣrloga", "where": "Classical lexica"},
+        {"label": "Etymonline, s.v. warlock", "where": "Etymology reference"}
+      ]
+    },
+    "curse": {
+      "title": "Curse: a word whose own origins are cursed",
+      "dek": "An etymological dead end — fitting for a word about doom.",
+      "read_min": 3,
+      "html": "<p>Almost every word in this study can be traced somewhere — to Greek, to Latin, to Arabic, to a Persian priesthood. <strong>Curse</strong> cannot. Old English <em>curs</em> appears before 1050 with no secure cognate in any related language: not in the other Germanic tongues, not in Latin, not anywhere. It is one of the genuine dead ends of English etymology — a curse-word whose own past is, fittingly, cursed to obscurity.</p><p>The obscurity of the word is in inverse proportion to the vividness of the thing. The curse is the best-attested magic in the entire archaeological record. From across the Greek and Roman world survive thousands of <em>defixiones</em> — thin lead tablets inscribed with binding curses, folded, pierced with a nail, and buried in graves or wells or springs. John Gager's collection catalogues them: curses against rival shopkeepers, against chariot teams, against lovers and thieves and litigants. This is not the rarefied magic of the philosopher-<a href=\"term.html?t=magus\">magus</a>; it is the everyday hostility of ordinary people, made permanent in lead.</p><p>Magic: The Gathering makes 'Curse' an Aura subtype — an enchantment you fasten onto an opponent, so it sits on <em>their</em> side of the table, doing them slow harm. That is, remarkably, the exact logic of the <em>defixio</em>: a small inscribed object, aimed at a specific person, that binds misfortune to them at a distance. The oldest hostile magic we can dig up is still, on the cards, hostile magic — and the word for it still refuses to say where it came from.</p>",
+      "sources": [
+        {"label": "Etymonline, s.v. curse", "where": "Etymology reference"},
+        {"label": "John G. Gager, Curse Tablets and Binding Spells from the Ancient World", "where": "Reference"},
+        {"label": "the corpus (Curse Aura subtype)", "where": "Corpus"}
+      ]
+    },
+    "mage": {
+      "title": "Mage: from a Persian priesthood to a fantasy class",
+      "dek": "The root of the word 'magic' itself is a foreign fire-priest.",
+      "read_min": 3,
+      "html": "<p><strong>Mage</strong> is the lean, lofty synonym at the center of the whole family — and it is the family's root. It descends from Latin <em>magus</em>, from Greek <em>magos</em>, from Old Persian <em>maguš</em>: the Zoroastrian priestly caste of Persia, keepers of fire and readers of the stars. Their name is the origin not only of <em>mage</em> but of <em>magic</em>, <em>magician</em>, and the biblical <em>magi</em>. To use any of these words is to name a Persian priesthood you have probably never thought about.</p><p>The word's double edge was fixed early. To a Greek or a Roman the <em>magos</em> could be a revered eastern sage or a suspect foreign charlatan, and the New Testament sharpened the split: the wise men who followed the star are <em>magi</em>, but Simon 'the magus' in Acts is the false wonder-worker whose name gives us <em>simony</em>. The Renaissance then staged a deliberate rehabilitation. Ficino, Pico, and Agrippa reclaimed the <em>magus</em> as the philosopher-magician, the wise co-worker with nature — the figure Frances Yates made famous as the 'Renaissance Magus,' and whom Paola Zambelli's sources still gloss with the old commonplace that <em>magus</em> simply 'means wise man in Persian.'</p><p>Magic: The Gathering uses <em>mage</em> more than almost any other magic-word in its flavor text — some 417 appearances — and built an entire set, Strixhaven, around five colleges of them. It is a long way from a fire-altar in Persia to a card subtype, but the word has carried, intact, the same essential claim the whole time: that some people know how the cosmos really works, and can act on it.</p>",
+      "sources": [
+        {"label": "Etymonline, s.v. magus / mage (Greek magos ‹ Old Persian maguš)", "where": "Etymology reference"},
+        {"label": "Frances Yates, Giordano Bruno and the Hermetic Tradition", "where": "Renaissance magic (PDF)"},
+        {"label": "Paola Zambelli, Astrology and Magic", "where": "Renaissance magic (PDF)"},
+        {"label": "the corpus (mage flavor-text frequency; Strixhaven)", "where": "Corpus"}
+      ]
+    },
     "theurgy": {
       "title": "Theurgy: the high magic that worked on the gods",
       "dek": "Greek 'god-working' — the sacramental magic of Iamblichus and Proclus, and the alibi that made a thousand years of learned magic respectable.",
