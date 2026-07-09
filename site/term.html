@@ -142,7 +142,7 @@ function gcard(c){
       <div class="stat"><b>${st.name_match_count}</b><span>cards in title</span></div>
       <div class="stat"><b>${st.first_year||'—'}</b><span>first printed</span></div>
     </div>
-    <div class="panel"><h2 class="sec">Colour identity <small>the Magic colours of every card using this word</small></h2>
+    <div class="panel"><h2 class="sec">Color identity <small>the Magic colors of every card using this word</small></h2>
       ${colorBar(st.colors,22)}
       <div style="display:flex;flex-wrap:wrap;gap:.8rem;margin-top:.6rem;font-size:.8rem;color:var(--muted)">
         ${WUBRG.filter(c=>st.colors[c]).map(c=>`<span><span class="pip ${c}"></span> ${COLORNAME[c]} ${st.colors[c]}</span>`).join("")}</div></div>

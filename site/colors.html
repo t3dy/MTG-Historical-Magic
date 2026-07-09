@@ -46,7 +46,7 @@
   }).join("");
   document.getElementById("rows").innerHTML=rows;
 
-  // auto-findings: dominant colour per category
+  // auto-findings: dominant color per category
   const pct=(d,c)=>{const t=WUBRG.reduce((a,k)=>a+(d[k]||0),0)||1;return Math.round(100*(d[c]||0)/t);};
   const dom=cat=>{const d=data[cat];let best="C",bv=-1;["W","U","B","R","G"].forEach(c=>{if((d[c]||0)>bv){bv=d[c]||0;best=c;}});return best;};
   const f=[];
