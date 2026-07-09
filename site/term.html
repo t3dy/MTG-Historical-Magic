@@ -71,6 +71,9 @@
   .prevnext{display:flex;justify-content:space-between;margin:1.4rem 0 0;gap:1rem}
   .prevnext a{color:var(--muted);font-size:.9rem}
   .note{color:var(--muted);font-size:.85rem;font-style:italic}
+  .defn .xref{text-decoration:none;border-bottom:1px dotted var(--gold-dim)}
+  .defn .xref em{color:#e9dcc0;font-style:italic}
+  .defn .xref:hover{border-bottom-color:var(--gold)}
 </style>
 </head>
 <body>
@@ -88,6 +91,16 @@ const KW_NOTE = {
   cascade:"“Cascade” — cast the next spell free from atop your deck; a chain-conjuring.",
 };
 function md(t){ return esc(t||"").replace(/\*([^*]+)\*/g,"<em>$1</em>"); }
+let TERMSET={}, CURSLUG="";
+// Like md(), but an italicized word that names another term page becomes a cross-link.
+function mdlink(t){
+  return esc(t||"").replace(/\*([^*]+)\*/g,(m,inner)=>{
+    const key=inner.toLowerCase().trim();
+    const slug=TERMSET[key]||TERMSET[key.replace(/s$/,"")]||TERMSET[key.replace(/es$/,"")];
+    if(slug && slug!==CURSLUG) return `<a class="xref" href="term.html?t=${slug}"><em>${inner}</em></a>`;
+    return `<em>${inner}</em>`;
+  });
+}
 function bar(label,val,max){
   const w=max>0?Math.max(2,Math.round(val/max*100)):0;
   return `<div class="bar"><div class="lbl">${esc(label)}</div><div class="track"><div class="fill" style="width:${w}%"></div></div><div class="val">${val}</div></div>`;
@@ -117,6 +130,9 @@ function galleryBySet(cards){
   try{ [d, idx]=await Promise.all([getJSON(`data/terms/${slug}.json`), getJSON("data/terms_index.json")]); }
   catch(e){ root.innerHTML=`<div class="wrap"><p class="note">Term not found. <a href="index.html">← back to all terms</a></p></div>`; return; }
   document.title=`${d.root} — The Vocabulary of Magic`;
+  // cross-link map: italicized term-words in the definition/history link to their pages
+  CURSLUG=slug;
+  idx.terms.forEach(t=>{ TERMSET[t.slug]=t.slug; if(t.slug.includes("-")) TERMSET[t.slug.replace(/-/g," ")]=t.slug; });
   const cm=CATS[d.category]||{label:d.category};
   const st=d.stats, ety=d.etymology;
   const heroArt=(d.thumb&&d.thumb.art)|| (d.cards[0]&&d.cards[0].img_normal)||"";
@@ -147,7 +163,7 @@ function galleryBySet(cards){
   const variantRows=Object.entries(st.by_variant);
   const vmax=Math.max(...variantRows.map(([,v])=>v),1);
   const defBlock=`<div class="panel"><h2 class="sec">Definition</h2>
-    <p class="defn">${d.definition?md(d.definition):esc(d.gloss)}</p></div>`;
+    <p class="defn">${d.definition?mdlink(d.definition):esc(d.gloss)}</p></div>`;
   const overview=`<div class="pane on" data-k="overview">
     ${defBlock}
     ${ety&&ety.hook?`<div class="callout"><div class="k">The hook</div>${esc(ety.hook)}</div>`:""}
@@ -197,7 +213,7 @@ function galleryBySet(cards){
   const refSrc=[...(d.def_sources||[]).map(s=>s.label), ...(d.sources||[])];
   const src=[...new Set(refSrc)].map(s=>`<li>${esc(s)}</li>`).join("");
   const historyBlock = d.history ? `<div class="panel"><h2 class="sec">History <small>how the word developed</small></h2>
-    <p class="defn">${md(d.history)}</p>
+    <p class="defn">${mdlink(d.history)}</p>
     ${(d.def_sources&&d.def_sources.length)?`<div class="srcline">${d.def_sources.map(s=>esc(s.label)).join(" · ")}</div>`:""}</div>`
     : `<div class="panel"><h2 class="sec">History <small>how the word developed</small></h2>
     <p class="note">A written history for this term is in progress. The etymology and cited scholarship below are its raw material.</p></div>`;
