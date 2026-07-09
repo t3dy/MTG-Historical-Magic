@@ -84,5 +84,10 @@ ep-1 full script + 4 outlines (`data/podcast.json`, `docs/podcast/`). Visualizat
 Charts: Insights (flavor-vs-rules scatter), **Loanword Atlas** (origins by language), **Color of
 Magic** (WUBRG per family), **Timeline** (stacked-area 1993–2026 + debuts), **Mosaic** (treemap).
 Pipeline gained `build_terms.py` (per-term detail + timeline.json + colors.json aggregates) and
-`fetch_card_images.py`. Portfolio piece for Ted's MTG-content-creator coach. Next: record ep 1;
-optional per-card set/rarity filters in galleries; deploy (GitHub Pages/Vercel — run build first).
+`fetch_card_images.py`. All 112 terms researched (`research.py` → dossiers auto-surfaced on Etymology
+tabs); 12 cited Word Histories. **Historical timeline** (`timeline-history.html`, 366 entries) built
+by `build_history_timeline.py` from `data/history_seed/*.json` + etymology-derived + MTG-debut
+entries; entry template in `docs/TIMELINE_TEMPLATE.md`. **DEPLOYED** to GitHub Pages:
+https://t3dy.github.io/MTG-Historical-Magic/ (repo `t3dy/MTG-Historical-Magic`, auto-deploy via
+`.github/workflows/pages.yml` on push to main; `site/data` + `site/img` are committed, `data/raw` +
+`cards.jsonl` git-ignored). Portfolio piece for Ted's MTG-content-creator coach.

@@ -186,3 +186,16 @@ Decisions get logged below as we make them.
   (theurgy, goetia — absent from the cards but worth a full etymology page; flagged "not in the card
   set" → **112 pages**). **Remaining:** more histories from the rich dossiers; page-level page
   numbers by opening the PDFs; deploy (run the build first — `site/data` + `site/img` are ignored).
+- 2026-07-08 — **Historical timeline + LIVE DEPLOYMENT.**
+  - **Timeline** (`site/timeline-history.html`, nav "Timeline"): 366 dated entries on the origin &
+    development of magical words/texts/figures/traditions/practices, antiquity → the Scry keyword.
+    Built by `build_history_timeline.py` from hand-authored `data/history_seed/*.json` (124 entries,
+    7 era files) + word-origin/attestation entries auto-derived from `etymology.json` + MTG-debut
+    points. Filters by kind (Words 195, Texts 63, Figures 21, Traditions 10, Practices 15, MTG 62),
+    era spine, search, term-page links. Entry template: `docs/TIMELINE_TEMPLATE.md`. Disambiguated
+    from the MTG stacked-area chart (`timeline.html` = "Vocabulary over Time (in Magic)").
+  - **QA:** 0 dead links across 12 pages; all data files present; every viz page has an explanation.
+  - **Deployed** to https://t3dy.github.io/MTG-Historical-Magic/ via GitHub Actions Pages
+    (`.github/workflows/pages.yml`); `site/data` + `site/img` committed (34MB), `data/raw` +
+    `cards.jsonl` ignored. Live-verified: homepage/data/dossiers/images all HTTP 200, 366 entries.
+    README rewritten with live link + process/values/goals.
