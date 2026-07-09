@@ -48,6 +48,16 @@ Run order documented in `README.md`. Prefer Python + stdlib + `requests`; use `n
 lemmatization only if we commit to it (see open question in RESEARCH_PLAN). A regex-root fallback is
 built in so the pipeline runs with zero heavy deps.
 
+## Writing — the style guide governs everything
+
+**All site copy follows [`docs/STYLE_GUIDE.md`](docs/STYLE_GUIDE.md)** (voice, values, citation,
+house conventions) + the per-type templates in `docs/templates/` (term_definition, term_history,
+word_history, data_viz, page_intro) and `docs/TIMELINE_TEMPLATE.md`. Content lives in:
+`data/definitions.json` (per-term Definition + History — the workhorse, one for every term),
+`data/etymology.json` (origins/attestation/hook + lang), `data/essays.json` (flagship Word
+Histories), `data/history_seed/*.json` (timeline). Ground every claim in the research corpus
+(below); American spelling; italic for *terms* and *titles*; cite 1–4 sources, verified.
+
 ## Researching terms (Word Histories) — cite Ted's own scholarship
 
 The site's **Word Histories** (deep pages on a term's origin/etymology/historical usage) must be

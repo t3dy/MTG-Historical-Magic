@@ -1,0 +1,220 @@
+{
+  "_about": "Per-term Definition + History for every term page (Overview tab shows the definition; Origin & History tab shows the history). Written to docs/templates/term_definition.md and term_history.md, grounded in the research dossiers (data/research/) + etymology.json + the databases. Verify quotes against sources before citing. Flagship terms also have a long-form Word History in data/essays.json.",
+  "terms": {
+    "wizard": {
+      "definition": "A wizard is a worker of *learned* magic — one whose power comes from study, books, and mastered lore rather than from a pact or an inborn gift. In the fantasy tradition the wizard is the scholarly magic-user par excellence, staff in one hand and grimoire in the other.",
+      "history": "The word begins as an honorific: Middle English *wysard*, 'wise one' (from *wys*, 'wise,' + the agent-suffix *-ard*), meaning a sage or philosopher. Only in the 1550s does it harden toward the sinister — a man whose wisdom shades into forbidden art. Tolkien's Gandalf fixed the modern image in 1954, and Magic: The Gathering inherits it wholesale: *Wizard* is the game's largest magic-user type, 1,288 creatures strong, and skews blue — the color of knowledge.",
+      "sources": [{"label": "Etymonline, s.v. wizard", "where": "Etymology reference"}, {"label": "the corpus (Wizard subtype)", "where": "Corpus"}]
+    },
+    "sorcerer": {
+      "definition": "A sorcerer wields *sorcery* — magic figured as innate or fate-bending, worked by will and formula. Where a wizard studies, the sorcerer channels; the line is loose, but the sorcerer keeps a whiff of the illicit.",
+      "history": "Buried in the word is an ancient practice: *sorcerer* comes through Old French *sorcier* from Vulgar Latin *sortiarius*, 'a caster of lots,' from Latin *sors, sortem*, 'lot, fate' — the same *sors* behind *sortilege*. A sorcerer was, at root, one who manipulates fortune by casting lots. The magical sense arrives in English around the 1520s. In Magic the word survives mostly as the card type *Sorcery*, a rules term now, far from its fortune-telling origin.",
+      "sources": [{"label": "Etymonline, s.v. sorcerer", "where": "Etymology reference"}, {"label": "RenaissanceMagicDB, s.v. sortilegium", "where": "RenaissanceMagicDB"}]
+    },
+    "witch": {
+      "definition": "A witch is a practitioner of witchcraft — folk and ritual magic, healing or harming — historically and unjustly imagined as bound in pact to the Devil. One of the oldest magic-words in English, and among the most contested.",
+      "history": "Old English had *wicce* (feminine) and *wicca* (masculine), beside the verb *wiccian*, 'to work magic'; the deeper root is genuinely uncertain, perhaps tied to 'bending' or to 'sacred rite.' The word's darkest chapter is early-modern — the trials that killed tens of thousands, powered by manuals like the *Malleus Maleficarum* (1487). Modern scholarship (Thomas, Cohn, Ginzburg, Hutton) dismantled the myth of a real witch-cult, and 20th-century Wicca reinvented the witch as a chosen, positive identity.",
+      "sources": [{"label": "Bosworth–Toller, s.v. wicce", "where": "Classical lexica"}, {"label": "Ronald Hutton, The Triumph of the Moon", "where": "Renaissance magic (PDF)"}, {"label": "Norman Cohn, Europe's Inner Demons", "where": "Renaissance magic (PDF)"}]
+    },
+    "warlock": {
+      "definition": "A warlock is, in modern fantasy, a male magic-user — often one who draws power from a pact with a darker patron. By origin the word has nothing to do with being male: it means an oath-breaker.",
+      "history": "Old English *wǣrloga* is 'oath-breaker, traitor' — *wǣr*, 'pledge,' + *-loga*, 'liar.' Applied first to the Devil himself, the great covenant-breaker, it drifted in Scots toward 'a man in league with the Devil,' and thence to the fantasy 'male witch.' The pact-with-a-patron flavor of the modern warlock is, remarkably, latent in the etymology: a warlock is defined by a broken or dark covenant.",
+      "sources": [{"label": "Etymonline, s.v. warlock", "where": "Etymology reference"}, {"label": "Bosworth–Toller, s.v. wǣrloga", "where": "Classical lexica"}]
+    },
+    "mage": {
+      "definition": "A mage is a magic-user — the lean, lofty synonym of *wizard* and *magician*, carrying a faint hieratic dignity. It is the commonest literary word for a spellcaster in the game.",
+      "history": "*Mage* descends from Latin *magus*, from Greek *magos*, from Old Persian *maguš* — the Zoroastrian priestly caste of Persia, keepers of fire and star-lore. Their name is the root of *magic* itself, and of the biblical *magi*. The word enters English in the late 14th century. Magic uses *mage* more than almost any other magic-word in its flavor text (417 uses), and built a whole set, Strixhaven, around five colleges of them.",
+      "sources": [{"label": "Etymonline, s.v. magus / mage", "where": "Etymology reference"}, {"label": "the corpus", "where": "Corpus"}]
+    },
+    "shaman": {
+      "definition": "A shaman is a spirit-mediating specialist — one who enters trance to travel among spirits, heal, and divine on a community's behalf. In fantasy the shaman is the primal magic-user, close to nature and the ancestors.",
+      "history": "Unlike almost every other word here, *shaman* is not European: English took it in the 1690s from Russian *shamán*, from the Tungusic (Evenki) *šamán* of Siberia. Anthropology then stretched it to cover trance-specialists worldwide — a generalization scholars now handle with care. Magic makes *Shaman* a major creature type, skewing green and red, the colors of nature and primal fury.",
+      "sources": [{"label": "Etymonline, s.v. shaman", "where": "Etymology reference"}]
+    },
+    "druid": {
+      "definition": "A druid is a priest of the ancient Celts — and, in fantasy, a nature-priest who draws magic from the living world. The word carries the forest with it.",
+      "history": "*Druid* comes through Latin *druidēs* from Gaulish, on a Proto-Celtic root *dru-wid-*, 'oak-knower' or 'strong-seer' (*dru-*, oak/strong, + *weid-*, to see/know — the same *weid-* behind *wit* and *vision*). The historical druids left no writings; nearly everything romantic about them is later reconstruction. Magic's druids are green mana-priests, tending the mana of the land.",
+      "sources": [{"label": "Etymonline, s.v. druid", "where": "Etymology reference"}]
+    },
+    "cleric": {
+      "definition": "A cleric is a divine spellcaster — one whose magic flows from a god or a sacred office rather than from arcane study. The word sits exactly on the border of religion and magic.",
+      "history": "*Cleric* comes from Late Latin *clericus*, from Greek *klērikos*, from *klēros*, 'a lot, an inheritance': the clergy are 'God's lot,' his portion. That lot-metaphor is the very one hidden in *sorcerer* (a caster of lots) — pointed, here, in the opposite, holy direction. Dungeons & Dragons made the cleric a healing spellcaster class; Magic's Clerics skew white and black, the colors of order and sacrifice.",
+      "sources": [{"label": "Etymonline, s.v. cleric", "where": "Etymology reference"}]
+    },
+    "necromancer": {
+      "definition": "A necromancer commands or consults the dead — in the older sense a diviner who questions spirits for hidden knowledge, in the modern fantasy sense a sorcerer who raises corpses to serve. Magic means the latter.",
+      "history": "To a Greek, *nekromanteia* was corpse-*divination* — summoning the dead to ask them, as Odysseus does in the Odyssey — and it belonged with augury and scrying. The turn came in medieval Latin, which reshaped *necromantia* into *nigromantia*, as if from *niger*, 'black': death-divination was folk-etymologized into 'the black arts,' and its link to the dead loosened. The full story is in this term's Word History.",
+      "sources": [{"label": "RenaissanceMagicDB, s.v. necromantia", "where": "RenaissanceMagicDB"}, {"label": "Frank Klaassen, The Transformations of Magic", "where": "Medieval magic (PDF)"}]
+    },
+    "summon": {
+      "definition": "To summon is to call a being — spirit, demon, or creature — into presence and service. A summoning brings something *here*; the drama is in what answers.",
+      "history": "Latin *summonēre* meant 'to remind privately, to hint' (*sub-* + *monēre*, 'to warn'); the legal *summons* and the magical *summoning* share that root sense of a formal calling-forth. The occult sense sharpens in the ritual-magic tradition, where to summon a spirit was to compel it to appear by name and seal. Magic once headed every creature spell 'Summon' (Summon Wizard); the wording is gone, but calling a creature into play is still the heart of the game.",
+      "sources": [{"label": "Etymonline, s.v. summon", "where": "Etymology reference"}]
+    },
+    "hex": {
+      "definition": "A hex is a curse — a spell worked to harm — and, as a verb, to lay one. It is the homely, folk-magic word for malice worked at a distance.",
+      "history": "*Hex* is a young loan for an old idea: American English took it in the 1830s from Pennsylvania-German *Hexe*, 'witch,' from Old High German *hagazussa*, 'hedge-rider' — the witch who rides the hedge between the tame village and the wild beyond. So a hex is, at root, hedge-magic. Magic uses the word in curse-and-witch flavor and in *Hexproof* — protection from being targeted, that is, from being hexed.",
+      "sources": [{"label": "Etymonline, s.v. hex", "where": "Etymology reference"}]
+    },
+    "curse": {
+      "definition": "A curse is a malediction — words or rites meant to bring harm, misfortune, or doom on a target. It is the oldest hostile magic, and among the best-attested in the archaeological record.",
+      "history": "*Curse* is an etymological dead end: Old English *curs*, of genuinely unknown origin, with no secure cognate in any related language — a curse-word whose own past is, fittingly, obscure. The practice is ancient and vivid: Greek and Roman *defixiones*, lead tablets inscribed with binding curses, survive by the thousand. Magic makes 'Curse' an Aura subtype — an enchantment you fix onto an opponent.",
+      "sources": [{"label": "Etymonline, s.v. curse", "where": "Etymology reference"}, {"label": "John Gager, Curse Tablets and Binding Spells", "where": "Reference"}]
+    },
+    "enchant": {
+      "definition": "To enchant is to bind someone or something under a spell — and, softened, to charm or delight. An *enchantment* is the spell so laid, or the lasting magical effect it leaves.",
+      "history": "The word is literally a song: Latin *incantare*, 'to sing a spell upon' (*in-* + *cantare*, 'to sing') — the same *cantare* behind *chant*, *incantation*, and *cantor*. Its learned twin, *incant*, is the very same Latin word borrowed twice, once early through French and once late from books. In Magic, *Enchant* is the defining keyword of the Aura — the spell you sing onto a permanent — and 'enchantment' is a core card type.",
+      "sources": [{"label": "Etymonline, s.v. enchant", "where": "Etymology reference"}]
+    },
+    "spell": {
+      "definition": "A spell is a formula of words that works magic — the utterance that does something. In the game it is the most basic unit of action: a card you cast.",
+      "history": "Old English *spell* meant simply 'a saying, a story, a sermon' — *gospel* is *gōd-spell*, 'good news,' and spelling out letters is the same word. The 'magic formula' sense is the youngest of the three, sharpening around 1580. Magic made *spell* its most fundamental term, which is why it shows up in over 8,000 rules texts but barely a hundred flavor texts: in Magic, 'spell' is mechanics, not story.",
+      "sources": [{"label": "Etymonline, s.v. spell", "where": "Etymology reference"}, {"label": "the corpus", "where": "Corpus"}]
+    },
+    "ward": {
+      "definition": "A ward is a protective magical guard — a boundary or charm that keeps harm out. To ward is to defend by such means.",
+      "history": "*Ward* is Old English *weardian*, 'to guard, watch' (Proto-Germanic *wardōn*); French borrowed the same Germanic root back as *guard*, making the two a doublet split by the Channel. A magical ward is protective magic in its oldest, plainest form. Magic made *Ward* an evergreen keyword in 2020 — a tax an opponent must pay to target the warded permanent — the ancient shielding charm rendered as a rule.",
+      "sources": [{"label": "Etymonline, s.v. ward", "where": "Etymology reference"}, {"label": "the corpus", "where": "Corpus"}]
+    },
+    "divine": {
+      "definition": "To divine is to discover the hidden — especially the future — by supernatural means. *Divination* is the whole art; a *diviner* practices it. The word claims a godlike power of sight.",
+      "history": "Latin *divinare*, 'to foresee,' from *divinus*, 'of a god': to divine is to do what the gods do, know what is hidden. The Roman world formalized it into a state science — augury, haruspicy, the reading of oracles — that Cicero could both catalogue and doubt in his *De Divinatione*. Water-diviners kept the word literal into modern times; Magic names a card-drawing spell 'Divination' — foresight as card advantage.",
+      "sources": [{"label": "Etymonline, s.v. divine", "where": "Etymology reference"}, {"label": "Cicero, De Divinatione", "where": "Reference"}]
+    },
+    "augur": {
+      "definition": "An augur was a Roman priest who read the will of the gods in the flight and feeding of birds; *augury* is the art. To augur is to foretell from signs.",
+      "history": "Latin *augur* named the official who took the *auspices* (*avis*, 'bird,' + *specere*, 'to look') before any public act; the word may link to *augēre*, 'to increase, to bless.' The ritual survives fossilized in *inauguration* — we still 'inaugurate' by taking good omens. Magic keeps *augury* as flavor for its blue and white seers, and made 'Augur' a recurring card name.",
+      "sources": [{"label": "Etymonline, s.v. augur", "where": "Etymology reference"}, {"label": "RenaissanceMagicDB (divination context)", "where": "RenaissanceMagicDB"}]
+    },
+    "oracle": {
+      "definition": "An oracle is a mouthpiece of prophecy — a shrine, a priestess, or the divine utterance itself. The word names both the speaker and the thing spoken.",
+      "history": "Latin *oraculum*, from *orare*, 'to speak, to pray' — an oracle is a 'speaking-place,' the god's mouth (the same *orare* behind *orator* and *oration*). Greece's oracles, above all Delphi, were institutions of state, and the Sibyls their freelance cousins. Magic's Theros set (2013) drew directly on this world, and 'Oracle' recurs as a title for its blue seers.",
+      "sources": [{"label": "Etymonline, s.v. oracle", "where": "Etymology reference"}, {"label": "H. W. Parke, Sibyls and Sibylline Prophecy", "where": "Reference"}]
+    },
+    "omen": {
+      "definition": "An omen is a portent — a sign read as foretelling good or ill. Reading omens is among the oldest of the divinatory arts.",
+      "history": "Latin *omen*, 'a foreboding sign,' of obscure ultimate root. Its most curious descendant is *abominable*, long (wrongly) parsed as *ab-omen*, 'away from a good omen' — a folk-etymology strong enough to have shaped the spelling. Mesopotamian scribes compiled vast omen-lists three thousand years before Rome; Magic uses 'Omen' in card names and, in Eldraine, as an adventure-style mechanic.",
+      "sources": [{"label": "Etymonline, s.v. omen", "where": "Etymology reference"}, {"label": "Jean Bottéro, Mesopotamia", "where": "Reference"}]
+    },
+    "astrology": {
+      "definition": "Astrology is divination by the stars and planets — reading celestial positions for their influence on earthly life. For most of history it was inseparable from astronomy.",
+      "history": "Greek *astron*, 'star,' + *-logia*, 'study.' From Babylonian omen-astronomy through Ptolemy's *Tetrabiblos* (2nd c.) and the great Arabic astrologers, astrology was a rigorous technical science — it chose the hour to make a talisman or crown a king. Only in the 17th century did astrology and astronomy divorce; Kepler cast horoscopes to the end. RenaissanceMagicDB catalogues its apparatus of aspects, dignities, and houses.",
+      "sources": [{"label": "Tamsyn Barton, Ancient Astrology", "where": "Reference"}, {"label": "RenaissanceMagicDB, s.v. aspectus", "where": "RenaissanceMagicDB"}]
+    },
+    "elixir": {
+      "definition": "An elixir is a perfecting or life-giving preparation — in alchemy the very agent of transmutation, the philosophers' stone in liquid form, and by extension the draught of health or immortality.",
+      "history": "*Elixir* comes through Medieval Latin from Arabic *al-iksīr*, 'the philosophers' stone,' itself likely from Greek *xērion*, a 'drying powder' for wounds — so the word climbs from a medical powder to the transmuting stone to the water of eternal life. That *al-* is the Arabic article, as in *alchemy* and *alcohol*. Magic uses 'Elixir' for life-giving artifacts.",
+      "sources": [{"label": "Etymonline, s.v. elixir", "where": "Etymology reference"}, {"label": "Lyndy Abraham, A Dictionary of Alchemical Imagery", "where": "Alchemy (PDF)"}]
+    },
+    "transmute": {
+      "definition": "To transmute is to change one substance into another — the central operation of alchemy, moving matter across the boundary of its own nature: lead into gold, body into spirit.",
+      "history": "Latin *transmutare* (*trans-*, 'across,' + *mutare*, 'to change') — the dream-verb of the whole alchemical project. Its theory ran from the Arabic mercury-sulphur account of metals to Newton's secret labors. In Magic, though, *Transmute* is a keyword — discard the card to search for another of equal mana value — so the word lives almost entirely in rules text: a mechanic, not a story.",
+      "sources": [{"label": "Etymonline, s.v. transmute", "where": "Etymology reference"}, {"label": "Lawrence Principe, The Secrets of Alchemy", "where": "Alchemy (PDF)"}]
+    },
+    "hermetic": {
+      "definition": "Hermetic means pertaining to Hermes Trismegistus and the occult-philosophical tradition ascribed to him — and, by extension, sealed airtight. The two senses share one strange root.",
+      "history": "The name is that of *Hermes Trismegistus*, the legendary Egyptian sage credited with the *Corpus Hermeticum*. Because alchemists sealed their vessels by his art, 'hermetically sealed' came to mean airtight — your jam jar owes its seal to a magic god. The Hermetic texts, rediscovered and translated by Ficino in 1460, lit the Renaissance revival of magic that Frances Yates made famous.",
+      "sources": [{"label": "Brian Copenhaver, Hermetica", "where": "Renaissance magic (PDF)"}, {"label": "Frances Yates, Giordano Bruno and the Hermetic Tradition", "where": "Renaissance magic (PDF)"}]
+    },
+    "quintessence": {
+      "definition": "Quintessence is the 'fifth essence' — Aristotle's incorruptible celestial element beyond earth, water, air, and fire — and, to the alchemists, the refined spirit distilled out of gross matter.",
+      "history": "From Medieval Latin *quinta essentia*, translating Aristotle's aether. John of Rupescissa, a 14th-century Franciscan, distilled alcohol and called it the quintessence, a heavenly incorruptible drawn from the earthly to fortify the body against decay. The word now means simply the purest example of a thing.",
+      "sources": [{"label": "Lyndy Abraham, A Dictionary of Alchemical Imagery", "where": "Alchemy (PDF)"}, {"label": "Leah DeVun, Prophecy, Alchemy, and the End of Time", "where": "Alchemy (PDF)"}]
+    },
+    "arcane": {
+      "definition": "Arcane means hidden, secret, known only to initiates — the adjective of esoteric knowledge. In Magic it was also, briefly, a literal spell type.",
+      "history": "Latin *arcanus*, 'shut up, secret,' from *arca*, 'a chest, a box' — the arcane is what's locked in the box (the same *arca* behind *ark*). The word carries the whole idea of magic as guarded, boxed-up knowledge. Magic's Kamigawa block made *Arcane* a spell subtype, the spirit-magic that 'Splices,' turning the adjective into a mechanic.",
+      "sources": [{"label": "Etymonline, s.v. arcane", "where": "Etymology reference"}]
+    },
+    "occult": {
+      "definition": "Occult means hidden — and, since the 17th century, the hidden *arts*: magic, astrology, alchemy, and their kin. An *occultist* practices them.",
+      "history": "Latin *occultus*, 'concealed' (past participle of *occulere*, 'to cover over'). Astronomers still say a moon *occults* a star when it passes in front and hides it — the occult is simply 'the hidden' before it was 'the sinister.' The sense 'supernatural arts' sharpens around the 1630s, and 'occultist' is a Victorian coinage, arriving with the 19th-century magical revival.",
+      "sources": [{"label": "Etymonline, s.v. occult", "where": "Etymology reference"}, {"label": "Ronald Hutton, The Triumph of the Moon", "where": "Renaissance magic (PDF)"}]
+    },
+    "mystic": {
+      "definition": "Mystic describes the hidden spiritual truth open only to inner experience — and names one who seeks it. The word is about closed eyes and sealed lips.",
+      "history": "Greek *mystikos*, from *mystēs*, 'an initiate,' from *myein*, 'to shut (the eyes or lips)' — a mystic is one who has closed to the outer world and sworn silence at the mysteries (the same root as *mystery* and *mute*). Christian, Sufi, and Kabbalist mysticisms all press toward a union beyond words. Magic's Mystics skew blue, the color of hidden knowledge.",
+      "sources": [{"label": "Etymonline, s.v. mystic", "where": "Etymology reference"}]
+    },
+    "amulet": {
+      "definition": "An amulet is a worn object of protection — a charm that wards off harm passively, by being carried. It contrasts with the *talisman*, which is actively charged to *do* something.",
+      "history": "Latin *amuletum*, 'a charm,' of uncertain origin — perhaps from *amoliri*, 'to avert, to carry trouble away.' The amulet is the oldest wearable technology: Egyptian scarabs, Roman *bullae*, medieval saints' medals all do the same job. Magic uses 'Amulet' for protective and mana artifacts.",
+      "sources": [{"label": "Etymonline, s.v. amulet", "where": "Etymology reference"}, {"label": "Geraldine Pinch, Magic in Ancient Egypt", "where": "Reference"}]
+    },
+    "sigil": {
+      "definition": "A sigil is a drawn magical sign — a symbol, often a compressed name or figure, inscribed to focus or command a power. It is the magician's mark.",
+      "history": "Latin *sigillum*, 'a little sign or seal,' diminutive of *signum*, 'sign' (the root of *signal* and *signature*). In the Solomonic tradition each spirit has its sigil, its seal of binding; RenaissanceMagicDB catalogues the *characteres* inscribed on talismans and pentacles, and John Dee's *Sigillum Dei Aemeth* is the tradition's masterpiece. Magic uses 'Sigil' widely for enchantments and tokens.",
+      "sources": [{"label": "Etymonline, s.v. sigil", "where": "Etymology reference"}, {"label": "RenaissanceMagicDB, s.v. characteres", "where": "RenaissanceMagicDB"}]
+    },
+    "rune": {
+      "definition": "A rune is a letter of magical power — one of the angular characters of the Germanic writing systems, named for the secret it was thought to hold.",
+      "history": "Old English *rūn* means 'secret, mystery, whisper'; the runic letters were named for the hidden power that knowing them conferred, and the Norse Eddas have Odin win them in self-sacrifice. The Finnish borrowing *runo* means 'poem, song.' Magic uses 'Rune' for a cycle of Aura enchantments — magical letters fixed onto a permanent.",
+      "sources": [{"label": "Etymonline, s.v. rune", "where": "Etymology reference"}, {"label": "Bosworth–Toller, s.v. rūn", "where": "Classical lexica"}]
+    },
+    "tome": {
+      "definition": "A tome is a large, weighty book — now with a connotation of ponderous learning, but originally just one volume of a longer work.",
+      "history": "Latin *tomus*, from Greek *tomos*, 'a slice, a section of a papyrus roll,' from *temnein*, 'to cut': a tome is literally a 'cut,' one part sliced from a larger whole. The modern sense of heft is a later inflation. In fantasy the tome is the wizard's book of power; Magic uses it for card-drawing artifacts — knowledge as a resource.",
+      "sources": [{"label": "Etymonline, s.v. tome", "where": "Etymology reference"}]
+    },
+    "codex": {
+      "definition": "A codex is a book made of bound leaves — the page-turning form that replaced the scroll, and the ancestor of every modern book.",
+      "history": "Latin *codex* (older *caudex*), 'tree-trunk, block of wood': before paper, the codex was a stack of wax-covered wooden tablets bound at one edge. The shift from scroll to codex in late antiquity was a media revolution — random access, two-sided pages, portability. Magic uses 'Codex' for artifacts of stored knowledge.",
+      "sources": [{"label": "Etymonline, s.v. codex", "where": "Etymology reference"}]
+    },
+    "scry": {
+      "definition": "To scry is to see the hidden or distant by gazing into a reflective surface — a crystal, a mirror, a bowl of water. In Magic it is the keyword for looking at the top of your library and reordering it.",
+      "history": "A filed-down *descry* ('to catch sight of'), from Old French *descrier*, 'to cry out'; the crystal-gazing sense dates to the 1500s and the world of John Dee's obsidian mirror. In 2004 Magic made *Scry* a keyword, giving a quiet divination word a precise new life — which is why it now lives almost entirely in rules text. The fuller story is in this term's Word History.",
+      "sources": [{"label": "Etymonline, s.v. scry / descry", "where": "Etymology reference"}, {"label": "Deborah Harkness, John Dee's Conversations with Angels", "where": "Renaissance magic (PDF)"}]
+    },
+    "alchemy": {
+      "definition": "Alchemy is the art of transformation — above all the transmutation of base metal into gold and of the body toward perfection or immortality. Historically a genuine proto-chemistry and a spiritual discipline at once.",
+      "history": "Through Medieval Latin *alkimia* from Arabic *al-kīmiyāʾ* — the *al-* is the Arabic article, as in *algebra* and *alcohol* — over a disputed Greek root (perhaps *khēmia*, 'the Egyptian art'). The word records a transmission: Greek philosophy preserved in Arabic and handed back to a Europe that had forgotten it. See the full Word History.",
+      "sources": [{"label": "Lyndy Abraham, A Dictionary of Alchemical Imagery", "where": "Alchemy (PDF)"}, {"label": "Lawrence Principe, The Secrets of Alchemy", "where": "Alchemy (PDF)"}]
+    },
+    "talisman": {
+      "definition": "A talisman is a magical object *made* powerful by ritual — inscribed, consecrated, and charged at an elected hour to draw down a specific power. It differs from an *amulet*, which merely wards: a talisman is engineered, an amulet is worn.",
+      "history": "Through Arabic *ṭilsam* from Byzantine Greek *telesma*, 'consecration' — a talisman is a *completed*, consecrated object. The astral-talisman craft is set out in the *Picatrix* and in Ficino's *De vita*: capture a planet's power in the right metal at the right hour. See the full Word History.",
+      "sources": [{"label": "Dan Attrell & David Porreca (trans.), Picatrix", "where": "Medieval magic (PDF)"}, {"label": "RenaissanceMagicDB, s.vv. lamina, characteres", "where": "RenaissanceMagicDB"}]
+    },
+    "grimoire": {
+      "definition": "A grimoire is a book of spells — the working manual of ritual magic, listing the names, seals, and rites for summoning and commanding spirits.",
+      "history": "A French deformation of *grammaire*, 'grammar' — when learning meant Latin and looked, to the unlettered, like sorcery, the grammar-book became the spell-book. The surviving grimoires (the *Key of Solomon*, the *Lesser Key*, the *Ars Notoria*) are working manuals of names, seals, and rites. See the full Word History.",
+      "sources": [{"label": "Frank Klaassen, The Transformations of Magic", "where": "Medieval magic (PDF)"}, {"label": "Joseph Peterson (ed.), grimoire editions", "where": "Medieval magic (PDF)"}]
+    },
+    "conjure": {
+      "definition": "To conjure is to summon a spirit by binding it with an oath — and, loosely, to call anything into being as if by magic. In Magic's Alchemy format it is a keyword for creating a card from nothing.",
+      "history": "Latin *coniurare*, 'to swear together' (*con-* + *iurare*) — to conjure a spirit was to bind it by a shared oath, a contract with the supernatural, the same root as *conspire* and *jury*. Magic's Alchemy format revived *Conjure* as a keyword for creating a card from nothing — the etymology turned inside out. See the full Word History.",
+      "sources": [{"label": "Richard Kieckhefer, Magic in the Middle Ages", "where": "Medieval magic (PDF)"}, {"label": "Etymonline, s.v. conjure", "where": "Etymology reference"}]
+    },
+    "pentacle": {
+      "definition": "A pentacle is a figured, charged disc of power — of metal, parchment, or wax, inscribed with divine names and symbols and wielded in ritual. Strictly it is the whole object, not the five-pointed star alone (that is the *pentagram*).",
+      "history": "Medieval Latin *pentaculum*, on Greek *pente*, 'five.' In the Solomonic tradition each pentacle is a compressed spell — divine names and *characteres* arranged to protect the magician or compel a spirit. See the full Word History.",
+      "sources": [{"label": "RenaissanceMagicDB, s.v. pentaculum", "where": "RenaissanceMagicDB"}, {"label": "Joseph Peterson (ed.), Key of Solomon", "where": "Medieval magic (PDF)"}]
+    },
+    "glamour": {
+      "definition": "A glamour is an illusion-spell that deceives the eye — and, faded into fashion, dazzling attractiveness. The two senses are one Scots word.",
+      "history": "Astonishingly, a second mutation of *grammar* (like *grimoire*): a Scots word for 'a magic spell that deceives the eye,' popularized by Walter Scott around 1830 and softened over a century into 'dazzling attractiveness.' Call a star glamorous and you call them, at root, enchanted. See the full Word History.",
+      "sources": [{"label": "Etymonline, s.vv. glamour, grammar", "where": "Etymology reference"}]
+    },
+    "phylactery": {
+      "definition": "A phylactery is a protective amulet or scripture-case — in Greek and Jewish usage a worn safeguard; in modern fantasy, the vessel hiding a lich's soul.",
+      "history": "Greek *phylaktērion*, 'a thing that guards,' from *phylassein*, 'to keep watch' — first an amulet, then the Jewish *tefillin*, a scripture-case worn on the body. Modern fantasy reassigned it to a lich's soul-jar, inverting the moral charge while keeping the core image of a small container of sealed power. See the full Word History.",
+      "sources": [{"label": "Etymonline, s.v. phylactery", "where": "Etymology reference"}, {"label": "Liddell–Scott–Jones, s.v. φυλακτήριον", "where": "Classical lexica"}]
+    },
+    "theurgy": {
+      "definition": "Theurgy is 'god-working' — the high, sacramental magic by which the Neoplatonists sought union with the divine, as against the coercive low magic of *goetia*.",
+      "history": "Greek *theourgia*, 'god-working' (*theos* + *-ergon*) — the high, sacramental magic of the Neoplatonists Iamblichus and Proclus, aimed at the soul's ascent, not at commanding spirits. It became medieval magic's alibi: *we work piously toward God, not with demons*. See the full Word History.",
+      "sources": [{"label": "RenaissanceMagicDB, s.v. theurgia", "where": "RenaissanceMagicDB"}, {"label": "Claire Fanger, Invoking Angels", "where": "Medieval magic (PDF)"}]
+    },
+    "goetia": {
+      "definition": "Goetia is low magic: the summoning and commanding of demons by ritual, named from the Greek for the sorcerer's howl. It is the opposite pole to *theurgy*.",
+      "history": "Greek *goēteia*, from *goēs*, 'a sorcerer who howls charms' — the low, coercive magic of binding demons, set at the bottom of the ladder opposite theurgy. Its monument is the *Ars Goetia* of the *Lesser Key of Solomon*, with its seventy-two named demons and their seals. See the full Word History.",
+      "sources": [{"label": "RenaissanceMagicDB, s.v. goetia", "where": "RenaissanceMagicDB"}, {"label": "Joseph Peterson (ed.), The Lesser Key of Solomon", "where": "Medieval magic (PDF)"}]
+    },
+    "exorcism": {
+      "definition": "Exorcism is the ritual casting-out of a spirit — driving out a demon not by force but by binding it with a stronger, holier oath.",
+      "history": "Greek *exorkismos*, 'a binding-out by oath' (*ex-* + *horkos*, 'oath') — you cast out a spirit not by force but by a superior oath, invoking a higher authority. In practice the exorcist and the conjurer often read from the same page. See the full Word History.",
+      "sources": [{"label": "RenaissanceMagicDB, s.v. exorcismus", "where": "RenaissanceMagicDB"}, {"label": "Frank Klaassen, The Transformations of Magic", "where": "Medieval magic (PDF)"}]
+    }
+  }
+}

@@ -83,6 +83,7 @@ const KW_NOTE = {
   bewitch:"A curse/enchantment flavor keyword — the word made mechanic.",
   cascade:"“Cascade” — cast the next spell free from atop your deck; a chain-conjuring.",
 };
+function md(t){ return esc(t||"").replace(/\*([^*]+)\*/g,"<em>$1</em>"); }
 function bar(label,val,max){
   const w=max>0?Math.max(2,Math.round(val/max*100)):0;
   return `<div class="bar"><div class="lbl">${esc(label)}</div><div class="track"><div class="fill" style="width:${w}%"></div></div><div class="val">${val}</div></div>`;
@@ -107,7 +108,7 @@ function gcard(c){
 
   // header + tabs
   const tabs=[["overview","Overview"],["gallery",`Gallery`,st.name_match_count],["flavor","Flavor",st.in_flavor_cards],
-              ["mechanics","Mechanics",st.in_oracle_cards],["etymology","Etymology"]];
+              ["mechanics","Mechanics",st.in_oracle_cards],["etymology","Origin & History"]];
   if(d.essay) tabs.push(["essay","Word History ✦"]);
   root.insertAdjacentHTML("beforeend",`
     <div class="thero">
@@ -130,8 +131,11 @@ function gcard(c){
   // ---- panes ----
   const variantRows=Object.entries(st.by_variant);
   const vmax=Math.max(...variantRows.map(([,v])=>v),1);
+  const defBlock=`<div class="panel"><h2 class="sec">Definition</h2>
+    <p class="defn">${d.definition?md(d.definition):esc(d.gloss)}</p></div>`;
   const overview=`<div class="pane on" data-k="overview">
-    ${ety&&ety.hook?`<div class="callout"><div class="k">Podcast angle</div>${esc(ety.hook)}</div>`:""}
+    ${defBlock}
+    ${ety&&ety.hook?`<div class="callout"><div class="k">The hook</div>${esc(ety.hook)}</div>`:""}
     <div class="statcards">
       <div class="stat"><b>${st.flavor_total}</b><span>flavor uses</span></div>
       <div class="stat"><b>${st.oracle_total}</b><span>rules uses</span></div>
@@ -175,15 +179,22 @@ function gcard(c){
       :'<p class="note">This word does not appear in any rules text — see the Flavor tab.</p>'}
   </div>`;
 
-  const src=(d.sources||[]).map(s=>`<li>${esc(s)}</li>`).join("");
+  const refSrc=[...(d.def_sources||[]).map(s=>s.label), ...(d.sources||[])];
+  const src=[...new Set(refSrc)].map(s=>`<li>${esc(s)}</li>`).join("");
+  const historyBlock = d.history ? `<div class="panel"><h2 class="sec">History <small>how the word developed</small></h2>
+    <p class="defn">${md(d.history)}</p>
+    ${(d.def_sources&&d.def_sources.length)?`<div class="srcline">${d.def_sources.map(s=>esc(s.label)).join(" · ")}</div>`:""}</div>`
+    : `<div class="panel"><h2 class="sec">History <small>how the word developed</small></h2>
+    <p class="note">A written history for this term is in progress. The etymology and cited scholarship below are its raw material.</p></div>`;
   const etymology=`<div class="pane" data-k="etymology">
-    <h2 class="sec">Etymology &amp; history <small>origins and the story of the word</small></h2>
+    ${historyBlock}
+    <div class="panel"><h2 class="sec">Etymology <small>roots &amp; first attestation</small></h2>
     ${ety?`
       <div class="etymrow"><div class="k">Origin</div><div>${esc(ety.origin||"")}</div></div>
       ${ety.first?`<div class="etymrow"><div class="k">Attestation</div><div>${esc(ety.first)}</div></div>`:""}
       <div class="etymrow"><div class="k">The story</div><div>${esc(ety.note||"")}</div></div>
-      ${ety.hook?`<div class="callout"><div class="k">Podcast angle</div>${esc(ety.hook)}</div>`:""}
-    `:`<p class="note">Full etymology research pending. Draft it from the sources below plus your historical-magic databases, then add it to <code>data/etymology.json</code>.</p>`}
+      ${ety.hook?`<div class="callout"><div class="k">The hook</div>${esc(ety.hook)}</div>`:""}
+    `:`<p class="note">Full etymology research pending.</p>`}</div>
     <div id="scholarship"></div>
     <div class="panel"><h2 class="sec" style="font-size:1rem">Reference sources</h2><ul class="note" style="margin:0;padding-left:1.2rem">${src}</ul></div>
   </div>`;

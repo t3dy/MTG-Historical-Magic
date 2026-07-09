@@ -25,6 +25,7 @@ CARDS = BASE / "data" / "derived" / "cards.jsonl"
 LEXICON = BASE / "data" / "derived" / "lexicon.json"
 ETYM = BASE / "data" / "etymology.json"
 ESSAYS = BASE / "data" / "essays.json"
+DEFS = BASE / "data" / "definitions.json"
 OUT_DIR = BASE / "site" / "data" / "terms"
 
 # Roots that also function as Magic rules keywords / keyword actions.
@@ -86,6 +87,7 @@ def main() -> None:
     etym = json.loads(ETYM.read_text(encoding="utf-8"))
     etym_terms = etym.get("terms", {})
     essays = json.loads(ESSAYS.read_text(encoding="utf-8")).get("essays", {}) if ESSAYS.exists() else {}
+    defs = json.loads(DEFS.read_text(encoding="utf-8")).get("terms", {}) if DEFS.exists() else {}
     research_dir = BASE / "data" / "research"
     researched = {p.stem for p in research_dir.glob("*.json")} if research_dir.exists() else set()
 
@@ -192,11 +194,15 @@ def main() -> None:
         years = sorted(year_ct[root])
         first_year = int(years[0]) if years else None
         ety = etym_terms.get(root)
+        d = defs.get(root, {})
         detail = {
             "slug": root,
             "root": root,
             "category": spec.get("category", ""),
             "gloss": spec.get("gloss", ""),
+            "definition": d.get("definition"),
+            "history": d.get("history"),
+            "def_sources": d.get("sources", []),
             "is_keyword": root in KEYWORD_ROOTS,
             "etymology": ety,
             "essay": essays.get(root),
@@ -224,6 +230,7 @@ def main() -> None:
             "name_match_count": ncards, "is_keyword": root in KEYWORD_ROOTS,
             "has_etym": root in etym_terms,
             "has_essay": root in essays,
+            "has_def": root in defs,
             "has_research": root in researched,
             "lang": (ety or {}).get("lang", ""),
             "first_year": first_year,

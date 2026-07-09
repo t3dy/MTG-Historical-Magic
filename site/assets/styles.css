@@ -119,6 +119,9 @@ td.n{text-align:right;font-variant-numeric:tabular-nums;color:var(--gold)}
 .schol-def .t{font-family:var(--serif);color:var(--gold);text-transform:capitalize}
 .schol-def .t .src{font-family:var(--sans);text-transform:none;color:var(--faint);font-size:.72rem;margin-left:.4rem;letter-spacing:.03em}
 .schol-def p{margin:.3rem 0 0;color:var(--ink);opacity:.9;font-size:.9rem}
+.defn{font-family:var(--serif);font-size:1.06rem;line-height:1.62;color:var(--ink);margin:0}
+.defn em{color:#e9dcc0;font-style:italic}
+.srcline{color:var(--faint);font-size:.78rem;font-style:italic;margin-top:.6rem}
 
 /* histories index */
 .hlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem}
