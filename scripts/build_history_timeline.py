@@ -44,29 +44,37 @@ def era_of(year: int) -> str:
 
 
 def parse_first(s: str):
-    """Parse an attestation string like 'c. 1440', 'late 14c.', 'before 1000' -> year int."""
+    """Parse an attestation like 'c. 1440', 'late 14c.', 'before 1000' -> (year, precise?).
+
+    precise=True for an explicit 4-digit year (kept exact); False for a century/'before'
+    estimate (the caller may jitter it so vague dates don't all stack on one year).
+    """
     if not s:
         return None
     s = s.strip()
-    # explicit 4-digit year (take the first; ranges use the earliest)
     m = re.search(r"\b(1\d{3}|20\d{2})\b", s)
     if m:
         y = int(m.group(1))
         if re.search(r"\b" + m.group(1) + r"s\b", s):  # "1530s" -> mid-decade
             y += 5
-        return y
-    # "before 900/1000/1050"
+        # 'c.' / 'circa' marks an estimate — let the caller jitter it apart
+        precise = "c." not in s.lower() and "circa" not in s.lower()
+        return (y, precise)
     m = re.search(r"before\s+(\d{3,4})", s, re.I)
     if m:
-        return int(m.group(1))
-    # centuries: "late 14c." / "mid-14c." / "early 15c." / "13th c."
+        return (int(m.group(1)), False)
     m = re.search(r"(early|mid|late)?[- ]?(\d{1,2})(?:th|st|nd|rd)?\s*c", s, re.I)
     if m:
         c = int(m.group(2))
         base = (c - 1) * 100
         mod = (m.group(1) or "").lower()
-        return base + (25 if mod == "early" else 75 if mod == "late" else 50)
+        return (base + (25 if mod == "early" else 75 if mod == "late" else 50), False)
     return None
+
+
+def jitter(slug: str, span: int = 16) -> int:
+    """Deterministic small offset from the slug, to de-stack vague-dated entries."""
+    return (sum(ord(c) for c in slug) % span) - span // 2
 
 
 def load_seed():
@@ -83,40 +91,52 @@ def main() -> None:
     idx = {t["slug"]: t for t in json.loads(IDX.read_text(encoding="utf-8"))["terms"]}
 
     entries = list(seed)
+    from collections import defaultdict
+    prom = lambda s: (idx.get(s, {}).get("name_match_count", 0) + idx.get(s, {}).get("flavor_total", 0))
 
-    # 1) origin + attestation entries from etymology
+    # 1a) ORIGIN entries — capped per language to the most prominent terms and spread,
+    #     so we don't stack 57 identical "Latin origin" points on one year.
+    ORIGIN_CAP = 8
+    by_lang = defaultdict(list)
     for slug, e in etym.items():
-        cat = lex.get(slug, {}).get("category", "") if isinstance(lex.get(slug), dict) else ""
-        lang = e.get("lang", "")
-        # ORIGIN
-        if lang in LANG_ORIGIN:
-            oy, region = LANG_ORIGIN[lang]
+        if e.get("lang") in LANG_ORIGIN:
+            by_lang[e["lang"]].append(slug)
+    for lang, slugs in by_lang.items():
+        base, region = LANG_ORIGIN[lang]
+        for i, slug in enumerate(sorted(slugs, key=prom, reverse=True)[:ORIGIN_CAP]):
+            e = etym[slug]
+            oy = base + (i - ORIGIN_CAP // 2) * (10 if base > 0 else 14)
             entries.append({
                 "year": oy, "date": f"{lang} roots", "era": era_of(oy), "kind": "word",
-                "title": f"‘{slug}’ — {lang} origin", "term": slug, "region": region,
-                "blurb": e.get("origin", "") + (f" {e.get('note','')}" if e.get("note") else ""),
-                "source": "data/etymology.json; Etymonline",
-            })
-        # ATTESTATION (English)
-        y = parse_first(e.get("first", ""))
-        if y is not None:
-            entries.append({
-                "year": y, "date": e.get("first", str(y)), "era": era_of(y), "kind": "word",
-                "title": f"‘{slug}’ enters English", "term": slug, "region": "England",
-                "blurb": (e.get("hook") or e.get("note") or "First English attestation.")[:220],
-                "source": "data/etymology.json; Etymonline / OED",
+                "title": f"‘{slug}’: the {lang} root", "term": slug, "region": region,
+                "blurb": e.get("origin", ""), "source": "Etymonline; data/etymology.json",
             })
 
-    # 2) MTG debut entries for prominent terms
+    # 1b) ATTESTATION entries — all terms, with vague (century) dates jittered apart.
+    for slug, e in etym.items():
+        parsed = parse_first(e.get("first", ""))
+        if parsed is None:
+            continue
+        y, precise = parsed
+        if not precise:
+            y += jitter(slug)
+        entries.append({
+            "year": y, "date": e.get("first", str(y)), "era": era_of(y), "kind": "word",
+            "title": f"‘{slug}’ enters English", "term": slug, "region": "England",
+            "blurb": (e.get("hook") or e.get("note") or "First English attestation.")[:220],
+            "source": "Etymonline / OED; data/etymology.json",
+        })
+
+    # 2) MTG debut entries — only genuinely prominent terms (name in ≥15 card titles).
     for slug, t in idx.items():
         fy = t.get("first_year")
-        if not fy or t.get("name_match_count", 0) < 8:
+        if not fy or t.get("name_match_count", 0) < 15:
             continue
         entries.append({
             "year": fy, "date": str(fy), "era": era_of(fy), "kind": "game",
-            "title": f"‘{slug}’ in the card set", "term": slug, "region": "Multiplayer",
-            "blurb": f"The word appears on Magic cards from {fy}; it now titles "
-                     f"{t['name_match_count']} cards and shows in {t['flavor_total']} flavor texts.",
+            "title": f"‘{slug}’ on the cards", "term": slug, "region": "Multiplayer",
+            "blurb": f"By {fy} the word titles Magic cards; it now names {t['name_match_count']} "
+                     f"and appears in {t['flavor_total']} flavor texts.",
             "source": "the corpus (Scryfall bulk data)",
         })
 

@@ -17,7 +17,7 @@ English uses for magic, how does a modern game deploy them, and where did each o
 
 This project answers that with a curated lexicon of **~120 magical roots** across seven families,
 morphology-aware counts, **112 illustrated term pages**, cited **Word Histories**, a suite of data
-visualizations, and a **366-entry historical timeline** running from Babylonian liver-divination to
+visualizations, and a **300+ entry historical timeline** running from Babylonian liver-divination to
 the day *Scry* became a keyword.
 
 ## What's on the site
@@ -27,7 +27,7 @@ the day *Scry* became a keyword.
 | **Terms** (`index.html`) | Searchable, filterable grid of all term pages, art-backed |
 | **Term page** (`term.html?t=`) | Tabs: Overview (colour identity, first-printed year, morphology) · Gallery (Scryfall card images) · Flavor · Mechanics · **Etymology** (auto-surfaces cited scholarship from the databases & PDF library) · **Word History** |
 | **Histories** (`histories.html`) | Cited long-form pages on a word's origin, etymology, and historical usage |
-| **Timeline** (`timeline-history.html`) | 366 dated entries — the origin and development of magical words, texts, figures, traditions, and practices, antiquity → today |
+| **Timeline** (`timeline-history.html`) | 300+ dated entries — the origin and development of magical words, texts, figures, traditions, and practices, antiquity → today |
 | **Atlas** (`atlas.html`) | The full quantitative census, by family, flavor vs rules |
 | **Charts** (`charts.html`) | Five visualizations: **Word vs Keyword** (flavor↔rules scatter), **Loanword Atlas** (origins by language), **Color of Magic** (WUBRG per family), **Vocabulary over Time** (in Magic), **The Whole Lexicon** (treemap) |
 | **About** | Methodology and the research method |
