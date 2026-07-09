@@ -32,7 +32,7 @@ OUT_DIR = BASE / "site" / "data" / "terms"
 KEYWORD_ROOTS = {"scry", "ward", "transmute", "conjure", "enchant", "haunt", "bewitch", "cascade"}
 
 RARITY_RANK = {"mythic": 0, "rare": 1, "special": 2, "uncommon": 3, "common": 4, "bonus": 5, "": 6}
-MAX_CARDS = 80          # title-match cards kept per term (gallery)
+MAX_CARDS = 250         # title-match cards kept per term (gallery); only a few terms exceed ~80
 MAX_FLAVOR = 14
 MAX_MECH = 8
 
@@ -145,6 +145,8 @@ def main() -> None:
                     "id": card["id"],
                     "name": name,
                     "set": card["set"].upper(),
+                    "set_name": card.get("set_name", ""),
+                    "released": card.get("released_at", ""),
                     "type_line": card["type_line"],
                     "rarity": card["rarity"],
                     "colors": card["colors"],
@@ -189,8 +191,9 @@ def main() -> None:
         # (e.g. theurgy/goetia — magical words absent from the cards but worth a full etymology page).
         if f == 0 and o == 0 and ncards == 0 and root not in essays:
             continue
+        # Chronological: earliest sets first, cards within a set grouped and alphabetized.
         cards = sorted(name_cards[root],
-                       key=lambda c: (RARITY_RANK.get(c["rarity"], 6), c["name"]))
+                       key=lambda c: (c.get("released") or "9999", c["set"], c["name"]))
         years = sorted(year_ct[root])
         first_year = int(years[0]) if years else None
         ety = etym_terms.get(root)

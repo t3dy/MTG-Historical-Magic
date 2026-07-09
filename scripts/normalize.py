@@ -62,6 +62,7 @@ def normalize_card(card: dict) -> dict:
         "id": card.get("oracle_id") or card.get("id"),
         "name": card.get("name", ""),
         "set": card.get("set", ""),
+        "set_name": card.get("set_name", ""),
         "released_at": card.get("released_at", ""),
         "type_line": type_line,
         "subtypes": sorted(set(subs)),

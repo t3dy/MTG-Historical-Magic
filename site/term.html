@@ -43,6 +43,10 @@
   .bar .track{background:var(--bg2);border-radius:99px;height:14px;overflow:hidden}
   .bar .fill{height:100%;background:linear-gradient(90deg,var(--gold-dim),var(--gold));border-radius:99px}
   .bar .lbl{color:var(--ink)}.bar .val{color:var(--gold);text-align:right;font-variant-numeric:tabular-nums;font-size:.82rem}
+  .setgroup{margin:0 0 1.4rem}
+  .seth{font-family:var(--serif);color:var(--gold);font-size:1.08rem;margin:1.1rem 0 .6rem;padding-bottom:.35rem;
+    border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:.5rem}
+  .seth .setmeta{color:var(--muted);font-family:var(--sans);font-size:.74rem;letter-spacing:.03em}
   .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(146px,1fr));gap:.8rem}
   .gcard{position:relative;border-radius:9px;overflow:hidden;border:1px solid var(--line);background:var(--panel2);aspect-ratio:146/204;display:block}
   .gcard img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .2s}
@@ -89,9 +93,20 @@ function bar(label,val,max){
   return `<div class="bar"><div class="lbl">${esc(label)}</div><div class="track"><div class="fill" style="width:${w}%"></div></div><div class="val">${val}</div></div>`;
 }
 function gcard(c){
-  const cap=`<div class="cap"><b>${esc(c.name)}</b><span>${esc(c.set)} · ${esc(c.rarity)} ${pips(c.colors)}</span></div>`;
-  return `<a class="gcard" href="${c.scryfall_uri||'#'}" target="_blank" rel="noopener" title="${esc(c.name)}">
+  const cap=`<div class="cap"><b>${esc(c.name)}</b><span>${esc(c.rarity)} ${pips(c.colors)}</span></div>`;
+  return `<a class="gcard" href="${c.scryfall_uri||'#'}" target="_blank" rel="noopener" title="${esc(c.name)} — ${esc(c.set_name||c.set)}">
     <img loading="lazy" src="${c.local}" onerror="this.onerror=null;this.src='${c.img_small}'" alt="${esc(c.name)}">${cap}</a>`;
+}
+function galleryBySet(cards){
+  // cards arrive pre-sorted chronologically (earliest set first) from build_terms.py
+  const groups=[]; let cur=null;
+  for(const c of cards){
+    if(!cur || cur.set!==c.set){ cur={set:c.set, name:c.set_name||c.set, year:(c.released||'').slice(0,4), cards:[]}; groups.push(cur); }
+    cur.cards.push(c);
+  }
+  return groups.map(g=>`<div class="setgroup">
+    <h3 class="seth">${esc(g.name)}<span class="setmeta">${esc(g.set)}${g.year?` · ${g.year}`:''} · ${g.cards.length} card${g.cards.length===1?'':'s'}</span></h3>
+    <div class="gal">${g.cards.map(gcard).join("")}</div></div>`).join("");
 }
 
 (async function(){
@@ -152,8 +167,8 @@ function gcard(c){
   </div>`;
 
   const gallery=`<div class="pane" data-k="gallery">
-    <h2 class="sec">Cards with “${esc(d.root)}” in the title <small>${st.name_match_count} card${st.name_match_count===1?'':'s'}${st.name_match_count>=80?' (first 80)':''} · click for Scryfall</small></h2>
-    ${d.cards.length?`<div class="gal">${d.cards.map(gcard).join("")}</div>`:'<p class="note">No card titles contain this exact word — but it lives in the flavor and rules text. See the other tabs.</p>'}
+    <h2 class="sec">Cards with “${esc(d.root)}” in the title <small>${st.name_match_count} card${st.name_match_count===1?'':'s'}, by set — earliest first · click for Scryfall</small></h2>
+    ${d.cards.length?galleryBySet(d.cards):'<p class="note">No card titles contain this exact word — but it lives in the flavor and rules text. See the other tabs.</p>'}
   </div>`;
 
   const flavor=`<div class="pane" data-k="flavor">
