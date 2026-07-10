@@ -31,7 +31,7 @@
     },
     "witch": {
       "definition": "A witch is a practitioner of witchcraft — folk and ritual magic, healing or harming — historically and unjustly imagined as bound in pact to the Devil. One of the oldest magic-words in English, and among the most contested.",
-      "history": "Old English had *wicce* (feminine) and *wicca* (masculine), beside the verb *wiccian*, 'to work magic'; the deeper root is genuinely uncertain, perhaps tied to 'bending' or to 'sacred rite.' The word's darkest chapter is early-modern — the trials that killed tens of thousands, powered by manuals like the *Malleus Maleficarum* (1487). Modern scholarship (Thomas, Cohn, Ginzburg, Hutton) dismantled the myth of a real witch-cult, and 20th-century Wicca reinvented the witch as a chosen, positive identity.",
+      "history": "Old English had *wicce* (feminine) and *wicca* (masculine), beside the verb *wiccian*, 'to work magic'; the deeper root is genuinely uncertain, perhaps tied to 'bending' or to 'sacred rite.' The word's darkest chapter is early-modern — the trials that killed tens of thousands, powered by manuals like the *Malleus Maleficarum* (1487). Modern historians dismantled the myth of a real witch-cult, and 20th-century Wicca reinvented the witch as a chosen, positive identity.",
       "sources": [
         {
           "label": "Bosworth–Toller, s.v. wicce",
@@ -39,11 +39,17 @@
         },
         {
           "label": "Ronald Hutton, The Triumph of the Moon",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://academic.oup.com/book/7115",
+          "url_kind": "publisher",
+          "abstract": "Traces how modern Wicca -- the pagan witchcraft religion that emerged in 20th-century England -- was actually assembled by blending older folklore, ceremonial magic, and Romantic ideas about nature, rather than being an unbroken survival of ancient paganism."
         },
         {
           "label": "Norman Cohn, Europe's Inner Demons",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://press.uchicago.edu/ucp/books/book/chicago/E/bo3641171.html",
+          "url_kind": "publisher",
+          "abstract": "Traces where the medieval stereotype of witches flying off to secret orgies with the devil actually came from, and shows that key 'evidence' used to justify witch hunts was based on invented stories and outright forgeries rather than real observed practices."
         }
       ]
     },
@@ -115,7 +121,10 @@
         },
         {
           "label": "Frank Klaassen, The Transformations of Magic",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-05626-5.html",
+          "url_kind": "publisher",
+          "abstract": "This book argues that medieval magic banned by the church came in two flavors: \"image magic\" (making charms and talismans), which scholars could half-justify with the science of the day, and \"ritual magic\" (rituals for summoning spirits), which could not. Klaassen traces how interest in the first kind faded after 1500 while the second kept going and helped shape early modern magic."
         }
       ]
     },
@@ -149,7 +158,10 @@
         },
         {
           "label": "John Gager, Curse Tablets and Binding Spells",
-          "where": "Reference"
+          "where": "Reference",
+          "url": "https://global.oup.com/academic/product/curse-tablets-and-binding-spells-from-the-ancient-world-9780195134827",
+          "url_kind": "publisher",
+          "abstract": "Gager collects and translates ancient Greek and Roman \"curse tablets\" -- thin sheets of lead or other metal inscribed with spells asking gods or spirits to harm a rival, a thief, or a romantic competitor -- with commentary explaining how ordinary people, not just professional sorcerers, used these rituals in everyday disputes."
         }
       ]
     },
@@ -201,7 +213,10 @@
         },
         {
           "label": "Cicero, De Divinatione",
-          "where": "Reference"
+          "where": "Reference",
+          "url": "https://www.loebclassics.com/view/LCL154/1923/volume.xml",
+          "url_kind": "publisher",
+          "abstract": "In this ancient dialogue, the Roman statesman Cicero has two speakers argue over whether divination -- predicting the future through omens, dreams, and oracles -- is a genuine skill or just wishful superstition, ultimately siding with reason and skepticism over popular belief."
         }
       ]
     },
@@ -228,8 +243,11 @@
           "where": "Etymology reference"
         },
         {
-          "label": "H. W. Parke, Sibyls and Sibylline Prophecy",
-          "where": "Reference"
+          "label": "H. W. Parke, Sibyls and Sibylline Prophecy in Classical Antiquity",
+          "where": "Reference",
+          "url": "https://www.routledge.com/Sibyls-and-Sibylline-Prophecy-in-Classical-Antiquity-Routledge-Revivals/Parke/p/book/9781138015869",
+          "url_kind": "publisher",
+          "abstract": "Parke traces the legendary Sibyls -- prophetic women in the ancient Mediterranean believed to deliver cryptic verse prophecies -- from their earliest appearances in Greek sources through their adoption by the Romans and, later, early Christians who reinterpreted their sayings as predictions of Christ."
         }
       ]
     },
@@ -243,7 +261,10 @@
         },
         {
           "label": "Jean Bottéro, Mesopotamia",
-          "where": "Reference"
+          "where": "Reference",
+          "url": "https://press.uchicago.edu/ucp/books/book/chicago/M/bo3684684.html",
+          "url_kind": "publisher",
+          "abstract": "This is a collection of essays by French scholar Jean Bottéro (published as 'Mesopotamia: Writing, Reasoning, and the Gods') about the ancient civilizations of Mesopotamia, the region between the Tigris and Euphrates rivers in what is now Iraq. It covers how writing was invented there and how people practiced divination — reading signs like the shapes of animal organs to learn the will of the gods — arguing this careful, rule-based thinking was an early ancestor of scientific reasoning."
         }
       ]
     },
@@ -253,7 +274,10 @@
       "sources": [
         {
           "label": "Tamsyn Barton, Ancient Astrology",
-          "where": "Reference"
+          "where": "Reference",
+          "url": "https://www.routledge.com/Ancient-Astrology/Barton/p/book/9780415110297",
+          "url_kind": "publisher",
+          "abstract": "This book explains how astrology (the belief that the positions of stars and planets influence human events) developed in Mesopotamia and spread through Greece and Rome, and examines the social role astrologers played and why the practice appealed to people at every level of ancient society."
         },
         {
           "label": "RenaissanceMagicDB, s.v. aspectus",
@@ -271,7 +295,10 @@
         },
         {
           "label": "Lyndy Abraham, A Dictionary of Alchemical Imagery",
-          "where": "Alchemy (PDF)"
+          "where": "Alchemy (PDF)",
+          "url": "https://www.cambridge.org/us/universitypress/subjects/literature/english-literature-general-interest/dictionary-alchemical-imagery",
+          "url_kind": "publisher",
+          "abstract": "A reference book that decodes the strange symbols alchemists used, like the \"green lion\" or the \"philosopher's stone,\" explaining both their literal meaning as steps in a chemical process and the spiritual meaning that writers and poets later gave them, illustrated with historical woodcuts and engravings."
         }
       ]
     },
@@ -285,21 +312,30 @@
         },
         {
           "label": "Lawrence Principe, The Secrets of Alchemy",
-          "where": "Alchemy (PDF)"
+          "where": "Alchemy (PDF)",
+          "url": "https://press.uchicago.edu/ucp/books/book/chicago/S/bo12335123.html",
+          "url_kind": "publisher",
+          "abstract": "A historian of chemistry who also recreates old experiments in his own laboratory, Principe explains what alchemists actually believed and did, arguing they were serious investigators of matter and nature rather than treasure-hunting con artists, and traces how their reputation shifted over time from respected practice to pseudoscience."
         }
       ]
     },
     "hermetic": {
       "definition": "Hermetic means pertaining to Hermes Trismegistus and the occult-philosophical tradition ascribed to him — and, by extension, sealed airtight. The two senses share one strange root.",
-      "history": "The name is that of *Hermes Trismegistus*, the legendary Egyptian sage credited with the *Corpus Hermeticum*. Because alchemists sealed their vessels by his art, 'hermetically sealed' came to mean airtight — your jam jar owes its seal to a magic god. The Hermetic texts, rediscovered and translated by Ficino in 1460, lit the Renaissance revival of magic that Frances Yates made famous.",
+      "history": "The name is that of *Hermes Trismegistus*, the legendary Egyptian sage credited with the *Corpus Hermeticum*. Because alchemists sealed their vessels by his art, 'hermetically sealed' came to mean airtight — your jam jar owes its seal to a magic god. The Hermetic texts, rediscovered and translated by Ficino in 1460, lit the Renaissance revival of magic — now one of the most closely studied episodes in the history of Western thought.",
       "sources": [
         {
           "label": "Brian Copenhaver, Hermetica",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.cambridge.org/core/books/hermetica/08A9AEBD7A6AB86B314FDDB909FF4EAE",
+          "url_kind": "publisher",
+          "abstract": "A fresh English translation of the Hermetica, a set of mystical Greek and Latin texts from ancient Egypt that Renaissance readers mistakenly believed were far older wisdom from a legendary sage named Hermes Trismegistus, with an introduction placing the texts in their real historical setting."
         },
         {
           "label": "Frances Yates, Giordano Bruno and the Hermetic Tradition",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://press.uchicago.edu/ucp/books/book/chicago/G/bo3639032.html",
+          "url_kind": "publisher",
+          "abstract": "A classic study arguing that the Renaissance philosopher Giordano Bruno, burned at the stake in 1600, was driven less by early modern science than by \"Hermeticism\" -- a set of ancient-seeming magical and mystical teachings he believed held the secret key to controlling nature."
         }
       ]
     },
@@ -309,11 +345,17 @@
       "sources": [
         {
           "label": "Lyndy Abraham, A Dictionary of Alchemical Imagery",
-          "where": "Alchemy (PDF)"
+          "where": "Alchemy (PDF)",
+          "url": "https://www.cambridge.org/us/universitypress/subjects/literature/english-literature-general-interest/dictionary-alchemical-imagery",
+          "url_kind": "publisher",
+          "abstract": "A reference book that decodes the strange symbols alchemists used, like the \"green lion\" or the \"philosopher's stone,\" explaining both their literal meaning as steps in a chemical process and the spiritual meaning that writers and poets later gave them, illustrated with historical woodcuts and engravings."
         },
         {
           "label": "Leah DeVun, Prophecy, Alchemy, and the End of Time",
-          "where": "Alchemy (PDF)"
+          "where": "Alchemy (PDF)",
+          "url": "https://cup.columbia.edu/book/prophecy-alchemy-and-the-end-of-time/9780231145381/",
+          "url_kind": "publisher",
+          "abstract": "Tells the story of a 14th-century friar, John of Rupescissa, who believed the end of the world was near and argued that alchemy could produce medicines and materials to help people survive the coming disasters."
         }
       ]
     },
@@ -337,7 +379,10 @@
         },
         {
           "label": "Ronald Hutton, The Triumph of the Moon",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://academic.oup.com/book/7115",
+          "url_kind": "publisher",
+          "abstract": "Traces how modern Wicca -- the pagan witchcraft religion that emerged in 20th-century England -- was actually assembled by blending older folklore, ceremonial magic, and Romantic ideas about nature, rather than being an unbroken survival of ancient paganism."
         }
       ]
     },
@@ -361,7 +406,10 @@
         },
         {
           "label": "Geraldine Pinch, Magic in Ancient Egypt",
-          "where": "Reference"
+          "where": "Reference",
+          "url": "https://search.worldcat.org/title/1245545375",
+          "url_kind": "catalog",
+          "abstract": "Pinch surveys how ancient Egyptians used magic in everyday life, from protective amulets worn by pregnant women to spells recited by priests, showing that magic, religion, and medicine were not separate categories for the Egyptians but worked together as one connected system."
         }
       ]
     },
@@ -423,7 +471,10 @@
         },
         {
           "label": "Deborah Harkness, John Dee's Conversations with Angels",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.cambridge.org/core/books/john-dees-conversations-with-angels/1AA428CFF578B7D705FA8ED8EDF2F36D",
+          "url_kind": "publisher",
+          "abstract": "Explores why the Elizabethan scholar John Dee spent his later years trying to talk to angels through a psychic medium, arguing these sessions grew naturally out of his earlier scientific and religious interests rather than being a sign he had lost his mind."
         }
       ]
     },
@@ -433,11 +484,17 @@
       "sources": [
         {
           "label": "Lyndy Abraham, A Dictionary of Alchemical Imagery",
-          "where": "Alchemy (PDF)"
+          "where": "Alchemy (PDF)",
+          "url": "https://www.cambridge.org/us/universitypress/subjects/literature/english-literature-general-interest/dictionary-alchemical-imagery",
+          "url_kind": "publisher",
+          "abstract": "A reference book that decodes the strange symbols alchemists used, like the \"green lion\" or the \"philosopher's stone,\" explaining both their literal meaning as steps in a chemical process and the spiritual meaning that writers and poets later gave them, illustrated with historical woodcuts and engravings."
         },
         {
           "label": "Lawrence Principe, The Secrets of Alchemy",
-          "where": "Alchemy (PDF)"
+          "where": "Alchemy (PDF)",
+          "url": "https://press.uchicago.edu/ucp/books/book/chicago/S/bo12335123.html",
+          "url_kind": "publisher",
+          "abstract": "A historian of chemistry who also recreates old experiments in his own laboratory, Principe explains what alchemists actually believed and did, arguing they were serious investigators of matter and nature rather than treasure-hunting con artists, and traces how their reputation shifted over time from respected practice to pseudoscience."
         }
       ]
     },
@@ -447,7 +504,10 @@
       "sources": [
         {
           "label": "Dan Attrell & David Porreca (trans.), Picatrix",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-08213-4.html",
+          "url_kind": "publisher",
+          "abstract": "The first full English translation of a medieval how-to manual, originally written in Arabic and later translated into Latin, that teaches readers how to build magical charms, mix potions, and use astrology to draw on the supposed powers of the planets. It became one of the most influential sourcebooks for later European magic."
         },
         {
           "label": "RenaissanceMagicDB, s.vv. lamina, characteres",
@@ -461,11 +521,17 @@
       "sources": [
         {
           "label": "Frank Klaassen, The Transformations of Magic",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-05626-5.html",
+          "url_kind": "publisher",
+          "abstract": "This book argues that medieval magic banned by the church came in two flavors: \"image magic\" (making charms and talismans), which scholars could half-justify with the science of the day, and \"ritual magic\" (rituals for summoning spirits), which could not. Klaassen traces how interest in the first kind faded after 1500 while the second kept going and helped shape early modern magic."
         },
         {
           "label": "Joseph Peterson (ed.), grimoire editions",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.esotericarchives.com/",
+          "url_kind": "catalog",
+          "abstract": "Not one single book, but Joseph Peterson's long-running project (the \"Twilit Grotto: Esoteric Archives\" site and related small-press editions) of transcribing and translating historic \"grimoires\" -- old handbooks of spells, symbols, and spirit-summoning instructions -- and making them freely readable online."
         }
       ]
     },
@@ -475,7 +541,10 @@
       "sources": [
         {
           "label": "Richard Kieckhefer, Magic in the Middle Ages",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.cambridge.org/core/books/magic-in-the-middle-ages/8D2A1F278C9BCEE38BC3539821B838E8",
+          "url_kind": "publisher",
+          "abstract": "A widely used introduction to what magic actually was in medieval Europe: who practiced it, what forms it took, and how it connected to religion, science, storytelling, and law. It also explains how fear of magic fed into the witch trials of later centuries."
         },
         {
           "label": "Etymonline, s.v. conjure",
@@ -493,7 +562,10 @@
         },
         {
           "label": "Joseph Peterson (ed.), Key of Solomon",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.esotericarchives.com/solomon/ksol.htm",
+          "url_kind": "publisher",
+          "abstract": "Peterson's corrected and annotated edition of the most famous Renaissance-era handbook of ceremonial magic, which gives instructions for making magical tools and performing rituals, based on comparison of multiple old manuscript copies."
         }
       ]
     },
@@ -531,7 +603,10 @@
         },
         {
           "label": "Claire Fanger, Invoking Angels",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-05142-0.html",
+          "url_kind": "publisher",
+          "abstract": "A collection of essays about medieval and early Renaissance rituals for contacting or working with angels (scholars call this \"theurgy,\" meaning rituals aimed at divine or heavenly beings rather than ordinary spirits). The essays show how these angel-summoning traditions mixed Christian, Jewish, and Islamic ideas together."
         }
       ]
     },
@@ -545,7 +620,10 @@
         },
         {
           "label": "Joseph Peterson (ed.), The Lesser Key of Solomon",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://redwheelweiser.com/book/the-lesser-key-of-solomon-9781578632206/",
+          "url_kind": "publisher",
+          "abstract": "A modern scholarly edition of a 17th-century handbook of magic (called a \"grimoire\") that lists methods and diagrams for summoning and commanding spirits, put together and corrected by Peterson from several old manuscript copies held in the British Library."
         }
       ]
     },
@@ -559,7 +637,10 @@
         },
         {
           "label": "Frank Klaassen, The Transformations of Magic",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-05626-5.html",
+          "url_kind": "publisher",
+          "abstract": "This book argues that medieval magic banned by the church came in two flavors: \"image magic\" (making charms and talismans), which scholars could half-justify with the science of the day, and \"ritual magic\" (rituals for summoning spirits), which could not. Klaassen traces how interest in the first kind faded after 1500 while the second kept going and helped shape early modern magic."
         }
       ]
     },
@@ -569,11 +650,17 @@
       "sources": [
         {
           "label": "Wright & Klaassen, Everyday Magicians (abjuration formula, Wells)",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-09393-2.html",
+          "url_kind": "publisher",
+          "abstract": "Drawing on Tudor-era court records and surviving spellbooks, this book argues that most people practicing magic in 16th-century England were ordinary neighbors solving everyday problems -- money troubles, love, theft, sickness -- and were treated by the law as minor offenders, not the dangerous witches later legend made them out to be."
         },
         {
           "label": "Ginzburg, The Cheese and the Worms (Menocchio's abjuration)",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.press.jhu.edu/books/title/53948/cheese-and-worms",
+          "url_kind": "publisher",
+          "abstract": "Ginzburg reconstructs the strange private worldview of Menocchio, a 16th-century Italian miller put on trial by the Inquisition for claiming the universe formed the way cheese curdles, with worms (which he equated with angels) appearing inside it, using the case to explore how ordinary people quietly reworked religious ideas in their own terms."
         },
         {
           "label": "Etymonline, s.v. abjure",
@@ -587,11 +674,17 @@
       "sources": [
         {
           "label": "Crowley et al., Illustrated Goetia (gods banished to the infernal regions)",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://newfalcon.com/product/aleister-crowleys-illustrated-goetia/",
+          "url_kind": "publisher",
+          "abstract": "A modern, illustrated update of occultist Aleister Crowley's 1904 translation of a famous old demon-summoning manual known as the Goetia. Later editors add plain-language commentary and pictures of the 72 spirits so contemporary readers can understand a ritual system that originally assumed a lot of specialized background knowledge."
         },
         {
           "label": "Hanegraaff et al., Hermes Explains (banishing demons by invocation)",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.aup.nl/nl/book/9789463720205/hermes-explains",
+          "url_kind": "publisher",
+          "abstract": "Thirty scholars each answer a basic question about \"Western esotericism\" -- the umbrella term for alternative religious and philosophical traditions like alchemy, astrology, and magic -- aiming to explain the field in plain terms to readers who have never studied it before."
         },
         {
           "label": "Etymonline, s.v. banish",
@@ -609,7 +702,10 @@
         },
         {
           "label": "Kieckhefer, Magic in the Middle Ages (bewitched cows and children)",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.cambridge.org/core/books/magic-in-the-middle-ages/8D2A1F278C9BCEE38BC3539821B838E8",
+          "url_kind": "publisher",
+          "abstract": "A widely used introduction to what magic actually was in medieval Europe: who practiced it, what forms it took, and how it connected to religion, science, storytelling, and law. It also explains how fear of magic fed into the witch trials of later centuries."
         },
         {
           "label": "Etymonline, s.v. bewitch",
@@ -619,15 +715,21 @@
     },
     "bless": {
       "definition": "To bless is to draw favor down upon a person, object, or act — to sanctify by word and gesture, invoking a higher power's protection or grace. It differs from consecrating: to consecrate sets a thing wholly apart as sacred, while to bless confers benefit and goodwill, a benediction that can fall on a candle, a field, a departing soul, or a meal.",
-      "history": "Astonishingly, the root is bloody: Old English *blēdsian*, 'to consecrate with blood,' from *blōd* — a pagan rite of sprinkling an altar with sacrifice. The turn came with Christianity, which redirected the word to translate Latin *benedicere*, 'to speak well of,' so a splash of gore became a spoken benediction. The medieval Church built, as Keith Thomas notes, 'a comprehensive range of formulae' to draw God's blessing onto salt, water, candles, and stones — Klaassen records the blessing of a stone to restore its prelapsarian virtue. The blood drained out of the word entirely; only the favor remained. Magic keeps the martial-devotional sense — blessings that shield and strengthen.",
+      "history": "Astonishingly, the root is bloody: Old English *blēdsian*, 'to consecrate with blood,' from *blōd* — a pagan rite of sprinkling an altar with sacrifice. The turn came with Christianity, which redirected the word to translate Latin *benedicere*, 'to speak well of,' so a splash of gore became a spoken benediction. The medieval Church built, as Keith Thomas notes, 'a comprehensive range of formulae' to draw God's blessing onto salt, water, candles, and stones — Klaassen records the blessing of a stone to restore the virtue it had before Adam and Eve's Fall from Eden. The blood drained out of the word entirely; only the favor remained. Magic keeps the martial-devotional sense — blessings that shield and strengthen.",
       "sources": [
         {
           "label": "Thomas, Religion and the Decline of Magic (formulae to draw down blessing)",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.penguin.co.uk/books/13672/religion-and-the-decline-of-magic-by-keith-thomas/9780140137446",
+          "url_kind": "publisher",
+          "abstract": "A landmark history of why belief in witchcraft, astrology, and protective charms was so common in 16th- and 17th-century England, and how the rise of Protestant religion and early science gradually pushed those beliefs to the margins of everyday life."
         },
         {
           "label": "Klaassen, The Transformations of Magic (blessing of a stone)",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-05626-5.html",
+          "url_kind": "publisher",
+          "abstract": "This book argues that medieval magic banned by the church came in two flavors: \"image magic\" (making charms and talismans), which scholars could half-justify with the science of the day, and \"ritual magic\" (rituals for summoning spirits), which could not. Klaassen traces how interest in the first kind faded after 1500 while the second kept going and helped shape early modern magic."
         },
         {
           "label": "Etymonline, s.v. bless",
@@ -645,7 +747,10 @@
         },
         {
           "label": "Betz, The Greek Magical Papyri in Translation (call the god with this chant)",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://press.uchicago.edu/ucp/books/book/chicago/G/bo3684249.html",
+          "url_kind": "publisher",
+          "abstract": "A translated collection of real spells, charms, and magical recipes written on papyrus in Greco-Roman Egypt roughly 1,600 to 2,200 years ago, giving readers direct access to what ordinary magical practice actually looked like rather than what critics said about it."
         },
         {
           "label": "Etymonline, s.v. chant",
@@ -663,7 +768,10 @@
         },
         {
           "label": "The Magic of Rogues (charms the most widespread medieval magic)",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-08929-4.html",
+          "url_kind": "publisher",
+          "abstract": "Using real 16th-century English court records, this book tells the true stories of two magic scandals: a group hunting for buried treasure with a spell that went wrong, and a magician swept into a treason case with his employer. It shows that everyday folk magic was usually punished lightly, not treated like the witch trials people imagine."
         },
         {
           "label": "Etymonline, s.v. charm",
@@ -673,7 +781,7 @@
     },
     "commune": {
       "definition": "To commune is to enter into shared, intimate contact with spirits, gods, or nature — to hold something in common with them, exchanging presence rather than commands. It differs from conjuring: to conjure is to summon and bind a spirit to one's will, whereas to commune is to join with it, a reciprocal opening toward the divine or the departed rather than a compulsion of it.",
-      "history": "The root is Latin *communicare*, 'to share,' from *communis*, 'common' — the same root as *communion* and *community*, so communing with spirits is, at bottom, holding something in common with them. The turn is contemplative: in the Neoplatonic and theurgic tradition that shaped Renaissance magic, *theurgia* aimed precisely at *koinōnia*, Iamblichus's 'communion of the gods with men,' the soul's ascent to unmediated contact rather than the coercion of *goetia*. The fourteenth-century monk of Fanger's study claims to have communed with spirits for thirty years; Dee sought communion with angels. Sharing, not summoning, is the key. Magic's *Commune with Nature* and kin keep that gentler, joining sense.",
+      "history": "The root is Latin *communicare*, 'to share,' from *communis*, 'common' — the same root as *communion* and *community*, so communing with spirits is, at bottom, holding something in common with them. The turn is contemplative: in the Neoplatonic and theurgic tradition that shaped Renaissance magic, *theurgia* aimed precisely at *koinōnia*, Iamblichus's 'communion of the gods with men,' the soul's ascent to unmediated contact rather than the coercion of *goetia*. A fourteenth-century monk on record claimed to have communed with spirits for thirty years; Dee sought communion with angels. Sharing, not summoning, is the key. Magic's *Commune with Nature* and kin keep that gentler, joining sense.",
       "sources": [
         {
           "label": "RenaissanceMagicDB, s.v. theurgia (ritual ascent to communion with the divine)",
@@ -681,11 +789,17 @@
         },
         {
           "label": "Meyer & Mirecki, Magic and Ritual in the Ancient World (theurgic communion of gods with men)",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://brill.com/edcollbook/title/6900",
+          "url_kind": "publisher",
+          "abstract": "This edited collection of scholarly essays asks what counted as \"magic\" (as opposed to accepted religion) across the ancient Near East, Greece, Rome, Judaism, and early Christianity and Islam, using real spell texts, amulets, and rituals to explore where societies drew that line and why."
         },
         {
           "label": "Fanger, Invoking Angels (communed with spirits for thirty years)",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-05142-0.html",
+          "url_kind": "publisher",
+          "abstract": "A collection of essays about medieval and early Renaissance rituals for contacting or working with angels (scholars call this \"theurgy,\" meaning rituals aimed at divine or heavenly beings rather than ordinary spirits). The essays show how these angel-summoning traditions mixed Christian, Jewish, and Islamic ideas together."
         },
         {
           "label": "Etymonline, s.v. commune",
@@ -703,7 +817,10 @@
         },
         {
           "label": "Klaassen, The Transformations of Magic (consecrated circle)",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-05626-5.html",
+          "url_kind": "publisher",
+          "abstract": "This book argues that medieval magic banned by the church came in two flavors: \"image magic\" (making charms and talismans), which scholars could half-justify with the science of the day, and \"ritual magic\" (rituals for summoning spirits), which could not. Klaassen traces how interest in the first kind faded after 1500 while the second kept going and helped shape early modern magic."
         },
         {
           "label": "Etymonline, s.v. consecrate",
@@ -717,7 +834,10 @@
       "sources": [
         {
           "label": "Peterson, The Lesser Key of Solomon (spirits evoked and constrained)",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://redwheelweiser.com/book/the-lesser-key-of-solomon-9781578632206/",
+          "url_kind": "publisher",
+          "abstract": "A modern scholarly edition of a 17th-century handbook of magic (called a \"grimoire\") that lists methods and diagrams for summoning and commanding spirits, put together and corrected by Peterson from several old manuscript copies held in the British Library."
         },
         {
           "label": "RenaissanceMagicDB, s.v. ligatura (constraining evoked spirits)",
@@ -735,11 +855,17 @@
       "sources": [
         {
           "label": "Thomas, Religion and the Decline of Magic (ghosts revisiting their haunts)",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.penguin.co.uk/books/13672/religion-and-the-decline-of-magic-by-keith-thomas/9780140137446",
+          "url_kind": "publisher",
+          "abstract": "A landmark history of why belief in witchcraft, astrology, and protective charms was so common in 16th- and 17th-century England, and how the rise of Protestant religion and early science gradually pushed those beliefs to the margins of everyday life."
         },
         {
-          "label": "Zambelli, White Magic, Black Magic (ghosts returning to haunt)",
-          "where": "Renaissance magic (PDF)"
+          "label": "Paola Zambelli, White Magic, Black Magic in the European Renaissance (ghosts returning to haunt)",
+          "where": "Renaissance magic (PDF)",
+          "url": "https://brill.com/display/title/11995?language=en",
+          "url_kind": "publisher",
+          "abstract": "Examines Renaissance thinkers' theories about magic, focusing especially on how learned 'high' magic practiced by scholars overlapped and interacted with everyday popular magic and witchcraft accusations among ordinary people."
         },
         {
           "label": "Etymonline, s.v. haunt",
@@ -757,7 +883,10 @@
         },
         {
           "label": "Attrell & Porreca, Picatrix (Aristotle on magical incantations)",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-08213-4.html",
+          "url_kind": "publisher",
+          "abstract": "The first full English translation of a medieval how-to manual, originally written in Arabic and later translated into Latin, that teaches readers how to build magical charms, mix potions, and use astrology to draw on the supposed powers of the planets. It became one of the most influential sourcebooks for later European magic."
         },
         {
           "label": "Etymonline, s.v. incantation / enchant",
@@ -771,7 +900,10 @@
       "sources": [
         {
           "label": "Fanger, Invoking Angels (spirits invoked and addressed)",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-05142-0.html",
+          "url_kind": "publisher",
+          "abstract": "A collection of essays about medieval and early Renaissance rituals for contacting or working with angels (scholars call this \"theurgy,\" meaning rituals aimed at divine or heavenly beings rather than ordinary spirits). The essays show how these angel-summoning traditions mixed Christian, Jewish, and Islamic ideas together."
         },
         {
           "label": "RenaissanceMagicDB, s.v. incantatio (invoking spiritual beings)",
@@ -785,15 +917,21 @@
     },
     "possess": {
       "definition": "To *possess*, in the magical sense, is for a spirit or demon to seize and inhabit a living body, overriding its owner's will and acting through it. It differs from *haunt*, which lingers about a place from outside: possession takes up residence *within* a person. The word carries its property-law twin — the possessing spirit occupies the body as a squatter holds ground it does not own.",
-      "history": "Latin *possidēre*, 'to hold or occupy' (from *potis*, 'able,' + *sedēre*, 'to sit'), meant to have and hold — the root of 'property' and 'possession.' The turn is Christian: demonic *possession* recast that legal 'holding' as a spirit literally *sitting in* a body, an occupying tenant to be expelled. The medieval and Renaissance record treats it as a clinical category — Fanger reads one saint's career as beginning in a more ordinary case of demonic possession, and reformers staged spectacular exorcisms of those considered possessed by demons. Magic: The Gathering keeps the seizing, body-taking sense.",
+      "history": "Latin *possidēre*, 'to hold or occupy' (from *potis*, 'able,' + *sedēre*, 'to sit'), meant to have and hold — the root of 'property' and 'possession.' The turn is Christian: demonic *possession* recast that legal 'holding' as a spirit literally *sitting in* a body, an occupying tenant to be expelled. The medieval and Renaissance record treats it as a clinical category: one saint's life, on one modern scholarly account, began as a fairly ordinary case of demonic possession, and reformers staged spectacular exorcisms of those considered possessed by demons. Magic: The Gathering keeps the seizing, body-taking sense.",
       "sources": [
         {
-          "label": "Bailey et al., The Sacred and the Sinister (case of demonic possession)",
-          "where": "Medieval magic (PDF)"
+          "label": "David J. Collins, S.J. (ed.), The Sacred and the Sinister: Studies in Medieval Religion and Magic (case of demonic possession)",
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-08240-0.html",
+          "url_kind": "publisher",
+          "abstract": "A collection of essays exploring how medieval people tried to draw a line between approved religious practice and forbidden magic — and how blurry and contested that line actually was in everyday life."
         },
         {
-          "label": "Zambelli, White Magic (exorcism of those possessed by demons)",
-          "where": "Renaissance magic (PDF)"
+          "label": "Paola Zambelli, White Magic, Black Magic in the European Renaissance (exorcism of those possessed by demons)",
+          "where": "Renaissance magic (PDF)",
+          "url": "https://brill.com/display/title/11995?language=en",
+          "url_kind": "publisher",
+          "abstract": "Examines Renaissance thinkers' theories about magic, focusing especially on how learned 'high' magic practiced by scholars overlapped and interacted with everyday popular magic and witchcraft accusations among ordinary people."
         },
         {
           "label": "Etymonline, s.v. possess",
@@ -807,11 +945,17 @@
       "sources": [
         {
           "label": "McLean, A Commentary on the Mutus Liber",
-          "where": "Alchemy (PDF)"
+          "where": "Alchemy (PDF)",
+          "url": "https://redwheelweiser.com/book/commentary-on-the-mutus-liber-9780933999909/",
+          "url_kind": "publisher",
+          "abstract": "A plate-by-plate guide to the Mutus Liber (\"Wordless Book\"), a strange 17th-century alchemy book made almost entirely of pictures with no text, walking through what each mysterious engraving might mean."
         },
         {
-          "label": "Zambelli, White Magic, Black Magic in the European Renaissance",
-          "where": "Renaissance magic (PDF)"
+          "label": "Paola Zambelli, White Magic, Black Magic in the European Renaissance",
+          "where": "Renaissance magic (PDF)",
+          "url": "https://brill.com/display/title/11995?language=en",
+          "url_kind": "publisher",
+          "abstract": "Examines Renaissance thinkers' theories about magic, focusing especially on how learned 'high' magic practiced by scholars overlapped and interacted with everyday popular magic and witchcraft accusations among ordinary people."
         },
         {
           "label": "Etymonline, s.v. amalgam",
@@ -825,11 +969,17 @@
       "sources": [
         {
           "label": "Brann, on the Fasciculus chemicus (Arthur Dee / Ashmole / Abraham)",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://muse.jhu.edu/article/473842",
+          "url_kind": "journal",
+          "abstract": "This is a scholarly review by Noel Brann of a modern edition of the Fasciculus Chemicus, a 17th-century anthology of alchemical writings put together by Arthur Dee (son of the famous Elizabethan scholar John Dee) and translated into English by Elias Ashmole, discussing what the collection reveals about English alchemical thought at the time."
         },
         {
           "label": "Attrell & Porreca, Picatrix: A Medieval Treatise on Astral Magic",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-08213-4.html",
+          "url_kind": "publisher",
+          "abstract": "The first full English translation of a medieval how-to manual, originally written in Arabic and later translated into Latin, that teaches readers how to build magical charms, mix potions, and use astrology to draw on the supposed powers of the planets. It became one of the most influential sourcebooks for later European magic."
         },
         {
           "label": "Etymonline, s.v. crucible",
@@ -847,11 +997,17 @@
         },
         {
           "label": "Kieckhefer, Magic in the Middle Ages",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.cambridge.org/core/books/magic-in-the-middle-ages/8D2A1F278C9BCEE38BC3539821B838E8",
+          "url_kind": "publisher",
+          "abstract": "A widely used introduction to what magic actually was in medieval Europe: who practiced it, what forms it took, and how it connected to religion, science, storytelling, and law. It also explains how fear of magic fed into the witch trials of later centuries."
         },
         {
           "label": "Greco-Egyptian alchemy (on the ambix / alembic)",
-          "where": "Alchemy (PDF)"
+          "where": "Alchemy (PDF)",
+          "url": "https://www.cambridge.org/core/books/abs/cambridge-history-of-science/grecoegyptian-alchemy/9439A6DD08EDC0A2711B3D72FC9DA3A1",
+          "url_kind": "publisher",
+          "abstract": "Traces how alchemy first took shape in ancient Alexandria, Egypt, where Greek philosophical ideas blended with hands-on Egyptian craft knowledge like metalworking and dyeing, forming the roots of what would eventually become chemistry."
         }
       ]
     },
@@ -861,11 +1017,17 @@
       "sources": [
         {
           "label": "Betz, The Greek Magical Papyri in Translation",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://press.uchicago.edu/ucp/books/book/chicago/G/bo3684249.html",
+          "url_kind": "publisher",
+          "abstract": "A translated collection of real spells, charms, and magical recipes written on papyrus in Greco-Roman Egypt roughly 1,600 to 2,200 years ago, giving readers direct access to what ordinary magical practice actually looked like rather than what critics said about it."
         },
         {
           "label": "Parry, The Arch Conjuror of England: John Dee",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://yalebooks.yale.edu/book/9780300194098/the-arch-conjuror-of-england/",
+          "url_kind": "publisher",
+          "abstract": "A biography arguing that John Dee was not just an eccentric magician on the sidelines of history, but a real political operator whose magic and angel-conversations were tangled up with Elizabethan court intrigue and Europe's religious conflicts."
         },
         {
           "label": "Etymonline, s.v. potion",
@@ -879,11 +1041,17 @@
       "sources": [
         {
           "label": "Abraham, A Dictionary of Alchemical Imagery",
-          "where": "Alchemy (PDF)"
+          "where": "Alchemy (PDF)",
+          "url": "https://www.cambridge.org/us/universitypress/subjects/literature/english-literature-general-interest/dictionary-alchemical-imagery",
+          "url_kind": "publisher",
+          "abstract": "A reference book that decodes the strange symbols alchemists used, like the \"green lion\" or the \"philosopher's stone,\" explaining both their literal meaning as steps in a chemical process and the spiritual meaning that writers and poets later gave them, illustrated with historical woodcuts and engravings."
         },
         {
           "label": "McLean, A Commentary on the Mutus Liber",
-          "where": "Alchemy (PDF)"
+          "where": "Alchemy (PDF)",
+          "url": "https://redwheelweiser.com/book/commentary-on-the-mutus-liber-9780933999909/",
+          "url_kind": "publisher",
+          "abstract": "A plate-by-plate guide to the Mutus Liber (\"Wordless Book\"), a strange 17th-century alchemy book made almost entirely of pictures with no text, walking through what each mysterious engraving might mean."
         },
         {
           "label": "RenaissanceMagicDB, s.v. putrefactio",
@@ -897,11 +1065,17 @@
       "sources": [
         {
           "label": "Page & Rider, The Routledge History of Medieval Magic",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.routledge.com/The-Routledge-History-of-Medieval-Magic/Page-Rider/p/book/9781032093994",
+          "url_kind": "publisher",
+          "abstract": "A large reference collection that rounds up current scholarship on magic in medieval Europe (roughly 1100 to 1500), covering the texts people used, how the church and universities reacted, and how magic touched gender roles, art, medicine, and the early witch trials."
         },
         {
           "label": "Abraham, A Dictionary of Alchemical Imagery (on Jonson)",
-          "where": "Alchemy (PDF)"
+          "where": "Alchemy (PDF)",
+          "url": "https://www.cambridge.org/us/universitypress/subjects/literature/english-literature-general-interest/dictionary-alchemical-imagery",
+          "url_kind": "publisher",
+          "abstract": "A reference book that decodes the strange symbols alchemists used, like the \"green lion\" or the \"philosopher's stone,\" explaining both their literal meaning as steps in a chemical process and the spiritual meaning that writers and poets later gave them, illustrated with historical woodcuts and engravings."
         },
         {
           "label": "Etymonline, s.v. retort",
@@ -915,7 +1089,10 @@
       "sources": [
         {
           "label": "Hanegraaff, Hermetic Spirituality and the Historical Imagination (on Zosimos)",
-          "where": "Alchemy (PDF)"
+          "where": "Alchemy (PDF)",
+          "url": "https://www.cambridge.org/core/books/hermetic-spirituality-and-the-historical-imagination/A1C0C421F5E5B4D7A254D2213078F27C",
+          "url_kind": "publisher",
+          "abstract": "Looks at the ancient Egyptian writings attributed to the legendary teacher Hermes Trismegistus and argues they weren't just abstract philosophy — they describe real spiritual exercises meant to shift a person's state of mind so they could see past ordinary illusions to a deeper truth about reality."
         },
         {
           "label": "RenaissanceMagicDB, s.v. sublimatio",
@@ -937,11 +1114,17 @@
         },
         {
           "label": "Abraham, A Dictionary of Alchemical Imagery (on Donne)",
-          "where": "Alchemy (PDF)"
+          "where": "Alchemy (PDF)",
+          "url": "https://www.cambridge.org/us/universitypress/subjects/literature/english-literature-general-interest/dictionary-alchemical-imagery",
+          "url_kind": "publisher",
+          "abstract": "A reference book that decodes the strange symbols alchemists used, like the \"green lion\" or the \"philosopher's stone,\" explaining both their literal meaning as steps in a chemical process and the spiritual meaning that writers and poets later gave them, illustrated with historical woodcuts and engravings."
         },
         {
           "label": "Mebane, Renaissance Magic and the Return of the Golden Age (on Paracelsus)",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.nebraskapress.unl.edu/nebraska-paperback/9780803281790/renaissance-magic-and-the-return-of-the-golden-age/",
+          "url_kind": "publisher",
+          "abstract": "Mebane argues that Renaissance ideas about magic - the belief that a learned person could unlock hidden powers in nature - shaped major English plays like Doctor Faustus, The Alchemist, and The Tempest, and even fed contemporary hopes for moral and scientific progress."
         }
       ]
     },
@@ -951,11 +1134,17 @@
       "sources": [
         {
           "label": "Attrell & Porreca, Picatrix: A Medieval Treatise on Astral Magic",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-08213-4.html",
+          "url_kind": "publisher",
+          "abstract": "The first full English translation of a medieval how-to manual, originally written in Arabic and later translated into Latin, that teaches readers how to build magical charms, mix potions, and use astrology to draw on the supposed powers of the planets. It became one of the most influential sourcebooks for later European magic."
         },
         {
-          "label": "Zambelli, White Magic, Black Magic in the European Renaissance",
-          "where": "Renaissance magic (PDF)"
+          "label": "Paola Zambelli, White Magic, Black Magic in the European Renaissance",
+          "where": "Renaissance magic (PDF)",
+          "url": "https://brill.com/display/title/11995?language=en",
+          "url_kind": "publisher",
+          "abstract": "Examines Renaissance thinkers' theories about magic, focusing especially on how learned 'high' magic practiced by scholars overlapped and interacted with everyday popular magic and witchcraft accusations among ordinary people."
         },
         {
           "label": "Etymonline, s.v. vitriol (Latin vitrum)",
@@ -969,11 +1158,17 @@
       "sources": [
         {
           "label": "Frank Klaassen, The Transformations of Magic",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-05626-5.html",
+          "url_kind": "publisher",
+          "abstract": "This book argues that medieval magic banned by the church came in two flavors: \"image magic\" (making charms and talismans), which scholars could half-justify with the science of the day, and \"ritual magic\" (rituals for summoning spirits), which could not. Klaassen traces how interest in the first kind faded after 1500 while the second kept going and helped shape early modern magic."
         },
         {
           "label": "Sophie Page, Magic in the Cloister",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-06033-0.html",
+          "url_kind": "publisher",
+          "abstract": "A study of English monks who, despite their religious vows, collected and studied magic texts as part of their intellectual curiosity. It shows that for these monks, magic and monastic religious life weren't necessarily opposites — they could fit together."
         },
         {
           "label": "Etymonline, s.v. bestiary (Latin bestia)",
@@ -997,11 +1192,17 @@
       "sources": [
         {
           "label": "Håkansson, Seeing the Word: John Dee and Renaissance Occultism",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.lunduniversity.lu.se/lup/publication/bd3769a7-e1b2-4166-b92f-d6a07428d138",
+          "url_kind": "catalog",
+          "abstract": "A doctoral thesis arguing that John Dee's strange mix of interests -- grammar, the Kabbalah, astronomy, alchemy, and math -- were not scattered hobbies but one connected project: recovering a lost perfect language Dee believed could unlock both nature's secrets and God's truth."
         },
         {
           "label": "Claire Fanger, Invoking Angels",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-05142-0.html",
+          "url_kind": "publisher",
+          "abstract": "A collection of essays about medieval and early Renaissance rituals for contacting or working with angels (scholars call this \"theurgy,\" meaning rituals aimed at divine or heavenly beings rather than ordinary spirits). The essays show how these angel-summoning traditions mixed Christian, Jewish, and Islamic ideas together."
         },
         {
           "label": "Etymonline, s.v. folio (Latin folium)",
@@ -1015,11 +1216,17 @@
       "sources": [
         {
           "label": "Richard Kieckhefer, Magic in the Middle Ages",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.cambridge.org/core/books/magic-in-the-middle-ages/8D2A1F278C9BCEE38BC3539821B838E8",
+          "url_kind": "publisher",
+          "abstract": "A widely used introduction to what magic actually was in medieval Europe: who practiced it, what forms it took, and how it connected to religion, science, storytelling, and law. It also explains how fear of magic fed into the witch trials of later centuries."
         },
         {
           "label": "Stephen Skinner, Magical Techniques and Implements",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://openresearch.newcastle.edu.au/articles/thesis/Magical_techniques_and_implements_present_in_Graeco-Egyptian_magical_papyri_Byzantine_Greek_Solomonic_manuscripts_and_European_grimoires_transmission_continuity_and_commonality_the_technology_of_Solomonic_magic_/29020349",
+          "url_kind": "catalog",
+          "abstract": "Skinner's doctoral thesis traces specific magic tools and step-by-step methods (like ritual instruments and spirit-summoning procedures) as they passed from ancient Greek-Egyptian magic texts, through Byzantine Greek manuscripts, into later European handbooks of magic — showing one continuous tradition rather than separate inventions."
         },
         {
           "label": "Etymonline, s.v. herbal (Latin herba)",
@@ -1037,7 +1244,10 @@
         },
         {
           "label": "Frank Klaassen, The Transformations of Magic",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-05626-5.html",
+          "url_kind": "publisher",
+          "abstract": "This book argues that medieval magic banned by the church came in two flavors: \"image magic\" (making charms and talismans), which scholars could half-justify with the science of the day, and \"ritual magic\" (rituals for summoning spirits), which could not. Klaassen traces how interest in the first kind faded after 1500 while the second kept going and helped shape early modern magic."
         },
         {
           "label": "Etymonline, s.v. manuscript (Latin manu scriptus)",
@@ -1051,11 +1261,17 @@
       "sources": [
         {
           "label": "Richard Kieckhefer, Magic in the Middle Ages",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.cambridge.org/core/books/magic-in-the-middle-ages/8D2A1F278C9BCEE38BC3539821B838E8",
+          "url_kind": "publisher",
+          "abstract": "A widely used introduction to what magic actually was in medieval Europe: who practiced it, what forms it took, and how it connected to religion, science, storytelling, and law. It also explains how fear of magic fed into the witch trials of later centuries."
         },
         {
           "label": "John G. Gager, Curse Tablets and Binding Spells",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://global.oup.com/academic/product/curse-tablets-and-binding-spells-from-the-ancient-world-9780195134827",
+          "url_kind": "publisher",
+          "abstract": "Gager collects and translates ancient Greek and Roman \"curse tablets\" -- thin sheets of lead or other metal inscribed with spells asking gods or spirits to harm a rival, a thief, or a romantic competitor -- with commentary explaining how ordinary people, not just professional sorcerers, used these rituals in everyday disputes."
         },
         {
           "label": "Etymonline, s.v. scroll",
@@ -1069,11 +1285,17 @@
       "sources": [
         {
           "label": "Richard Kieckhefer, Magic in the Middle Ages",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.cambridge.org/core/books/magic-in-the-middle-ages/8D2A1F278C9BCEE38BC3539821B838E8",
+          "url_kind": "publisher",
+          "abstract": "A widely used introduction to what magic actually was in medieval Europe: who practiced it, what forms it took, and how it connected to religion, science, storytelling, and law. It also explains how fear of magic fed into the witch trials of later centuries."
         },
         {
           "label": "Peterson & Harms, Book of Magic with Instructions for Invoking Spirits",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://archive.org/details/book-of-magic-with-instructions-for-invoking-spirits",
+          "url_kind": "catalog",
+          "abstract": "A modern transcription, by Joseph Peterson and Dan Harms, of a real handwritten spellbook from around 1577-1583, kept today at the Folger Shakespeare Library. It's an eclectic collection of spells and invocations with magic circles and drawn portraits of the spirits, angels, and demons it describes how to contact."
         },
         {
           "label": "Etymonline, s.v. testament (Latin testis)",
@@ -1091,7 +1313,10 @@
         },
         {
           "label": "Attrell & Porreca, Picatrix: A Medieval Treatise on Astral Magic",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-08213-4.html",
+          "url_kind": "publisher",
+          "abstract": "The first full English translation of a medieval how-to manual, originally written in Arabic and later translated into Latin, that teaches readers how to build magical charms, mix potions, and use astrology to draw on the supposed powers of the planets. It became one of the most influential sourcebooks for later European magic."
         },
         {
           "label": "Etymonline, s.v. treatise (Latin tractare)",
@@ -1105,11 +1330,17 @@
       "sources": [
         {
           "label": "Kieckhefer, Magic in the Middle Ages",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.cambridge.org/core/books/magic-in-the-middle-ages/8D2A1F278C9BCEE38BC3539821B838E8",
+          "url_kind": "publisher",
+          "abstract": "A widely used introduction to what magic actually was in medieval Europe: who practiced it, what forms it took, and how it connected to religion, science, storytelling, and law. It also explains how fear of magic fed into the witch trials of later centuries."
         },
         {
           "label": "Clark, Thinking with Demons",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://global.oup.com/academic/product/thinking-with-demons-9780198208082",
+          "url_kind": "publisher",
+          "abstract": "Looks at how educated Europeans between the 1400s and 1700s wrote about witches and demons, and argues these ideas were not fringe nonsense but fit logically with how those same thinkers understood nature, religion, history, and politics at the time."
         },
         {
           "label": "Etymonline, s.v. augury (Latin augurium)",
@@ -1123,7 +1354,10 @@
       "sources": [
         {
           "label": "Mastrocinque et al., Ancient Magic: Then and Now",
-          "where": "Reference"
+          "where": "Reference",
+          "url": "https://www.steiner-verlag.de/en/Ancient-Magic/9783515127967",
+          "url_kind": "publisher",
+          "abstract": "This is a collection of essays by classical-studies scholars defending 'magic' as a useful, meaningful category for understanding the ancient world, rather than a vague or biased label. Contributors offer fresh interpretations of real magical objects from Greek and Roman antiquity, such as curse tablets, protective amulets, and written spell recipes."
         },
         {
           "label": "Etymonline, s.v. auspice (Latin auspicium)",
@@ -1137,11 +1371,17 @@
       "sources": [
         {
           "label": "Hanegraaff, Hermetic Spirituality and the Historical Imagination",
-          "where": "Reference"
+          "where": "Reference",
+          "url": "https://www.cambridge.org/core/books/hermetic-spirituality-and-the-historical-imagination/A1C0C421F5E5B4D7A254D2213078F27C",
+          "url_kind": "publisher",
+          "abstract": "Looks at the ancient Egyptian writings attributed to the legendary teacher Hermes Trismegistus and argues they weren't just abstract philosophy — they describe real spiritual exercises meant to shift a person's state of mind so they could see past ordinary illusions to a deeper truth about reality."
         },
         {
           "label": "Couliano, Eros and Magic in the Renaissance",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://press.uchicago.edu/ucp/books/book/chicago/E/bo5966662.html",
+          "url_kind": "publisher",
+          "abstract": "Couliano argues that Renaissance magic wasn't primitive superstition but an early, systematic theory of persuasion: thinkers like Ficino and Bruno believed a skilled operator could sway people's minds and emotions by understanding how desire and imagination work, making the Renaissance magician a distant ancestor of the modern advertiser or propagandist."
         },
         {
           "label": "Etymonline, s.v. clairvoyance",
@@ -1155,11 +1395,17 @@
       "sources": [
         {
           "label": "Bull, The Tradition of Hermes Trismegistus",
-          "where": "Reference"
+          "where": "Reference",
+          "url": "https://brill.com/display/title/32034?language=en",
+          "url_kind": "publisher",
+          "abstract": "This book argues that the mystical writings credited to \"Hermes Trismegistus\" (a legendary wise teacher blending the Greek god Hermes with the Egyptian god Thoth) weren't just abstract philosophy, but grew out of real spiritual exercises and rituals practiced by small circles of Egyptian priests who combined their temple traditions with Greek philosophy."
         },
         {
           "label": "Kieckhefer, Magic in the Middle Ages",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.cambridge.org/core/books/magic-in-the-middle-ages/8D2A1F278C9BCEE38BC3539821B838E8",
+          "url_kind": "publisher",
+          "abstract": "A widely used introduction to what magic actually was in medieval Europe: who practiced it, what forms it took, and how it connected to religion, science, storytelling, and law. It also explains how fear of magic fed into the witch trials of later centuries."
         },
         {
           "label": "Etymonline, s.v. divine (Latin divinus)",
@@ -1177,7 +1423,10 @@
         },
         {
           "label": "Skinner, Magical Techniques and Implements",
-          "where": "Reference"
+          "where": "Reference",
+          "url": "https://openresearch.newcastle.edu.au/articles/thesis/Magical_techniques_and_implements_present_in_Graeco-Egyptian_magical_papyri_Byzantine_Greek_Solomonic_manuscripts_and_European_grimoires_transmission_continuity_and_commonality_the_technology_of_Solomonic_magic_/29020349",
+          "url_kind": "catalog",
+          "abstract": "Skinner's doctoral thesis traces specific magic tools and step-by-step methods (like ritual instruments and spirit-summoning procedures) as they passed from ancient Greek-Egyptian magic texts, through Byzantine Greek manuscripts, into later European handbooks of magic — showing one continuous tradition rather than separate inventions."
         },
         {
           "label": "Etymonline, s.v. geomancy",
@@ -1191,11 +1440,17 @@
       "sources": [
         {
           "label": "Ginzburg, Ecstasies: Deciphering the Witches' Sabbath",
-          "where": "Reference"
+          "where": "Reference",
+          "url": "https://press.uchicago.edu/ucp/books/book/chicago/E/bo3629693.html",
+          "url_kind": "publisher",
+          "abstract": "Ginzburg pulls together witch-trial records, old sermons, folklore, and popular artwork from across Europe to argue that stories of witches flying to night gatherings echo a much older, widespread folk belief in spirit-journeys (a kind of trance travel found in shamanic traditions), rather than being straightforward evidence of devil-worship."
         },
         {
           "label": "Bull, The Tradition of Hermes Trismegistus",
-          "where": "Reference"
+          "where": "Reference",
+          "url": "https://brill.com/display/title/32034?language=en",
+          "url_kind": "publisher",
+          "abstract": "This book argues that the mystical writings credited to \"Hermes Trismegistus\" (a legendary wise teacher blending the Greek god Hermes with the Egyptian god Thoth) weren't just abstract philosophy, but grew out of real spiritual exercises and rituals practiced by small circles of Egyptian priests who combined their temple traditions with Greek philosophy."
         },
         {
           "label": "Etymonline, s.v. haruspex",
@@ -1213,7 +1468,10 @@
         },
         {
           "label": "Harkness, John Dee's Conversations with Angels",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.cambridge.org/core/books/john-dees-conversations-with-angels/1AA428CFF578B7D705FA8ED8EDF2F36D",
+          "url_kind": "publisher",
+          "abstract": "Explores why the Elizabethan scholar John Dee spent his later years trying to talk to angels through a psychic medium, arguing these sessions grew naturally out of his earlier scientific and religious interests rather than being a sign he had lost his mind."
         },
         {
           "label": "Etymonline, s.v. hydromancy",
@@ -1227,11 +1485,17 @@
       "sources": [
         {
           "label": "Kieckhefer, Magic in the Middle Ages",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.cambridge.org/core/books/magic-in-the-middle-ages/8D2A1F278C9BCEE38BC3539821B838E8",
+          "url_kind": "publisher",
+          "abstract": "A widely used introduction to what magic actually was in medieval Europe: who practiced it, what forms it took, and how it connected to religion, science, storytelling, and law. It also explains how fear of magic fed into the witch trials of later centuries."
         },
         {
           "label": "Artemidorus, Oneirocritica (via Edmonds et al., Magic and Religion in the Ancient Mediterranean)",
-          "where": "Reference"
+          "where": "Reference",
+          "url": "https://global.oup.com/academic/product/artemidorus-oneirocritica-9780199593477",
+          "url_kind": "publisher",
+          "abstract": "Written in the second century CE, this is the oldest surviving guide to interpreting dreams, cataloguing thousands of dream images and explaining what each was believed to mean for the dreamer's real life, treating dream interpretation as a practical skill much like fortune-telling."
         },
         {
           "label": "Etymonline, s.v. oneiromancy",
@@ -1245,11 +1509,17 @@
       "sources": [
         {
           "label": "Thomas, Religion and the Decline of Magic",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.penguin.co.uk/books/13672/religion-and-the-decline-of-magic-by-keith-thomas/9780140137446",
+          "url_kind": "publisher",
+          "abstract": "A landmark history of why belief in witchcraft, astrology, and protective charms was so common in 16th- and 17th-century England, and how the rise of Protestant religion and early science gradually pushed those beliefs to the margins of everyday life."
         },
         {
           "label": "Page, Magic in the Cloister",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-06033-0.html",
+          "url_kind": "publisher",
+          "abstract": "A study of English monks who, despite their religious vows, collected and studied magic texts as part of their intellectual curiosity. It shows that for these monks, magic and monastic religious life weren't necessarily opposites — they could fit together."
         },
         {
           "label": "Etymonline, s.v. portent (Latin portendere)",
@@ -1263,15 +1533,24 @@
       "sources": [
         {
           "label": "Ioan P. Couliano, Eros and Magic in the Renaissance",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://press.uchicago.edu/ucp/books/book/chicago/E/bo5966662.html",
+          "url_kind": "publisher",
+          "abstract": "Couliano argues that Renaissance magic wasn't primitive superstition but an early, systematic theory of persuasion: thinkers like Ficino and Bruno believed a skilled operator could sway people's minds and emotions by understanding how desire and imagination work, making the Renaissance magician a distant ancestor of the modern advertiser or propagandist."
         },
         {
           "label": "Stuart Clark, Thinking with Demons",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://global.oup.com/academic/product/thinking-with-demons-9780198208082",
+          "url_kind": "publisher",
+          "abstract": "Looks at how educated Europeans between the 1400s and 1700s wrote about witches and demons, and argues these ideas were not fringe nonsense but fit logically with how those same thinkers understood nature, religion, history, and politics at the time."
         },
         {
           "label": "Keith Thomas, Religion and the Decline of Magic",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.penguin.co.uk/books/13672/religion-and-the-decline-of-magic-by-keith-thomas/9780140137446",
+          "url_kind": "publisher",
+          "abstract": "A landmark history of why belief in witchcraft, astrology, and protective charms was so common in 16th- and 17th-century England, and how the rise of Protestant religion and early science gradually pushed those beliefs to the margins of everyday life."
         }
       ]
     },
@@ -1281,15 +1560,24 @@
       "sources": [
         {
           "label": "Glyn Parry, The Arch Conjuror of England: John Dee",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://yalebooks.yale.edu/book/9780300194098/the-arch-conjuror-of-england/",
+          "url_kind": "publisher",
+          "abstract": "A biography arguing that John Dee was not just an eccentric magician on the sidelines of history, but a real political operator whose magic and angel-conversations were tangled up with Elizabethan court intrigue and Europe's religious conflicts."
         },
         {
           "label": "Keith Thomas, Religion and the Decline of Magic",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.penguin.co.uk/books/13672/religion-and-the-decline-of-magic-by-keith-thomas/9780140137446",
+          "url_kind": "publisher",
+          "abstract": "A landmark history of why belief in witchcraft, astrology, and protective charms was so common in 16th- and 17th-century England, and how the rise of Protestant religion and early science gradually pushed those beliefs to the margins of everyday life."
         },
         {
           "label": "Stuart Clark, Thinking with Demons",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://global.oup.com/academic/product/thinking-with-demons-9780198208082",
+          "url_kind": "publisher",
+          "abstract": "Looks at how educated Europeans between the 1400s and 1700s wrote about witches and demons, and argues these ideas were not fringe nonsense but fit logically with how those same thinkers understood nature, religion, history, and politics at the time."
         }
       ]
     },
@@ -1299,15 +1587,24 @@
       "sources": [
         {
           "label": "Ovanes Akopyan, Debating the Stars in the Italian Renaissance",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://brill.com/display/title/36397",
+          "url_kind": "publisher",
+          "abstract": "Akopyan traces the argument that broke out after the philosopher Pico della Mirandola wrote a book in the 1490s attacking astrology, the belief that the positions of stars and planets control events on Earth. The book follows how supporters and critics across Italy and Europe fought over Pico's ideas for decades after his death."
         },
         {
           "label": "Stuart Clark, Thinking with Demons",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://global.oup.com/academic/product/thinking-with-demons-9780198208082",
+          "url_kind": "publisher",
+          "abstract": "Looks at how educated Europeans between the 1400s and 1700s wrote about witches and demons, and argues these ideas were not fringe nonsense but fit logically with how those same thinkers understood nature, religion, history, and politics at the time."
         },
         {
           "label": "Keith Thomas, Religion and the Decline of Magic",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.penguin.co.uk/books/13672/religion-and-the-decline-of-magic-by-keith-thomas/9780140137446",
+          "url_kind": "publisher",
+          "abstract": "A landmark history of why belief in witchcraft, astrology, and protective charms was so common in 16th- and 17th-century England, and how the rise of Protestant religion and early science gradually pushed those beliefs to the margins of everyday life."
         }
       ]
     },
@@ -1317,15 +1614,24 @@
       "sources": [
         {
           "label": "Keith Thomas, Religion and the Decline of Magic",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.penguin.co.uk/books/13672/religion-and-the-decline-of-magic-by-keith-thomas/9780140137446",
+          "url_kind": "publisher",
+          "abstract": "A landmark history of why belief in witchcraft, astrology, and protective charms was so common in 16th- and 17th-century England, and how the rise of Protestant religion and early science gradually pushed those beliefs to the margins of everyday life."
         },
         {
           "label": "Frank Klaassen, The Transformations of Magic",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-05626-5.html",
+          "url_kind": "publisher",
+          "abstract": "This book argues that medieval magic banned by the church came in two flavors: \"image magic\" (making charms and talismans), which scholars could half-justify with the science of the day, and \"ritual magic\" (rituals for summoning spirits), which could not. Klaassen traces how interest in the first kind faded after 1500 while the second kept going and helped shape early modern magic."
         },
         {
           "label": "Hans Dieter Betz, The Greek Magical Papyri in Translation",
-          "where": "Reference"
+          "where": "Reference",
+          "url": "https://press.uchicago.edu/ucp/books/book/chicago/G/bo3684249.html",
+          "url_kind": "publisher",
+          "abstract": "A translated collection of real spells, charms, and magical recipes written on papyrus in Greco-Roman Egypt roughly 1,600 to 2,200 years ago, giving readers direct access to what ordinary magical practice actually looked like rather than what critics said about it."
         }
       ]
     },
@@ -1335,11 +1641,17 @@
       "sources": [
         {
           "label": "Frank Klaassen, The Transformations of Magic",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-05626-5.html",
+          "url_kind": "publisher",
+          "abstract": "This book argues that medieval magic banned by the church came in two flavors: \"image magic\" (making charms and talismans), which scholars could half-justify with the science of the day, and \"ritual magic\" (rituals for summoning spirits), which could not. Klaassen traces how interest in the first kind faded after 1500 while the second kept going and helped shape early modern magic."
         },
         {
           "label": "Joseph H. Peterson (ed.), The Lesser Key of Solomon",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://redwheelweiser.com/book/the-lesser-key-of-solomon-9781578632206/",
+          "url_kind": "publisher",
+          "abstract": "A modern scholarly edition of a 17th-century handbook of magic (called a \"grimoire\") that lists methods and diagrams for summoning and commanding spirits, put together and corrected by Peterson from several old manuscript copies held in the British Library."
         },
         {
           "label": "Etymonline, s.v. prophesy (Greek prophētēs)",
@@ -1357,11 +1669,17 @@
         },
         {
           "label": "Stuart Clark, Thinking with Demons",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://global.oup.com/academic/product/thinking-with-demons-9780198208082",
+          "url_kind": "publisher",
+          "abstract": "Looks at how educated Europeans between the 1400s and 1700s wrote about witches and demons, and argues these ideas were not fringe nonsense but fit logically with how those same thinkers understood nature, religion, history, and politics at the time."
         },
         {
           "label": "Stephen A. Farmer, Giovanni Pico della Mirandola: Syncretism in the West",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://press.uchicago.edu/ucp/books/book/distributed/S/bo15686255.html",
+          "url_kind": "publisher",
+          "abstract": "This book presents a full translation and study of Pico della Mirandola's famous 900 Theses of 1486, in which the young philosopher tried to show that Christian, Jewish, Islamic, and ancient Greek and Roman ideas about the universe could all be combined into one grand system of thought."
         }
       ]
     },
@@ -1371,15 +1689,24 @@
       "sources": [
         {
           "label": "Sophie Page & Catherine Rider (eds.), The Routledge History of Medieval Magic",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.routledge.com/The-Routledge-History-of-Medieval-Magic/Page-Rider/p/book/9781032093994",
+          "url_kind": "publisher",
+          "abstract": "A large reference collection that rounds up current scholarship on magic in medieval Europe (roughly 1100 to 1500), covering the texts people used, how the church and universities reacted, and how magic touched gender roles, art, medicine, and the early witch trials."
         },
         {
           "label": "Sophie Page, Magic in the Cloister",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-06033-0.html",
+          "url_kind": "publisher",
+          "abstract": "A study of English monks who, despite their religious vows, collected and studied magic texts as part of their intellectual curiosity. It shows that for these monks, magic and monastic religious life weren't necessarily opposites — they could fit together."
         },
         {
           "label": "Carlo Ginzburg, Ecstasies: Deciphering the Witches' Sabbath",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://press.uchicago.edu/ucp/books/book/chicago/E/bo3629693.html",
+          "url_kind": "publisher",
+          "abstract": "Ginzburg pulls together witch-trial records, old sermons, folklore, and popular artwork from across Europe to argue that stories of witches flying to night gatherings echo a much older, widespread folk belief in spirit-journeys (a kind of trance travel found in shamanic traditions), rather than being straightforward evidence of devil-worship."
         }
       ]
     },
@@ -1389,15 +1716,24 @@
       "sources": [
         {
           "label": "Richard Kieckhefer, Magic in the Middle Ages",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.cambridge.org/core/books/magic-in-the-middle-ages/8D2A1F278C9BCEE38BC3539821B838E8",
+          "url_kind": "publisher",
+          "abstract": "A widely used introduction to what magic actually was in medieval Europe: who practiced it, what forms it took, and how it connected to religion, science, storytelling, and law. It also explains how fear of magic fed into the witch trials of later centuries."
         },
         {
           "label": "M. David Litwa, Hermetica II",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.cambridge.org/9781107182530",
+          "url_kind": "publisher",
+          "abstract": "Litwa translates a scattered set of ancient writings credited to Hermes Trismegistus, a legendary wise teacher who blended Egyptian and Greek ideas about God and the cosmos. The book rounds out an earlier translated collection of these \"Hermetic\" texts, which ancient readers used for spiritual philosophy and which later Renaissance magicians mined for ideas."
         },
         {
           "label": "Johannes Reuchlin, Augenspiegel (study)",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://brill.com/display/title/22715?language=en",
+          "url_kind": "publisher",
+          "abstract": "In 1511 the German scholar Johannes Reuchlin published this pamphlet to argue against a campaign to burn all Jewish religious books, risking his own reputation to defend Jewish scholarship. This Brill edition is the first full modern English translation, with notes explaining the controversy and why it mattered for early debates about tolerance and free inquiry."
         }
       ]
     },
@@ -1407,11 +1743,17 @@
       "sources": [
         {
           "label": "Claire Fanger, Rewriting Magic",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-06650-9.html",
+          "url_kind": "publisher",
+          "abstract": "A close study of a 14th-century French monk's own written account of creating a prayer ritual he believed could instantly grant knowledge — a project that got his book publicly condemned and burned as heresy in 1323. Fanger uses his firsthand story to explore how medieval people justified using something so close to forbidden magic."
         },
         {
           "label": "Richard Kieckhefer, Magic in the Middle Ages",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.cambridge.org/core/books/magic-in-the-middle-ages/8D2A1F278C9BCEE38BC3539821B838E8",
+          "url_kind": "publisher",
+          "abstract": "A widely used introduction to what magic actually was in medieval Europe: who practiced it, what forms it took, and how it connected to religion, science, storytelling, and law. It also explains how fear of magic fed into the witch trials of later centuries."
         },
         {
           "label": "Etymonline, s.v. soothsayer (Old English sōth)",
@@ -1425,11 +1767,17 @@
       "sources": [
         {
           "label": "Kieckhefer, Magic in the Middle Ages",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.cambridge.org/core/books/magic-in-the-middle-ages/8D2A1F278C9BCEE38BC3539821B838E8",
+          "url_kind": "publisher",
+          "abstract": "A widely used introduction to what magic actually was in medieval Europe: who practiced it, what forms it took, and how it connected to religion, science, storytelling, and law. It also explains how fear of magic fed into the witch trials of later centuries."
         },
         {
           "label": "Klaassen, The Transformations of Magic",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-05626-5.html",
+          "url_kind": "publisher",
+          "abstract": "This book argues that medieval magic banned by the church came in two flavors: \"image magic\" (making charms and talismans), which scholars could half-justify with the science of the day, and \"ritual magic\" (rituals for summoning spirits), which could not. Klaassen traces how interest in the first kind faded after 1500 while the second kept going and helped shape early modern magic."
         },
         {
           "label": "Etymonline, s.v. conjure (Latin coniurare)",
@@ -1439,15 +1787,19 @@
     },
     "enchanter": {
       "definition": "An enchanter works magic by the spoken or sung word — chanting spells that charm, bind, or transform. He differs from a conjurer, who summons spirits to do his will: the enchanter's power is in the incantation itself, the utterance that fascinates its hearer or reshapes the world. The feminine *enchantress* names the same art.",
-      "history": "The word descends from Latin *incantare*, 'to sing a spell upon' (via Old French *enchanteur*) — literally a singer over things. The sung root stayed audible: Claire Fanger titles an essay 'Things Done Wisely by a Wise Enchanter,' studying the very power of words the name records. The defining turn was literary rather than lexical. Geoffrey of Monmouth's twelfth-century Merlin became, as the *Routledge History of Medieval Magic* observes, the model for most later male enchanters, fixing the figure as a worker of transformative wonders. The word lands as both a folk charmer named in trial records and the romance sorcerer — a caster who sings.",
+      "history": "The word descends from Latin *incantare*, 'to sing a spell upon' (via Old French *enchanteur*) — literally a singer over things. The sung root stayed audible: the historian Claire Fanger even titled an essay 'Things Done Wisely by a Wise Enchanter' — about the very power that spoken words were once believed to hold, the same power this word has always named. The defining turn was literary rather than lexical. Geoffrey of Monmouth's twelfth-century Merlin became, as the *Routledge History of Medieval Magic* observes, the model for most later male enchanters, fixing the figure as a worker of transformative wonders. The word lands as both a folk charmer named in trial records and the romance sorcerer — a caster who sings.",
       "sources": [
         {
           "label": "Fanger, 'Things Done Wisely by a Wise Enchanter'",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "abstract": "A scholarly article on a strange medieval debate: could spoken words alone have real power? The author shows that some 13th-century thinkers, like Roger Bacon, argued certain words could work through natural (almost proto-scientific) causes, while others insisted that any word-magic that actually worked had to be secretly powered by demons."
         },
         {
           "label": "Page & Rider, The Routledge History of Medieval Magic",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.routledge.com/The-Routledge-History-of-Medieval-Magic/Page-Rider/p/book/9781032093994",
+          "url_kind": "publisher",
+          "abstract": "A large reference collection that rounds up current scholarship on magic in medieval Europe (roughly 1100 to 1500), covering the texts people used, how the church and universities reacted, and how magic touched gender roles, art, medicine, and the early witch trials."
         },
         {
           "label": "Etymonline, s.v. enchant (Latin incantare)",
@@ -1465,11 +1817,17 @@
         },
         {
           "label": "Kieckhefer, Magic in the Middle Ages",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.cambridge.org/core/books/magic-in-the-middle-ages/8D2A1F278C9BCEE38BC3539821B838E8",
+          "url_kind": "publisher",
+          "abstract": "A widely used introduction to what magic actually was in medieval Europe: who practiced it, what forms it took, and how it connected to religion, science, storytelling, and law. It also explains how fear of magic fed into the witch trials of later centuries."
         },
         {
           "label": "Brann, Trithemius and Magical Theology",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://sunypress.edu/Books/T/Trithemius-and-Magical-Theology",
+          "url_kind": "publisher",
+          "abstract": "Brann examines Johannes Trithemius, a Benedictine abbot who tried to argue that certain forms of magic were compatible with, and even useful to, Christian faith, and shows how this claim triggered a long-running controversy over the occult that ran through the Reformation and into the rise of modern science."
         },
         {
           "label": "Etymonline, s.v. exorcism (Greek exorkistēs)",
@@ -1487,7 +1845,10 @@
         },
         {
           "label": "Szönyi, John Dee's Occultism",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://sunypress.edu/Books/J/John-Dee-s-Occultism",
+          "url_kind": "publisher",
+          "abstract": "Argues that John Dee's wide-ranging interests in science, mathematics, and angel-summoning were all held together by one goal: his belief that humans could spiritually elevate themselves toward a god-like state through hidden knowledge and symbols."
         },
         {
           "label": "Etymonline, s.v. hierophant (Greek hierophantēs)",
@@ -1497,15 +1858,21 @@
     },
     "magus": {
       "definition": "A magus is a master magician of the loftiest, most learned kind — the philosopher-mage who reads the hidden correspondences of the cosmos and works within them. Where an ordinary conjurer or enchanter performs an operation, the magus commands a whole worldview, mediating between the terrestrial and the celestial. The word keeps the hieratic dignity of the Persian priest-astrologer.",
-      "history": "The word is Latin *magus*, from Greek *magos*, from Old Persian *maguš* — originally a Persian priest and astrologer, as the Renaissance well knew; Zambelli notes the repeated commonplace that *magus* means 'wise man' in Persian. Its ambivalence was fixed early: the New Testament sets the wonder-working Simon Magus against the apostles, making 'magus' a name for the false wonder-worker as readily as the wise one. The rehabilitating turn came with Ficino, Pico, and Agrippa, whom scholars like Frances Yates cast as the exalted 'Renaissance Magus' — a co-creator ordering nature by knowledge. Magic uses the word for its most elevated practitioners.",
+      "history": "The word is Latin *magus*, from Greek *magos*, from Old Persian *maguš* — originally a Persian priest and astrologer, as the Renaissance well knew, though the claim that *magus* simply means 'wise man' in Persian is a repeated commonplace more than a verified fact. Its ambivalence was fixed early: the New Testament sets the wonder-working Simon Magus against the apostles, making 'magus' a name for the false wonder-worker as readily as the wise one. The rehabilitating turn came with Ficino, Pico, and Agrippa, whom scholars like Frances Yates cast as the exalted 'Renaissance Magus' — a co-creator ordering nature by knowledge. Magic uses the word for its most elevated practitioners.",
       "sources": [
         {
-          "label": "Zambelli, Astrology and Magic",
-          "where": "Renaissance magic (PDF)"
+          "label": "Paola Zambelli, Astrology and Magic from the Medieval Latin and Islamic World to Renaissance Europe",
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.routledge.com/Astrology-and-Magic-from-the-Medieval-Latin-and-Islamic-World-to-Renaissance-Europe-Theories-and-Approaches/Zambelli/p/book/9781409425144",
+          "url_kind": "publisher",
+          "abstract": "A collection of the author's essays tracing how astrology (reading the stars to predict events) passed from Islamic and Latin medieval scholars into the Renaissance, and how astrologers actually worked as court advisors and public intellectuals, not just armchair theorists."
         },
         {
           "label": "Yates, Giordano Bruno and the Hermetic Tradition",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://press.uchicago.edu/ucp/books/book/chicago/G/bo3639032.html",
+          "url_kind": "publisher",
+          "abstract": "A classic study arguing that the Renaissance philosopher Giordano Bruno, burned at the stake in 1600, was driven less by early modern science than by \"Hermeticism\" -- a set of ancient-seeming magical and mystical teachings he believed held the secret key to controlling nature."
         },
         {
           "label": "Etymonline, s.v. magus (Greek magos ← Old Persian maguš)",
@@ -1529,15 +1896,21 @@
     },
     "thaumaturge": {
       "definition": "A thaumaturge is a worker of wonders — one who produces marvels and miracles, whether by holiness or by art. The word describes an effect rather than a method: where a conjurer names his means (summoning spirits) and a diviner his end (hidden knowledge), the thaumaturge is known simply by the astonishing result. It was applied first to miracle-working saints, then to magicians.",
-      "history": "The word is Greek *thaumatourgos*, 'wonder-worker' (*thauma*, 'wonder,' plus *ergon*, 'work') — the same *ergon* hidden in *theurgy* and *energy*. It attached first to holy marvel-workers: Byzantine hagiography celebrates figures like St. Theodore of Sykeon as thaumaturges. The turn was its migration from sanctity into the suspect. By the Renaissance, John Dee, as Håkansson shows, could dismiss 'thaumaturgy' or mere 'wonder-working' as illicit ritual that did not draw its power from true divinity — even while listing thaumaturgy among the mathematical arts. The word lands ambivalent, poised between the saint's miracle and the conjurer's trick.",
+      "history": "The word is Greek *thaumatourgos*, 'wonder-worker' (*thauma*, 'wonder,' plus *ergon*, 'work') — the same *ergon* hidden in *theurgy* and *energy*. It attached first to holy marvel-workers: Byzantine hagiography celebrates figures like St. Theodore of Sykeon as thaumaturges. The turn was its migration from sanctity into the suspect. By the Renaissance, John Dee could dismiss 'thaumaturgy' or mere 'wonder-working' as illicit ritual that did not draw its power from true divinity — even while listing thaumaturgy among the mathematical arts. The word lands ambivalent, poised between the saint's miracle and the conjurer's trick.",
       "sources": [
         {
           "label": "Håkansson, Seeing the Word: John Dee and Renaissance Occultism",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.lunduniversity.lu.se/lup/publication/bd3769a7-e1b2-4166-b92f-d6a07428d138",
+          "url_kind": "catalog",
+          "abstract": "A doctoral thesis arguing that John Dee's strange mix of interests -- grammar, the Kabbalah, astronomy, alchemy, and math -- were not scattered hobbies but one connected project: recovering a lost perfect language Dee believed could unlock both nature's secrets and God's truth."
         },
         {
           "label": "Meyer & Mirecki, Magic and Ritual in the Ancient World",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://brill.com/edcollbook/title/6900",
+          "url_kind": "publisher",
+          "abstract": "This edited collection of scholarly essays asks what counted as \"magic\" (as opposed to accepted religion) across the ancient Near East, Greece, Rome, Judaism, and early Christianity and Islam, using real spell texts, amulets, and rituals to explore where societies drew that line and why."
         },
         {
           "label": "Etymonline, s.v. thaumaturgy (Greek thaumatourgos)",
@@ -1551,11 +1924,17 @@
       "sources": [
         {
           "label": "Betz, The Greek Magical Papyri in Translation",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://press.uchicago.edu/ucp/books/book/chicago/G/bo3684249.html",
+          "url_kind": "publisher",
+          "abstract": "A translated collection of real spells, charms, and magical recipes written on papyrus in Greco-Roman Egypt roughly 1,600 to 2,200 years ago, giving readers direct access to what ordinary magical practice actually looked like rather than what critics said about it."
         },
         {
           "label": "Gager, Curse Tablets and Binding Spells from the Ancient World",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://global.oup.com/academic/product/curse-tablets-and-binding-spells-from-the-ancient-world-9780195134827",
+          "url_kind": "publisher",
+          "abstract": "A translated collection of ancient Greek and Roman curse tablets -- small inscribed objects people buried or dedicated to gods to harm a rival, win a court case, or wreck a love affair -- showing how ordinary people used magic to handle everyday conflicts."
         },
         {
           "label": "Etymonline, s.v. chthonic",
@@ -1565,15 +1944,21 @@
     },
     "diabolic": {
       "definition": "*Diabolic* means 'of the devil' — pertaining to Satan and his works, or to evil of a deliberate, malicious kind. In the history of magic it is the label that recast ordinary rites as demonic: a charm or cure becomes diabolic the moment authorities read a demon behind it.",
-      "history": "From Greek *diabolos*, 'slanderer, accuser' (from *dia-*, 'across,' + *ballein*, 'to throw' — one who throws accusations), which named the Devil in Greek scripture; 'devil' is simply *diabolos* worn down. The Devil is, by his own title, the prosecutor. The word's decisive turn came in the later Middle Ages, when theologians and inquisitors folded folk magic, healing, and learned ritual into a single story of diabolical pact — the construction Michael Bailey traces of witchcraft as an accusation. To call an act diabolic was less to describe it than to convict it.",
+      "history": "From Greek *diabolos*, 'slanderer, accuser' (from *dia-*, 'across,' + *ballein*, 'to throw' — one who throws accusations), which named the Devil in Greek scripture; 'devil' is simply *diabolos* worn down. The Devil is, by his own title, the prosecutor. The word's decisive turn came in the later Middle Ages, when theologians and inquisitors folded folk magic, healing, and learned ritual into a single story of diabolical pact — the process, as the historian Michael Bailey traces it, of constructing witchcraft as an accusation. To call an act diabolic was less to describe it than to convict it.",
       "sources": [
         {
-          "label": "Bailey et al., The Sacred and the Sinister",
-          "where": "Medieval magic (PDF)"
+          "label": "David J. Collins, S.J. (ed.), The Sacred and the Sinister: Studies in Medieval Religion and Magic",
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-08240-0.html",
+          "url_kind": "publisher",
+          "abstract": "A collection of essays exploring how medieval people tried to draw a line between approved religious practice and forbidden magic — and how blurry and contested that line actually was in everyday life."
         },
         {
           "label": "Kieckhefer, Magic in the Middle Ages",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.cambridge.org/core/books/magic-in-the-middle-ages/8D2A1F278C9BCEE38BC3539821B838E8",
+          "url_kind": "publisher",
+          "abstract": "A widely used introduction to what magic actually was in medieval Europe: who practiced it, what forms it took, and how it connected to religion, science, storytelling, and law. It also explains how fear of magic fed into the witch trials of later centuries."
         },
         {
           "label": "Etymonline, s.v. diabolic (Greek diabolos)",
@@ -1601,7 +1986,10 @@
         },
         {
           "label": "Håkansson, Seeing the Word: John Dee and Renaissance Occultism",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.lunduniversity.lu.se/lup/publication/bd3769a7-e1b2-4166-b92f-d6a07428d138",
+          "url_kind": "catalog",
+          "abstract": "A doctoral thesis arguing that John Dee's strange mix of interests -- grammar, the Kabbalah, astronomy, alchemy, and math -- were not scattered hobbies but one connected project: recovering a lost perfect language Dee believed could unlock both nature's secrets and God's truth."
         },
         {
           "label": "Etymonline, s.v. esoteric (Greek esōterikos)",
@@ -1615,11 +2003,17 @@
       "sources": [
         {
           "label": "Copenhaver, Hermetica",
-          "where": "Alchemy (PDF)"
+          "where": "Alchemy (PDF)",
+          "url": "https://www.cambridge.org/core/books/hermetica/08A9AEBD7A6AB86B314FDDB909FF4EAE",
+          "url_kind": "publisher",
+          "abstract": "A fresh English translation of the Hermetica, a set of mystical Greek and Latin texts from ancient Egypt that Renaissance readers mistakenly believed were far older wisdom from a legendary sage named Hermes Trismegistus, with an introduction placing the texts in their real historical setting."
         },
         {
           "label": "Attrell & Porreca, Picatrix: A Medieval Treatise on Astral Magic",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-08213-4.html",
+          "url_kind": "publisher",
+          "abstract": "The first full English translation of a medieval how-to manual, originally written in Arabic and later translated into Latin, that teaches readers how to build magical charms, mix potions, and use astrology to draw on the supposed powers of the planets. It became one of the most influential sourcebooks for later European magic."
         },
         {
           "label": "Etymonline, s.v. infernal (Latin infernus)",
@@ -1633,11 +2027,17 @@
       "sources": [
         {
           "label": "Petropoulos, Greek Magic: Ancient, Medieval and Modern",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.routledge.com/Greek-Magic-Ancient-Medieval-and-Modern/Petropoulos/p/book/9780415518413",
+          "url_kind": "publisher",
+          "abstract": "A collection of essays by different scholars tracing how Greek magic, including spells, curses, and protective charms, changed and stayed the same across three time periods: ancient Greece, the medieval Byzantine world, and modern Greek folk practice."
         },
         {
           "label": "Zika, The Appearance of Witchcraft",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.taylorfrancis.com/books/mono/10.4324/9780203713921/appearance-witchcraft-charles-zika",
+          "url_kind": "publisher",
+          "abstract": "Zika studies printed woodcuts and illustrated pamphlets from 16th-century Europe to show how artists invented and spread the now-familiar image of the witch (flying, naked, cooking over a cauldron), arguing these pictures shaped public fear of witchcraft as much as trial records or sermons did."
         },
         {
           "label": "Etymonline, s.v. cauldron (Latin caldaria)",
@@ -1647,15 +2047,21 @@
     },
     "censer": {
       "definition": "A censer is a vessel for burning incense — a pierced or open container in which fragrant matter is set smoking during rite. Its job is the smoke itself: where a *cauldron* boils and a *chalice* holds drink, the censer perfumes and purifies the air, carrying the *suffumigation* that consecrates a space or summons a spirit.",
-      "history": "From Latin *incensum*, 'that which is burnt,' via Old French *encensier* — the same root as *incense*, and as being *incensed* (inflamed) with anger. In both church and conjuring the censer did identical work: the priest censed the altar, and the magician suffumigated his circle. Ritual manuals from the Greek magical papyri through the *Picatrix* and the Solomonic grimoires treat it as standard equipment — Klaassen's operators suffumigate the circle with a censer as smoke rises and the spirits are called.",
+      "history": "From Latin *incensum*, 'that which is burnt,' via Old French *encensier* — the same root as *incense*, and as being *incensed* (inflamed) with anger. In both church and conjuring the censer did identical work: the priest censed the altar, and the magician suffumigated his circle. Ritual manuals from the Greek magical papyri through the *Picatrix* and the Solomonic grimoires treat it as standard equipment — the magician suffumigates the circle with a censer as smoke rises and the spirits are called.",
       "sources": [
         {
           "label": "Klaassen, The Transformations of Magic",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-05626-5.html",
+          "url_kind": "publisher",
+          "abstract": "This book argues that medieval magic banned by the church came in two flavors: \"image magic\" (making charms and talismans), which scholars could half-justify with the science of the day, and \"ritual magic\" (rituals for summoning spirits), which could not. Klaassen traces how interest in the first kind faded after 1500 while the second kept going and helped shape early modern magic."
         },
         {
           "label": "Attrell & Porreca, Picatrix: A Medieval Treatise on Astral Magic",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-08213-4.html",
+          "url_kind": "publisher",
+          "abstract": "The first full English translation of a medieval how-to manual, originally written in Arabic and later translated into Latin, that teaches readers how to build magical charms, mix potions, and use astrology to draw on the supposed powers of the planets. It became one of the most influential sourcebooks for later European magic."
         },
         {
           "label": "Etymonline, s.v. censer (Latin incensum)",
@@ -1669,11 +2075,17 @@
       "sources": [
         {
           "label": "Kieckhefer, Magic in the Middle Ages",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.cambridge.org/core/books/magic-in-the-middle-ages/8D2A1F278C9BCEE38BC3539821B838E8",
+          "url_kind": "publisher",
+          "abstract": "A widely used introduction to what magic actually was in medieval Europe: who practiced it, what forms it took, and how it connected to religion, science, storytelling, and law. It also explains how fear of magic fed into the witch trials of later centuries."
         },
         {
           "label": "Thomas, Religion and the Decline of Magic",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.penguin.co.uk/books/13672/religion-and-the-decline-of-magic-by-keith-thomas/9780140137446",
+          "url_kind": "publisher",
+          "abstract": "A landmark history of why belief in witchcraft, astrology, and protective charms was so common in 16th- and 17th-century England, and how the rise of Protestant religion and early science gradually pushed those beliefs to the margins of everyday life."
         },
         {
           "label": "Etymonline, s.v. chalice (Latin calix)",
@@ -1687,11 +2099,17 @@
       "sources": [
         {
           "label": "Szönyi, John Dee's Occultism",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://sunypress.edu/Books/J/John-Dee-s-Occultism",
+          "url_kind": "publisher",
+          "abstract": "Argues that John Dee's wide-ranging interests in science, mathematics, and angel-summoning were all held together by one goal: his belief that humans could spiritually elevate themselves toward a god-like state through hidden knowledge and symbols."
         },
         {
           "label": "Thomas, Religion and the Decline of Magic",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.penguin.co.uk/books/13672/religion-and-the-decline-of-magic-by-keith-thomas/9780140137446",
+          "url_kind": "publisher",
+          "abstract": "A landmark history of why belief in witchcraft, astrology, and protective charms was so common in 16th- and 17th-century England, and how the rise of Protestant religion and early science gradually pushed those beliefs to the margins of everyday life."
         },
         {
           "label": "Etymonline, s.v. crystal (Greek krystallos)",
@@ -1705,11 +2123,17 @@
       "sources": [
         {
           "label": "Thomas, Religion and the Decline of Magic",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.penguin.co.uk/books/13672/religion-and-the-decline-of-magic-by-keith-thomas/9780140137446",
+          "url_kind": "publisher",
+          "abstract": "A landmark history of why belief in witchcraft, astrology, and protective charms was so common in 16th- and 17th-century England, and how the rise of Protestant religion and early science gradually pushed those beliefs to the margins of everyday life."
         },
         {
           "label": "Hanegraaff, Forshaw & Pasi, Hermes Explains",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.routledge.com/Hermes-Explains-Thirty-Questions-about-Western-Esotericism/Hanegraaff-Forshaw/p/book/9789463720205",
+          "url_kind": "publisher",
+          "abstract": "A collection of short, accessible essays by thirty scholars answering common questions about 'Western esotericism' -- the broad academic label for astrology, alchemy, magic, and other hidden-knowledge traditions -- aimed at clearing up popular misconceptions about the field."
         },
         {
           "label": "Etymonline, s.v. fetish (Portuguese feitiço)",
@@ -1723,7 +2147,10 @@
       "sources": [
         {
           "label": "Kieckhefer, Magic in the Middle Ages",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.cambridge.org/core/books/magic-in-the-middle-ages/8D2A1F278C9BCEE38BC3539821B838E8",
+          "url_kind": "publisher",
+          "abstract": "A widely used introduction to what magic actually was in medieval Europe: who practiced it, what forms it took, and how it connected to religion, science, storytelling, and law. It also explains how fear of magic fed into the witch trials of later centuries."
         },
         {
           "label": "Etymonline, s.v. grail (Old French graal)",
@@ -1737,11 +2164,17 @@
       "sources": [
         {
           "label": "Skinner, Magical Techniques and Implements in the Graeco-Egyptian Magical Papyri",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://www.llewellyn.com/product.php?ean=9780738746326",
+          "url_kind": "publisher",
+          "abstract": "Skinner works through surviving magical papyrus scrolls from Roman-era Egypt to catalog the actual tools and step-by-step methods ancient magicians used, such as bowls and lamps for seeing visions, potions, and ritual objects, and traces how these methods were passed down into later European magic books."
         },
         {
           "label": "Lamont, In Blood and Ashes: Curse Tablets and Binding Spells in Ancient Greece",
-          "where": "Renaissance magic (PDF)"
+          "where": "Renaissance magic (PDF)",
+          "url": "https://global.oup.com/academic/product/in-blood-and-ashes-9780197517789",
+          "url_kind": "publisher",
+          "abstract": "Using newly published curse tablets alongside archaeological finds, Lamont shows that cursing rituals in ancient Greece were a common tool ordinary people -- tavern keepers, barbers, sailors -- used to settle everyday grudges and rivalries, not just a fringe practice of shady magicians."
         },
         {
           "label": "Etymonline, s.v. poppet (Latin puppa)",
@@ -1755,11 +2188,17 @@
       "sources": [
         {
           "label": "Kieckhefer, Magic in the Middle Ages",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.cambridge.org/core/books/magic-in-the-middle-ages/8D2A1F278C9BCEE38BC3539821B838E8",
+          "url_kind": "publisher",
+          "abstract": "A widely used introduction to what magic actually was in medieval Europe: who practiced it, what forms it took, and how it connected to religion, science, storytelling, and law. It also explains how fear of magic fed into the witch trials of later centuries."
         },
         {
           "label": "Page, Magic in the Cloister",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-06033-0.html",
+          "url_kind": "publisher",
+          "abstract": "A study of English monks who, despite their religious vows, collected and studied magic texts as part of their intellectual curiosity. It shows that for these monks, magic and monastic religious life weren't necessarily opposites — they could fit together."
         },
         {
           "label": "Etymonline, s.v. reliquary (Latin reliquiae)",
@@ -1773,11 +2212,17 @@
       "sources": [
         {
           "label": "Page & Rider, The Routledge History of Medieval Magic",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.routledge.com/The-Routledge-History-of-Medieval-Magic/Page-Rider/p/book/9781032093994",
+          "url_kind": "publisher",
+          "abstract": "A large reference collection that rounds up current scholarship on magic in medieval Europe (roughly 1100 to 1500), covering the texts people used, how the church and universities reacted, and how magic touched gender roles, art, medicine, and the early witch trials."
         },
         {
           "label": "Klaassen, The Transformations of Magic",
-          "where": "Medieval magic (PDF)"
+          "where": "Medieval magic (PDF)",
+          "url": "https://www.psupress.org/books/titles/978-0-271-05626-5.html",
+          "url_kind": "publisher",
+          "abstract": "This book argues that medieval magic banned by the church came in two flavors: \"image magic\" (making charms and talismans), which scholars could half-justify with the science of the day, and \"ritual magic\" (rituals for summoning spirits), which could not. Klaassen traces how interest in the first kind faded after 1500 while the second kept going and helped shape early modern magic."
         },
         {
           "label": "Etymonline, s.v. wand (Old Norse vöndr)",

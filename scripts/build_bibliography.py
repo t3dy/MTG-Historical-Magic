@@ -47,6 +47,23 @@ def normalize(label: str) -> str:
     return l
 
 
+def canon_key(work: str) -> str:
+    """Collapse short-title/subtitle/editor-note variants of the same work to one key,
+    so 'Fanger, Invoking Angels' and 'Claire Fanger, Invoking Angels: Theurgic Ideas...'
+    are recognized as the same citation. Databases/lexica already normalize() to a fixed
+    string, so they pass through unchanged."""
+    if work in DBS or work.startswith(("Etymonline", "Bosworth", "Liddell", "Classical lexica")):
+        return work
+    l = re.sub(r"\((?:ed\.|eds\.|trans\.)[^)]*\)", "", work, flags=re.I)  # (ed.), (trans.) notes
+    author, _, title = l.partition(",")
+    author = re.split(r"\s*(?:&|,|\band\b|\bet al\.?)\s*", author.strip(), maxsplit=1)[0]
+    surname = author.strip().split()[-1].lower() if author.strip().split() else ""
+    title = re.split(r"[:;]", title.strip(), maxsplit=1)[0].strip()
+    title = re.sub(r"^(the|a|an)\s+", "", title, flags=re.I)
+    title_key = re.sub(r"[^a-z0-9]+", "", title.lower())
+    return f"{surname}|{title_key}" if surname or title_key else work
+
+
 def group_of(work: str, where: str) -> str:
     if work in DBS:
         return "databases"
@@ -72,11 +89,13 @@ def main() -> None:
             return
         total_citations += 1
         g = group_of(w, where)
-        e = works.setdefault(w, {"group": g, "cites": set(), "url": "", "url_kind": "", "abstract": ""})
+        k = canon_key(w)
+        e = works.setdefault(k, {"group": g, "cites": set(), "url": "", "url_kind": "", "abstract": "", "labels": {}})
         # databases/etymology stay in their fixed group; PDF works keep first PDF group
         if e["group"] == "Reference" and g != "Reference":
             e["group"] = g
         e["cites"].add(page)
+        e["labels"][w] = e["labels"].get(w, 0) + 1
         if url and not e["url"]:
             e["url"], e["url_kind"] = url, url_kind
         if abstract and not e["abstract"]:
@@ -102,10 +121,11 @@ def main() -> None:
 
     out_groups = []
     for key, title, sub in GROUPS:
-        items = [{"work": w, "count": len(e["cites"]), "url": e["url"],
+        items = [{"work": max(e["labels"], key=lambda lab: (len(lab), e["labels"][lab])),
+                  "count": len(e["cites"]), "url": e["url"],
                   "url_kind": e["url_kind"], "abstract": e["abstract"],
                   "terms": sorted({p.replace("·essay", "") for p in e["cites"]})}
-                 for w, e in works.items() if e["group"] == key]
+                 for e in works.values() if e["group"] == key]
         items.sort(key=lambda x: (-x["count"], x["work"].lower()))
         if items:
             out_groups.append({"key": key, "title": title, "sub": sub,

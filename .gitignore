@@ -12,3 +12,4 @@ Thumbs.db
 .DS_Store
 
 # NOTE: site/data/ and site/img/ ARE committed — they are the deployed static site.
+data/_source_enrich/
