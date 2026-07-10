@@ -61,9 +61,9 @@ maleficium, theurgia, characteres, ligatura*). The tool bridges English→Latin 
      dossier. Quote sparingly and attribute (author, short title).
    - Populate the entry's `sources[]` with `{label, where}` — `label` = the citation, `where` =
      which DB/corpus it came from. These render as a **Sources & further reading** block.
-   - The term page's **Etymology tab** also auto-renders the dossier's DB definitions + top cited
-     quotes when `site/data/research/<slug>.json` exists — so citations show even before a full
-     history is written.
+   - The term page's **Etymology section** also auto-renders the dossier's DB definitions + top
+     cited quotes when `site/data/research/<slug>.json` exists — so citations show even before a
+     full history is written.
 
 4. **Verify, don't paraphrase-hallucinate.** The tool surfaces candidates; the scholar confirms. The
    stem-bridge can over-match (a Latin entry sharing a prefix) — discard off-topic hits.

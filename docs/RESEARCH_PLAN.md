@@ -199,3 +199,19 @@ Decisions get logged below as we make them.
     (`.github/workflows/pages.yml`); `site/data` + `site/img` committed (34MB), `data/raw` +
     `cards.jsonl` ignored. Live-verified: homepage/data/dossiers/images all HTTP 200, 301 entries.
     README rewritten with live link + process/values/goals.
+- 2026-07-10 — **Accessibility/citation directive from Ted; two structural changes.** (1) Style
+  guide value 8 added: no named modern scholar may carry a sentence on reputation alone (the
+  "Zambelli" line in the mage essay was the flagged example) — every claim must be legible to a
+  reader with zero esoteric-studies background, high-school reading level. Retroactive audit of all
+  112 definitions/histories, 51 historiography notes, and 18 essays against this test is the next
+  major writing pass (see `docs/STYLE_GUIDE.md` value 8 + updated templates). (2) Citation policy:
+  never cite as "(PDF)" — we don't distribute anyone's copyrighted work. Every source now carries an
+  optional `url`/`url_kind`/`abstract` (publisher/journal/DOI, library-catalog as fallback, never an
+  invented link) alongside the existing `label`/`where`. `where` is internal provenance only, never
+  reader-facing. `build_bibliography.py` group titles renamed away from "PDF library" wording.
+  Full link+abstract research for all 178 bibliography works is a separate, large pass (WebSearch-
+  verified per work, no invented URLs). (3) **`term.html` is now one continuous scrolling page, not
+  tabs** — Definition, History (+ Historiographical note), Word History essay, Etymology + auto-
+  surfaced scholarship, Gallery, Flavor, Mechanics, and Sources are all always-rendered `<section>`s;
+  a sticky quick-nav bar of anchor links (`#def`, `#history`, `#essay`, etc.) replaces the old
+  tab-switcher for wayfinding on the now-long page.

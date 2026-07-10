@@ -27,13 +27,13 @@
   .thero .badges{margin-top:.7rem;display:flex;gap:.5rem;flex-wrap:wrap}
   .badge{font-size:.72rem;letter-spacing:.05em;padding:.2rem .6rem;border-radius:99px;border:1px solid var(--line);color:var(--muted)}
   .badge.kw{color:var(--gold);border-color:var(--gold-dim)}
-  .tabs{position:sticky;top:47px;z-index:20;display:flex;gap:.3rem;padding:.4rem 1.5rem;background:rgba(16,14,24,.9);
+  .quicknav{position:sticky;top:47px;z-index:20;display:flex;gap:.3rem;padding:.4rem 1.5rem;background:rgba(16,14,24,.9);
     backdrop-filter:blur(8px);border-bottom:1px solid var(--line);overflow-x:auto}
-  .tab{white-space:nowrap;cursor:pointer;color:var(--muted);font-size:.9rem;padding:.5rem .9rem;border-radius:8px}
-  .tab:hover{color:var(--ink);background:var(--panel)}
-  .tab.on{color:#141019;background:var(--gold);font-weight:600}
-  .tab .c{opacity:.7;font-size:.8em}
-  .pane{display:none}.pane.on{display:block}
+  .qn{white-space:nowrap;cursor:pointer;color:var(--muted);font-size:.9rem;padding:.5rem .9rem;border-radius:8px;text-decoration:none;display:inline-block}
+  .qn:hover{color:var(--ink);background:var(--panel)}
+  .qn .c{opacity:.7;font-size:.8em}
+  section.sect{scroll-margin-top:100px}
+  .sect + .sect{margin-top:2rem}
   .statcards{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.9rem;margin:.2rem 0 1rem}
   .stat{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:.9rem 1rem;text-align:center}
   .stat b{display:block;font-family:var(--serif);font-size:1.8rem;color:var(--gold)}
@@ -145,10 +145,11 @@ function galleryBySet(cards){
   const st=d.stats, ety=d.etymology;
   const heroArt=(d.thumb&&d.thumb.art)|| (d.cards[0]&&d.cards[0].img_normal)||"";
 
-  // header + tabs
-  const tabs=[["overview","Overview"],["gallery",`Gallery`,st.name_match_count],["flavor","Flavor",st.in_flavor_cards],
-              ["mechanics","Mechanics",st.in_oracle_cards],["etymology","Origin & History"]];
-  if(d.essay) tabs.push(["essay","Word History ✦"]);
+  // header + quick-nav (anchors only — every section below is always on the page)
+  const qn=[["def","Definition"],["history","History"]];
+  if(d.essay) qn.push(["essay","Word History ✦"]);
+  qn.push(["etymology","Etymology"],["gallery",`Gallery`,st.name_match_count],["flavor","Flavor",st.in_flavor_cards],
+           ["mechanics","Mechanics",st.in_oracle_cards],["sources","Sources"]);
   root.insertAdjacentHTML("beforeend",`
     <div class="thero">
       <div class="bg" style="background-image:url('${heroArt}')"></div><div class="bgveil"></div>
@@ -165,16 +166,16 @@ function galleryBySet(cards){
         </div>
       </div>
     </div>
-    <div class="tabs" id="tabs">${tabs.map(([k,l,c],i)=>`<div class="tab ${i===0?'on':''}" data-k="${k}">${l}${c!=null?` <span class="c">${c}</span>`:''}</div>`).join("")}</div>
+    <div class="quicknav" id="quicknav">${qn.map(([k,l,c])=>`<a class="qn" href="#${k}">${l}${c!=null?` <span class="c">${c}</span>`:''}</a>`).join("")}</div>
     <div class="wrap" id="panes"></div>`);
 
-  // ---- panes ----
+  // ---- one continuous page: Definition -> Overview stats -> History (+ Historiography) ->
+  // Word History essay -> Etymology & scholarship -> Gallery -> Flavor -> Mechanics -> Sources ----
   const variantRows=Object.entries(st.by_variant);
   const vmax=Math.max(...variantRows.map(([,v])=>v),1);
-  const defBlock=`<div class="panel"><h2 class="sec">Definition</h2>
-    <p class="defn">${d.definition?mdlink(d.definition):esc(d.gloss)}</p></div>`;
-  const overview=`<div class="pane on" data-k="overview">
-    ${defBlock}
+  const defSection=`<section class="sect" id="def">
+    <div class="panel"><h2 class="sec">Definition</h2>
+    <p class="defn">${d.definition?mdlink(d.definition):esc(d.gloss)}</p></div>
     ${ety&&ety.hook?`<div class="callout"><div class="k">The hook</div>${esc(ety.hook)}</div>`:""}
     <div class="statcards">
       <div class="stat"><b>${st.flavor_total}</b><span>flavor uses</span></div>
@@ -189,35 +190,7 @@ function galleryBySet(cards){
     <div class="panel"><h2 class="sec">Morphological spread <small>every inflection collapsed to this root</small></h2>
       <div class="bars">${variantRows.sort((a,b)=>b[1]-a[1]).map(([v,c])=>bar(v,c,vmax)).join("")}</div></div>
     <p class="note">Flavor uses = the word in a card’s story text (natural language). Rules uses = the word in reminder/ability text (often a game mechanic). The gap between them is the difference between a <em>word</em> and a <em>keyword</em>.</p>
-  </div>`;
-
-  const gallery=`<div class="pane" data-k="gallery">
-    <h2 class="sec">Cards with “${esc(d.root)}” in the title <small>${st.name_match_count} card${st.name_match_count===1?'':'s'}, by set — earliest first · click for Scryfall</small></h2>
-    ${d.cards.length?galleryBySet(d.cards):'<p class="note">No card titles contain this exact word — but it lives in the flavor and rules text. See the other tabs.</p>'}
-  </div>`;
-
-  const flavor=`<div class="pane" data-k="flavor">
-    <h2 class="sec">In the flavor text <small>the word at play in the story of the cards</small></h2>
-    ${d.flavor_snippets.length? d.flavor_snippets.map(s=>`
-      <div class="quote">${s.art?`<img class="qart" loading="lazy" src="${s.art}" alt="">`:""}
-        <div><div class="qtext">“${s.html}”</div><div class="attr">— ${esc(s.card)} · ${esc(s.set)}</div></div></div>`).join("")
-      :'<p class="note">This word appears in rules text but not (yet) in any flavor text.</p>'}
-  </div>`;
-
-  const mechNote = d.is_keyword && KW_NOTE[d.slug] ? `<div class="callout"><div class="k">As a game mechanic</div>${esc(KW_NOTE[d.slug])}</div>`:"";
-  const ratio = st.flavor_total>0 ? (st.oracle_total/st.flavor_total) : (st.oracle_total>0?Infinity:0);
-  const ratioNote = st.oracle_total===0 ? "This word never appears in rules text — it is pure flavor, a literary word the game borrows only for atmosphere."
-    : ratio>=5 ? `Used <b>${ratio===Infinity?'only':Math.round(ratio)+'×'}</b> more in rules than in story — this is largely a <em>mechanical</em> word in Magic.`
-    : ratio<=0.5 ? "Used far more in story than in rules — a <em>literary</em> word the game rarely mechanizes."
-    : "Roughly balanced between story and rules use.";
-  const mechanics=`<div class="pane" data-k="mechanics">
-    <h2 class="sec">In the rules text <small>how the word behaves as game vocabulary</small></h2>
-    ${mechNote}
-    <p class="note">${ratioNote}</p>
-    ${d.mechanics_snippets.length? d.mechanics_snippets.map(s=>`
-      <div class="quote"><div class="qtext" style="font-size:.98rem">${s.html}</div><div class="attr">— ${esc(s.card)} · ${esc(s.set)}</div></div>`).join("")
-      :'<p class="note">This word does not appear in any rules text — see the Flavor tab.</p>'}
-  </div>`;
+  </section>`;
 
   const srclink = s => s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener" class="slink">${esc(s.label)}</a>` : esc(s.label);
   const refSrc=[...(d.def_sources||[]).map(s=>s.label), ...(d.sources||[])];
@@ -232,9 +205,21 @@ function galleryBySet(cards){
     <p>${mdlink(d.commentary)}</p>
     ${(d.commentary_sources&&d.commentary_sources.length)?`<div class="srcline">${d.commentary_sources.map(srclink).join(" · ")}</div>`:""}
   </div>` : "";
-  const etymology=`<div class="pane" data-k="etymology">
-    ${historyBlock}
-    ${histoBlock}
+  const historySection=`<section class="sect" id="history">${historyBlock}${histoBlock}</section>`;
+
+  const sourcesBlock = (d.essay && d.essay.sources && d.essay.sources.length) ? `
+    <div class="panel" style="margin-top:1.2rem"><h2 class="sec" style="font-size:1.05rem">Sources &amp; further reading</h2>
+      <ul class="srclist">${d.essay.sources.map(s=>`<li><span class="lbl">${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a>`:esc(s.label)}</span>${s.abstract?`<span class="abs">${esc(s.abstract)}</span>`:''}</li>`).join("")}</ul>
+      <p class="note" style="margin:.6rem 0 0">Surfaced from Ted's own research databases and library via the project's research method.</p></div>` : "";
+  const essaySection = d.essay ? `<section class="sect" id="essay">
+    <div class="essay panel">
+      <h3>${esc(d.essay.title)}</h3>
+      ${d.essay.dek?`<div class="dek">${esc(d.essay.dek)}</div>`:''}
+      <div class="meta">${d.essay.read_min?`${d.essay.read_min} min read · `:''}a Word History — origin, etymology &amp; historical usage</div>
+      ${d.essay.html}
+    </div>${sourcesBlock}</section>` : "";
+
+  const etymologySection=`<section class="sect" id="etymology">
     <div class="panel"><h2 class="sec">Etymology <small>roots &amp; first attestation</small></h2>
     ${ety?`
       <div class="etymrow"><div class="k">Origin</div><div>${esc(ety.origin||"")}</div></div>
@@ -243,22 +228,41 @@ function galleryBySet(cards){
       ${ety.hook?`<div class="callout"><div class="k">The hook</div>${esc(ety.hook)}</div>`:""}
     `:`<p class="note">Full etymology research pending.</p>`}</div>
     <div id="scholarship"></div>
+  </section>`;
+
+  const gallerySection=`<section class="sect" id="gallery">
+    <h2 class="sec">Cards with “${esc(d.root)}” in the title <small>${st.name_match_count} card${st.name_match_count===1?'':'s'}, by set — earliest first · click for Scryfall</small></h2>
+    ${d.cards.length?galleryBySet(d.cards):'<p class="note">No card titles contain this exact word — but it lives in the flavor and rules text below.</p>'}
+  </section>`;
+
+  const flavorSection=`<section class="sect" id="flavor">
+    <h2 class="sec">In the flavor text <small>the word at play in the story of the cards</small></h2>
+    ${d.flavor_snippets.length? d.flavor_snippets.map(s=>`
+      <div class="quote">${s.art?`<img class="qart" loading="lazy" src="${s.art}" alt="">`:""}
+        <div><div class="qtext">“${s.html}”</div><div class="attr">— ${esc(s.card)} · ${esc(s.set)}</div></div></div>`).join("")
+      :'<p class="note">This word appears in rules text but not (yet) in any flavor text.</p>'}
+  </section>`;
+
+  const mechNote = d.is_keyword && KW_NOTE[d.slug] ? `<div class="callout"><div class="k">As a game mechanic</div>${esc(KW_NOTE[d.slug])}</div>`:"";
+  const ratio = st.flavor_total>0 ? (st.oracle_total/st.flavor_total) : (st.oracle_total>0?Infinity:0);
+  const ratioNote = st.oracle_total===0 ? "This word never appears in rules text — it is pure flavor, a literary word the game borrows only for atmosphere."
+    : ratio>=5 ? `Used <b>${ratio===Infinity?'only':Math.round(ratio)+'×'}</b> more in rules than in story — this is largely a <em>mechanical</em> word in Magic.`
+    : ratio<=0.5 ? "Used far more in story than in rules — a <em>literary</em> word the game rarely mechanizes."
+    : "Roughly balanced between story and rules use.";
+  const mechanicsSection=`<section class="sect" id="mechanics">
+    <h2 class="sec">In the rules text <small>how the word behaves as game vocabulary</small></h2>
+    ${mechNote}
+    <p class="note">${ratioNote}</p>
+    ${d.mechanics_snippets.length? d.mechanics_snippets.map(s=>`
+      <div class="quote"><div class="qtext" style="font-size:.98rem">${s.html}</div><div class="attr">— ${esc(s.card)} · ${esc(s.set)}</div></div>`).join("")
+      :'<p class="note">This word does not appear in any rules text — see the Flavor section above.</p>'}
+  </section>`;
+
+  const sourcesSection=`<section class="sect" id="sources">
     <div class="panel"><h2 class="sec" style="font-size:1rem">Reference sources</h2><ul class="note" style="margin:0;padding-left:1.2rem">${src}</ul></div>
-  </div>`;
+  </section>`;
 
-  const sourcesBlock = (d.essay && d.essay.sources && d.essay.sources.length) ? `
-    <div class="panel" style="margin-top:1.2rem"><h2 class="sec" style="font-size:1.05rem">Sources &amp; further reading</h2>
-      <ul class="srclist">${d.essay.sources.map(s=>`<li><span class="lbl">${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a>`:esc(s.label)}</span>${s.abstract?`<span class="abs">${esc(s.abstract)}</span>`:''}</li>`).join("")}</ul>
-      <p class="note" style="margin:.6rem 0 0">Surfaced from Ted's own research databases and library via the project's research method.</p></div>` : "";
-  const essay = d.essay ? `<div class="pane" data-k="essay">
-    <div class="essay panel">
-      <h3>${esc(d.essay.title)}</h3>
-      ${d.essay.dek?`<div class="dek">${esc(d.essay.dek)}</div>`:''}
-      <div class="meta">${d.essay.read_min?`${d.essay.read_min} min read · `:''}a Word History — origin, etymology &amp; historical usage</div>
-      ${d.essay.html}
-    </div>${sourcesBlock}</div>` : "";
-
-  document.getElementById("panes").innerHTML=overview+gallery+flavor+mechanics+etymology+essay;
+  document.getElementById("panes").innerHTML=defSection+historySection+essaySection+etymologySection+gallerySection+flavorSection+mechanicsSection+sourcesSection;
 
   // related + prev/next
   const sameCat=idx.terms.filter(t=>t.category===d.category && t.slug!==d.slug).slice(0,12);
@@ -273,18 +277,9 @@ function galleryBySet(cards){
       <span>${next?`<a href="term.html?t=${next.slug}">${esc(next.root)} →</a>`:""}</span>
     </div>`);
 
-  // tab switching
-  const tabsEl=document.getElementById("tabs"), panes=[...document.querySelectorAll(".pane")];
-  tabsEl.querySelectorAll(".tab").forEach(t=>t.onclick=()=>{
-    tabsEl.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));
-    t.classList.add("on"); const k=t.dataset.k;
-    panes.forEach(p=>p.classList.toggle("on",p.dataset.k===k));
-    history.replaceState(null,"",`?t=${slug}#${k}`);
-  });
-  const hash=location.hash.slice(1);
-  if(hash){ const t=tabsEl.querySelector(`.tab[data-k="${hash}"]`); if(t) t.click(); }
+  if(location.hash){ const t=document.getElementById(location.hash.slice(1)); if(t) setTimeout(()=>t.scrollIntoView(),50); }
 
-  // Auto-surface the research dossier (Ted's DBs + PDF library) on the Etymology tab.
+  // Auto-surface the research dossier (Ted's own databases & library) into the Etymology section.
   (async function(){
     let r; try{ r=await getJSON(`data/research/${slug}.json`); }catch(e){ return; }
     if(!r || (!r.db_hits.length && !r.corpus_hits.length)) return;
@@ -298,10 +293,10 @@ function galleryBySet(cards){
     const defHtml=topDefs.map(h=>`<div class="schol-def"><div class="t">${esc(h.term)} <span class="src">${esc(h.source)}</span></div><p>${esc((h.text||'').slice(0,340))}${(h.text||'').length>340?'…':''}</p></div>`).join("");
     const citeHtml=cites.map(h=>`<div class="quote"><div class="qtext" style="font-size:.95rem">“${esc(h.snippet)}”</div><div class="attr">— ${esc(h.cite)} <span class="note">· ${esc(h.corpus)}</span></div></div>`).join("");
     document.getElementById("scholarship").innerHTML=`
-      <div class="panel"><h2 class="sec">In the scholarship <small>from Ted's magic databases &amp; PDF library</small></h2>
+      <div class="panel"><h2 class="sec">In the scholarship <small>from Ted's own research databases &amp; library</small></h2>
         ${defHtml?`<div class="schol-defs">${defHtml}</div>`:""}
         ${citeHtml?`<h2 class="sec" style="font-size:1rem;margin-top:1rem">Quoted in the sources</h2>${citeHtml}`:""}
-        <p class="note" style="margin-top:.6rem">Auto-surfaced by <code>scripts/research.py</code> from the medieval- and renaissance-magic databases and the PDF corpora; verify each quote against its source before citing.</p>
+        <p class="note" style="margin-top:.6rem">Auto-surfaced by <code>scripts/research.py</code> from the medieval- and renaissance-magic databases and Ted's research library; verify each quote against its source before citing.</p>
       </div>`;
   })();
 })();

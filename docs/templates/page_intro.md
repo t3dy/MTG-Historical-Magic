@@ -19,7 +19,8 @@ A 3–8 word gloss of what's below. *"variants collapsed · flavor = prose, rule
 
 ## Empty states
 Never a dead end. Say why it's empty and where to go: *"No card titles contain this exact word — but
-it lives in the flavor and rules text. See the other tabs."*
+it lives in the flavor and rules text below."* (Term pages are one continuous page, not tabs — point
+down the page, not sideways to "another tab.")
 
 ## Tooltips & labels
 - Labels are nouns or verbs, not sentences: *Gallery*, *Origin & History*, *Sort: most prominent*.
