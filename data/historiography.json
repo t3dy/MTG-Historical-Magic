@@ -4,77 +4,692 @@
     "shaman": {
       "commentary": "'Shaman' is a genuine Tungusic word (Evenki *šamán*), but *shamanism* — the universal category — is largely a Western construction. From Mircea Eliade onward, anthropology stretched a specific Siberian office to cover every trance-specialist on earth, and critics such as Alice Kehoe and Andrei Znamenski have shown how much that flattening owes to Romantic primitivism and a Cold-War appetite for a single 'archaic technique of ecstasy.' The word names something historically precise; the *-ism* names a scholarly habit worth distrusting.",
       "sources": [
-        {"label": "Alice B. Kehoe, Shamans and Religion", "where": "Reference"},
-        {"label": "Andrei Znamenski, The Beauty of the Primitive", "where": "Reference"},
-        {"label": "Ronald Hutton, Shamans: Siberian Spirituality and the Western Imagination", "where": "Reference"}
+        {
+          "label": "Alice B. Kehoe, Shamans and Religion",
+          "where": "Reference"
+        },
+        {
+          "label": "Andrei Znamenski, The Beauty of the Primitive",
+          "where": "Reference"
+        },
+        {
+          "label": "Ronald Hutton, Shamans: Siberian Spirituality and the Western Imagination",
+          "where": "Reference"
+        }
       ]
     },
     "alchemy": {
       "commentary": "Alchemy has been through a historiographical revolution. The Victorian and Jungian picture split a base 'exoteric' gold-making from a noble 'spiritual' alchemy of the soul — a division that, as Lawrence Principe and William Newman argued in 'Some Problems with the Historiography of Alchemy' (2001), the sources simply do not support. Recent scholarship prefers the period term *chymistry* for a single enterprise, at once laboratory practice and natural philosophy, integral to the Scientific Revolution rather than opposed to it. Tara Nummedal's work on craft and fraud pushed the field further toward the workshop and away from the psyche.",
       "sources": [
-        {"label": "Lawrence Principe & William Newman, 'Some Problems with the Historiography of Alchemy'", "where": "Alchemy (PDF)"},
-        {"label": "Tara Nummedal, 'Words and Works in the History of Alchemy' (Isis, 2011)", "where": "Alchemy (PDF)"},
-        {"label": "Lawrence Principe, The Secrets of Alchemy", "where": "Alchemy (PDF)"}
+        {
+          "label": "Lawrence Principe & William Newman, 'Some Problems with the Historiography of Alchemy'",
+          "where": "Alchemy (PDF)"
+        },
+        {
+          "label": "Tara Nummedal, 'Words and Works in the History of Alchemy' (Isis, 2011)",
+          "where": "Alchemy (PDF)"
+        },
+        {
+          "label": "Lawrence Principe, The Secrets of Alchemy",
+          "where": "Alchemy (PDF)"
+        }
       ]
     },
     "transmute": {
       "commentary": "Transmutation looks like the mystical heart of alchemy, but the new historiography insists it was a serious material theory. William Newman's studies of the Latin Geber and of Newton's laboratory show transmutation resting on a coherent corpuscular matter-theory — the same intellectual world as early-modern *chymistry*. Read this way, the alchemist trying to turn lead to gold is not a dreamer but an experimentalist reasoning from premises that were, in their day, entirely rational.",
       "sources": [
-        {"label": "William R. Newman, Newton the Alchemist", "where": "Alchemy (PDF)"},
-        {"label": "William R. Newman, on the Latin Geber (Summa Perfectionis)", "where": "Alchemy (PDF)"},
-        {"label": "Lawrence Principe, The Secrets of Alchemy", "where": "Alchemy (PDF)"}
+        {
+          "label": "William R. Newman, Newton the Alchemist",
+          "where": "Alchemy (PDF)"
+        },
+        {
+          "label": "William R. Newman, on the Latin Geber (Summa Perfectionis)",
+          "where": "Alchemy (PDF)"
+        },
+        {
+          "label": "Lawrence Principe, The Secrets of Alchemy",
+          "where": "Alchemy (PDF)"
+        }
       ]
     },
     "necromancer": {
       "commentary": "Behind the fantasy corpse-raiser lies a specific milieu that Richard Kieckhefer named the *clerical underworld*. The necromancy of the medieval manuals — his *Forbidden Rites* edits one, the Munich Handbook — was not peasant superstition but the illicit hobby of educated clergy: men with the Latin, the ritual training, and the leisure to conjure. In the sources, 'necromancy' is less a folk practice than an elite one, which is exactly why the authorities found it so alarming.",
       "sources": [
-        {"label": "Richard Kieckhefer, Forbidden Rites: A Necromancer's Manual of the Fifteenth Century", "where": "Medieval magic (PDF)"},
-        {"label": "Richard Kieckhefer, Magic in the Middle Ages", "where": "Medieval magic (PDF)"},
-        {"label": "Frank Klaassen, The Transformations of Magic", "where": "Medieval magic (PDF)"}
+        {
+          "label": "Richard Kieckhefer, Forbidden Rites: A Necromancer's Manual of the Fifteenth Century",
+          "where": "Medieval magic (PDF)"
+        },
+        {
+          "label": "Richard Kieckhefer, Magic in the Middle Ages",
+          "where": "Medieval magic (PDF)"
+        },
+        {
+          "label": "Frank Klaassen, The Transformations of Magic",
+          "where": "Medieval magic (PDF)"
+        }
       ]
     },
     "conjure": {
       "commentary": "The conjuring texts belong to Kieckhefer's *clerical underworld* — a subculture of literate, often ordained men who copied and traded ritual manuals for binding spirits. Frank Klaassen distinguishes this learned, text-based 'ritual magic' from the image-and-astrology magic of the *Picatrix* tradition; both were the work of the educated, not the village. To conjure, historically, you needed a Latin schooling and a book — which is why the practice sat so uncomfortably close to the very clergy who condemned it.",
       "sources": [
-        {"label": "Richard Kieckhefer, Forbidden Rites", "where": "Medieval magic (PDF)"},
-        {"label": "Frank Klaassen, The Transformations of Magic", "where": "Medieval magic (PDF)"}
+        {
+          "label": "Richard Kieckhefer, Forbidden Rites",
+          "where": "Medieval magic (PDF)"
+        },
+        {
+          "label": "Frank Klaassen, The Transformations of Magic",
+          "where": "Medieval magic (PDF)"
+        }
       ]
     },
     "theurgy": {
       "commentary": "Claire Fanger's work reframed a whole class of medieval ritual magic as *theurgy* rather than demonic conjuring. The *Ars Notoria* and John of Morigny's *Liber Visionum* sought angelic knowledge through prayer and vision — operations their authors understood as devout, not diabolical. Reading them as theurgy (the Neoplatonic 'god-work' of Iamblichus) rather than *goetia* recovers how the practitioners saw themselves, and dissolves the tidy line the Church tried to draw between sanctioned religion and forbidden magic.",
       "sources": [
-        {"label": "Claire Fanger, Invoking Angels: Theurgic Ideas and Practices", "where": "Medieval magic (PDF)"},
-        {"label": "Claire Fanger (ed.), Conjuring Spirits", "where": "Reference"},
-        {"label": "Claire Fanger, Rewriting Magic (John of Morigny)", "where": "Medieval magic (PDF)"}
+        {
+          "label": "Claire Fanger, Invoking Angels: Theurgic Ideas and Practices",
+          "where": "Medieval magic (PDF)"
+        },
+        {
+          "label": "Claire Fanger (ed.), Conjuring Spirits",
+          "where": "Reference"
+        },
+        {
+          "label": "Claire Fanger, Rewriting Magic (John of Morigny)",
+          "where": "Medieval magic (PDF)"
+        }
       ]
     },
     "goetia": {
       "commentary": "The line between *theurgy* and *goetia* — high divine magic and low demonic magic — looks ancient and firm, but historians treat it as a boundary actively policed rather than simply found. What one age called pious angel-magic another prosecuted as demon-conjuring; the same operations could be *theurgia* or *goetia* depending on who held the pen. The category 'goetia' is, in no small part, a verdict.",
       "sources": [
-        {"label": "Claire Fanger, Invoking Angels", "where": "Medieval magic (PDF)"},
-        {"label": "Michael D. Bailey, The Sacred and the Sinister", "where": "Medieval magic (PDF)"}
+        {
+          "label": "Claire Fanger, Invoking Angels",
+          "where": "Medieval magic (PDF)"
+        },
+        {
+          "label": "Michael D. Bailey, The Sacred and the Sinister",
+          "where": "Medieval magic (PDF)"
+        }
       ]
     },
     "witch": {
       "commentary": "No term in this study has a more contested historiography. Margaret Murray's thesis of a surviving pagan witch-cult (1921) was demolished by Norman Cohn's *Europe's Inner Demons*, which showed the sabbat to be a fantasy built by inquisitors from older libels. Keith Thomas set witchcraft in village society; Carlo Ginzburg's *The Night Battles* then recovered, beneath the trial records, the *benandanti* — a real folk-magic the courts could only hear as devil-worship. The 'witch,' the field now stresses, was largely a category made by prosecution.",
       "sources": [
-        {"label": "Norman Cohn, Europe's Inner Demons", "where": "Renaissance magic (PDF)"},
-        {"label": "Carlo Ginzburg, The Night Battles", "where": "Renaissance magic (PDF)"},
-        {"label": "Keith Thomas, Religion and the Decline of Magic", "where": "Renaissance magic (PDF)"}
+        {
+          "label": "Norman Cohn, Europe's Inner Demons",
+          "where": "Renaissance magic (PDF)"
+        },
+        {
+          "label": "Carlo Ginzburg, The Night Battles",
+          "where": "Renaissance magic (PDF)"
+        },
+        {
+          "label": "Keith Thomas, Religion and the Decline of Magic",
+          "where": "Renaissance magic (PDF)"
+        }
       ]
     },
     "hermetic": {
       "commentary": "To call something 'Hermetic' is to step into the most famous quarrel in the field. Frances Yates argued that a rediscovered Hermetic magic drove the Scientific Revolution — the 'Yates thesis' that launched the academic study of Western esotericism. It has been heavily qualified since: Wouter Hanegraaff and others show how much it owed to a Romantic grand narrative, and stress that 'Hermeticism' was never the single tradition Yates implied. The word is indispensable and treacherous in equal measure.",
       "sources": [
-        {"label": "Frances Yates, Giordano Bruno and the Hermetic Tradition", "where": "Renaissance magic (PDF)"},
-        {"label": "Wouter J. Hanegraaff, Esotericism and the Academy", "where": "Reference"}
+        {
+          "label": "Frances Yates, Giordano Bruno and the Hermetic Tradition",
+          "where": "Renaissance magic (PDF)"
+        },
+        {
+          "label": "Wouter J. Hanegraaff, Esotericism and the Academy",
+          "where": "Reference"
+        }
       ]
     },
     "occult": {
       "commentary": "'The occult' as a unified field is younger than it looks. Wouter Hanegraaff has shown that 'Western esotericism' was assembled as a scholarly category only recently, gathering astrology, alchemy, magic, and Kabbalah into one object of study that earlier centuries did not treat as a single thing. The 19th-century coinage 'occultism' did comparable work. To speak of 'the occult sciences' is already to take a position in a debate about what belongs together.",
       "sources": [
-        {"label": "Wouter J. Hanegraaff, Esotericism and the Academy", "where": "Reference"},
-        {"label": "Ronald Hutton, The Triumph of the Moon", "where": "Renaissance magic (PDF)"}
+        {
+          "label": "Wouter J. Hanegraaff, Esotericism and the Academy",
+          "where": "Reference"
+        },
+        {
+          "label": "Ronald Hutton, The Triumph of the Moon",
+          "where": "Renaissance magic (PDF)"
+        }
+      ]
+    },
+    "charm": {
+      "commentary": "No boundary in the field is argued harder than the one between a charm and a prayer. An older confessional view (echoed in medieval pastoral sources) treated the charm as *superstitio*, a debased or diabolical counterfeit of licit devotion. The turn, led by Keith Thomas and sharpened by Eamon Duffy, dissolved that line: the same formula could be prayer, medicine, or magic depending only on setting and authority. Don C. Skemer's *Binding Words* and the charm-studies of Lea Olsan and Catherine Rider now stress the charm as ordinary lived textuality, and Michael Bailey reframes 'superstition' itself as a classifying act, not a thing.",
+      "sources": [
+        {
+          "label": "Keith Thomas, Religion and the Decline of Magic",
+          "where": "Renaissance magic (PDF)"
+        },
+        {
+          "label": "MedievalMagicDB, s.v. Charms (Olsan, Skemer, Rider)",
+          "where": "MedievalMagicDB"
+        },
+        {
+          "label": "Don C. Skemer, Binding Words",
+          "where": "Reference"
+        }
+      ]
+    },
+    "curse": {
+      "commentary": "The curse-tablet is the classic battlefield for the 'magic versus religion' problem in antiquity. An older Frazerian view sorted the coercive *defixio* (magic) from the supplicant prayer (religion) as a difference of kind. H. S. Versnel undid the tidy split, showing 'prayers for justice' that beg the gods exactly as cursers command the dead, and John Gager's sourcebook demonstrates how thoroughly the *defixiones* borrow liturgical form. Recent work by Jessica Lamont and Stuart McKie pushes further, reading the tablets as ordinary social action rather than a deviant category — so that 'magic' becomes a label historians must justify, not assume.",
+      "sources": [
+        {
+          "label": "John G. Gager, Curse Tablets and Binding Spells from the Ancient World",
+          "where": "Reference"
+        },
+        {
+          "label": "Jessica L. Lamont, In Blood and Ashes",
+          "where": "Reference"
+        },
+        {
+          "label": "Stuart McKie, Living and Cursing in the Roman West",
+          "where": "Reference"
+        }
+      ]
+    },
+    "bless": {
+      "commentary": "Where does a blessing end and a spell begin? An older Protestant-descended historiography read the Church's benedictions of salt, water, and fields as 'magic' thinly baptized. Keith Thomas gave that view its most influential form, describing a medieval Church that had developed 'a comprehensive range of formulae' barely distinguishable from charms. The turn was to question the dichotomy itself: Eamon Duffy recovered the sacramentals as coherent lay devotion, and S. J. Tambiah's 'The Magical Power of Words' reframed the whole religion/magic split as a Western analytic habit rather than a fact about the acts, so that blessing and enchantment stop being opposites.",
+      "sources": [
+        {
+          "label": "Keith Thomas, Religion and the Decline of Magic",
+          "where": "Renaissance magic (PDF)"
+        },
+        {
+          "label": "S. J. Tambiah, 'The Magical Power of Words'",
+          "where": "Reference"
+        },
+        {
+          "label": "Eamon Duffy, The Stripping of the Altars",
+          "where": "Reference"
+        }
+      ]
+    },
+    "chant": {
+      "commentary": "Why should chanted words do anything at all? An older comparative view treated *incantatio* as the paradigm of 'magic' — mechanical, quasi-scientific coercion set against religion's petition. Renaissance magi themselves argued the mechanism, debating whether *incantatio* worked through the natural acoustic properties of sound as a vehicle of *spiritus*, through the objective force of divine names, or through demonic agency — the very line that divided *magia naturalis* from the illicit. S. J. Tambiah's 'The Magical Power of Words' turned the question inward, treating word-efficacy as performative ritual rather than failed physics, so the chant is now read as doing social work, not casting a mechanical spell.",
+      "sources": [
+        {
+          "label": "RenaissanceMagicDB, s.v. incantatio, fascinatio",
+          "where": "RenaissanceMagicDB"
+        },
+        {
+          "label": "S. J. Tambiah, 'The Magical Power of Words'",
+          "where": "Reference"
+        },
+        {
+          "label": "D. P. Walker, Spiritual and Demonic Magic",
+          "where": "Reference"
+        }
+      ]
+    },
+    "possess": {
+      "commentary": "Modern scholarship treats possession less as a fact of the body than as a contested interpretation of one. An older clinical framing asked whether a given case was 'real' demonic possession, hysteria, or fraud. Nancy Caciola's *Discerning Spirits* dissolved that question by showing that the same trembling, fasting woman could be read as possessed by a demon or filled with the Holy Spirit — that *discretio spirituum*, the labor of telling which, was where the real history lay. Moshe Sluhovsky extends this, stressing how thin and negotiated the line between possession, mysticism, and exorcism actually was, a point the medieval hagiographic record bears out.",
+      "sources": [
+        {
+          "label": "Nancy Caciola, Discerning Spirits",
+          "where": "Reference"
+        },
+        {
+          "label": "Moshe Sluhovsky, Believe Not Every Spirit",
+          "where": "Reference"
+        },
+        {
+          "label": "Bailey et al., The Sacred and the Sinister",
+          "where": "Medieval magic (PDF)"
+        }
+      ]
+    },
+    "spell": {
+      "commentary": "'Spell' carries the oldest assumption in the anthropology of magic: that words themselves are operative. James Frazer treated the spell as pseudo-science, a mistaken belief that saying makes it so. S. J. Tambiah's 'The Magical Power of Words' overturned that condescension, arguing that spells are performative acts whose force is ritual and social rather than a botched theory of cause. Don C. Skemer's *Binding Words* grounds the point materially, showing how written formulae worked as objects and practices, not failed physics — so the field now studies what a spell *does* in its setting rather than whether its speakers were being irrational.",
+      "sources": [
+        {
+          "label": "S. J. Tambiah, 'The Magical Power of Words'",
+          "where": "Reference"
+        },
+        {
+          "label": "Don C. Skemer, Binding Words",
+          "where": "Reference"
+        },
+        {
+          "label": "RenaissanceMagicDB, s.v. ligatura",
+          "where": "RenaissanceMagicDB"
+        }
+      ]
+    },
+    "exorcism": {
+      "commentary": "Older accounts treated exorcism as a stable Christian rite set cleanly against magic. The revisionist turn collapsed that line: Richard Kieckhefer notes that the *Twelve Conclusions* of 1395 could call the Church's own 'exorcisms and hallowings' the 'very practice of necromancy,' since exorcist and conjurer worked from the same repertoire of divine names and adjurations. Building on this, Moshe Sluhovsky (*Believe Not Every Spirit*) and Nancy Caciola (*Discerning Spirits*) reframe possession and its cure as a historically shaped contest over authority — who may command spirits, and how one tells the holy from the demonic.",
+      "sources": [
+        {
+          "label": "Richard Kieckhefer, Magic in the Middle Ages",
+          "where": "Medieval magic (PDF)"
+        },
+        {
+          "label": "Moshe Sluhovsky, Believe Not Every Spirit",
+          "where": "Reference"
+        },
+        {
+          "label": "Nancy Caciola, Discerning Spirits",
+          "where": "Reference"
+        }
+      ]
+    },
+    "bewitch": {
+      "commentary": "It is tempting to read *bewitch* as naming a thing witches did. The historiography of witchcraft resists that: what the record preserves is overwhelmingly *accusation*. Richard Kieckhefer observes that the commonest charge was simply that some old woman had 'bewitched his cows or his children,' and Michael Bailey shows how the learned category of *maleficium* — harm attributed to occult means — gathered such complaints into a construction largely built by courts and confessors. The turn, associated with the microhistorical work of Ginzburg and others, is to study the witch as something *made* by prosecution rather than a practitioner recovered through it.",
+      "sources": [
+        {
+          "label": "Richard Kieckhefer, Magic in the Middle Ages",
+          "where": "Medieval magic (PDF)"
+        },
+        {
+          "label": "MedievalMagicDB, s.v. Maleficium",
+          "where": "MedievalMagicDB"
+        },
+        {
+          "label": "Michael D. Bailey, Magic and Superstition in Europe",
+          "where": "Reference"
+        }
+      ]
+    },
+    "consecrate": {
+      "commentary": "The neat opposition of religion and magic long treated consecration as purely churchly. Keith Thomas unsettled it: the medieval Church deployed a vast repertoire of blessing and consecrating formulae — over holy bread, water, salt, oil — that laypeople valued for a power 'more than merely spiritual or symbolic,' so that the sacramentals shaded into the magical. Frank Klaassen presses from the other side, showing grimoires demanding ground and equipment be 'cleared and consecrated' in language lifted straight from liturgy. The field now stresses this shared ritual vocabulary rather than a policed line between sacrament and spell.",
+      "sources": [
+        {
+          "label": "Keith Thomas, Religion and the Decline of Magic",
+          "where": "Renaissance magic (PDF)"
+        },
+        {
+          "label": "Frank Klaassen, The Transformations of Magic",
+          "where": "Medieval magic (PDF)"
+        },
+        {
+          "label": "RenaissanceMagicDB, s.v. exorcismus",
+          "where": "RenaissanceMagicDB"
+        }
+      ]
+    },
+    "invoke": {
+      "commentary": "The tidy pairing of *invoke* (calling a power in, upward, devoutly) against *evoke* (calling a spirit out, to compel it) is real in the grimoires — Solomonic handbooks speak of aerial spirits 'evoked and constrained' — but scholars caution against projecting that ceremonial precision back onto messier sources. Claire Fanger's work on the *Ars Notoria* and John of Morigny reframes much angelic invocation as *theurgy*, devout petition, dissolving the confident theurgy/goetia boundary the later systematizers drew. The distinction is a retrospective ordering of practices whose own authors often could not tell conjuration from prayer.",
+      "sources": [
+        {
+          "label": "Claire Fanger, Invoking Angels",
+          "where": "Medieval magic (PDF)"
+        },
+        {
+          "label": "RenaissanceMagicDB, s.v. evocatio, theurgia",
+          "where": "RenaissanceMagicDB"
+        },
+        {
+          "label": "Frank Klaassen, The Transformations of Magic",
+          "where": "Medieval magic (PDF)"
+        }
+      ]
+    },
+    "sublimate": {
+      "commentary": "The alchemical operations invite a special version of the alchemy debate. In the wake of Carl Jung and Mircea Eliade, *sublimatio*, *putrefactio*, and the rest were read as coded stages of the soul's transformation — an inner drama in chemical dress. Lawrence Principe and William Newman have insisted instead that these were real laboratory procedures: Zosimos used fire to separate spirits from bodies because he was actually subliming solids. Newman's study of Thomas Vaughan shows the period's own authors distinguishing operations on *physical substance* from any *unio mystica*, and Wouter Hanegraaff traces the purely 'spiritual' reading to a modern, and in his phrase 'degenerate,' construction.",
+      "sources": [
+        {
+          "label": "Lawrence Principe & William Newman, 'Some Problems with the Historiography of Alchemy'",
+          "where": "Alchemy (PDF)"
+        },
+        {
+          "label": "William Newman, 'Thomas Vaughan as an Interpreter of Agrippa' (Ambix, 1982)",
+          "where": "Alchemy (PDF)"
+        },
+        {
+          "label": "Wouter J. Hanegraaff, Esotericism and the Academy",
+          "where": "Reference"
+        }
+      ]
+    },
+    "mystic": {
+      "commentary": "'Mysticism' looks timeless but is largely a modern coinage. Where older writers spoke of contemplation, union, or the *unio mystica* as specific practices, the nineteenth and twentieth centuries assembled a single universal category — 'mystical experience,' ineffable and cross-cultural — and read it back onto Eckhart, the Sufis, and the Kabbalists alike. Leigh Eric Schmidt has traced how liberal Protestant and Romantic writers manufactured that abstraction, and Michel de Certeau, in *The Mystic Fable*, showed 'the mystics' emerging as a distinct early-modern formation rather than a perennial one. The word names something real; the *-ism* names a scholarly habit.",
+      "sources": [
+        {
+          "label": "Leigh Eric Schmidt, 'The Making of Modern Mysticism' (JAAR, 2003)",
+          "where": "Reference"
+        },
+        {
+          "label": "Michel de Certeau, The Mystic Fable",
+          "where": "Reference"
+        },
+        {
+          "label": "Steven Katz, Mysticism and Philosophical Analysis",
+          "where": "Reference"
+        }
+      ]
+    },
+    "grimoire": {
+      "commentary": "Older accounts treated the grimoire as a dead medieval relic — a curiosity of Solomonic seals surviving in a few manuscripts. Owen Davies's *Grimoires: A History* recast it as a living, mass-market, and global tradition: cheap print, colonial diffusion, and now the internet kept the spell-book continuously in circulation. Frank Klaassen sharpens the point from the other end, showing that the *printed* grimoire is largely a post-seventeenth-century formation — the *Grimoire du Pape Honorius* stitching medieval scraps into a new book. The field's turn is to read grimoires as *book history* rather than as occult oddities.",
+      "sources": [
+        {
+          "label": "Owen Davies, Grimoires: A History of Magic Books",
+          "where": "Renaissance magic (PDF)"
+        },
+        {
+          "label": "Frank Klaassen, The Transformations of Magic",
+          "where": "Medieval magic (PDF)"
+        }
+      ]
+    },
+    "manuscript": {
+      "commentary": "Traditional philology hunted the single fixed *original* behind each text, treating variant copies as corruptions to be stripped away. The New Philology, and its application to magic by Frank Klaassen and Sophie Page, inverts that: for ritual texts the variation *is* the object. The *Ars Notoria* survived not as a stable book but as a fluid dossier of rewritten openings and recombined prayers, copied beside medical, astrological, and devotional matter. Klaassen's term for this is a *manuscript ecology* — a miscellany-culture that Benedek Láng and Kieckhefer's 'clerical underworld' fill out — where meaning lives in the mixing, not in a lost archetype.",
+      "sources": [
+        {
+          "label": "Frank Klaassen, The Transformations of Magic",
+          "where": "Medieval magic (PDF)"
+        },
+        {
+          "label": "Sophie Page, Magic in the Cloister",
+          "where": "Medieval magic (PDF)"
+        },
+        {
+          "label": "Benedek Láng, Unlocked Books",
+          "where": "Reference"
+        }
+      ]
+    },
+    "bestiary": {
+      "commentary": "The romantic reading made the medieval bestiary proof of a 'symbolic mentality' — a world in which every beast was transparently a moral sign, the pelican simply *meaning* Christ. Recent work complicates the picture from two sides. Ron Baxter ties the genre's rise to a concrete institutional use, arguing that houses such as St. Augustine's, Canterbury promoted bestiaries as *sermon exempla* rather than as free-floating allegory. Sophie Page finds the same books shelved beside marvels and monstrous races — evidence of curiosity about nature's wonders, not only piety. The field now cautions against mistaking the allegory for the whole of medieval seeing.",
+      "sources": [
+        {
+          "label": "Frank Klaassen, The Transformations of Magic (on Ron Baxter)",
+          "where": "Medieval magic (PDF)"
+        },
+        {
+          "label": "Sophie Page, Magic in the Cloister",
+          "where": "Medieval magic (PDF)"
+        }
+      ]
+    },
+    "herbal": {
+      "commentary": "An older progress-narrative sorted the herbal into a story of emerging *science*: superstitious plant-lore on one side, the birth of botany on the other, with the ritual husks discarded as the discipline matured. Historians now reject that clean split. Richard Kieckhefer stresses that the herbal never separated healing from wonder, growing 'a lush growth of lore about the wondrous powers of plants,' ritual harvesting instructions and all. Studies of early science make the same case: herbalism and bestiary lore were overlaid with religious and moral meaning that the later separation of magic from medicine retrospectively obscures rather than describes.",
+      "sources": [
+        {
+          "label": "Richard Kieckhefer, Magic in the Middle Ages",
+          "where": "Medieval magic (PDF)"
+        },
+        {
+          "label": "Religion, Magic, and the Origins of Science in Early Modern England",
+          "where": "Renaissance magic (PDF)"
+        }
+      ]
+    },
+    "astrology": {
+      "commentary": "Astrology sits at the center of the field's biggest methodological quarrel: whether it belongs to the history of *science* or the history of *superstition*. Lynn Thorndike's monumental *History of Magic and Experimental Science* refused the tidy story of reason shedding astral nonsense, treating prediction and natural inquiry as intertwined. Later scholars — Nicolas Weill-Parot, David Pingree, and the Warburg-descended tradition Paola Zambelli documents — sharpened the distinctions Thorndike blurred, separating astral image theory, mathematical practice, and judicial prognostication. The field now stresses that astrology was a rigorous technical discipline whose divorce from astronomy was late and contingent, not a failure waiting to be corrected.",
+      "sources": [
+        {
+          "label": "Lynn Thorndike, A History of Magic and Experimental Science",
+          "where": "MedievalMagicDB"
+        },
+        {
+          "label": "Nicolas Weill-Parot, on astrology and occult knowledge",
+          "where": "MedievalMagicDB"
+        },
+        {
+          "label": "Paola Zambelli, Astrology and Magic from the Medieval Latin and Islamic World to Renaissance Europe",
+          "where": "Renaissance magic (PDF)"
+        }
+      ]
+    },
+    "geomancy": {
+      "commentary": "The Greek name is a scholarly red herring, and the historiography turns on saying so. Despite *gē* ('earth'), the developed art was not Hellenic: it reached Latin Europe from the Arabic *ʿilm al-raml*, the 'science of sand,' and the field now reads geomancy as a case study in Arabic-Latin transmission — the work Charles Burnett has made central. Stephen Skinner's revisionist history stresses its Islamic origin (the *PGM* magicians barely knew it), while Frank Klaassen shows the translated art circulating in learned miscellanies beside judicial astrology. The stress has shifted from etymology to transmission: geomancy is where a suspect 'clerical' art turns out to be imported science.",
+      "sources": [
+        {
+          "label": "MedievalMagicDB, s.v. Geomancy",
+          "where": "MedievalMagicDB"
+        },
+        {
+          "label": "Frank Klaassen, The Transformations of Magic",
+          "where": "Renaissance magic (PDF)"
+        },
+        {
+          "label": "Stephen Skinner, Magical Techniques and Implements",
+          "where": "Medieval magic (PDF)"
+        }
+      ]
+    },
+    "clairvoyance": {
+      "commentary": "Unlike its ancient *-mancy* cousins, clairvoyance is a modern coinage, and that is precisely the historiographical point. The word was minted by nineteenth-century mesmerism and Spiritualism for the visions of entranced somnambulists, and the newer scholarship refuses to dismiss animal magnetism as mere quackery, reading the 'science of the séance' as serious contested science — the approach Alison Winter's *Mesmerized* exemplifies. Wouter Hanegraaff presses the constructivist turn further: 'to the extent that subjects believe in the veracity of their visions, they come to think of their experiences as instances of clairvoyance.' The field now treats the term less as a faculty than as an artifact of the movements that named it.",
+      "sources": [
+        {
+          "label": "Wouter J. Hanegraaff, Hermetic Spirituality and the Historical Imagination",
+          "where": "Reference"
+        },
+        {
+          "label": "Alison Winter, Mesmerized: Powers of Mind in Victorian Britain",
+          "where": "Reference"
+        },
+        {
+          "label": "Hanegraaff, Forshaw & Pasi, Hermes Explains",
+          "where": "Reference"
+        }
+      ]
+    },
+    "hydromancy": {
+      "commentary": "Hydromancy is a lesson in distrusting neat taxonomies. Medieval and Renaissance writers reflexively listed it in an elemental quartet — geomancy, hydromancy, pyromancy, aeromancy — and scholars long took that scheme as descriptive. Stephen Skinner's revisionist reconstruction argues the symmetry is an artifact: 'it was only scholars who, copying Isidore of Seville, in his quest for a neat fourfold symmetrical classification, decided that hydromancy must have formed one of the four elemental forms of divination,' when in practice only geomancy really fitted. The MedievalMagicDB compilers make the complementary point — hydromancy survives as a category in condemnatory *lists* far more than as a documented practice. The field now reads such enumerations as classificatory imagination, not inventory.",
+      "sources": [
+        {
+          "label": "MedievalMagicDB, s.v. Hydromancy",
+          "where": "MedievalMagicDB"
+        },
+        {
+          "label": "Stephen Skinner, Magical Techniques and Implements",
+          "where": "Renaissance magic (PDF)"
+        },
+        {
+          "label": "MedievalMagicDB, s.v. Divination",
+          "where": "MedievalMagicDB"
+        }
+      ]
+    },
+    "druid": {
+      "commentary": "The druid is the classic case of an *invented* figure. The historical druids left no writings, and the little that survives — Caesar, Pliny, a scatter of Irish hagiography — is thin, hostile, and late; Kieckhefer cautions that the 'wizards' of Celtic legend are only 'distant reflections' of anything real. What most people picture is a double reconstruction: first the Renaissance ancient-theology tradition, which slotted the Druids beside Zoroaster and Hermes as gentile forerunners of true wisdom (Yates; Zambelli), and then the Romantic Celtic revival Ronald Hutton anatomizes in *Blood and Mistletoe*. The field now stresses that the druid is largely a screen for later longing.",
+      "sources": [
+        {
+          "label": "Ronald Hutton, Blood and Mistletoe: The History of the Druids in Britain",
+          "where": "Reference"
+        },
+        {
+          "label": "Frances Yates, Giordano Bruno and the Hermetic Tradition",
+          "where": "Renaissance magic (PDF)"
+        },
+        {
+          "label": "Richard Kieckhefer, 'The Specific Rationality of Medieval Magic'",
+          "where": "Medieval magic (PDF)"
+        }
+      ]
+    },
+    "magus": {
+      "commentary": "For a generation the *magus* was a hero. Frances Yates cast the Renaissance Magus — Ficino, Pico, Agrippa, Bruno — as a bold new operator on nature whose confidence helped birth modern science. Critics have since dismantled the too-clean portrait: Håkan Håkansson calls the picture of Dee as a 'Hermetic magus' 'much too simplistic,' restoring his debt to Aristotle and medieval philosophy. Behind the honorific stands its shadow twin, Simon Magus, the New Testament's false wonder-worker; Kieckhefer and Edward Peters show how the Christian construction of 'the magician' fixed the word's ambivalence from the start. The field now reads the magus as a contested label, not a movement.",
+      "sources": [
+        {
+          "label": "Frances Yates, Giordano Bruno and the Hermetic Tradition",
+          "where": "Renaissance magic (PDF)"
+        },
+        {
+          "label": "Håkan Håkansson, Seeing the Word: John Dee and Renaissance Occultism",
+          "where": "Renaissance magic (PDF)"
+        },
+        {
+          "label": "Edward Peters, The Magician, the Witch, and the Law",
+          "where": "Renaissance magic (PDF)"
+        }
+      ]
+    },
+    "occultist": {
+      "commentary": "The job title is younger than the practice. 'Occultism,' and with it the 'occultist,' is a nineteenth-century coinage, born with Spiritualism and the revival of ceremonial magic, and the field now insists it not be read back onto earlier centuries. Wouter Hanegraaff and Marco Pasi have argued that 'occultism' — and the broader category 'Western esotericism' — are recently constructed scholarly objects: Agrippa spoke of *philosophia occulta*, not of being an occultist. The turn is to treat the noun as a historical artifact of modernity's own polemics (the 'occult' as the rejected, disenchanted remainder) rather than a timeless kind of person.",
+      "sources": [
+        {
+          "label": "Wouter Hanegraaff, Peter Forshaw & Marco Pasi (eds.), Hermes Explains",
+          "where": "Reference"
+        },
+        {
+          "label": "Wouter Hanegraaff, Esotericism and the Academy",
+          "where": "Reference"
+        },
+        {
+          "label": "Cornelius Agrippa, De Occulta Philosophia",
+          "where": "RenaissanceMagicDB"
+        }
+      ]
+    },
+    "exorcist": {
+      "commentary": "Exorcism once looked like a stable Christian rite standing safely apart from magic. Recent scholarship makes it a *boundary* practice instead. MedievalMagicDB classes it a 'Hybrid': the exorcist and the conjurer often worked from the same page of adjurations and divine names, and Kieckhefer notes the exorcist's stance was 'at once coercive and petitionary,' indistinguishable in form from the necromancer's. Stuart Clark and historians of possession show the phenomenon as historically shaped — a contested performance policed by institutions, not a timeless clinical fact — so that what counted as demonic, and who could licitly expel it, was itself the argument.",
+      "sources": [
+        {
+          "label": "Richard Kieckhefer, Magic in the Middle Ages",
+          "where": "Medieval magic (PDF)"
+        },
+        {
+          "label": "Stuart Clark, Thinking with Demons",
+          "where": "Renaissance magic (PDF)"
+        },
+        {
+          "label": "MedievalMagicDB, s.v. Exorcism (Hybrid category)",
+          "where": "MedievalMagicDB"
+        }
+      ]
+    },
+    "conjurer": {
+      "commentary": "The stage 'conjurer' obscures a sharper historical figure. Richard Kieckhefer located ritual conjuration in what he called the *clerical underworld* — literate, often ordained men who alone had the Latin and liturgical training to command spirits. In his reading the conjurer's stance mirrors the exorcist's, 'at once coercive and petitionary,' following 'the spirit — and often the letter — of orthodox exorcism.' Claire Fanger and Frank Klaassen extended this into a study of illicit *learned* magic as a manuscript ecology. The field now stresses that conjuring was not folk deviance but a shadow of clerical literacy itself.",
+      "sources": [
+        {
+          "label": "Richard Kieckhefer, Magic in the Middle Ages",
+          "where": "Medieval magic (PDF)"
+        },
+        {
+          "label": "Claire Fanger (ed.), Conjuring Spirits: Texts and Traditions of Medieval Ritual Magic",
+          "where": "Reference"
+        },
+        {
+          "label": "Frank Klaassen, The Transformations of Magic",
+          "where": "Medieval magic (PDF)"
+        }
+      ]
+    },
+    "hierophant": {
+      "commentary": "The Eleusinian hierophant has been repeatedly borrowed to license a modern idea of the sage. Already in late antiquity, as György Szönyi shows, Neoplatonism 'turned the philosopher into a hierophant,' recasting the priest who displayed sacred objects as one who unveils divine reality — a move Renaissance occultism inherited. The category was stretched further in the twentieth century: Mircea Eliade coined *hierophany* ('manifestation of the sacred') as a universal analytic that Renaissance figures never used. Scholars now treat 'the Mysteries' and their officiants warily, alert to how much later philosophy and modern religious studies have read *into* a cult about which the initiates kept silent.",
+      "sources": [
+        {
+          "label": "György Szönyi, John Dee's Occultism",
+          "where": "Renaissance magic (PDF)"
+        },
+        {
+          "label": "Mircea Eliade, Patterns in Comparative Religion (on hierophany)",
+          "where": "Reference"
+        },
+        {
+          "label": "RenaissanceMagicDB, s.v. hierophany",
+          "where": "RenaissanceMagicDB"
+        }
+      ]
+    },
+    "fetish": {
+      "commentary": "No word better exposes how a category can be manufactured at a border. *Fetish* was not an African term but a coinage of Portuguese traders on the West African coast, systematized into a theory of primitive religion by Charles de Brosses and then annexed by the metropolitan disciplines — Marx for the *commodity*, Freud for desire. William Pietz's *The Problem of the Fetish* is the decisive intervention: the concept, he argues, was born in the intercultural trade encounter, not in Africa, and the scholarly habit of naming other people's objects 'fetishes' says more about European anxieties (as Hanegraaff notes of Adorno's occult 'fetish-character') than about the objects.",
+      "sources": [
+        {
+          "label": "William Pietz, 'The Problem of the Fetish'",
+          "where": "Reference"
+        },
+        {
+          "label": "Hanegraaff, Forshaw & Pasi, Hermes Explains",
+          "where": "Renaissance magic (PDF)"
+        },
+        {
+          "label": "Brian Copenhaver, Magic and the Dignity of Man",
+          "where": "Reference"
+        }
+      ]
+    },
+    "rune": {
+      "commentary": "The gap here is between a thin medieval record and a lavish modern system. Kieckhefer notes the sources give us Woden's mastery of the runic alphabet and healing charms, and the *Libri runarum* fused Scandinavian runes with hermetic talismanic magic — but nothing like the comprehensive 'runic magic' of later occultism. That system is largely a nineteenth- and twentieth-century construction: the Germanic esotericism of Guido von List, the SS appropriation of runic sigils, and neo-pagan reconstruction. Ronald Hutton and others caution against reading these elaborate schemes back onto the medieval evidence; the modern *-ism* is the invention, not the letters.",
+      "sources": [
+        {
+          "label": "Richard Kieckhefer, Magic in the Middle Ages",
+          "where": "Medieval magic (PDF)"
+        },
+        {
+          "label": "Page & Rider, The Routledge History of Medieval Magic",
+          "where": "Medieval magic (PDF)"
+        },
+        {
+          "label": "Ronald Hutton, on modern paganism and the runic revival",
+          "where": "Reference"
+        }
+      ]
+    },
+    "talisman": {
+      "commentary": "The talisman sits on the great fault line of Renaissance magic: was drawing planetary power into an image *natural* or *demonic*? D. P. Walker's *Spiritual and Demonic Magic* framed the problem around Ficino's *De vita*, which tried to keep astral talismans within *magia naturalis* — a capture of *influxus* through material correspondence — while nervously citing the *Picatrix*; Brian Copenhaver has since shown how unstable that line was. Medievalists add a second worry: Nicolas Weill-Parot and Jean-Patrice Boudet argue that 'talisman' is too smooth a modern label, flattening the distinct theories of image-efficacy the sources actually kept apart.",
+      "sources": [
+        {
+          "label": "D. P. Walker, Spiritual and Demonic Magic from Ficino to Campanella",
+          "where": "Reference"
+        },
+        {
+          "label": "MedievalMagicDB, s.v. Talismans (Weill-Parot, Boudet)",
+          "where": "MedievalMagicDB"
+        },
+        {
+          "label": "Attrell & Porreca, Picatrix",
+          "where": "Medieval magic (PDF)"
+        }
+      ]
+    },
+    "grail": {
+      "commentary": "The Grail's sanctity was retrofitted, and modern scholarship has learned to distrust its own myth-making. In Chrétien's *Perceval* the *graal* is an unexplained serving-dish; only when clerical authors reworked the romance, Kieckhefer observes, did the religious matter thicken into the Last Supper's chalice. The twentieth century then re-mythologized it: Jessie Weston's *From Ritual to Romance* traced the Grail to a pagan fertility cult — an argument that shaped Eliot and Frazer's afterlife but that Arthurian scholars have largely rejected as speculative. The field now stresses the Grail as a literary-Christian construction, not the survival of an archaic rite.",
+      "sources": [
+        {
+          "label": "Richard Kieckhefer, Magic in the Middle Ages",
+          "where": "Medieval magic (PDF)"
+        },
+        {
+          "label": "Jessie Weston, From Ritual to Romance",
+          "where": "Reference"
+        }
+      ]
+    },
+    "crystal-ball": {
+      "commentary": "The crystal ball's historiography turns on John Dee, and on how badly the Victorians misjudged him. Dee's diaries record the 'shew-stone,' the crystal globes, and the angel-conversations relayed through his scryer Edward Kelley — long dismissed as the credulous folly of a great mind gone to seed. Deborah Harkness's *John Dee's Conversations with Angels* overturned that verdict, reading the scrying sessions as a coherent, learned program of *cabala*, alchemy, and natural philosophy rather than crankery; Glyn Parry's *The Arch Conjuror of England* sets them in their political world. The field now treats Elizabethan scrying as serious intellectual history.",
+      "sources": [
+        {
+          "label": "Deborah Harkness, John Dee's Conversations with Angels",
+          "where": "Renaissance magic (PDF)"
+        },
+        {
+          "label": "Glyn Parry, The Arch Conjuror of England",
+          "where": "Renaissance magic (PDF)"
+        },
+        {
+          "label": "György Szönyi, John Dee's Occultism",
+          "where": "Renaissance magic (PDF)"
+        }
+      ]
+    },
+    "amulet": {
+      "commentary": "The amulet is where the old 'magic versus religion' partition breaks down. Keith Thomas showed that the medieval Church itself encouraged 'ecclesiastical talismans and amulets,' making the line between sanctioned sacramental and illicit charm 'impossibly fine.' Recent scholarship presses further: Don Skemer's *Binding Words* reads written amulets as devotional manuscript culture, 'books in miniature,' and MedievalMagicDB treats 'amulet' frankly as an *analyst term* — a modern grouping imposed on objects medieval actors variously called blessings, remedies, or *phylacteria*. The debate is less about what amulets did than about whether our category smooths over distinctions the sources kept rough.",
+      "sources": [
+        {
+          "label": "Keith Thomas, Religion and the Decline of Magic",
+          "where": "Renaissance magic (PDF)"
+        },
+        {
+          "label": "MedievalMagicDB, s.v. Amulets (Skemer, Olsan)",
+          "where": "MedievalMagicDB"
+        }
+      ]
+    },
+    "cauldron": {
+      "commentary": "The cauldron looks timeless — Medea and Circe already brew in one — but the *witch's* cauldron is a datable invention. Charles Zika's *The Appearance of Witchcraft* argues that the stock image of women clustered around a steaming pot was assembled in sixteenth-century print and visual culture, not inherited from folk belief: engravings by Baldung and de Gheyn built a new iconography of sexual and demonic threat, of which the cauldron became a defining prop. The field now reads the object as evidence for how the witch was *pictured* into being, a construction later fixed by Shakespeare's weird sisters.",
+      "sources": [
+        {
+          "label": "Charles Zika, The Appearance of Witchcraft",
+          "where": "Renaissance magic (PDF)"
+        },
+        {
+          "label": "Charles Zika, 'Cannibalism and Witchcraft in Early Modern Europe'",
+          "where": "Renaissance magic (PDF)"
+        }
       ]
     }
   }
