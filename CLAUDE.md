@@ -52,11 +52,16 @@ built in so the pipeline runs with zero heavy deps.
 
 **All site copy follows [`docs/STYLE_GUIDE.md`](docs/STYLE_GUIDE.md)** (voice, values, citation,
 house conventions) + the per-type templates in `docs/templates/` (term_definition, term_history,
-word_history, data_viz, page_intro) and `docs/TIMELINE_TEMPLATE.md`. Content lives in:
+**historiography_note**, word_history, data_viz, page_intro) and `docs/TIMELINE_TEMPLATE.md`. Content:
 `data/definitions.json` (per-term Definition + History — the workhorse, one for every term),
-`data/etymology.json` (origins/attestation/hook + lang), `data/essays.json` (flagship Word
-Histories), `data/history_seed/*.json` (timeline). Ground every claim in the research corpus
-(below); American spelling; italic for *terms* and *titles*; cite 1–4 sources, verified.
+`data/historiography.json` (**Historiographical notes** — how scholars argue about the contested
+terms: the "shamanism" problematic, the new historiography of alchemy/"chymistry", Kieckhefer's
+clerical necromantic underworld, Fanger on theurgy, the witch-cult debate, the Yates thesis — value 7),
+`data/etymology.json` (origins/attestation/hook + lang), `data/essays.json` (flagship Word Histories),
+`data/history_seed/*.json` (timeline). Ground every claim in the research corpus (below) + Ted's
+historiography discussions in `C:\Dev\megabase` (megabase.db, FTS over `messages`); American spelling;
+italic for *terms* and *titles*; cite verified sources. Rebuild aggregates after writing:
+`build_terms.py`, then `build_bibliography.py`.
 
 ## Researching terms (Word Histories) — cite Ted's own scholarship
 

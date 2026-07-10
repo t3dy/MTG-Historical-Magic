@@ -74,6 +74,14 @@
   .defn .xref{text-decoration:none;border-bottom:1px dotted var(--gold-dim)}
   .defn .xref em{color:#e9dcc0;font-style:italic}
   .defn .xref:hover{border-bottom-color:var(--gold)}
+  .histnote{background:linear-gradient(135deg,rgba(87,199,199,.10),rgba(87,199,199,.03));
+    border:1px solid #2e5a5a;border-left:3px solid var(--c-divination);border-radius:12px;padding:1rem 1.2rem;margin:1rem 0}
+  .histnote .hk{color:var(--c-divination);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:.35rem}
+  .histnote p{margin:0;font-family:var(--serif);font-size:1.02rem;line-height:1.6;color:var(--ink)}
+  .histnote p em{color:#cfeaea}
+  .histnote .srcline{color:#7fb0b0}
+  .histnote .xref{border-bottom:1px dotted var(--c-divination)}
+  .histnote .xref em{color:#cfeaea}
 </style>
 </head>
 <body>
@@ -152,6 +160,7 @@ function galleryBySet(cards){
           ${catTag(d.category)}
           ${d.is_keyword?'<span class="badge kw">◆ MTG keyword</span>':''}
           ${(st.flavor_total+st.oracle_total+st.name_match_count===0)?'<span class="badge">word history · not in the card set</span>':''}
+          ${d.commentary?'<span class="badge" style="color:var(--c-divination);border-color:#2e5a5a">⚑ historiography</span>':''}
           ${ety?'<span class="badge">📜 etymology</span>':'<span class="badge">etymology pending</span>'}
         </div>
       </div>
@@ -217,8 +226,14 @@ function galleryBySet(cards){
     ${(d.def_sources&&d.def_sources.length)?`<div class="srcline">${d.def_sources.map(s=>esc(s.label)).join(" · ")}</div>`:""}</div>`
     : `<div class="panel"><h2 class="sec">History <small>how the word developed</small></h2>
     <p class="note">A written history for this term is in progress. The etymology and cited scholarship below are its raw material.</p></div>`;
+  const histoBlock = d.commentary ? `<div class="histnote">
+    <div class="hk">⚑ Historiographical note</div>
+    <p>${mdlink(d.commentary)}</p>
+    ${(d.commentary_sources&&d.commentary_sources.length)?`<div class="srcline">${d.commentary_sources.map(s=>esc(s.label)).join(" · ")}</div>`:""}
+  </div>` : "";
   const etymology=`<div class="pane" data-k="etymology">
     ${historyBlock}
+    ${histoBlock}
     <div class="panel"><h2 class="sec">Etymology <small>roots &amp; first attestation</small></h2>
     ${ety?`
       <div class="etymrow"><div class="k">Origin</div><div>${esc(ety.origin||"")}</div></div>

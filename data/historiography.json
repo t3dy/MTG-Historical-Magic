@@ -1,0 +1,81 @@
+{
+  "_about": "Historiographical commentary — a scholarly-reflexive note for terms whose modern study is itself contested. Not 'what the word meant' (that is the History) but 'how scholars argue about it now': the problematics of 'shamanism', the new historiography of alchemy ('chymistry'), Kieckhefer's clerical necromantic underworld, Fanger on angel-magic-as-theurgy, the witch-cult debate, the Yates thesis. Drawn from the medieval/renaissance/alchemy databases, the PDF library, and Ted's own historiography discussions in C:\\Dev\\megabase. Rendered as a 'Historiographical note' aside on the Origin & History tab. See docs/templates/historiography_note.md.",
+  "terms": {
+    "shaman": {
+      "commentary": "'Shaman' is a genuine Tungusic word (Evenki *šamán*), but *shamanism* — the universal category — is largely a Western construction. From Mircea Eliade onward, anthropology stretched a specific Siberian office to cover every trance-specialist on earth, and critics such as Alice Kehoe and Andrei Znamenski have shown how much that flattening owes to Romantic primitivism and a Cold-War appetite for a single 'archaic technique of ecstasy.' The word names something historically precise; the *-ism* names a scholarly habit worth distrusting.",
+      "sources": [
+        {"label": "Alice B. Kehoe, Shamans and Religion", "where": "Reference"},
+        {"label": "Andrei Znamenski, The Beauty of the Primitive", "where": "Reference"},
+        {"label": "Ronald Hutton, Shamans: Siberian Spirituality and the Western Imagination", "where": "Reference"}
+      ]
+    },
+    "alchemy": {
+      "commentary": "Alchemy has been through a historiographical revolution. The Victorian and Jungian picture split a base 'exoteric' gold-making from a noble 'spiritual' alchemy of the soul — a division that, as Lawrence Principe and William Newman argued in 'Some Problems with the Historiography of Alchemy' (2001), the sources simply do not support. Recent scholarship prefers the period term *chymistry* for a single enterprise, at once laboratory practice and natural philosophy, integral to the Scientific Revolution rather than opposed to it. Tara Nummedal's work on craft and fraud pushed the field further toward the workshop and away from the psyche.",
+      "sources": [
+        {"label": "Lawrence Principe & William Newman, 'Some Problems with the Historiography of Alchemy'", "where": "Alchemy (PDF)"},
+        {"label": "Tara Nummedal, 'Words and Works in the History of Alchemy' (Isis, 2011)", "where": "Alchemy (PDF)"},
+        {"label": "Lawrence Principe, The Secrets of Alchemy", "where": "Alchemy (PDF)"}
+      ]
+    },
+    "transmute": {
+      "commentary": "Transmutation looks like the mystical heart of alchemy, but the new historiography insists it was a serious material theory. William Newman's studies of the Latin Geber and of Newton's laboratory show transmutation resting on a coherent corpuscular matter-theory — the same intellectual world as early-modern *chymistry*. Read this way, the alchemist trying to turn lead to gold is not a dreamer but an experimentalist reasoning from premises that were, in their day, entirely rational.",
+      "sources": [
+        {"label": "William R. Newman, Newton the Alchemist", "where": "Alchemy (PDF)"},
+        {"label": "William R. Newman, on the Latin Geber (Summa Perfectionis)", "where": "Alchemy (PDF)"},
+        {"label": "Lawrence Principe, The Secrets of Alchemy", "where": "Alchemy (PDF)"}
+      ]
+    },
+    "necromancer": {
+      "commentary": "Behind the fantasy corpse-raiser lies a specific milieu that Richard Kieckhefer named the *clerical underworld*. The necromancy of the medieval manuals — his *Forbidden Rites* edits one, the Munich Handbook — was not peasant superstition but the illicit hobby of educated clergy: men with the Latin, the ritual training, and the leisure to conjure. In the sources, 'necromancy' is less a folk practice than an elite one, which is exactly why the authorities found it so alarming.",
+      "sources": [
+        {"label": "Richard Kieckhefer, Forbidden Rites: A Necromancer's Manual of the Fifteenth Century", "where": "Medieval magic (PDF)"},
+        {"label": "Richard Kieckhefer, Magic in the Middle Ages", "where": "Medieval magic (PDF)"},
+        {"label": "Frank Klaassen, The Transformations of Magic", "where": "Medieval magic (PDF)"}
+      ]
+    },
+    "conjure": {
+      "commentary": "The conjuring texts belong to Kieckhefer's *clerical underworld* — a subculture of literate, often ordained men who copied and traded ritual manuals for binding spirits. Frank Klaassen distinguishes this learned, text-based 'ritual magic' from the image-and-astrology magic of the *Picatrix* tradition; both were the work of the educated, not the village. To conjure, historically, you needed a Latin schooling and a book — which is why the practice sat so uncomfortably close to the very clergy who condemned it.",
+      "sources": [
+        {"label": "Richard Kieckhefer, Forbidden Rites", "where": "Medieval magic (PDF)"},
+        {"label": "Frank Klaassen, The Transformations of Magic", "where": "Medieval magic (PDF)"}
+      ]
+    },
+    "theurgy": {
+      "commentary": "Claire Fanger's work reframed a whole class of medieval ritual magic as *theurgy* rather than demonic conjuring. The *Ars Notoria* and John of Morigny's *Liber Visionum* sought angelic knowledge through prayer and vision — operations their authors understood as devout, not diabolical. Reading them as theurgy (the Neoplatonic 'god-work' of Iamblichus) rather than *goetia* recovers how the practitioners saw themselves, and dissolves the tidy line the Church tried to draw between sanctioned religion and forbidden magic.",
+      "sources": [
+        {"label": "Claire Fanger, Invoking Angels: Theurgic Ideas and Practices", "where": "Medieval magic (PDF)"},
+        {"label": "Claire Fanger (ed.), Conjuring Spirits", "where": "Reference"},
+        {"label": "Claire Fanger, Rewriting Magic (John of Morigny)", "where": "Medieval magic (PDF)"}
+      ]
+    },
+    "goetia": {
+      "commentary": "The line between *theurgy* and *goetia* — high divine magic and low demonic magic — looks ancient and firm, but historians treat it as a boundary actively policed rather than simply found. What one age called pious angel-magic another prosecuted as demon-conjuring; the same operations could be *theurgia* or *goetia* depending on who held the pen. The category 'goetia' is, in no small part, a verdict.",
+      "sources": [
+        {"label": "Claire Fanger, Invoking Angels", "where": "Medieval magic (PDF)"},
+        {"label": "Michael D. Bailey, The Sacred and the Sinister", "where": "Medieval magic (PDF)"}
+      ]
+    },
+    "witch": {
+      "commentary": "No term in this study has a more contested historiography. Margaret Murray's thesis of a surviving pagan witch-cult (1921) was demolished by Norman Cohn's *Europe's Inner Demons*, which showed the sabbat to be a fantasy built by inquisitors from older libels. Keith Thomas set witchcraft in village society; Carlo Ginzburg's *The Night Battles* then recovered, beneath the trial records, the *benandanti* — a real folk-magic the courts could only hear as devil-worship. The 'witch,' the field now stresses, was largely a category made by prosecution.",
+      "sources": [
+        {"label": "Norman Cohn, Europe's Inner Demons", "where": "Renaissance magic (PDF)"},
+        {"label": "Carlo Ginzburg, The Night Battles", "where": "Renaissance magic (PDF)"},
+        {"label": "Keith Thomas, Religion and the Decline of Magic", "where": "Renaissance magic (PDF)"}
+      ]
+    },
+    "hermetic": {
+      "commentary": "To call something 'Hermetic' is to step into the most famous quarrel in the field. Frances Yates argued that a rediscovered Hermetic magic drove the Scientific Revolution — the 'Yates thesis' that launched the academic study of Western esotericism. It has been heavily qualified since: Wouter Hanegraaff and others show how much it owed to a Romantic grand narrative, and stress that 'Hermeticism' was never the single tradition Yates implied. The word is indispensable and treacherous in equal measure.",
+      "sources": [
+        {"label": "Frances Yates, Giordano Bruno and the Hermetic Tradition", "where": "Renaissance magic (PDF)"},
+        {"label": "Wouter J. Hanegraaff, Esotericism and the Academy", "where": "Reference"}
+      ]
+    },
+    "occult": {
+      "commentary": "'The occult' as a unified field is younger than it looks. Wouter Hanegraaff has shown that 'Western esotericism' was assembled as a scholarly category only recently, gathering astrology, alchemy, magic, and Kabbalah into one object of study that earlier centuries did not treat as a single thing. The 19th-century coinage 'occultism' did comparable work. To speak of 'the occult sciences' is already to take a position in a debate about what belongs together.",
+      "sources": [
+        {"label": "Wouter J. Hanegraaff, Esotericism and the Academy", "where": "Reference"},
+        {"label": "Ronald Hutton, The Triumph of the Moon", "where": "Renaissance magic (PDF)"}
+      ]
+    }
+  }
+}

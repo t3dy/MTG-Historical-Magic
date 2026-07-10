@@ -86,6 +86,12 @@ def main() -> None:
     for slug, t in essays.items():
         for s in t.get("sources", []):
             add(s.get("label", ""), s.get("where", ""), slug + "·essay")
+    histo_path = BASE / "data" / "historiography.json"
+    if histo_path.exists():
+        histo = json.loads(histo_path.read_text(encoding="utf-8")).get("terms", {})
+        for slug, t in histo.items():
+            for s in t.get("sources", []):
+                add(s.get("label", ""), s.get("where", ""), slug + "·histo")
 
     out_groups = []
     for key, title, sub in GROUPS:

@@ -47,6 +47,18 @@ the scholar why the game is worth their attention.
    word. *Spell* and *transmute* are mechanics; *mage* and *curse* are literary words.
 6. **Morphology is meaning.** Treat a term as a lemma, not a string: *conjure/conjures/conjured/
    conjuration* are one word with a spread of forms. Show the spread; don't hide it.
+7. **Historiographical reflexivity.** For terms whose modern *study* is itself contested, don't only
+   narrate what the word meant — say **how scholars now argue about it**, and take the argument
+   seriously. The categories are not neutral: *shamanism* is a Western universal imposed on diverse
+   practices (Kehoe, Znamenski, Hutton); *alchemy* has been remade by the "new historiography" into
+   *chymistry*, a serious protoscience, against the old spiritual/Jungian reading (Principe, Newman,
+   Nummedal); *necromancy* names Kieckhefer's educated **clerical underworld**, not folk superstition;
+   the *theurgy*/*goetia* line is a boundary the authorities *policed* (Fanger); the *witch* was a
+   category made by prosecution (Cohn, Ginzburg); "Hermeticism" is the Yates thesis and its critics
+   (Hanegraaff). This lives as a distinct **Historiographical note** (`data/historiography.json`,
+   template in `templates/historiography_note.md`) — a scholarly aside, cited, that flags the debate.
+   Draw framings from the databases, the PDF library, and Ted's own historiography discussions in
+   `C:\Dev\megabase`. Never flatten a debate into a settled fact.
 
 ## 4. Voice & tone
 
@@ -91,6 +103,7 @@ the scholar why the game is worth their attention.
 |------|------|--------------|
 | **Term definition** | [`templates/term_definition.md`](templates/term_definition.md) | Say precisely what the word means, in 2–4 sentences. |
 | **Term history** | [`templates/term_history.md`](templates/term_history.md) | Narrate the word's development in one tight paragraph, for *every* term. |
+| **Historiographical note** | [`templates/historiography_note.md`](templates/historiography_note.md) | Flag how scholars *argue about* the term, for the contested ones. |
 | **Word History (flagship)** | [`templates/word_history.md`](templates/word_history.md) | The deep, cited long-read for a marquee term. |
 | **Timeline entry** | [`TIMELINE_TEMPLATE.md`](TIMELINE_TEMPLATE.md) | One dated, sourced point tying a word to a moment. |
 | **Data-viz explainer** | [`templates/data_viz.md`](templates/data_viz.md) | Tell the reader what the chart shows and what to notice. |

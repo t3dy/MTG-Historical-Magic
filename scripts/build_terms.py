@@ -26,6 +26,7 @@ LEXICON = BASE / "data" / "derived" / "lexicon.json"
 ETYM = BASE / "data" / "etymology.json"
 ESSAYS = BASE / "data" / "essays.json"
 DEFS = BASE / "data" / "definitions.json"
+HISTORIOG = BASE / "data" / "historiography.json"
 OUT_DIR = BASE / "site" / "data" / "terms"
 
 # Roots that also function as Magic rules keywords / keyword actions.
@@ -88,6 +89,7 @@ def main() -> None:
     etym_terms = etym.get("terms", {})
     essays = json.loads(ESSAYS.read_text(encoding="utf-8")).get("essays", {}) if ESSAYS.exists() else {}
     defs = json.loads(DEFS.read_text(encoding="utf-8")).get("terms", {}) if DEFS.exists() else {}
+    histo = json.loads(HISTORIOG.read_text(encoding="utf-8")).get("terms", {}) if HISTORIOG.exists() else {}
     research_dir = BASE / "data" / "research"
     researched = {p.stem for p in research_dir.glob("*.json")} if research_dir.exists() else set()
 
@@ -206,6 +208,8 @@ def main() -> None:
             "definition": d.get("definition"),
             "history": d.get("history"),
             "def_sources": d.get("sources", []),
+            "commentary": histo.get(root, {}).get("commentary"),
+            "commentary_sources": histo.get(root, {}).get("sources", []),
             "is_keyword": root in KEYWORD_ROOTS,
             "etymology": ety,
             "essay": essays.get(root),
@@ -234,6 +238,7 @@ def main() -> None:
             "has_etym": root in etym_terms,
             "has_essay": root in essays,
             "has_def": root in defs,
+            "has_commentary": root in histo,
             "has_research": root in researched,
             "lang": (ety or {}).get("lang", ""),
             "first_year": first_year,
