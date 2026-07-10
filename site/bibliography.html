@@ -46,8 +46,10 @@ function mdi(t){ return esc(t).replace(/\*([^*]+)\*/g,"<em>$1</em>"); }
       const extra=it.terms.length-shown.length;
       const chips=shown.map(t=>`<a href="term.html?t=${t}">${esc(t)}</a>`).join("")
         + (extra>0?`<span class="more">+${extra} more</span>`:"");
+      const title=it.url?`<a href="${esc(it.url)}" target="_blank" rel="noopener">${mdi(it.work)}</a>`:mdi(it.work);
       return `<div class="bibwork">
-        <div class="top"><span class="w">${mdi(it.work)}</span><span class="n">cited on ${it.count} page${it.count===1?'':'s'}</span></div>
+        <div class="top"><span class="w">${title}</span><span class="n">cited on ${it.count} page${it.count===1?'':'s'}</span></div>
+        ${it.abstract?`<p class="babs">${esc(it.abstract)}</p>`:""}
         <div class="bibterms">${chips}</div></div>`;
     }).join("");
     return `<div class="panel"><h2 class="sec">${esc(g.title)} <small>${g.sub} · ${g.count} works</small></h2>${rows}</div>`;

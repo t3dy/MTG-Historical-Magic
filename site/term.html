@@ -219,17 +219,18 @@ function galleryBySet(cards){
       :'<p class="note">This word does not appear in any rules text — see the Flavor tab.</p>'}
   </div>`;
 
+  const srclink = s => s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener" class="slink">${esc(s.label)}</a>` : esc(s.label);
   const refSrc=[...(d.def_sources||[]).map(s=>s.label), ...(d.sources||[])];
   const src=[...new Set(refSrc)].map(s=>`<li>${esc(s)}</li>`).join("");
   const historyBlock = d.history ? `<div class="panel"><h2 class="sec">History <small>how the word developed</small></h2>
     <p class="defn">${mdlink(d.history)}</p>
-    ${(d.def_sources&&d.def_sources.length)?`<div class="srcline">${d.def_sources.map(s=>esc(s.label)).join(" · ")}</div>`:""}</div>`
+    ${(d.def_sources&&d.def_sources.length)?`<div class="srcline">${d.def_sources.map(srclink).join(" · ")}</div>`:""}</div>`
     : `<div class="panel"><h2 class="sec">History <small>how the word developed</small></h2>
     <p class="note">A written history for this term is in progress. The etymology and cited scholarship below are its raw material.</p></div>`;
   const histoBlock = d.commentary ? `<div class="histnote">
     <div class="hk">⚑ Historiographical note</div>
     <p>${mdlink(d.commentary)}</p>
-    ${(d.commentary_sources&&d.commentary_sources.length)?`<div class="srcline">${d.commentary_sources.map(s=>esc(s.label)).join(" · ")}</div>`:""}
+    ${(d.commentary_sources&&d.commentary_sources.length)?`<div class="srcline">${d.commentary_sources.map(srclink).join(" · ")}</div>`:""}
   </div>` : "";
   const etymology=`<div class="pane" data-k="etymology">
     ${historyBlock}
@@ -247,8 +248,8 @@ function galleryBySet(cards){
 
   const sourcesBlock = (d.essay && d.essay.sources && d.essay.sources.length) ? `
     <div class="panel" style="margin-top:1.2rem"><h2 class="sec" style="font-size:1.05rem">Sources &amp; further reading</h2>
-      <ul class="srclist">${d.essay.sources.map(s=>`<li><span class="lbl">${esc(s.label)}</span><span class="where">${esc(s.where||'')}</span></li>`).join("")}</ul>
-      <p class="note" style="margin:.6rem 0 0">Surfaced from Ted's databases &amp; PDF library via the project's research method.</p></div>` : "";
+      <ul class="srclist">${d.essay.sources.map(s=>`<li><span class="lbl">${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a>`:esc(s.label)}</span>${s.abstract?`<span class="abs">${esc(s.abstract)}</span>`:''}</li>`).join("")}</ul>
+      <p class="note" style="margin:.6rem 0 0">Surfaced from Ted's own research databases and library via the project's research method.</p></div>` : "";
   const essay = d.essay ? `<div class="pane" data-k="essay">
     <div class="essay panel">
       <h3>${esc(d.essay.title)}</h3>

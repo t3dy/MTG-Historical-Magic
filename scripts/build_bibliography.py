@@ -20,9 +20,9 @@ DBS = ("RenaissanceMagicDB", "MedievalMagicDB", "TheosophicalAlchemyDB")
 
 GROUPS = [
     ("databases", "The databases", "Structured, cited term-databases queried by scripts/research.py"),
-    ("Medieval magic (PDF)", "Medieval magic — the PDF library", "Full-text scholarship on medieval learned magic"),
-    ("Renaissance magic (PDF)", "Renaissance magic — the PDF library", "Full-text scholarship on Renaissance & early-modern magic"),
-    ("Alchemy (PDF)", "Alchemy — the PDF library", "The alchemy corpus, incl. Lyndy Abraham's Dictionary of Alchemical Imagery"),
+    ("Medieval magic (PDF)", "Medieval magic scholarship", "Scholarship on medieval learned magic"),
+    ("Renaissance magic (PDF)", "Renaissance magic scholarship", "Scholarship on Renaissance & early-modern magic"),
+    ("Alchemy (PDF)", "Alchemy scholarship", "Scholarship on alchemy, incl. Lyndy Abraham's Dictionary of Alchemical Imagery"),
     ("etymology", "Etymological & lexical references", "Etymonline, the OED, and the classical lexica"),
     ("Reference", "Further reference", "Standard scholarly works consulted alongside the corpus"),
 ]
@@ -63,7 +63,7 @@ def main() -> None:
     works: dict[str, dict] = {}
     total_citations = 0
 
-    def add(label, where, page):
+    def add(label, where, page, url="", url_kind="", abstract=""):
         nonlocal total_citations
         w = normalize(label)
         low = w.lower()
@@ -72,30 +72,38 @@ def main() -> None:
             return
         total_citations += 1
         g = group_of(w, where)
-        e = works.setdefault(w, {"group": g, "cites": set()})
+        e = works.setdefault(w, {"group": g, "cites": set(), "url": "", "url_kind": "", "abstract": ""})
         # databases/etymology stay in their fixed group; PDF works keep first PDF group
         if e["group"] == "Reference" and g != "Reference":
             e["group"] = g
         e["cites"].add(page)
+        if url and not e["url"]:
+            e["url"], e["url_kind"] = url, url_kind
+        if abstract and not e["abstract"]:
+            e["abstract"] = abstract
 
     defs = json.loads(DEFS.read_text(encoding="utf-8")).get("terms", {})
     for slug, t in defs.items():
         for s in t.get("sources", []):
-            add(s.get("label", ""), s.get("where", ""), slug)
+            add(s.get("label", ""), s.get("where", ""), slug,
+                s.get("url", ""), s.get("url_kind", ""), s.get("abstract", ""))
     essays = json.loads(ESSAYS.read_text(encoding="utf-8")).get("essays", {})
     for slug, t in essays.items():
         for s in t.get("sources", []):
-            add(s.get("label", ""), s.get("where", ""), slug + "·essay")
+            add(s.get("label", ""), s.get("where", ""), slug + "·essay",
+                s.get("url", ""), s.get("url_kind", ""), s.get("abstract", ""))
     histo_path = BASE / "data" / "historiography.json"
     if histo_path.exists():
         histo = json.loads(histo_path.read_text(encoding="utf-8")).get("terms", {})
         for slug, t in histo.items():
             for s in t.get("sources", []):
-                add(s.get("label", ""), s.get("where", ""), slug + "·histo")
+                add(s.get("label", ""), s.get("where", ""), slug + "·histo",
+                    s.get("url", ""), s.get("url_kind", ""), s.get("abstract", ""))
 
     out_groups = []
     for key, title, sub in GROUPS:
-        items = [{"work": w, "count": len(e["cites"]),
+        items = [{"work": w, "count": len(e["cites"]), "url": e["url"],
+                  "url_kind": e["url_kind"], "abstract": e["abstract"],
                   "terms": sorted({p.replace("·essay", "") for p in e["cites"]})}
                  for w, e in works.items() if e["group"] == key]
         items.sort(key=lambda x: (-x["count"], x["work"].lower()))

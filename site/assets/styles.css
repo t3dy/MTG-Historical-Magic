@@ -111,9 +111,11 @@ td.n{text-align:right;font-variant-numeric:tabular-nums;color:var(--gold)}
 /* word-history dek + sources + scholarship dossier */
 .essay .dek{font-family:var(--serif);font-style:italic;color:var(--gold);font-size:1.12rem;margin:.1rem 0 .5rem}
 .srclist{list-style:none;margin:0;padding:0}
-.srclist li{display:flex;justify-content:space-between;gap:1rem;padding:.4rem 0;border-bottom:1px solid var(--line);align-items:baseline}
+.srclist li{display:flex;flex-direction:column;gap:.2rem;padding:.5rem 0;border-bottom:1px solid var(--line)}
 .srclist .lbl{color:var(--ink);font-size:.9rem}
-.srclist .where{color:var(--faint);font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;white-space:nowrap}
+.srclist .lbl a{color:var(--gold);text-decoration:none;border-bottom:1px dotted var(--gold-dim)}
+.srclist .lbl a:hover{border-bottom-color:var(--gold)}
+.srclist .abs{color:var(--faint);font-size:.8rem;line-height:1.45}
 .schol-defs{display:grid;gap:.7rem}
 .schol-def{background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:.7rem .9rem}
 .schol-def .t{font-family:var(--serif);color:var(--gold);text-transform:capitalize}
@@ -122,6 +124,8 @@ td.n{text-align:right;font-variant-numeric:tabular-nums;color:var(--gold)}
 .defn{font-family:var(--serif);font-size:1.06rem;line-height:1.62;color:var(--ink);margin:0}
 .defn em{color:#e9dcc0;font-style:italic}
 .srcline{color:var(--faint);font-size:.78rem;font-style:italic;margin-top:.6rem}
+.srcline a.slink{color:var(--faint);text-decoration:none;border-bottom:1px dotted var(--faint)}
+.srcline a.slink:hover{color:var(--gold);border-bottom-color:var(--gold)}
 
 /* histories index */
 .hlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem}
@@ -193,7 +197,10 @@ footer a{color:var(--muted)}
 .bibwork .top{display:flex;justify-content:space-between;gap:1rem;align-items:baseline}
 .bibwork .w{color:var(--ink);font-size:.96rem}
 .bibwork .w em{color:#e9dcc0}
+.bibwork .w a{color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold-dim)}
+.bibwork .w a:hover{color:var(--gold);border-bottom-color:var(--gold)}
 .bibwork .n{color:var(--gold);font-size:.76rem;white-space:nowrap;font-variant-numeric:tabular-nums}
+.babs{color:var(--muted);font-size:.82rem;line-height:1.5;margin:.3rem 0 0}
 .bibterms{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.4rem}
 .bibterms a{font-size:.72rem;text-transform:capitalize;padding:.12rem .5rem;border:1px solid var(--line);border-radius:99px;color:var(--muted);background:var(--panel2)}
 .bibterms a:hover{color:var(--ink);border-color:var(--gold-dim)}
