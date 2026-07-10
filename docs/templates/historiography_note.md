@@ -1,8 +1,9 @@
 # Template — Historiographical Note
 
-Governed by [`../STYLE_GUIDE.md`](../STYLE_GUIDE.md), value 7 (historiographical reflexivity). Stored
-in `data/historiography.json` under `terms.<slug>.{commentary, sources}`; rendered as a distinct
-**Historiographical note** aside on a term page's Origin & History tab, and flagged with a ⚑ badge.
+Governed by [`../STYLE_GUIDE.md`](../STYLE_GUIDE.md), value 7 (historiographical reflexivity) and
+value 8 (every named scholar earns their name). Stored in `data/historiography.json` under
+`terms.<slug>.{commentary, sources}`; rendered as a distinct **Historiographical note** section on
+the term's page, flagged with a ⚑ badge.
 
 ## Job
 Not "what the word meant" (that is the *history*) but **how scholars now argue about it**. For terms
@@ -25,23 +26,42 @@ If a term has no such debate, it gets no note — don't manufacture controversy.
 
 ## Shape
 1 paragraph, ~60–110 words, in `commentary`. Structure: **the old view → the turn → what the field
-now stresses**, naming the scholars. Italicize *terms* and *titles*; American spelling; the same
-scholarly-but-warm voice, a shade more meta.
+now stresses**. Italicize *terms* and *titles*; American spelling; the same scholarly-but-warm voice,
+a shade more meta.
+
+## Naming scholars (Value 8)
+A historiographical note is the highest-risk content type for "inside baseball," because its whole
+job is to summarize a scholarly argument. Every named scholar must pass the test: **could a curious
+reader who has never heard of them follow the sentence and learn something true?**
+- Lead with the *finding or argument*, not the name — "modern scholarship treats X as..." often works
+  better than "Scholar Y treats X as..." The name is a citation, not the subject.
+- When a name does earn its place (because the note is specifically about a turn *this person*
+  caused), give it a one-clause tag: "the anthropologist Alice Kehoe," "Ronald Hutton, historian of
+  the Romantic Druid revival" — not a bare surname doing unexplained work.
+- **Don't:** "...whom Paola Zambelli's sources still gloss with the old commonplace that *magus*
+  simply 'means wise man in Persian.'"
+- **Do:** "...though many older sources repeat, uncritically, the old claim that *magus* simply
+  'means wise man in Persian' — a folk etymology more than a fact."
 
 ## Sourcing
-2–3 works in `sources` ({label, where}), the actual historians of the debate — Principe, Newman,
-Nummedal, Kieckhefer, Fanger, Cohn, Ginzburg, Hanegraaff, Kehoe, Znamenski, Hutton. Verify against the
-corpus where present; `where: "Reference"` for standard works outside the PDF library.
+2–3 works in `sources` ({label, where, url?, url_kind?, abstract}), the actual historians of the
+debate — Principe, Newman, Nummedal, Kieckhefer, Fanger, Cohn, Ginzburg, Hanegraaff, Kehoe,
+Znamenski, Hutton. Verify against the corpus where present. Every work needs a verified link
+(publisher/journal/DOI, or a library-catalog record as fallback — never invent one) and a
+plain-language abstract; see `STYLE_GUIDE.md` §6. `where` stays as internal provenance metadata
+only — it is never shown to the reader as "(PDF)" or similar.
 
 ## Do
 - Take a side only as far as the scholarship does; represent the debate, don't resolve it by fiat.
 - Let it complicate the history above it — the note earns its place by unsettling a too-clean story.
 - Ground framings in the databases, the PDF library, and Ted's `C:\Dev\megabase` discussions.
+- Make every name pass the Value 8 test above.
 
 ## Don't
 - Don't repeat the history or the definition.
 - Don't turn it into a reading list; name 2–3 key interventions and their point.
 - Don't flatten ("scholars agree…") — the value of the note is that they *don't*.
+- Don't drop a surname on the reader without a clause of context or a legible claim attached.
 
 ## Worked example — *shaman*
 > 'Shaman' is a genuine Tungusic word (Evenki *šamán*), but *shamanism* — the universal category — is

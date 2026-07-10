@@ -30,6 +30,14 @@ Write so that **both** can read every page with pleasure:
 The bridge between them is the whole point. A good sentence teaches the player some history and shows
 the scholar why the game is worth their attention.
 
+**But both are lay readers of academic esoteric studies specifically.** A Magic player and a
+professor of, say, medieval literature can both be total outsiders to the small world of *scholars
+who study magic* — its journals, its running debates, its famous names. Write for **an encyclopedia
+reader**: someone bright, curious, and willing to follow an idea, who has never taken a class on
+Renaissance Hermeticism and never will. Target roughly a **high-school reading level** — clear
+sentences, no jargon left unglossed, no name doing work the reader can't see. This is not the same
+audience distinction as above; it's a floor under *both* of them. See Value 8 below.
+
 ## 3. Values (non-negotiable)
 
 1. **Sourced, not vibes.** Every historical or etymological claim is dated and attributable. If you
@@ -59,6 +67,26 @@ the scholar why the game is worth their attention.
    template in `templates/historiography_note.md`) — a scholarly aside, cited, that flags the debate.
    Draw framings from the databases, the PDF library, and Ted's own historiography discussions in
    `C:\Dev\megabase`. Never flatten a debate into a settled fact.
+8. **Every named scholar earns their name.** Distinguish two kinds of proper noun. *Historical
+   figures who are the subject of the page* — Ficino, Agrippa, Dee, Paracelsus — can be named
+   freely; they're the story, and context (era, one-clause gloss on first mention) carries them.
+   *Modern scholars who study the subject* — Zambelli, Kieckhefer, Yates, Hanegraaff, Fanger — are
+   different: their name carries zero information to a reader outside academic esoteric studies, so
+   the **claim**, not the name, has to do the work. Never write a sentence a reader can only parse
+   by already knowing who someone is.
+   - **Don't:** "...whom Paola Zambelli's sources still gloss with the old commonplace that *magus*
+     simply 'means wise man in Persian.'" (Assumes the reader knows who Zambelli is, why her sources
+     matter, and what "gloss" means here.)
+   - **Do:** "...though modern scholarship notes that many older sources repeat, uncritically, the
+     old claim that *magus* simply 'means wise man in Persian' — a folk etymology more than a fact."
+     (Or, if the name earns its place: "the historian Paola Zambelli points out that many older
+     sources repeat, uncritically, the old claim that...")
+   - **Test:** could a curious high schooler who has never heard of the scholar follow the sentence
+     and learn something true? If the name could be deleted with no loss of meaning, either cut it
+     or add the handful of words that make it dispensable. A name is earned when *what the person
+     found or argued* is legible without a Wikipedia lookup.
+   - This applies retroactively — every existing definition, history, historiographical note, and
+     essay is auditable against this test, not just new writing.
 
 ## 4. Voice & tone
 
@@ -73,6 +101,10 @@ the scholar why the game is worth their attention.
   adjectives. No "mysterious," "dark arts" mood-lighting unless the source supports it.
 - **Never breathless, never dry.** If a sentence sounds like ad copy ("unleash the arcane!"), cut it.
   If it sounds like a dissertation footnote, warm it up.
+- **Reading level: a good encyclopedia, not a seminar.** Aim for a bright, curious high schooler.
+  Short-to-medium sentences, one clause of jargon at a time, always glossed. If a sentence needs a
+  footnote to explain a name or a school of thought before the reader can parse it, rewrite the
+  sentence instead — fold the explanation in, or drop the reference. See Value 8.
 
 ## 5. House conventions
 
@@ -90,12 +122,31 @@ the scholar why the game is worth their attention.
 
 ## 6. Citations
 
+- **We don't distribute anyone's copyrighted book or article, and citations must never look like we
+  do.** The PDF library in `E:\pdf` is Ted's own research copy, used only to *find and verify*
+  quotations — it is never linked, named, or implied as something a reader can access. A citation
+  that reads "(PDF)" or otherwise points at our own file is a bug; internal corpus tags like
+  `Medieval magic (PDF)` are pipeline metadata for provenance, not reader-facing text.
+- **Every cited work links to somewhere a reader can actually go**, in priority order:
+  1. the publisher's page for a book,
+  2. the journal's page or a DOI for an article,
+  3. failing both (out of print, no digital publisher page), a stable library-catalog record (e.g.
+     WorldCat) so a reader can locate a physical or ebook copy.
+  **Never invent or guess a URL.** If nothing can be verified, cite the work plainly with no link —
+  a missing link is fine; a fake or unverified one is not.
+- **Every cited work carries a short abstract** (1–2 sentences, plain language): what the book or
+  article actually argues or covers, so a reader can judge whether to chase it down without already
+  knowing the field. Write the abstract yourself from the publisher/journal description or the
+  source material — don't just copy jacket copy verbatim.
 - **Form:** *Author, Short Title* — e.g. *Fanger, Invoking Angels*. For a database: *RenaissanceMagicDB,
-  s.v. goetia*. For etymology: *Etymonline, s.v. scry* (or OED / a classical lexicon).
+  s.v. goetia*. For etymology: *Etymonline, s.v. scry* (or OED / a classical lexicon). Databases and
+  lexica don't need an abstract or outbound link — they're Ted's own resources, cited for provenance.
 - **How many:** 1–2 for a definition, 2–4 for a history, 3–6 for a flagship essay. Quality over
   quantity — this is popular scholarship, not a critical apparatus.
-- **Page numbers:** the extracted PDF text has none; cite work-level, or open the PDF for the page.
-- **Attribution passes through.** If a DB entry names Yates or Copenhaver, name them too.
+- **Page numbers:** the extracted text has none; cite work-level.
+- **Attribution passes through, but only with context.** If a DB entry names Yates or Copenhaver,
+  name them too — but per Value 8, only once the sentence around the name explains what they found
+  or argued, not just that they exist.
 
 ## 7. What each content type is for (see the templates)
 
@@ -118,3 +169,6 @@ the scholar why the game is worth their attention.
 - [ ] House conventions followed (spelling, italics, dashes).
 - [ ] One clear idea; no filler; no manufactured mood.
 - [ ] Flags its own limits (contested? not in the card set? estimated date?).
+- [ ] No named scholar appears without enough context to understand their claim (Value 8 test).
+- [ ] Every citation has a real, verified reader-facing link (publisher/journal/DOI, or a
+      library-catalog fallback) and a plain-language abstract — never cited as "(PDF)."

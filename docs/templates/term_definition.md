@@ -1,7 +1,7 @@
 # Template — Term Definition
 
 Governed by [`../STYLE_GUIDE.md`](../STYLE_GUIDE.md). Stored in `data/definitions.json` under
-`terms.<slug>.definition`; shown at the top of a term page's **Overview** tab.
+`terms.<slug>.definition`; shown at the top of the term's page, under the **Definition** heading.
 
 ## Job
 Say **precisely what the word means** — its magical sense(s) — so a reader who has never met the term

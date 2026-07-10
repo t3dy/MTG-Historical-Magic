@@ -63,6 +63,20 @@ historiography discussions in `C:\Dev\megabase` (megabase.db, FTS over `messages
 italic for *terms* and *titles*; cite verified sources. Rebuild aggregates after writing:
 `build_terms.py`, then `build_bibliography.py`.
 
+**Two hard rules added 2026-07-10 (style guide value 8 + citation policy):**
+1. **Never assume esoteric-studies inside baseball.** A named modern scholar (Zambelli, Kieckhefer,
+   Yates, Hanegraaff…) must never carry a sentence on reputation alone — the *claim* has to be
+   legible to a reader who's never heard of them. Historical figures who are the page's *subject*
+   (Ficino, Agrippa, Dee) are a different case and can be named freely. See STYLE_GUIDE.md value 8.
+2. **Never cite as "(PDF)."** We don't distribute anyone's copyrighted book/article. Every cited work
+   needs a real, verified reader-facing link — publisher page, journal page/DOI, or a library-catalog
+   record as a last resort — plus a short plain-language abstract. Never invent a URL. `where` stays
+   internal provenance metadata only. See STYLE_GUIDE.md §6 and `docs/templates/historiography_note.md`.
+
+Term pages are **one continuous scroll, not tabs** (changed 2026-07-10) — Definition, History,
+Historiographical note, and the flagship Word History essay (when one exists) all live on the same
+page, in that order, alongside the Gallery/Flavor/Mechanics sections.
+
 ## Researching terms (Word Histories) — cite Ted's own scholarship
 
 The site's **Word Histories** (deep pages on a term's origin/etymology/historical usage) must be
