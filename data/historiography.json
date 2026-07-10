@@ -691,6 +691,106 @@
           "where": "Renaissance magic (PDF)"
         }
       ]
+    },
+    "haruspex": {
+      "commentary": "The *haruspex* practiced the Etruscan *disciplina*, and reconstructing it is a notorious problem. The Etruscans' own ritual books are lost, and almost everything we know arrives through Roman and later hands that were often hostile, antiquarian, or both. Jean MacIntosh Turfa has worked to recover the system from artifacts — the bronze Piacenza Liver, the Brontoscopic Calendar — while cautioning that Roman writers reshaped Etruscan religion to their own ends. The field now stresses how much of 'Etruscan divination' is a Roman and modern reconstruction of a tradition that left few words of its own.",
+      "sources": [
+        {
+          "label": "Jean MacIntosh Turfa, Divining the Etruscan World",
+          "where": "Reference"
+        },
+        {
+          "label": "Georg Luck, Arcana Mundi",
+          "where": "Reference"
+        }
+      ]
+    },
+    "sibyl": {
+      "commentary": "The Sibyl is inseparable from the *Sibylline Oracles*, and those are a scholarly minefield. The surviving collection is not pagan prophecy but a layered Jewish-Hellenistic and then Christian pseudepigraphon — verse forged, expanded, and re-forged over centuries to put monotheist and Christian prediction into a venerable pagan mouth. John J. Collins and H. W. Parke have untangled these strata, and the field now reads the Sibyl less as an oracle than as a much-appropriated literary authority, claimed by each tradition that needed a pre-Christian witness to its own truth.",
+      "sources": [
+        {
+          "label": "John J. Collins, on the Sibylline Oracles (Old Testament Pseudepigrapha)",
+          "where": "Reference"
+        },
+        {
+          "label": "H. W. Parke, Sibyls and Sibylline Prophecy in Classical Antiquity",
+          "where": "Reference"
+        }
+      ]
+    },
+    "oneiromancy": {
+      "commentary": "Dream-divination's modern historiography runs through Artemidorus' *Oneirocritica* and the twentieth century's fascination with it. Freud cited him; Michel Foucault made the *Oneirocritica* the centerpiece of *The Care of the Self*, reading it for an ethics of the dreaming subject rather than a key to the future; S. R. F. Price ('The Future of Dreams') recovered it instead as a social practice woven into ancient status and exchange. The debate is less about what dreams 'mean' than about how a second-century dream-book became a mirror in which each era reads its own theory of the self.",
+      "sources": [
+        {
+          "label": "S. R. F. Price, 'The Future of Dreams: From Freud to Artemidorus'",
+          "where": "Reference"
+        },
+        {
+          "label": "Michel Foucault, The Care of the Self",
+          "where": "Reference"
+        }
+      ]
+    },
+    "esoteric": {
+      "commentary": "'Esoteric' now names an academic discipline, and how to define it is itself the debate. Antoine Faivre proposed four defining traits — correspondences, living nature, imagination, transmutation — that gave 'Western esotericism' a workable shape. Wouter Hanegraaff then pressed an *empirical*, historicist turn, treating esotericism as the 'rejected knowledge' of Western culture rather than a perennial essence, and faulting the older 'religionist' Eranos school (Eliade, Corbin) for smuggling belief into scholarship. To call something esoteric is to enter a live methodological quarrel about whether the category describes a real current or constructs one.",
+      "sources": [
+        {
+          "label": "Wouter J. Hanegraaff, Esotericism and the Academy",
+          "where": "Reference"
+        },
+        {
+          "label": "Antoine Faivre, Access to Western Esotericism",
+          "where": "Reference"
+        }
+      ]
+    },
+    "codex": {
+      "commentary": "Why did the bound *codex* replace the scroll? It is one of book history's great puzzles. Colin Roberts and T. C. Skeat, in *The Birth of the Codex*, showed the shift was led disproportionately by early Christians, who adopted the codex for scripture far ahead of the wider book trade — but the reason stays disputed: sheer convenience, a deliberate break from Jewish scroll-culture, or the prestige of one early authoritative codex. The field treats the codex not as a natural improvement that simply won, but as a contingent choice whose cause is still argued.",
+      "sources": [
+        {
+          "label": "Colin H. Roberts & T. C. Skeat, The Birth of the Codex",
+          "where": "Reference"
+        }
+      ]
+    },
+    "quintessence": {
+      "commentary": "The quintessence is a test case for the new historiography of alchemy. An older reading treated John of Rupescissa's distilled 'fifth essence' as mystical fancy; Leah DeVun's *Prophecy, Alchemy, and the End of Time* recovers something stranger and more concrete — a real distillation science yoked to Franciscan apocalypticism, a heavenly incorruptible meant to fortify the body for the Last Days. The point is the one Principe and Newman press generally: what looks like spiritual metaphor was often laboratory medicine *with* a theological purpose, not instead of one.",
+      "sources": [
+        {
+          "label": "Leah DeVun, Prophecy, Alchemy, and the End of Time: John of Rupescissa",
+          "where": "Alchemy (PDF)"
+        },
+        {
+          "label": "Lawrence Principe, The Secrets of Alchemy",
+          "where": "Alchemy (PDF)"
+        }
+      ]
+    },
+    "potion": {
+      "commentary": "The love-potion opens onto one of the liveliest areas of ancient-magic scholarship. Christopher Faraone's *Ancient Greek Love Magic* argued that erotic magic split by gender and aim: violent *agōgē* spells to seize and compel, used mostly by men, against gentler *philia* potions to keep affection, associated with women — and that the sources' panic over women poisoning men (*pharmaka* meaning both potion and poison) encodes real anxieties about female agency. The debate turns the love-potion from a quaint charm into evidence about gender, power, and who was permitted to desire.",
+      "sources": [
+        {
+          "label": "Christopher A. Faraone, Ancient Greek Love Magic",
+          "where": "Reference"
+        },
+        {
+          "label": "Hans Dieter Betz, The Greek Magical Papyri in Translation",
+          "where": "Renaissance magic (PDF)"
+        }
+      ]
+    },
+    "poppet": {
+      "commentary": "The witch's doll was long dismissed as folklore, but archaeology made it a serious object. The pierced figurines described in the Greek Magical Papyri, and the lead-and-wax 'poppets' buried with binding tablets at the Fountain of Anna Perenna in Rome, show image-magic as a widespread ancient practice rather than a later fantasy. Christopher Faraone and Daniel Ogden read these figures as evidence for how binding magic actually worked — deforming an effigy to reach its target at a distance. The turn is from treating the poppet as superstition to treating it as a technology with a real material record.",
+      "sources": [
+        {
+          "label": "Daniel Ogden, Witchcraft and Magic in Europe: Greece and Rome",
+          "where": "Reference"
+        },
+        {
+          "label": "Christopher A. Faraone, on binding figurines (katadesmoi)",
+          "where": "Reference"
+        }
+      ]
     }
   }
 }
