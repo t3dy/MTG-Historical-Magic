@@ -120,3 +120,18 @@ entries; entry template in `docs/TIMELINE_TEMPLATE.md`. **DEPLOYED** to GitHub P
 https://t3dy.github.io/MTG-Historical-Magic/ (repo `t3dy/MTG-Historical-Magic`, auto-deploy via
 `.github/workflows/pages.yml` on push to main; `site/data` + `site/img` are committed, `data/raw` +
 `cards.jsonl` git-ignored). Portfolio piece for Ted's MTG-content-creator coach.
+
+2026-07-10 — **Accessibility + citation overhaul, fully deployed.** Style guide value 8 ("every
+named scholar earns their name") + a no-"(PDF)" citation policy were baked into
+`docs/STYLE_GUIDE.md`, every template in `docs/templates/`, and this file. A full retroactive audit
+(8 parallel agents) checked all 112 definitions/histories, 51 historiography notes, and 18 essays
+against Value 8; 18 sentences across 18 terms were rewritten (the triggering bug — the `mage` essay's
+unglossed "Paola Zambelli's sources still gloss..." line — is fixed exactly per the style guide's own
+worked example). Separately, 10 parallel agents web-researched a real, human-verified reader-facing
+link (publisher page, journal/DOI, or library-catalog fallback — never an invented URL) plus a
+plain-language abstract for every cited work; `scripts/enrich_sources.py` merges that research into
+`sources[].url`/`url_kind`/`abstract` on every definitions/historiography/essay entry. Along the way,
+fixed ~15 mis-cited/duplicate-title/mis-attributed sources (e.g. Klaassen's two books had gotten
+merged into one label; a Collins-edited volume was attributed to a contributor, Bailey). Bibliography
+now 129 real distinct works (down from a nominal 178 after de-duplication), 487 citations, 120/129
+linked. `term.html` is a single continuous page (no tabs) — see the "Two hard rules" note above.
