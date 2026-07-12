@@ -65,6 +65,7 @@ function card(t){
         <span title="natural-language / flavor uses"><b>${t.flavor_total}</b> prose</span>
         <span title="cards with the word in the title"><b>${t.name_match_count}</b> cards</span>
         ${t.has_essay?'<span title="has a Word History">✦ history</span>':t.has_etym?'<span title="etymology written">📜 etym</span>':''}
+        ${t.has_commentary?'<span title="has a historiographical note — how scholars argue about this term" style="color:var(--c-divination)">⚑</span>':''}
       </div>
     </div>
   </a>`;

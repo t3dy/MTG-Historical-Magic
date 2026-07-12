@@ -17,6 +17,9 @@
 <title>Term — The Vocabulary of Magic</title>
 <link rel="stylesheet" href="assets/styles.css">
 <style>
+  /* term pages are tens of thousands of px tall (big galleries) — a smooth scroll that long
+     gets aborted by the browser mid-flight and strands the reader near the top. Jump instantly. */
+  html{scroll-behavior:auto}
   .thero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
   .thero .bg{position:absolute;inset:0;background-size:cover;background-position:center 25%;opacity:.28;filter:saturate(1.1)}
   .thero .bgveil{position:absolute;inset:0;background:linear-gradient(180deg,rgba(16,14,24,.55),rgba(16,14,24,.94))}
@@ -71,6 +74,9 @@
   .prevnext{display:flex;justify-content:space-between;margin:1.4rem 0 0;gap:1rem}
   .prevnext a{color:var(--muted);font-size:.9rem}
   .note{color:var(--muted);font-size:.85rem;font-style:italic}
+  /* encyclopedia measure: prose never runs wider than a comfortable book line */
+  .defn,.histnote p,.essay p{max-width:70ch}
+  .refabs{color:var(--faint);font-size:.78rem;font-style:normal;margin:.15rem 0 .4rem;max-width:70ch;line-height:1.45}
   .defn .xref{text-decoration:none;border-bottom:1px dotted var(--gold-dim)}
   .defn .xref em{color:#e9dcc0;font-style:italic}
   .defn .xref:hover{border-bottom-color:var(--gold)}
@@ -148,8 +154,8 @@ function galleryBySet(cards){
   // header + quick-nav (anchors only — every section below is always on the page)
   const qn=[["def","Definition"],["history","History"]];
   if(d.essay) qn.push(["essay","Word History ✦"]);
-  qn.push(["etymology","Etymology"],["gallery",`Gallery`,st.name_match_count],["flavor","Flavor",st.in_flavor_cards],
-           ["mechanics","Mechanics",st.in_oracle_cards],["sources","Sources"]);
+  qn.push(["etymology","Etymology"],["data","In the cards"],["gallery",`Gallery`,st.name_match_count],
+           ["flavor","Flavor",st.in_flavor_cards],["mechanics","Mechanics",st.in_oracle_cards],["sources","Sources"]);
   root.insertAdjacentHTML("beforeend",`
     <div class="thero">
       <div class="bg" style="background-image:url('${heroArt}')"></div><div class="bgveil"></div>
@@ -183,18 +189,24 @@ function galleryBySet(cards){
       <div class="stat"><b>${st.name_match_count}</b><span>cards in title</span></div>
       <div class="stat"><b>${st.first_year||'—'}</b><span>first printed</span></div>
     </div>
+  </section>`;
+
+  const dataSection=`<section class="sect" id="data">
+    <h2 class="sec">The word in the cards <small>what 34,629 cards do with it</small></h2>
     <div class="panel"><h2 class="sec">Color identity <small>the Magic colors of every card using this word</small></h2>
       ${colorBar(st.colors,22)}
       <div style="display:flex;flex-wrap:wrap;gap:.8rem;margin-top:.6rem;font-size:.8rem;color:var(--muted)">
         ${WUBRG.filter(c=>st.colors[c]).map(c=>`<span><span class="pip ${c}"></span> ${COLORNAME[c]} ${st.colors[c]}</span>`).join("")}</div></div>
-    <div class="panel"><h2 class="sec">Morphological spread <small>every inflection collapsed to this root</small></h2>
+    <div class="panel"><h2 class="sec">Word forms <small>every variant of the root, counted together</small></h2>
       <div class="bars">${variantRows.sort((a,b)=>b[1]-a[1]).map(([v,c])=>bar(v,c,vmax)).join("")}</div></div>
     <p class="note">Flavor uses = the word in a card’s story text (natural language). Rules uses = the word in reminder/ability text (often a game mechanic). The gap between them is the difference between a <em>word</em> and a <em>keyword</em>.</p>
   </section>`;
 
   const srclink = s => s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener" class="slink">${esc(s.label)}</a>` : esc(s.label);
-  const refSrc=[...(d.def_sources||[]).map(s=>s.label), ...(d.sources||[])];
-  const src=[...new Set(refSrc)].map(s=>`<li>${esc(s)}</li>`).join("");
+  const seenSrc=new Set(), refSrc=[];
+  (d.def_sources||[]).forEach(s=>{ if(!seenSrc.has(s.label)){ seenSrc.add(s.label); refSrc.push(s); } });
+  (d.sources||[]).forEach(l=>{ if(!seenSrc.has(l)){ seenSrc.add(l); refSrc.push({label:l}); } });
+  const src=refSrc.map(s=>`<li>${srclink(s)}${s.abstract?`<div class="refabs">${esc(s.abstract)}</div>`:""}</li>`).join("");
   const historyBlock = d.history ? `<div class="panel"><h2 class="sec">History <small>how the word developed</small></h2>
     <p class="defn">${mdlink(d.history)}</p>
     ${(d.def_sources&&d.def_sources.length)?`<div class="srcline">${d.def_sources.map(srclink).join(" · ")}</div>`:""}</div>`
@@ -223,7 +235,7 @@ function galleryBySet(cards){
     <div class="panel"><h2 class="sec">Etymology <small>roots &amp; first attestation</small></h2>
     ${ety?`
       <div class="etymrow"><div class="k">Origin</div><div>${esc(ety.origin||"")}</div></div>
-      ${ety.first?`<div class="etymrow"><div class="k">Attestation</div><div>${esc(ety.first)}</div></div>`:""}
+      ${ety.first?`<div class="etymrow"><div class="k">First recorded</div><div>${esc(ety.first)}</div></div>`:""}
       <div class="etymrow"><div class="k">The story</div><div>${esc(ety.note||"")}</div></div>
       ${ety.hook?`<div class="callout"><div class="k">The hook</div>${esc(ety.hook)}</div>`:""}
     `:`<p class="note">Full etymology research pending.</p>`}</div>
@@ -262,7 +274,7 @@ function galleryBySet(cards){
     <div class="panel"><h2 class="sec" style="font-size:1rem">Reference sources</h2><ul class="note" style="margin:0;padding-left:1.2rem">${src}</ul></div>
   </section>`;
 
-  document.getElementById("panes").innerHTML=defSection+historySection+essaySection+etymologySection+gallerySection+flavorSection+mechanicsSection+sourcesSection;
+  document.getElementById("panes").innerHTML=defSection+historySection+essaySection+etymologySection+dataSection+gallerySection+flavorSection+mechanicsSection+sourcesSection;
 
   // related + prev/next
   const sameCat=idx.terms.filter(t=>t.category===d.category && t.slug!==d.slug).slice(0,12);
