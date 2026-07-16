@@ -27,7 +27,7 @@
 
 <div class="wrap">
   <div class="controls">
-    <input id="search" type="search" placeholder="Search a term or meaning… (e.g. conjure, divination, book)" autocomplete="off">
+    <input id="search" type="search" placeholder="Search terms… (conjure, book, scry)" autocomplete="off" aria-label="Search terms">
     <select class="sort" id="sort">
       <option value="prom">Sort: most prominent</option>
       <option value="flavor">Sort: flavor-text use</option>
@@ -82,7 +82,7 @@ function render(){
 function chips(){
   const counts={}; TERMS.forEach(t=>counts[t.category]=(counts[t.category]||0)+1);
   const el=document.getElementById("chips");
-  const mk=(key,label,color)=>`<span class="chip ${key===activeCat?'on':''}" data-c="${key}" ${color?`style="${key===activeCat?`background:${color};`:''}"`:''}>${label}${key!=="all"?` <b>${counts[key]||0}</b>`:""}</span>`;
+  const mk=(key,label,color)=>`<button type="button" class="chip ${key===activeCat?'on':''}" data-c="${key}" aria-pressed="${key===activeCat}" ${color?`style="${key===activeCat?`background:${color};`:''}"`:''}>${label}${key!=="all"?` <b>${counts[key]||0}</b>`:""}</button>`;
   el.innerHTML=mk("all","All "+TERMS.length,"var(--gold)")+CAT_ORDER.filter(c=>counts[c]).map(c=>mk(c,CATS[c].label,CATS[c].color)).join("");
   el.querySelectorAll(".chip").forEach(ch=>ch.onclick=()=>{activeCat=ch.dataset.c;chips();render();});
 }

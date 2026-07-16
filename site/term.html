@@ -34,7 +34,16 @@
     backdrop-filter:blur(8px);border-bottom:1px solid var(--line);overflow-x:auto}
   .qn{white-space:nowrap;cursor:pointer;color:var(--muted);font-size:.9rem;padding:.5rem .9rem;border-radius:8px;text-decoration:none;display:inline-block}
   .qn:hover{color:var(--ink);background:var(--panel)}
+  .qn.on{color:#141019;background:var(--gold);font-weight:600}
   .qn .c{opacity:.7;font-size:.8em}
+  #totop{position:fixed;right:1.1rem;bottom:1.1rem;z-index:40;width:44px;height:44px;border-radius:50%;
+    border:1px solid var(--gold-dim);background:rgba(27,23,48,.92);color:var(--gold);font-size:1.15rem;
+    cursor:pointer;opacity:0;pointer-events:none;transition:opacity .2s;backdrop-filter:blur(6px)}
+  #totop.show{opacity:1;pointer-events:auto}
+  #totop:hover{background:var(--gold);color:#141019}
+  .galmore{display:block;width:100%;padding:.85rem;margin:.4rem 0 1.2rem;border-radius:10px;cursor:pointer;
+    border:1px dashed var(--gold-dim);background:transparent;color:var(--gold);font-family:var(--sans);font-size:.95rem}
+  .galmore:hover{background:rgba(212,176,106,.08);border-style:solid}
   section.sect{scroll-margin-top:100px}
   .sect + .sect{margin-top:2rem}
   .statcards{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.9rem;margin:.2rem 0 1rem}
@@ -131,9 +140,15 @@ function galleryBySet(cards){
     if(!cur || cur.set!==c.set){ cur={set:c.set, name:c.set_name||c.set, year:(c.released||'').slice(0,4), cards:[]}; groups.push(cur); }
     cur.cards.push(c);
   }
-  return groups.map(g=>`<div class="setgroup">
+  const render=g=>`<div class="setgroup">
     <h3 class="seth">${esc(g.name)}<span class="setmeta">${esc(g.set)}${g.year?` · ${g.year}`:''} · ${g.cards.length} card${g.cards.length===1?'':'s'}</span></h3>
-    <div class="gal">${g.cards.map(gcard).join("")}</div></div>`).join("");
+    <div class="gal">${g.cards.map(gcard).join("")}</div></div>`;
+  // big galleries collapse past the first 4 sets — keeps Flavor/Mechanics within reach
+  if(groups.length<=5) return groups.map(render).join("");
+  const rest=groups.slice(4), restCards=rest.reduce((a,g)=>a+g.cards.length,0);
+  return groups.slice(0,4).map(render).join("")
+    +`<div id="galrest" hidden>${rest.map(render).join("")}</div>
+      <button id="galmore" class="galmore" type="button">Show all ${groups.length} sets · ${restCards} more card${restCards===1?'':'s'} ↓</button>`;
 }
 
 (async function(){
@@ -168,7 +183,6 @@ function galleryBySet(cards){
           ${d.is_keyword?'<span class="badge kw">◆ MTG keyword</span>':''}
           ${(st.flavor_total+st.oracle_total+st.name_match_count===0)?'<span class="badge">word history · not in the card set</span>':''}
           ${d.commentary?'<span class="badge" style="color:var(--c-divination);border-color:#2e5a5a">⚑ historiography</span>':''}
-          ${ety?'<span class="badge">📜 etymology</span>':'<span class="badge">etymology pending</span>'}
         </div>
       </div>
     </div>
@@ -291,6 +305,38 @@ function galleryBySet(cards){
 
   if(location.hash){ const t=document.getElementById(location.hash.slice(1)); if(t) setTimeout(()=>t.scrollIntoView(),50); }
 
+  // gallery expander
+  const gm=document.getElementById("galmore");
+  if(gm) gm.onclick=()=>{ document.getElementById("galrest").hidden=false; gm.remove(); };
+
+  // scrollspy: highlight the quicknav link for the section currently in view
+  const qnEl=document.getElementById("quicknav");
+  const sects=[...document.querySelectorAll("section.sect")];
+  let spyPending=false;
+  function spy(){
+    spyPending=false;
+    const y=window.scrollY+130;
+    let cur=sects[0];
+    for(const s of sects){ if(s.getBoundingClientRect().top+window.scrollY<=y) cur=s; }
+    let changed=false;
+    qnEl.querySelectorAll(".qn").forEach(a=>{
+      const on=a.getAttribute("href")==="#"+cur.id;
+      if(on!==a.classList.contains("on")){ a.classList.toggle("on",on); changed=true; }
+    });
+    if(changed){ const on=qnEl.querySelector(".qn.on"); if(on) on.scrollIntoView({block:"nearest",inline:"nearest"}); }
+  }
+
+  // back-to-top on a very long page
+  document.body.insertAdjacentHTML("beforeend",`<button id="totop" type="button" aria-label="Back to top" title="Back to top">↑</button>`);
+  const totop=document.getElementById("totop");
+  totop.onclick=()=>window.scrollTo(0,0);
+
+  addEventListener("scroll",()=>{
+    totop.classList.toggle("show",window.scrollY>900);
+    if(!spyPending){ spyPending=true; requestAnimationFrame(spy); }
+  },{passive:true});
+  spy();
+
   // Auto-surface the research dossier (Ted's own databases & library) into the Etymology section.
   (async function(){
     let r; try{ r=await getJSON(`data/research/${slug}.json`); }catch(e){ return; }
@@ -300,8 +346,10 @@ function galleryBySet(cards){
     defs.sort((a,b)=>((b.term||'').toLowerCase().includes(st)?1:0)-((a.term||'').toLowerCase().includes(st)?1:0));
     const seen=new Set(), topDefs=[];
     for(const h of defs){ const k=(h.term||'')+h.source; if(seen.has(k))continue; seen.add(k); topDefs.push(h); if(topDefs.length>=5)break; }
+    // some PDF text extractions lose their spaces ("CambridgeHistoryofMagic…") — don't show those
+    const garbled=t=>{const w=(t||"").split(/\s+/);return w.filter(x=>x.length>22).length>=2||w.some(x=>x.length>40);};
     const seenC=new Set(), cites=[];
-    for(const h of r.corpus_hits){ if(seenC.has(h.cite))continue; seenC.add(h.cite); cites.push(h); if(cites.length>=6)break; }
+    for(const h of r.corpus_hits){ if(seenC.has(h.cite)||garbled(h.snippet))continue; seenC.add(h.cite); cites.push(h); if(cites.length>=6)break; }
     const defHtml=topDefs.map(h=>`<div class="schol-def"><div class="t">${esc(h.term)} <span class="src">${esc(h.source)}</span></div><p>${esc((h.text||'').slice(0,340))}${(h.text||'').length>340?'…':''}</p></div>`).join("");
     const citeHtml=cites.map(h=>`<div class="quote"><div class="qtext" style="font-size:.95rem">“${esc(h.snippet)}”</div><div class="attr">— ${esc(h.cite)} <span class="note">· ${esc(h.corpus)}</span></div></div>`).join("");
     document.getElementById("scholarship").innerHTML=`
